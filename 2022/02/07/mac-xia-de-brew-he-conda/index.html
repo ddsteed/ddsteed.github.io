@@ -41,9 +41,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="点点马的蚁窝" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="点点马的蚁窝" type="application/atom+xml">
 </head>
 
 
@@ -446,7 +446,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><h2 id="mac"><a href="#mac" class="headerlink" title="mac"></a>mac</h2><p>mac指代一种unix-like的操作系统，以前常称之为mac OSX，现在apple公司为了统一旗下的操作系统，将电脑上的改为macos。macos的内核是借鉴FreeBSD以及Mach这两种系统的优点，混合而成的。在其之上，apple又增加了很多图形层以及其他应用层，形成了独特的mac os。</p>
-<h2 id="brew"><a href="#brew" class="headerlink" title="brew"></a>brew</h2><p>虽然macos是unix-like的，但是很多unix的应用程序，尤其是Linux上的程序没有。而且，它的unix-like程序升级和管理都比较麻烦，不像Ubuntu/Debian/Fedora等，有自己的软件包管理系统。所以，有人设计了brew系统，模仿Linux下的apt管理包，用以管理mac下的各种软件。</p>
+<h2 id="brew"><a href="#brew" class="headerlink" title="brew"></a>brew</h2><p>虽然macos是unix-like的，但是很多unix的应用程序，尤其是Linux上的程序，并没有包含在mac里。而且，mac的unix-like程序升级和管理都比较麻烦，不像Ubuntu/Debian/Fedora等，有自己的软件包管理系统。所以，有人设计了brew系统，模仿Linux下的apt管理包，用以管理mac下的各种软件。</p>
 <h2 id="conda"><a href="#conda" class="headerlink" title="conda"></a>conda</h2><p>conda是另一种软件包的管理方式，其来源于python下软件管理系统。随着python语言的流行，很多软件利用python语言来开发。因此python下为了管理这些软件，发展出了独特的pip和conda两套模式。这两种本来是独立的，但经常也混着用。因为pip出现得较早一点，前期用得较多。conda设计更合理一些，但由于出现得较晚，有些软件包还没有纳入conda管理。所以，在某些情况下，安装某个大型软件，一会用conda安装，一会又用pip辅助一下。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>macos是一个独立的操作系统，但是对于很多unix-like软件，没有较好的软件包管理。因此两种不同的软件包管理系统：brew和conda就成为了mac上流行管理软件。</p>
 <p>这三种生态下，都可以安装软件。因此，很多软件都是重复的。比如brew下，默认就安装了xzmore命令。在conda下，这个命令也被默认安装。甚至还可以直接从source code直接安装xzmore命令在mac下。这样，xzmore就在系统里出现了三次。一个参考管理的方式是：</p>
