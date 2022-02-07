@@ -6,7 +6,7 @@
   <link href="https://ddsteed.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ddsteed.gitee.io/"/>
-  <updated>2022-01-30T07:16:09.141Z</updated>
+  <updated>2022-02-07T07:39:01.389Z</updated>
   <id>https://ddsteed.gitee.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MAC下的brew和conda</title>
+    <link href="https://ddsteed.gitee.io/2022/02/07/mac-xia-de-brew-he-conda/"/>
+    <id>https://ddsteed.gitee.io/2022/02/07/mac-xia-de-brew-he-conda/</id>
+    <published>2022-02-07T07:38:21.000Z</published>
+    <updated>2022-02-07T07:39:01.389Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h1&gt;&lt;h2 id=&quot;mac&quot;&gt;&lt;a href=&quot;#mac&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://ddsteed.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://ddsteed.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>学习总有用处的那一天</title>
