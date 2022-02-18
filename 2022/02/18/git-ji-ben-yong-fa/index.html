@@ -379,12 +379,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E6%8A%80%E6%9C%AF/">
+                                <span class="chip bg-color">技术</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                技术
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -402,7 +415,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    378
                 </div>
                 
 
@@ -432,7 +445,20 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h1><h1 id="概念澄清"><a href="#概念澄清" class="headerlink" title="概念澄清"></a>概念澄清</h1><h2 id="bare-repository-vs-non-bare-repository"><a href="#bare-repository-vs-non-bare-repository" class="headerlink" title="bare repository vs. non-bare repository"></a>bare repository vs. non-bare repository</h2><p>建立git仓库时，有两种方式：bare 和 non-bare。命令分别是：<code>git init --bare</code> 和 <code>git init</code>。</p>
+<p>bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，non-bare仓库和本地的是一样的，但是bare仓库就相当于把 .git/ 目录下的所有文件（子目录）都移出来，而把实际的工作文件都去除了。如果只想建立一个远端仓库，就采用bare的模式。<code>push</code>和<code>pull</code>都可以按照<code>git</code>的一般方式工作。</p>
+<p>但是，有时候我们需要在远端仓库也改动文件（或者直接执行文件）—- 这相当于把远端仓库当作了本地仓库的备份，non-bare仓库就发挥用处了。为了让non-bare仓库也能正常<code>push</code>和<code>pull</code>，得先处理一下。</p>
+<ol>
+<li>在远端仓库运行命令：<code>git config receive.denyCurrentBranch updateInstead</code>。这相当于告诉远端仓库，允许其他地方的文件进行推送；</li>
+<li>每次在本地进行<code>push</code>之后，在远端仓库中执行命令：<code>git reset --hard</code>，否则只是.git目录进行了同步，而实际的working tree下的所有文件并不更新。如果觉得这样很麻烦，可以在.git/hooks目录下建立一个文件 <strong>post-receive</strong>，内容如下： <pre class="line-numbers language-none"><code class="language-none">#!/bin/sh
+cd .. 
+env -i git reset --hard<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+表示每次<code>push</code>之后，自动执行<code>reset</code>命令。</li>
+</ol>
+<p>参考: <a target="_blank" rel="noopener" href="https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/">https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/</a></p>
+<pre><code>## `fetch` vs. `pull`
+</code></pre>
+
                 
             </div>
             <hr/>
@@ -495,7 +521,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E6%8A%80%E6%9C%AF/">
+                                    <span class="chip bg-color">技术</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -665,9 +695,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/02/18/git-ji-ben-yong-fa/">
                     <div class="card-image">
@@ -685,9 +716,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-02-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -700,6 +731,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
