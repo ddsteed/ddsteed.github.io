@@ -6,7 +6,7 @@
   <link href="https://ddsteed.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ddsteed.gitee.io/"/>
-  <updated>2022-02-07T07:48:55.597Z</updated>
+  <updated>2022-02-18T06:37:58.565Z</updated>
   <id>https://ddsteed.gitee.io/</id>
   
   <author>
@@ -17,11 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>git基本用法</title>
+    <link href="https://ddsteed.gitee.io/2022/02/18/git-ji-ben-yong-fa/"/>
+    <id>https://ddsteed.gitee.io/2022/02/18/git-ji-ben-yong-fa/</id>
+    <published>2022-02-18T06:37:10.000Z</published>
+    <updated>2022-02-18T06:37:58.565Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基本原理&quot;&gt;&lt;a href=&quot;#基本原理&quot; class=&quot;headerlink&quot; title=&quot;基本原理&quot;&gt;&lt;/a&gt;基本原理&lt;/h1&gt;&lt;h1 id=&quot;概念澄清&quot;&gt;&lt;a href=&quot;#概念澄清&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://ddsteed.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://ddsteed.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git基本用法</title>
+    <link href="https://ddsteed.gitee.io/2022/02/18/git-ji-ben-yong-fa/"/>
+    <id>https://ddsteed.gitee.io/2022/02/18/git-ji-ben-yong-fa/</id>
+    <published>2022-02-18T06:36:12.000Z</published>
+    <updated>2022-02-18T06:36:12.385Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>MAC下的brew和conda</title>
     <link href="https://ddsteed.gitee.io/2022/02/07/mac-xia-de-brew-he-conda/"/>
     <id>https://ddsteed.gitee.io/2022/02/07/mac-xia-de-brew-he-conda/</id>
     <published>2022-02-07T07:38:21.000Z</published>
-    <updated>2022-02-07T07:48:55.597Z</updated>
+    <updated>2022-02-07T07:48:55.000Z</updated>
     
     
       
@@ -483,56 +521,6 @@
     
     
     <category term="教育" scheme="https://ddsteed.gitee.io/tags/%E6%95%99%E8%82%B2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《民国那些人》</title>
-    <link href="https://ddsteed.gitee.io/2012/11/05/min-guo-na-xie-ren/"/>
-    <id>https://ddsteed.gitee.io/2012/11/05/min-guo-na-xie-ren/</id>
-    <published>2012-11-05T15:34:42.000Z</published>
-    <updated>2021-10-23T05:49:23.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;车上无事，继续iPad上的电子书。翻到徐百柯的《民国那些人》，不禁微微一笑。因为这方面的题材似乎成了近年的热点，也许是对现实的不满，让人更加怀念曾经不远的年代。家里的床头就好几本这样的书，例如《原来如此》、《西南联大回忆录》、《民国往事》等等。可是，看得多了，也觉得有点滥，</summary>
-        
-      
-    
-    
-    
-    <category term="读后感" scheme="https://ddsteed.gitee.io/categories/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
-    
-    
-    <category term="读后感" scheme="https://ddsteed.gitee.io/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>舟子的苦与悲</title>
-    <link href="https://ddsteed.gitee.io/2012/06/23/zhou-zi-de-ku-yu-bei/"/>
-    <id>https://ddsteed.gitee.io/2012/06/23/zhou-zi-de-ku-yu-bei/</id>
-    <published>2012-06-23T15:35:56.000Z</published>
-    <updated>2021-10-16T07:26:56.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;从2000年左右就开始关注舟子的新语丝，当时还需要唐博士找文章给我看。只觉得这样酣畅淋漓的文笔，这样丝丝入扣的逻辑分析，真是大呼过瘾。那时除了舟子之外，还有好些其他高人的文章，也非常好，甚至普及了很多知识给我。有时真是惭愧自己虽然有物理的博士学位，还需要舟子教我很多知识。&lt;</summary>
-        
-      
-    
-    
-    
-    <category term="杂谈" scheme="https://ddsteed.gitee.io/categories/%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="杂谈" scheme="https://ddsteed.gitee.io/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
