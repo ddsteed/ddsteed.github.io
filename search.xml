@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>书非旧不能读也</title>
+      <link href="/2022/04/07/shu-fei-jiu-bu-neng-du-ye/"/>
+      <url>/2022/04/07/shu-fei-jiu-bu-neng-du-ye/</url>
+      
+        <content type="html"><![CDATA[<p>顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，不知道怎么就对政治感了兴趣，或者仅仅是为了学习英语，就跑到图书馆借阅《The Federalist Papers》。在布满灰尘的8楼书架上，翻到这本书，然后在末尾看到借阅记录：上一次有人借这本书大概是91年，再上一次是88年。嗯，当时我去的时候是99年。有时候真是感叹，一些人当成宝珍藏的事物，在大多数人看来，其实就是灰尘而已。</p><p>再想起，我在九眼桥旧书摊和鄢校长抢书的事情。花了5元钱买了狄拉克的《量子力学原理》，结果书摊老板说这种书根本没人要，看我如获至宝地抢在手里，觉得可怜，顺手又附带送我一本英文的。</p><p>唉，汝之蜜糖，彼之砒霜。无论如何，我还是觉得《联邦党人文集》很值得一读。</p><p><img src="/2022/04/07/shu-fei-jiu-bu-neng-du-ye/fp1.jpeg"></p><p><img src="/2022/04/07/shu-fei-jiu-bu-neng-du-ye/fp2.jpeg"></p><p>鄢校长就是川大的老校长鄢国森教授。96年我奉导师之命去鄢校长家里安装Linux系统，间隙，鄢校长谆谆教导我：咱们这个专业，有两本书一定要读好。一是狄拉克的《量子力学原理》，二是Szabo等人的《Modern Quantum Chemistry》。</p><p><img src="/2022/04/07/shu-fei-jiu-bu-neng-du-ye/qm1.jpeg"></p><p><img src="/2022/04/07/shu-fei-jiu-bu-neng-du-ye/qc.jpeg"></p><p>狄拉克是大物理学家啊，当然要读。英文版的《原理》一书，我是手抄了一遍，通读了三遍。实在是每次读都受益匪浅。可是Szabo的书，我就没觉得有什么特别的。直到去美国在Schaefer教授的实验室里，发现他得意的几个学生，Francesco、Jeremey、Andy等，对里面的公式简直是顺手拈来，推起方程毫不费力，才发觉自己没有领会鄢校长的意思。赶紧重新研读，不懂的地方马上请教实验室的谢尧明老师，三个月后才舒了一口气。顺便说一下，谢尧明老师是鄢校长在国内的大弟子，所以啊，我也算没有辜负鄢校长的嘱托。</p><p><img src="/2022/04/07/shu-fei-jiu-bu-neng-du-ye/qm2.jpeg"></p><p>2000年前，九眼桥文化路有一个旧书集市。其中一个摊位，专门收集各种数理化经典著作，尤其是外文的，我每个星期都去淘一下。一来二去和老板混熟了，偷偷告诉我，鄢校长也常去他那淘书。我和鄢校长，要看谁运气好，早去的才有，因为大多数书就只有一本。那我就不客气了，经常和鄢校长抢书。老板说，我和鄢校长有一个共同点，就是—-碰到好书，不还价。唉，哪里敢还价啊，生怕一转眼书就被抢跑了。</p><p>感谢那个旧书摊，好多经典书籍，都是在那里从鄢校长手里抢来的。现在别说旧书摊，新书估计也没人和我抢了。书，非旧不能读也。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>懒人创造世界</title>
       <link href="/2022/03/13/lan-ren-chuang-zao-shi-jie/"/>
       <url>/2022/03/13/lan-ren-chuang-zao-shi-jie/</url>
@@ -58,7 +83,7 @@
       <link href="/2022/02/18/git-ji-ben-yong-fa/"/>
       <url>/2022/02/18/git-ji-ben-yong-fa/</url>
       
-        <content type="html"><![CDATA[<h1 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h1><h1 id="概念澄清"><a href="#概念澄清" class="headerlink" title="概念澄清"></a>概念澄清</h1><h2 id="bare-repository-vs-non-bare-repository"><a href="#bare-repository-vs-non-bare-repository" class="headerlink" title="bare repository vs. non-bare repository"></a>bare repository vs. non-bare repository</h2><p>建立git仓库时，有两种方式：bare 和 non-bare。命令分别是：<code>git init --bare</code> 和 <code>git init</code>。</p><p>bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，non-bare仓库和本地的是一样的，但是bare仓库就相当于把 .git/ 目录下的所有文件（子目录）都移出来，而把实际的工作文件都去除了。如果只想建立一个远端仓库，就采用bare的模式。<code>push</code>和<code>pull</code>都可以按照<code>git</code>的一般方式工作。</p><p>但是，有时候我们需要在远端仓库也改动文件（或者直接执行文件）—- 这相当于把远端仓库当作了本地仓库的备份，non-bare仓库就发挥用处了。为了让non-bare仓库也能正常<code>push</code>和<code>pull</code>，得先处理一下。</p><ol><li>在远端仓库运行命令：<code>git config receive.denyCurrentBranch updateInstead</code>。这相当于告诉远端仓库，允许其他地方的文件进行推送；</li><li>每次在本地进行<code>push</code>之后，在远端仓库中执行命令：<code>git reset --hard</code>，否则只是.git目录进行了同步，而实际的working tree下的所有文件并不更新。如果觉得这样很麻烦，可以在.git/hooks目录下建立一个文件 <strong>post-receive</strong>，内容如下： <pre class="line-numbers language-none"><code class="language-none">#!/bin/shcd .. env -i git reset --hard<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>表示每次<code>push</code>之后，自动执行<code>reset</code>命令。</li></ol><p>参考: <a href="https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/">https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/</a></p><h2 id="fetch-vs-pull"><a href="#fetch-vs-pull" class="headerlink" title="fetch vs. pull"></a><code>fetch</code> vs. <code>pull</code></h2><h2 id="continued"><a href="#continued" class="headerlink" title="continued"></a>continued</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h1><h1 id="概念澄清"><a href="#概念澄清" class="headerlink" title="概念澄清"></a>概念澄清</h1><h2 id="bare-repository-vs-non-bare-repository"><a href="#bare-repository-vs-non-bare-repository" class="headerlink" title="bare repository vs. non-bare repository"></a>bare repository vs. non-bare repository</h2><p>建立git仓库时，有两种方式：bare 和 non-bare。命令分别是：<code>git init --bare</code> 和 <code>git init</code>。</p><p>bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，non-bare仓库和本地的是一样的，但是bare仓库就相当于把 .git/ 目录下的所有文件（子目录）都移出来，而把实际的工作文件都去除了。如果只想建立一个远端仓库，就采用bare的模式。<code>push</code>和<code>pull</code>都可以按照<code>git</code>的一般方式工作。</p><p>但是，有时候我们需要在远端仓库也改动文件（或者直接执行文件）—- 这相当于把远端仓库当作了本地仓库的备份，non-bare仓库就发挥用处了。为了让non-bare仓库也能正常<code>push</code>和<code>pull</code>，得先处理一下。</p><ol><li>在远端仓库运行命令：<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> config receive.denyCurrentBranch updateInstead<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>这相当于告诉远端仓库，允许其他地方的文件进行推送；</li><li>每次在本地进行<code>push</code>之后，在远端仓库中执行命令：<code>git reset --hard</code>，否则只是.git目录进行了同步，而实际的working tree下的所有文件并不更新。如果觉得这样很麻烦，可以在.git/hooks目录下建立一个文件 <strong>post-receive</strong>，内容如下:<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token shebang important">#!/bin/sh</span><span class="token builtin class-name">cd</span> <span class="token punctuation">..</span> <span class="token function">env</span> -i <span class="token function">git</span> reset --hard<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li></ol><p>表示每次<code>push</code>之后，自动执行<code>reset</code>命令。</p><p>参考: <a href="https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/">https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/</a></p><h2 id="fetch-vs-pull"><a href="#fetch-vs-pull" class="headerlink" title="fetch vs. pull"></a><code>fetch</code> vs. <code>pull</code></h2><h2 id="continued"><a href="#continued" class="headerlink" title="continued"></a>continued</h2>]]></content>
       
       
       <categories>
@@ -158,7 +183,7 @@
       <link href="/2022/01/17/zuo-zheng-que-de-shi/"/>
       <url>/2022/01/17/zuo-zheng-que-de-shi/</url>
       
-        <content type="html"><![CDATA[<p>人生大部分的痛苦，都来自于做的事是自己不认可，或者不擅长的。我曾经有一段时间，失眠严重，完全找不到前进的方向。怀疑过、痛苦过、彷徨过、迷茫过……。不知道前方的路在哪里，何处是尽头，何时是解脱。</p><p>所幸当时我做了正确的决定，及时地止损。我坚决地离开当时的环境，即使付出了很大的代价—离开体制，失去了保障，放弃了很多人羡慕的升迁。回首这一段往事，我自查痛苦的源头，就是当时我所从事的工作，所追求的所谓“事业”，是别人看中的，而严重背离我内心的理想。因此，做不好，得不到他人的认可，我痛苦；做成功了，得不到我内心的认可，我更痛苦。</p><p>比如，高校的科研要不要提升，该如何提升。我内心其实是有答案的。但是，在原单位，领导们热衷于排名的上升，满足于数字的改变。为了把科研指标提上去，不惜弄虚作假。比如，科研经费本只是具有中国特色的科研指标之一，领导们为了显示学校的科研经费充足，明里暗里假经费的入账。一百万的经费，上个星期打入，这个星期就支出。枉费了科技处和财务处的工作人员做账、登记、存档，浪费了大量的人力物力，结果只是成就了少数人玩弄数据的工具。</p><p>我从来不认可这样的提升科研的方式。对于教学与科研的关系，对于科研的重要性，我有自己的判断标准。可是，当我处于某一级的阶梯时，我要不要屈从于这些压力而去做违心的事情呢？我试过，内心极其痛苦。我放弃了，内心得到解脱。</p><p>顾衡讲，中国人推崇体面。所谓体面，一方面是严于待己，宽于待人，这称之为知羞；另一方面是要过得了内心的自省关，所谓知罪。无论外面的评价如何，如果自己内心都不认可，夜深人静的时候，是过不了心灵这一关的。</p><p>至于不擅长，倒还好解决，努力学习就好了。如果学不好，就换一种方向学。做正确的事，才是唯一恪守的准则。</p>]]></content>
+        <content type="html"><![CDATA[<p>人生大部分的痛苦，都来自于做的事是自己不认可，或者不擅长的。我曾经有一段时间，失眠严重，完全找不到前进的方向。怀疑过、痛苦过、彷徨过、迷茫过……。不知道前方的路在哪里，何处是尽头，何时是解脱。</p><p>所幸当时我做了正确的决定，及时地止损。我坚决地离开当时的环境，即使付出了很大的代价—离开体制，失去了保障，放弃了很多人羡慕的升迁。回首这一段往事，我自查痛苦的源头，就是当时我所从事的工作，所追求的所谓“事业”，是别人看中的，而严重背离我内心的理想。因此，做不好，得不到他人的认可，我痛苦；做成功了，得不到我内心的认可，我更痛苦。</p><p>高校的科研要不要提升，该如何提升。我内心其实是有答案的。但是，在原单位，领导们热衷于排名的上升，满足于数字的改变。为了把科研指标提上去，不惜弄虚作假。比如，科研经费本只是具有中国特色的科研指标之一，领导们为了显示学校的科研经费充足，明里暗里假经费的入账。一百万的经费，上个星期打入，这个星期就支出。枉费了科技处和财务处的工作人员做账、登记、存档，浪费了大量的人力物力，结果只是成就了少数人玩弄数据的工具。</p><p>我从来不认可这样的提升科研的方式。对于教学与科研的关系，对于科研的重要性，我有自己的判断标准。可是，当我处于某一级的阶梯时，我要不要屈从于这些压力而去做违心的事情呢？我试过，内心极其痛苦。我放弃了，内心得到解脱。</p><p>顾衡讲，中国人推崇体面。所谓体面，一方面是严于待己，宽于待人，这称之为知羞；另一方面是要过得了内心的自省关，所谓知罪。无论外面的评价如何，如果自己内心都不认可，夜深人静的时候，是过不了心灵这一关的。</p><p>至于不擅长，倒还好解决，努力学习就好了。如果学不好，就换一种方向学。做正确的事，才是唯一恪守的准则。</p>]]></content>
       
       
       <categories>

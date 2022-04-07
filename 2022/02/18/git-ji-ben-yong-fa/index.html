@@ -41,9 +41,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="点点马的蚁窝" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="点点马的蚁窝" type="application/atom+xml">
 </head>
 
 
@@ -449,12 +449,13 @@
 <p>bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，non-bare仓库和本地的是一样的，但是bare仓库就相当于把 .git/ 目录下的所有文件（子目录）都移出来，而把实际的工作文件都去除了。如果只想建立一个远端仓库，就采用bare的模式。<code>push</code>和<code>pull</code>都可以按照<code>git</code>的一般方式工作。</p>
 <p>但是，有时候我们需要在远端仓库也改动文件（或者直接执行文件）—- 这相当于把远端仓库当作了本地仓库的备份，non-bare仓库就发挥用处了。为了让non-bare仓库也能正常<code>push</code>和<code>pull</code>，得先处理一下。</p>
 <ol>
-<li>在远端仓库运行命令：<code>git config receive.denyCurrentBranch updateInstead</code>。这相当于告诉远端仓库，允许其他地方的文件进行推送；</li>
-<li>每次在本地进行<code>push</code>之后，在远端仓库中执行命令：<code>git reset --hard</code>，否则只是.git目录进行了同步，而实际的working tree下的所有文件并不更新。如果觉得这样很麻烦，可以在.git/hooks目录下建立一个文件 <strong>post-receive</strong>，内容如下： <pre class="line-numbers language-none"><code class="language-none">#!/bin/sh
-cd .. 
-env -i git reset --hard<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-表示每次<code>push</code>之后，自动执行<code>reset</code>命令。</li>
+<li>在远端仓库运行命令：<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> config receive.denyCurrentBranch updateInstead<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+这相当于告诉远端仓库，允许其他地方的文件进行推送；</li>
+<li>每次在本地进行<code>push</code>之后，在远端仓库中执行命令：<code>git reset --hard</code>，否则只是.git目录进行了同步，而实际的working tree下的所有文件并不更新。如果觉得这样很麻烦，可以在.git/hooks目录下建立一个文件 <strong>post-receive</strong>，内容如下:<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token shebang important">#!/bin/sh</span>
+<span class="token builtin class-name">cd</span> <span class="token punctuation">..</span> 
+<span class="token function">env</span> -i <span class="token function">git</span> reset --hard<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li>
 </ol>
+<p>表示每次<code>push</code>之后，自动执行<code>reset</code>命令。</p>
 <p>参考: <a target="_blank" rel="noopener" href="https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/">https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/</a></p>
 <h2 id="fetch-vs-pull"><a href="#fetch-vs-pull" class="headerlink" title="fetch vs. pull"></a><code>fetch</code> vs. <code>pull</code></h2><h2 id="continued"><a href="#continued" class="headerlink" title="continued"></a>continued</h2>
                 
@@ -986,7 +987,7 @@ env -i git reset --hard<span aria-hidden="true" class="line-numbers-rows"><span>
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">27.9k</span>
+                        class="white-color">28.7k</span>
             
             
             
