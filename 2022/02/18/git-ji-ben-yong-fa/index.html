@@ -415,7 +415,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    378
+                    380
                 </div>
                 
 
@@ -445,7 +445,10 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h1><h1 id="概念澄清"><a href="#概念澄清" class="headerlink" title="概念澄清"></a>概念澄清</h1><h2 id="bare-repository-vs-non-bare-repository"><a href="#bare-repository-vs-non-bare-repository" class="headerlink" title="bare repository vs. non-bare repository"></a>bare repository vs. non-bare repository</h2><p>建立git仓库时，有两种方式：bare 和 non-bare。命令分别是：<code>git init --bare</code> 和 <code>git init</code>。</p>
+                <h2 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h2><hr>
+<h2 id="概念澄清"><a href="#概念澄清" class="headerlink" title="概念澄清"></a>概念澄清</h2><hr>
+<h3 id="bare-repository-vs-non-bare-repository"><a href="#bare-repository-vs-non-bare-repository" class="headerlink" title="bare repository vs. non-bare repository"></a>bare repository vs. non-bare repository</h3><hr>
+<p>建立git仓库时，有两种方式：bare 和 non-bare。命令分别是：<code>git init --bare</code> 和 <code>git init</code>。</p>
 <p>bare和non-bare仓库运行机理稍微有点差别，从目录结构来看，non-bare仓库和本地的是一样的，但是bare仓库就相当于把 .git/ 目录下的所有文件（子目录）都移出来，而把实际的工作文件都去除了。如果只想建立一个远端仓库，就采用bare的模式。<code>push</code>和<code>pull</code>都可以按照<code>git</code>的一般方式工作。</p>
 <p>但是，有时候我们需要在远端仓库也改动文件（或者直接执行文件）—- 这相当于把远端仓库当作了本地仓库的备份，non-bare仓库就发挥用处了。为了让non-bare仓库也能正常<code>push</code>和<code>pull</code>，得先处理一下。</p>
 <ol>
@@ -457,7 +460,8 @@
 </ol>
 <p>表示每次<code>push</code>之后，自动执行<code>reset</code>命令。</p>
 <p>参考: <a target="_blank" rel="noopener" href="https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/">https://caiguanhao.wordpress.com/2013/01/10/git-push-non-bare-to-non-bare-repository/</a></p>
-<h2 id="fetch-vs-pull"><a href="#fetch-vs-pull" class="headerlink" title="fetch vs. pull"></a><code>fetch</code> vs. <code>pull</code></h2><h2 id="continued"><a href="#continued" class="headerlink" title="continued"></a>continued</h2>
+<h3 id="fetch-vs-pull"><a href="#fetch-vs-pull" class="headerlink" title="fetch vs. pull"></a><code>fetch</code> vs. <code>pull</code></h3><hr>
+<h3 id="continued"><a href="#continued" class="headerlink" title="continued"></a>continued</h3>
                 
             </div>
             <hr/>
