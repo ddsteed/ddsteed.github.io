@@ -6,7 +6,7 @@
   <link href="https://ddsteed.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://ddsteed.gitee.io/"/>
-  <updated>2022-05-16T04:49:23.493Z</updated>
+  <updated>2022-05-28T03:01:18.536Z</updated>
   <id>https://ddsteed.gitee.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>罗大佑的线上演唱会</title>
+    <link href="https://ddsteed.gitee.io/2022/05/28/luo-da-you-de-xian-shang-yan-chang-hui/"/>
+    <id>https://ddsteed.gitee.io/2022/05/28/luo-da-you-de-xian-shang-yan-chang-hui/</id>
+    <published>2022-05-28T02:12:43.000Z</published>
+    <updated>2022-05-28T03:01:18.536Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;68岁的罗大佑昨晚在线上开了一个演唱会。在我看来，罗大佑当之无愧为华人乐坛第一音乐教父。他写的歌，从爱情到友情，从政治到社会，很多精品。有一些歌，大概其他人都写不出来，也不敢写。&lt;/p&gt;
+&lt;p&gt;记得94年的暑假，躺在宿舍听收音机，传来《童年》这首歌，突然发现，原来这首歌不是</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://ddsteed.gitee.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="杂谈" scheme="https://ddsteed.gitee.io/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
   
   <entry>
     <title>Microsoft也是开源公司</title>
@@ -501,31 +527,6 @@
     
     
     <category term="教育" scheme="https://ddsteed.gitee.io/tags/%E6%95%99%E8%82%B2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>理论和计算</title>
-    <link href="https://ddsteed.gitee.io/2016/07/24/li-lun-he-ji-suan/"/>
-    <id>https://ddsteed.gitee.io/2016/07/24/li-lun-he-ji-suan/</id>
-    <published>2016-07-24T11:51:40.000Z</published>
-    <updated>2021-10-11T03:24:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。</summary>
-        
-      
-    
-    
-    
-    <category term="研究" scheme="https://ddsteed.gitee.io/categories/%E7%A0%94%E7%A9%B6/"/>
-    
-    
-    <category term="研究" scheme="https://ddsteed.gitee.io/tags/%E7%A0%94%E7%A9%B6/"/>
     
   </entry>
   
