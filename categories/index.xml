@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 点点马的蚂蚁窝</title>
+    <link>https://ddsteed.github.io/categories/</link>
+    <description>Recent content in Categories on 点点马的蚂蚁窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="https://ddsteed.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术</title>
+      <link>https://ddsteed.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
+      
+      <guid>https://ddsteed.github.io/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>感悟</title>
+      <link>https://ddsteed.github.io/categories/%E6%84%9F%E6%82%9F/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
+      
+      <guid>https://ddsteed.github.io/categories/%E6%84%9F%E6%82%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>研究</title>
+      <link>https://ddsteed.github.io/categories/%E7%A0%94%E7%A9%B6/</link>
+      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
+      
+      <guid>https://ddsteed.github.io/categories/%E7%A0%94%E7%A9%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://ddsteed.github.io/categories/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddsteed.github.io/categories/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
