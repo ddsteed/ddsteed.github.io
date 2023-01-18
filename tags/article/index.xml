@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>article on ddsteed&#39;s personal blog</title>
-    <link>/tags/article/</link>
-    <description>Recent content in article on ddsteed&#39;s personal blog</description>
+    <title>article on 点点马的蚂蚁窝</title>
+    <link>http://localhost:1313/tags/article/</link>
+    <description>Recent content in article on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
-      <link>/post/org-hugo-blog/</link>
+      <link>http://localhost:1313/post/org-hugo-blog/</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>/post/org-hugo-blog/</guid>
+      <guid>http://localhost:1313/post/org-hugo-blog/</guid>
       <description>:ID: 7BD855BC-853C-4DA0-B85E-641ED741932E 这里有三个概念首先需要理清： 用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网</description>
     </item>
     

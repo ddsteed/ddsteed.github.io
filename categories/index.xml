@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on ddsteed&#39;s personal blog</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on ddsteed&#39;s personal blog</description>
+    <title>Categories on 点点马的蚂蚁窝</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>技术</title>
-      <link>/categories/%E6%8A%80%E6%9C%AF/</link>
+      <link>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <guid>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>感悟</title>
-      <link>/categories/%E6%84%9F%E6%82%9F/</link>
+      <link>http://localhost:1313/categories/%E6%84%9F%E6%82%9F/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
       
-      <guid>/categories/%E6%84%9F%E6%82%9F/</guid>
+      <guid>http://localhost:1313/categories/%E6%84%9F%E6%82%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>研究</title>
-      <link>/categories/%E7%A0%94%E7%A9%B6/</link>
+      <link>http://localhost:1313/categories/%E7%A0%94%E7%A9%B6/</link>
       <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
       
-      <guid>/categories/%E7%A0%94%E7%A9%B6/</guid>
+      <guid>http://localhost:1313/categories/%E7%A0%94%E7%A9%B6/</guid>
       <description></description>
     </item>
     
