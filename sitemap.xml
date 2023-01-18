@@ -149,6 +149,34 @@
   </url>
   
   <url>
+    <loc>/tags/reference/</loc>
+    <lastmod>2014-02-08T15:06:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%95%99%E8%82%B2/</loc>
+    <lastmod>2014-02-08T15:06:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/erliu-daxue/</loc>
+    <lastmod>2014-02-08T15:06:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/minguo-naxieren/</loc>
+    <lastmod>2012-11-05T23:34:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post/fangzhouzi-ku-yu-bei/</loc>
     <lastmod>2012-06-23T23:36:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
