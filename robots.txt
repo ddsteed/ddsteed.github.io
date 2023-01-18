@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://github.com/ddsteed/ddsteed.github.io/sitemap.xml
+Sitemap: /sitemap.xml
