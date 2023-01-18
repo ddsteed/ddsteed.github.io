@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研究 on ddsteed&#39;s personal blog</title>
+    <link>/categories/%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 研究 on ddsteed&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Jul 2016 19:51:00 +0800</lastBuildDate><atom:link href="/categories/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>理论和计算</title>
+      <link>/post/theory-and-computing/</link>
+      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
+      
+      <guid>/post/theory-and-computing/</guid>
+      <description>终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。 这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应</description>
+    </item>
+    
+  </channel>
+</rss>
