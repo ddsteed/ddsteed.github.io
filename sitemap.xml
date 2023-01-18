@@ -72,22 +72,22 @@
   </url>
   
   <url>
-    <loc>/post/luodayou-concert/</loc>
+    <loc>/tags/misc/</loc>
     <lastmod>2022-05-28T10:12:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/misc/</loc>
-    <lastmod>2022-04-16T00:00:00+08:00</lastmod>
+    <loc>/categories/%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2022-05-28T10:12:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/%E6%84%9F%E6%82%9F/</loc>
-    <lastmod>2022-04-16T00:00:00+08:00</lastmod>
+    <loc>/post/luodayou-concert/</loc>
+    <lastmod>2022-05-28T10:12:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -102,6 +102,13 @@
   <url>
     <loc>/post/zhongren-shichai-huoyangao/</loc>
     <lastmod>2022-04-09T10:14:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/shu-feijiu-buneng-du/</loc>
+    <lastmod>2022-04-07T19:53:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
