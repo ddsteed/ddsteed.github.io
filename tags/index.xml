@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 点点马的蚂蚁窝</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://github.com/ddsteed/ddsteed.github.io/tags/</link>
     <description>Recent content in Tags on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="https://github.com/ddsteed/ddsteed.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>article</title>
-      <link>http://localhost:1313/tags/article/</link>
+      <link>https://github.com/ddsteed/ddsteed.github.io/tags/article/</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/article/</guid>
+      <guid>https://github.com/ddsteed/ddsteed.github.io/tags/article/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>http://localhost:1313/tags/tech/</link>
+      <link>https://github.com/ddsteed/ddsteed.github.io/tags/tech/</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/tech/</guid>
+      <guid>https://github.com/ddsteed/ddsteed.github.io/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>misc</title>
-      <link>http://localhost:1313/tags/misc/</link>
+      <link>https://github.com/ddsteed/ddsteed.github.io/tags/misc/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/misc/</guid>
+      <guid>https://github.com/ddsteed/ddsteed.github.io/tags/misc/</guid>
       <description></description>
     </item>
     

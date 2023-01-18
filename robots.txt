@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://localhost:1313/sitemap.xml
+Sitemap: https://github.com/ddsteed/ddsteed.github.io/sitemap.xml
