@@ -9,64 +9,57 @@
   </url>
   
   <url>
-    <loc>/tags/article/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2023-01-19T10:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
+    <loc>/tags/misc/</loc>
+    <lastmod>2023-01-19T10:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
+    <lastmod>2023-01-19T10:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/study/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
+    <loc>/post/sympathy-vs-empathy/</loc>
+    <lastmod>2023-01-19T10:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
+    <lastmod>2023-01-19T10:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
+    <lastmod>2023-01-19T10:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
+    <loc>/categories/%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2023-01-19T10:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/study-road/</loc>
-    <lastmod>2023-01-19T10:01:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/create-notes/</loc>
-    <lastmod>2023-01-19T09:53:00+08:00</lastmod>
+    <loc>/tags/article/</loc>
+    <lastmod>2023-01-15T21:19:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -88,20 +81,6 @@
   <url>
     <loc>/post/org-hugo-blog/</loc>
     <lastmod>2023-01-15T21:19:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/misc/</loc>
-    <lastmod>2022-12-31T09:21:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E6%84%9F%E6%82%9F/</loc>
-    <lastmod>2022-12-31T09:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -151,6 +130,41 @@
   <url>
     <loc>/post/scuu-memory/</loc>
     <lastmod>2019-03-20T21:07:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/how-to-live-with-world/</loc>
+    <lastmod>2018-03-01T09:40:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/study/</loc>
+    <lastmod>2017-11-29T09:53:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/create-notes/</loc>
+    <lastmod>2017-11-29T09:53:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2017-11-29T09:53:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/study-road/</loc>
+    <lastmod>2017-07-22T10:01:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
