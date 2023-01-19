@@ -6,13 +6,22 @@
     <description>Recent content in Tags on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jan 2023 10:01:00 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>article</title>
       <link>/tags/article/</link>
-      <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
+      <pubDate>Thu, 19 Jan 2023 10:01:00 +0800</pubDate>
       
       <guid>/tags/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
+      <link>/tags/study/</link>
+      <pubDate>Thu, 19 Jan 2023 10:01:00 +0800</pubDate>
+      
+      <guid>/tags/study/</guid>
       <description></description>
     </item>
     
@@ -31,6 +40,15 @@
       <pubDate>Sat, 31 Dec 2022 09:21:00 +0800</pubDate>
       
       <guid>/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>/tags/education/</link>
+      <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
+      
+      <guid>/tags/education/</guid>
       <description></description>
     </item>
     
