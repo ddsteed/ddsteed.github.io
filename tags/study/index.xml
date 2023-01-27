@@ -6,7 +6,16 @@
     <description>Recent content in study on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Nov 2017 09:53:00 +0800</lastBuildDate><atom:link href="/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jan 2023 10:38:00 +0800</lastBuildDate><atom:link href="/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>读书的步骤</title>
+      <link>/post/reading-steps/</link>
+      <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
+      
+      <guid>/post/reading-steps/</guid>
+      <description>书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪</description>
+    </item>
+    
     <item>
       <title>构建笔记系统</title>
       <link>/post/create-notes/</link>
