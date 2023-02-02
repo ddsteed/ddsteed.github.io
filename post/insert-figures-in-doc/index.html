@@ -48,7 +48,7 @@
 <meta itemprop="name" content="文档插入图形">
 <meta itemprop="description" content="传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但"><meta itemprop="datePublished" content="2023-02-02T11:35:00+08:00" />
 <meta itemprop="dateModified" content="2023-02-02T11:35:00+08:00" />
-<meta itemprop="wordCount" content="1506">
+<meta itemprop="wordCount" content="1615">
 <meta itemprop="keywords" content="tech," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="文档插入图形"/>
 <meta name="twitter:description" content="传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但"/>
@@ -151,9 +151,8 @@
         <li><a href="#画图的程序语言选择">画图的程序语言选择</a></li>
         <li><a href="#plantuml">plantuml</a>
           <ul>
-            <li><a href="#sequence">Sequence</a></li>
-            <li><a href="#object">Object</a></li>
-            <li><a href="#activity">Activity</a></li>
+            <li><a href="#范例">范例</a></li>
+            <li><a href="#文字和图片的融合">文字和图片的融合</a></li>
           </ul>
         </li>
       </ul>
@@ -176,63 +175,16 @@
 <li>画图的语言如何与文档无缝融合。</li>
 </ol>
 <p>从本质上来说，图形的描述也是基于数学的。所谓的图形，其实就是直线和曲线的组合。在线条的基础上，再生成三角形、四边形、多边形、圆形&hellip;&hellip;，然后在封闭的形状里，考虑是否填充进颜色。因此，一开始的画图语言，都是些数学函数的描述，比如 <code>gnuplot</code>, <code>metapost</code>, <code>tikz</code> 等。但就像造房子不能每次都从砌砖开始一样，可以生成一些作为积木的基本形状，然后用程序语言来组合。很多人潜意识地以为，那些好看的函数图形，肯定是数学公式生成的。但是随手涂鸦，就不好用数学公式描述了。其实不然，这个世界上什么东西不是数学的呢？:-) 只要你愿意，用数学公式来随手涂鸦，简直是一件乐趣。</p>
-<p>作图语言和文档的融合，倒不是大问题。但纯文本的 <code>txt</code> 文档，还是不太适合完成这样的工作。目前，最好的融合文字和其他语言的写作环境是 <code>org mode</code> 。它简直能识别几乎所有的作图言语，当然，它还能识别 <code>C/C++</code>, <code>java</code>, <code>shell</code>, <code>python</code>, &hellip;&hellip;.。所有的语言，在这里都被同等对待了。</p>
+<p>作图语言和文档的融合，倒不是大问题。但纯文本的 <code>txt</code> 文档，还是不太适合完成这样的工作。目前，最好的融合文字和其他语言的写作环境是 <code>org mode</code> 。它简直能识别几乎所有的作图语言，当然，它还能识别 <code>C/C++</code>, <code>java</code>, <code>shell</code>, <code>python</code>, &hellip;&hellip;.。所有的程序语言，在这里都被同等对待了。</p>
 <h2 id="plantuml">plantuml</h2>
 <p><a href="https://plantuml.com">plantuml官网</a></p>
 <p><code>plantuml</code> 是基于 <code>java</code> 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 <code>org mode</code> 里被 <code>org</code> 统一管理。我喜欢用它来画各种流程图，比开始我用 <code>draw.io</code> 生成 <code>png</code> 文件，再插入到文档中，要方便多了。</p>
-<h3 id="sequence">Sequence</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@startuml
-</span></span><span class="line"><span class="cl">alice   -&gt;  bob     ++   : hello1
-</span></span><span class="line"><span class="cl">bob     -&gt;  charlie --++ : hello2
-</span></span><span class="line"><span class="cl">charlie --&gt; alice   --   : ok
-</span></span><span class="line"><span class="cl">@enduml
-</span></span></code></pre></td></tr></table>
-</div>
-</div><figure><img src="/img/plantuml-sequence.png"/>
+<h3 id="范例">范例</h3>
+<figure><img src="/img/plantuml-AI-program-flow.png"/>
 </figure>
 
-<h3 id="object">Object</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@startuml
-</span></span><span class="line"><span class="cl">object Foo
-</span></span><span class="line"><span class="cl">map Bar {
-</span></span><span class="line"><span class="cl">  abc=&gt;
-</span></span><span class="line"><span class="cl">  def=&gt;
-</span></span><span class="line"><span class="cl">}
-</span></span><span class="line"><span class="cl">object Baz
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Bar::abc --&gt; Baz : Label one
-</span></span><span class="line"><span class="cl">Foo --&gt; Bar::def : Label two
-</span></span><span class="line"><span class="cl">@enduml
-</span></span></code></pre></td></tr></table>
-</div>
-</div><figure><img src="/img/plantuml-object.png"/>
-</figure>
-
-<h3 id="activity">Activity</h3>
+<h3 id="文字和图片的融合">文字和图片的融合</h3>
+<p>为什么说这里的图形和文档是融合的呢？实际上，在我的原始文档里，上述的内容是长这个样子的：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -260,38 +212,50 @@
 </span><span class="lnt">23
 </span><span class="lnt">24
 </span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">@startuml
-</span></span><span class="line"><span class="cl">title AI Programming Flow
-</span></span><span class="line"><span class="cl">start
-</span></span><span class="line"><span class="cl">fork
-</span></span><span class="line"><span class="cl">   :Training;
-</span></span><span class="line"><span class="cl">   split
-</span></span><span class="line"><span class="cl">     :Sample Data;
-</span></span><span class="line"><span class="cl">   split again
-</span></span><span class="line"><span class="cl">     #lightGreen:Expected Results;
-</span></span><span class="line"><span class="cl">   end split
-</span></span><span class="line"><span class="cl">   :Machine;
-</span></span><span class="line"><span class="cl">   #red:Model;
-</span></span><span class="line"><span class="cl">   stop
-</span></span><span class="line"><span class="cl">fork again
-</span></span><span class="line"><span class="cl">   :Prediction;
-</span></span><span class="line"><span class="cl">   split
-</span></span><span class="line"><span class="cl">     :New Data;
-</span></span><span class="line"><span class="cl">   split again
-</span></span><span class="line"><span class="cl">     #red:Model;
-</span></span><span class="line"><span class="cl">   end split
-</span></span><span class="line"><span class="cl">   :Machine;
-</span></span><span class="line"><span class="cl">   :results;
-</span></span><span class="line"><span class="cl">   end
-</span></span><span class="line"><span class="cl">end fork
-</span></span><span class="line"><span class="cl">@enduml
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> ~plantuml~ 是基于 ~java~ 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 ~org mode~
+</span></span><span class="line"><span class="cl">里被 ~org~ 统一管理。我喜欢用它来画各种流程图，比开始我用 ~draw.io~ 生成 ~png~
+</span></span><span class="line"><span class="cl">文件，再插入到文档中，要方便多了。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  *** 范例
+</span></span><span class="line"><span class="cl">  #+begin_src
+</span></span><span class="line"><span class="cl">    @startuml
+</span></span><span class="line"><span class="cl">    title AI Programming Flow
+</span></span><span class="line"><span class="cl">    start
+</span></span><span class="line"><span class="cl">    fork
+</span></span><span class="line"><span class="cl">       :Training;
+</span></span><span class="line"><span class="cl">       split
+</span></span><span class="line"><span class="cl">         :Sample Data;
+</span></span><span class="line"><span class="cl">       split again
+</span></span><span class="line"><span class="cl">         #lightGreen:Expected Results;
+</span></span><span class="line"><span class="cl">       end split
+</span></span><span class="line"><span class="cl">       :Machine;
+</span></span><span class="line"><span class="cl">       #red:Model;
+</span></span><span class="line"><span class="cl">       stop
+</span></span><span class="line"><span class="cl">    fork again
+</span></span><span class="line"><span class="cl">       :Prediction;
+</span></span><span class="line"><span class="cl">       split
+</span></span><span class="line"><span class="cl">         :New Data;
+</span></span><span class="line"><span class="cl">       split again
+</span></span><span class="line"><span class="cl">         #red:Model;
+</span></span><span class="line"><span class="cl">       end split
+</span></span><span class="line"><span class="cl">       :Machine;
+</span></span><span class="line"><span class="cl">       :results;
+</span></span><span class="line"><span class="cl">       end
+</span></span><span class="line"><span class="cl">    end fork
+</span></span><span class="line"><span class="cl">    @enduml
+</span></span><span class="line"><span class="cl">  \+end_src
 </span></span></code></pre></td></tr></table>
 </div>
-</div><figure><img src="/img/plantuml-AI-program-flow.png"/>
-</figure>
-
+</div><p>这就是 Knuth 教授一再推崇的 &ldquo;literal programming&rdquo; 啊，整个世界大统一了。</p>
 
     </div>
 
