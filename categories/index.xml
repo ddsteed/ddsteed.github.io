@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 27 Jan 2023 10:38:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 11:35:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术</title>
+      <link>/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
+      
+      <guid>/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>学习</title>
       <link>/categories/%E5%AD%A6%E4%B9%A0/</link>
@@ -31,15 +40,6 @@
       <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate>
       
       <guid>/categories/%E6%84%9F%E6%82%9F/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>技术</title>
-      <link>/categories/%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
-      
-      <guid>/categories/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     
