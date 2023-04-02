@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 点点马的蚂蚁窝</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/tags.html</link>
     <description>Recent content in Tags on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Apr 2023 09:58:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 11:38:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/tags/about.html</link>
+      <pubDate>Sun, 02 Apr 2023 11:38:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/about.html</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>study</title>
-      <link>http://localhost:1313/tags/study/</link>
+      <link>http://localhost:1313/tags/study.html</link>
       <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/study/</guid>
+      <guid>http://localhost:1313/tags/study.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>tech</title>
-      <link>http://localhost:1313/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/tech/</guid>
+      <guid>http://localhost:1313/tags/tech.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>startup</title>
-      <link>http://localhost:1313/tags/startup/</link>
+      <link>http://localhost:1313/tags/startup.html</link>
       <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/startup/</guid>
+      <guid>http://localhost:1313/tags/startup.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>misc</title>
-      <link>http://localhost:1313/tags/misc/</link>
+      <link>http://localhost:1313/tags/misc.html</link>
       <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/misc/</guid>
+      <guid>http://localhost:1313/tags/misc.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>article</title>
-      <link>http://localhost:1313/tags/article/</link>
+      <link>http://localhost:1313/tags/article.html</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/article/</guid>
+      <guid>http://localhost:1313/tags/article.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>progress</title>
-      <link>http://localhost:1313/tags/progress/</link>
+      <link>http://localhost:1313/tags/progress.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/progress/</guid>
+      <guid>http://localhost:1313/tags/progress.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>education</title>
-      <link>http://localhost:1313/tags/education/</link>
+      <link>http://localhost:1313/tags/education.html</link>
       <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/education/</guid>
+      <guid>http://localhost:1313/tags/education.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>reference</title>
-      <link>http://localhost:1313/tags/reference/</link>
+      <link>http://localhost:1313/tags/reference.html</link>
       <pubDate>Sat, 08 Feb 2014 15:06:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/reference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://localhost:1313/tags/about/</link>
-      <pubDate>Fri, 22 Jun 2012 11:38:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/tags/about/</guid>
+      <guid>http://localhost:1313/tags/reference.html</guid>
       <description></description>
     </item>
     

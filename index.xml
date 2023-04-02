@@ -5,17 +5,85 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Apr 2023 09:58:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Apr 2023 11:38:00 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>关于我自己</title>
+      <link>http://localhost:1313/about.html</link>
+      <pubDate>Sun, 02 Apr 2023 11:38:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:200px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/avatar.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理，现在是一个自由打工者。教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;
+&lt;p&gt;但总觉日子虚度，内心惶恐，困惑自己做过的事都没有什么意义。于是，痛定思痛，毅然离开舒适的窝。希望走不动路的时候，回想起来，可以坦然此生没有虚度，足矣。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个人的生活都是一条通向自身的道路。每个人的真正职责只有一个：找到自我。然后在心中坚守一生，全心全意，永不停息。所有其他的路都是不完整的，是人的逃避方式，是对社会角色的懦弱伪装，是随波逐流，是对内心的恐惧。&lt;/p&gt;
+&lt;p&gt;&amp;mdash; 阮一峰&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。&lt;/p&gt;
+&lt;p&gt;&amp;mdash; 罗伯·舒乐&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>关于我自己</title>
+      <link>http://localhost:1313/about/index-zh.html</link>
+      <pubDate>Sun, 02 Apr 2023 11:38:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/index-zh.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:200px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/avatar.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理，现在是一个自由打工者。教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;
+&lt;p&gt;但总觉日子虚度，内心惶恐，困惑自己做过的事都没有什么意义。于是，痛定思痛，毅然离开舒适的窝。希望走不动路的时候，回想起来，可以坦然此生没有虚度，足矣。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个人的生活都是一条通向自身的道路。每个人的真正职责只有一个：找到自我。然后在心中坚守一生，全心全意，永不停息。所有其他的路都是不完整的，是人的逃避方式，是对社会角色的懦弱伪装，是随波逐流，是对内心的恐惧。&lt;/p&gt;
+&lt;p&gt;&amp;mdash; 阮一峰&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。&lt;/p&gt;
+&lt;p&gt;&amp;mdash; 罗伯·舒乐&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>用自己的话表达思想</title>
-      <link>http://localhost:1313/post/writing-own-words/</link>
+      <link>http://localhost:1313/post/writing-own-words.html</link>
       <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/writing-own-words/</guid>
+      <guid>http://localhost:1313/post/writing-own-words.html</guid>
       
         <description>&lt;p&gt;得到的联合创始人罗振宇写了一本书《阅读的方法》，本意是像劝导更多的人喜爱读书、发现读书的乐趣，甚至于找到知识的用途。他大力推崇陶渊明的读书心得：“好读书，不求甚解；每有会意，便欣然忘食。”万维钢也推荐了这本书，并补充了司马迁的读书见解：司马迁派读书人则像一个侵略者。他把学问视为地盘，不但要攻克其中的据点，而且要犁庭扫穴应收尽收，然后还要综合治理，还希望按照自己的风格改造这个地盘。他构建的不是一张网而是一张蓝图，如果这张蓝图中还有空白的地方或者任何矛盾、不合理之处，他会焦虑。&lt;/p&gt;
 &lt;p&gt;罗振宇是一个读书非常多也非常快的人，据他自己说他每天用34寸的大显示器打开电子书，每次扫过三千字，很快读完三万字的书&amp;hellip;&amp;hellip;。因此，这本书大量引用了他觉得很好很有用的其他人书里的内容，看起来的风格就像这样：&lt;/p&gt;
@@ -63,10 +131,10 @@
     
     <item>
       <title>文档中插入图形</title>
-      <link>http://localhost:1313/post/insert-figures-in-doc/</link>
+      <link>http://localhost:1313/post/insert-figures-in-doc.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/insert-figures-in-doc/</guid>
+      <guid>http://localhost:1313/post/insert-figures-in-doc.html</guid>
       
         <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;
 &lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;
@@ -139,10 +207,10 @@
     
     <item>
       <title>读书的步骤</title>
-      <link>http://localhost:1313/post/reading-steps/</link>
+      <link>http://localhost:1313/post/reading-steps.html</link>
       <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/reading-steps/</guid>
+      <guid>http://localhost:1313/post/reading-steps.html</guid>
       
         <description>&lt;p&gt;书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪费时间。&lt;/p&gt;
 &lt;p&gt;文艺书，是抓起来就可以读的，甚至从哪读起都不重要。初中时，第一次读四卷本的《倚天屠龙记》，就是从第三卷开始。发现主人公叫张无忌，然后知道《倚天》是《神雕》的后续。那么，在《神雕》结尾提到一个少年叫张君宝。这俩人啥关系呢？脑补之后，自认为张君宝长大，改了名字叫张无忌。纵横四海，所向无敌。哪里晓得，张君宝长大了之后叫张三丰，张三丰收了个徒弟叫张翠山，张翠山娶了个“妖女”老婆殷素素，生了个儿子才是张无忌&amp;hellip;..，完全差辈了。不过，丝毫不影响我当时读《倚天》的快乐。&lt;/p&gt;
@@ -164,10 +232,10 @@
     
     <item>
       <title>价值</title>
-      <link>http://localhost:1313/post/human-value/</link>
+      <link>http://localhost:1313/post/human-value.html</link>
       <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/human-value/</guid>
+      <guid>http://localhost:1313/post/human-value.html</guid>
       
         <description>&lt;p&gt;人的价值体现为，这个世界由于你的存在 &lt;strong&gt;变得更好&lt;/strong&gt;, 而不是变得更差。&lt;/p&gt;
 &lt;p&gt;大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大，因为他们只是为自己活着。还有些人，存在只是添乱，就更不必提了。&lt;/p&gt;
@@ -193,10 +261,10 @@
     
     <item>
       <title>empathy vs. sympathy</title>
-      <link>http://localhost:1313/post/sympathy-vs-empathy/</link>
+      <link>http://localhost:1313/post/sympathy-vs-empathy.html</link>
       <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/sympathy-vs-empathy/</guid>
+      <guid>http://localhost:1313/post/sympathy-vs-empathy.html</guid>
       
         <description>&lt;dl&gt;
 &lt;dt&gt;empathy&lt;/dt&gt;
@@ -212,10 +280,10 @@
     
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
-      <link>http://localhost:1313/post/org-hugo-blog/</link>
+      <link>http://localhost:1313/post/org-hugo-blog.html</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/org-hugo-blog/</guid>
+      <guid>http://localhost:1313/post/org-hugo-blog.html</guid>
       
         <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;
 &lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;
@@ -444,10 +512,10 @@
     
     <item>
       <title>梅西，终于得偿所愿</title>
-      <link>http://localhost:1313/post/messi-de-chang-suo-yuan/</link>
+      <link>http://localhost:1313/post/messi-de-chang-suo-yuan.html</link>
       <pubDate>Sat, 31 Dec 2022 09:21:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/messi-de-chang-suo-yuan/</guid>
+      <guid>http://localhost:1313/post/messi-de-chang-suo-yuan.html</guid>
       
         <description>&lt;p&gt;距离阿根廷世界杯夺冠，已经过去2个星期了。似乎还像梦幻一样，每天刷着足球论坛，回忆着决赛时领先、扳平、反超、再扳平，然后点球大战时的惊心动魄，最后胜利时梅西跪在草地上&amp;hellip;&amp;hellip;.。连举杯庆祝的镜头都反复看了很多遍，百看不厌。&lt;/p&gt;
 &lt;p&gt;可是，脑海里更多反复出现的，却是14、15、16、18、19，那些失败的镜头，那些梅西无助的背影、无可奈何低下的头颅。在18年世界杯上被法国队淘汰时，我甚至觉得梅西此生的国家队生涯就这样了。这次和法国在决赛的再次相遇，让我有一种宿命的轮回感。阿根廷两度被扳平的时候，我还是充满信心。可是，当姆巴佩攻入最后扳平的第三球时，我发了一条信息：天命如此啊。&lt;/p&gt;
@@ -494,10 +562,10 @@
     
     <item>
       <title>罗大佑的线上演唱会</title>
-      <link>http://localhost:1313/post/luodayou-concert/</link>
+      <link>http://localhost:1313/post/luodayou-concert.html</link>
       <pubDate>Sat, 28 May 2022 10:12:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/luodayou-concert/</guid>
+      <guid>http://localhost:1313/post/luodayou-concert.html</guid>
       
         <description>&lt;p&gt;68岁的罗大佑昨晚在线上开了一个演唱会。在我看来，罗大佑当之无愧为华人乐坛第一音乐教父。他写的歌，从爱情到友情，从政治到社会，很多精品。有一些歌，大概其他人都写不出来，也不敢写。&lt;/p&gt;
 &lt;p&gt;记得94年的暑假，躺在宿舍听收音机，传来《童年》这首歌。突然发现，原来这首歌不是儿歌啊。于是翻箱倒柜，翻遍自己和同学的磁带匣，找出罗大佑的所有专辑，滚动听了一晚上。&lt;/p&gt;
@@ -524,10 +592,10 @@
     
     <item>
       <title>关于辞去公职的缘由</title>
-      <link>http://localhost:1313/post/resign/</link>
+      <link>http://localhost:1313/post/resign.html</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/resign/</guid>
+      <guid>http://localhost:1313/post/resign.html</guid>
       
         <description>&lt;p&gt;:ID:       5B2D9CCF-8974-4F0C-BD87-0FD0B0CB3276&lt;/p&gt;
 &lt;p&gt;昨天中午，原单位同事一起小聚，同事小谭问我为何当初要辞职，有什么真正不开心的缘由吗？我给她认真回复了一封信，解释我辞去公职的原因。其实无他，当内心的理想与现实有较大出入时，我曾经选择妥协，但无法背离我内心的抗拒，最终选择不妥协。&lt;/p&gt;
@@ -597,10 +665,10 @@
     
     <item>
       <title>众人拾材火焰高</title>
-      <link>http://localhost:1313/post/zhongren-shichai-huoyangao/</link>
+      <link>http://localhost:1313/post/zhongren-shichai-huoyangao.html</link>
       <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/zhongren-shichai-huoyangao/</guid>
+      <guid>http://localhost:1313/post/zhongren-shichai-huoyangao.html</guid>
       
         <description>&lt;p&gt;程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续下去。&lt;/p&gt;
 &lt;p&gt;想起一个切身体会的例子。目前用变分法处理电子与分子散射的方法和程序主要有三种：&lt;/p&gt;
@@ -618,10 +686,10 @@
     
     <item>
       <title>书非旧不能读也</title>
-      <link>http://localhost:1313/post/shu-feijiu-buneng-du/</link>
+      <link>http://localhost:1313/post/shu-feijiu-buneng-du.html</link>
       <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shu-feijiu-buneng-du/</guid>
+      <guid>http://localhost:1313/post/shu-feijiu-buneng-du.html</guid>
       
         <description>&lt;p&gt;顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，不知道怎么就对政治感了兴趣，或者仅仅是为了学习英语，就跑到图书馆借阅《The Federalist Papers》。在布满灰尘的8楼书架上，翻到这本书，然后在末尾看到借阅记录：上一次有人借这本书大概是91年，再上一次是88年。嗯，当时我去的时候是99年。有时候真是感叹，一些人当成宝珍藏的事物，在大多数人看来，其实就是灰尘而已。&lt;/p&gt;
 &lt;p&gt;再想起，我在九眼桥旧书摊和鄢校长抢书的事情。花了5元钱买了狄拉克的《量子力学原理》，结果书摊老板说这种书根本没人要，看我如获至宝地抢在手里，觉得可怜，顺手又附带送我一本英文的。&lt;/p&gt;
@@ -647,10 +715,10 @@
     
     <item>
       <title>《鱼翅与花椒》</title>
-      <link>http://localhost:1313/post/after-reading-yuchi-yu-huajiao/</link>
+      <link>http://localhost:1313/post/after-reading-yuchi-yu-huajiao.html</link>
       <pubDate>Sat, 12 Mar 2022 21:05:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/after-reading-yuchi-yu-huajiao/</guid>
+      <guid>http://localhost:1313/post/after-reading-yuchi-yu-huajiao.html</guid>
       
         <description>&lt;p&gt;《鱼翅与花椒》是英国女孩扶霞的著作，其实就是一本讲四川美食的书。这本书不论是书名还是讲述的内容，似乎都很难引起大众的兴趣。也难怪顾衡在好书榜推荐时，虽然大力赞扬，我却没有动力找来看。直到昨天，我打开了这本书，结果一发不可收拾，已经放不下了。尤其白天写一天程序后，晚餐后灯下慢慢翻来，闲适无比。&lt;/p&gt;
 &lt;p&gt;扶霞的文笔真是幽默风趣，描写的成都文化如此的细腻又逼真。我在成都生活整三十年了，很多饮食和生活方式都融入了血液。除了不说成都话以及从来不看四川和成都的电视台外，大概和一个成都人差别也不大了。但读这本书，还是新鲜又亲切，如同一个老朋友在对面娓娓道来，龙门阵摆得巴适。&lt;/p&gt;
@@ -664,10 +732,10 @@
     
     <item>
       <title>四川联大往事</title>
-      <link>http://localhost:1313/post/scuu-memory/</link>
+      <link>http://localhost:1313/post/scuu-memory.html</link>
       <pubDate>Wed, 20 Mar 2019 21:07:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/scuu-memory/</guid>
+      <guid>http://localhost:1313/post/scuu-memory.html</guid>
       
         <description>&lt;p&gt;母校在发校友卡，我急急忙忙地申请了一个。看着这个与母校仅存的一点联系，不禁勾起了当年的好多回忆。1992年高考，最拿手的数学考砸了，只好听从父母的建议回四川读书。当时，川大、电子科大、华西医大、成都科大在河南的收分一样。班主任说，川大毕业有可能要当中学老师哟（不知道他听谁说的）。老爸赶紧拒绝，不行不行，不当老师，放弃；电子科大以前有军校背景，有可能要到部队上去哟。老爸慌张，不行不行，咱家独生子，不能去当兵；华西医大？轮到我摇头了，从小就害怕医生啊，坚决不行坚决不去。于是，就来到了成都科大。现在想起来，一点单纯的想法，几多偶然的猜测，就决定了高考志愿，真好玩啊。&lt;/p&gt;
 &lt;p&gt;来到学校，看别人都在同学会。我是中原油田的，油田子弟。虽然从河南考过来，但是一句河南话不会说，河南同学没人把我当成同乡；四川人民显然不认为我有四川血统；重庆？我一岁多就离开重庆了，身上一点重庆影子都没有。只好和张忠伟两个油田来的人，相依为命&amp;mdash;&amp;mdash;忠伟，谢谢你当年照顾我啊。&lt;/p&gt;
@@ -692,10 +760,10 @@
     
     <item>
       <title>如何与世界相处</title>
-      <link>http://localhost:1313/post/how-to-live-with-world/</link>
+      <link>http://localhost:1313/post/how-to-live-with-world.html</link>
       <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/how-to-live-with-world/</guid>
+      <guid>http://localhost:1313/post/how-to-live-with-world.html</guid>
       
         <description>&lt;p&gt;:ID:       410ACF3E-4029-4197-B95D-97C8774363C9&lt;/p&gt;
 &lt;h2 id=&#34;如何做一个靠谱的人&#34;&gt;如何做一个靠谱的人&lt;/h2&gt;
@@ -739,10 +807,10 @@
     
     <item>
       <title>构建笔记系统</title>
-      <link>http://localhost:1313/post/create-notes/</link>
+      <link>http://localhost:1313/post/create-notes.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/create-notes/</guid>
+      <guid>http://localhost:1313/post/create-notes.html</guid>
       
         <description>&lt;p&gt;:ID:       328E7380-BF24-417E-B052-4BAD54BA7B04&lt;/p&gt;
 &lt;p&gt;学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdquo;。笔记系统不仅可以帮助我们收集、整理、归纳所学的知识，还能够启发我们发现知识的联系。因此，做好一个笔记系统是非常必要的。&lt;/p&gt;
@@ -788,10 +856,10 @@
     
     <item>
       <title>学习的途径</title>
-      <link>http://localhost:1313/post/study-road/</link>
+      <link>http://localhost:1313/post/study-road.html</link>
       <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/study-road/</guid>
+      <guid>http://localhost:1313/post/study-road.html</guid>
       
         <description>&lt;p&gt;:ID:       D1CF20C0-7229-47D0-9FB8-9273D908C661&lt;/p&gt;
 &lt;h2 id=&#34;唯一有效的四种方法&#34;&gt;唯一有效的四种方法&lt;/h2&gt;
@@ -808,10 +876,10 @@
     
     <item>
       <title>大学教育</title>
-      <link>http://localhost:1313/post/advanced-education/</link>
+      <link>http://localhost:1313/post/advanced-education.html</link>
       <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/advanced-education/</guid>
+      <guid>http://localhost:1313/post/advanced-education.html</guid>
       
         <description>&lt;p&gt;在高校读书工作直到现在，已经二十多年了。经常有人问起的一个问题是：高校教师究竟应该以教书为主还是做科研为主？刚开始我以为这样的问题是不用回答的，因为现代大学不论中外，都有三个职责：培养人才、科学研究、服务社会，而前两个工作也是广义的服务社会。既然有三个功能，又怎能只偏向其中一个呢？&lt;/p&gt;
 &lt;p&gt;可是，问的人很真诚，似乎很想知道答案。于是，我也经常参与讨论。结果却经常是吵得一塌糊，大家不欢而散。慢慢地，我也发现，一些人是真的疑惑，但更多的人是因为利益相关，才各执一词。其实不论是教学或者研究，只要你不擅长，自然就夸大另一方面。凡事与利益纠缠在一起，就无所谓是非，只有偏执了。&lt;/p&gt;
@@ -846,68 +914,16 @@
     
     <item>
       <title>理论和计算</title>
-      <link>http://localhost:1313/post/theory-and-computing/</link>
+      <link>http://localhost:1313/post/theory-and-computing.html</link>
       <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/theory-and-computing/</guid>
+      <guid>http://localhost:1313/post/theory-and-computing.html</guid>
       
         <description>&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。&lt;/p&gt;
 &lt;p&gt;这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应的二阶微扰极限。因为微扰不同于变分法，不是能量越低越好。但也不能就此认为微扰的判定没有准则。这个工作就是想告诉大家，双电子情况下，二阶微扰理论的下限在哪里。&lt;/p&gt;
 &lt;p&gt;之所以拖了这么久，主要是卡在三电子积分的精确求解上。这周我终于借助 &lt;code&gt;Mathematica&lt;/code&gt; 完成了这个九维积分的快速精确求解，在实际计算中，可以精确到四十位有效数字。&lt;/p&gt;
 &lt;p&gt;我有时会想，这些年是不是浪费了很多时间在杂事情上，说不定可以早点解决？也或许这些年认认真真学习关联理论和 &lt;code&gt;Mathematica&lt;/code&gt; ，厚积薄发，积累久了才可以真正解决这个问题。我资质不算聪明，只有靠勤奋才能弥补一下。&lt;/p&gt;
 &lt;p&gt;常常有人问我，做计算的和做理论的有什么不同。仿佛现在宣称做理论的都在用一个现成的程序算一算，得到数据就可以发表了一样。其实，计算只是研究的一个手段和工具而已。真正的理论，是要探索未知的世界，得出一个明确的结论，即使从本质上说只能有概率性的答案，但必须真正解决一个问题。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>人生不如意事</title>
-      <link>http://localhost:1313/post/bu-ru-yi-shi/</link>
-      <pubDate>Sun, 05 Jul 2015 23:21:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/bu-ru-yi-shi/</guid>
-      
-        <description>&lt;p&gt;今天凌晨，爬起来看美洲杯决赛。虽然我很累很困，但因为有梅西，有阿根廷，仍然坚持，在黑暗中捧着iPad观看。&lt;/p&gt;
-&lt;p&gt;从黑夜到曙光来临，经历了加时赛，阿根廷还是输了，倒在了 点球码上。当伊瓜因罚丢的时候，我注意到梅西转过了头，也许在感叹又一次的决赛失利。&lt;/p&gt;
-&lt;p&gt;梅西今年已经拿了三冠王，大家都在评论他是不是新一代的球王。可是，我们都知道，他一直梦想为阿根廷拿一座大赛冠军。去年世界杯，他失败了；今年美洲杯，他还是没有成功。放眼未来，也不知道成败几何。&lt;/p&gt;
-&lt;p&gt;每天都上网浏览虎扑的，今天起，也不敢看了。知道上面一定是扑天盖地的批评、嘲讽。梅西，是不是球王有什么关系呢？也许，失败的英雄，更让我牵挂和喜爱吧。&lt;/p&gt;
-&lt;p&gt;人生事，不如意十之八九。强如梅西，也未必比常人更快乐一些。那萧索的背影，更让我魂牵梦萦。&lt;/p&gt;
-&lt;p&gt;以下是2014年世界杯决赛后的感悟，可见，悲伤依旧还是悲伤。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;12年前，我孤独地为德国队祈祷，但最后，是巴西捧起了大力神杯。今天，我仍是独自地为阿根廷队祷告，还是没有成功。&lt;/p&gt;
-&lt;p&gt;很多人问我，最喜欢的球队是哪个？我会毫不犹豫地说：阿根廷。其次是荷兰，再次是德国。所以，这届的世界杯我纠结了两次，一次喜忧参半，一次黯然神伤。记忆中，那个长发飘飘的阿根廷队，有肯佩斯，有卡尼吉亚，有雷东多，有巴蒂斯图塔&amp;hellip;&amp;hellip;。现在的阿根廷，有我喜欢的梅西。低调，不张扬，才华横溢。也许，悲情英雄，永远都是我的最爱。&lt;/p&gt;
-&lt;p&gt;94年的巴乔、02年的卡恩，现在，14年的梅西。&lt;/p&gt;
-&lt;p&gt;祝福你，梅西。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/messi-2014.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;http://localhost:1313/img/messi-2014.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-</description>
-      
-    </item>
-    
-    <item>
-      <title>研究生招生</title>
-      <link>http://localhost:1313/post/grad-zhaoseng/</link>
-      <pubDate>Sun, 23 Mar 2014 23:31:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/grad-zhaoseng/</guid>
-      
-        <description>&lt;p&gt;又要到每年一度的研究生复试的时候了。在我们这样的学校，复试其实不是在选拔更优秀的学生，而大多是在调剂考别的学校分数不够或挑剩下的。因此，绝大多数考生对物理和化学的兴趣极低，只是为了读研究生而读，或者不想面对复杂的社会，不敢去找工作。&lt;/p&gt;
-&lt;p&gt;每当这时，我都心情极其复杂，对于测不准原理都无法正确描述、表象是什么意思都一片茫然的学生来说，这个物理的硕士学位该如何读下去？我根本不相信在研究生阶段他/她可以奋发用功，既可以把基础补上来，还能够攻克更艰深的学术问题。因为，从他们的眼神里我没有看到任何对知识的渴望，对科学的向往，对真理的追求……&lt;/p&gt;
-&lt;p&gt;作为一个自由主义分子，按照我的本性，我应该劝他/她不要读这个物理学位，而去找寻自己喜爱的事情。即使今年找不到，来年，或者两三年之后一定可以圆梦。&lt;/p&gt;
-&lt;p&gt;以往，我就是这样做的。我很自由自在，学生也很开心。结果，自然也是皆大欢喜的。可是现在，我却不能这样随心所欲&amp;mdash;因为我要维护这个硕士点的存在。如果我这样劝说学生，就会招不够学生，明年招生名额就会减少，慢慢硕士点就会被取消。所以，每个点的负责老师这几天都在想方设法地动用各种关系，巧舌如簧，“坑蒙拐骗”，只要能把学生诓进自己的圈子。各位老师，也在明争暗斗，以期能多几个劳力。每次看到这样的场景，我都会想起车站里拉客的导游，或者住宿，或者拉车。无论条件如何，只要上了他们的车，你就无可奈何，他也大功告成。&lt;/p&gt;
-&lt;p&gt;我什么时候变成这样的拉客了？我崇尚的自由选择、随心所欲又到哪里去了？就因为我在这样的体制下，就因为我要维护既得利益吗？&lt;/p&gt;
-&lt;p&gt;这不是我的本性。实际上，我一点也不热衷于指导学生。在我看来，每个人都是平等的，包括老师和学生。大家在一起，是因为对某个问题感兴趣，共同来解决而已。在这个过程中，你愿意学，我就愿意讲；你喜欢听，我就乐于分享。如果我也不懂，就和你一起学习。如果你先明白，我安于做你的学生。今后，你展翅高飞，我在这里欢喜祝福。&lt;/p&gt;
-&lt;p&gt;所以，我的学生很少。我不羡慕，更耻于与靠学生赢利的人为伍。&lt;/p&gt;
 </description>
       
     </item>

@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>article on 点点马的蚂蚁窝</title>
-    <link>http://localhost:1313/tags/article/</link>
+    <link>http://localhost:1313/tags/article.html</link>
     <description>Recent content in article on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
-      <link>http://localhost:1313/post/org-hugo-blog/</link>
+      <link>http://localhost:1313/post/org-hugo-blog.html</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/org-hugo-blog/</guid>
+      <guid>http://localhost:1313/post/org-hugo-blog.html</guid>
       <description>:ID: 7BD855BC-853C-4DA0-B85E-641ED741932E 这里有三个概念首先需要理清： 用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网</description>
     </item>
     
     <item>
       <title>如何与世界相处</title>
-      <link>http://localhost:1313/post/how-to-live-with-world/</link>
+      <link>http://localhost:1313/post/how-to-live-with-world.html</link>
       <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/how-to-live-with-world/</guid>
+      <guid>http://localhost:1313/post/how-to-live-with-world.html</guid>
       <description>:ID: 410ACF3E-4029-4197-B95D-97C8774363C9 如何做一个靠谱的人 事事有回音；凡事有交代；件件有着落。 及时反馈，形成闭环。 团队精神 思维决定位置 领导者：“这事我负责!” 顶梁柱：“这事我搞</description>
     </item>
     
     <item>
       <title>构建笔记系统</title>
-      <link>http://localhost:1313/post/create-notes/</link>
+      <link>http://localhost:1313/post/create-notes.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/create-notes/</guid>
+      <guid>http://localhost:1313/post/create-notes.html</guid>
       <description>:ID: 328E7380-BF24-417E-B052-4BAD54BA7B04 学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdq</description>
     </item>
     
     <item>
       <title>学习的途径</title>
-      <link>http://localhost:1313/post/study-road/</link>
+      <link>http://localhost:1313/post/study-road.html</link>
       <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/study-road/</guid>
+      <guid>http://localhost:1313/post/study-road.html</guid>
       <description>:ID: D1CF20C0-7229-47D0-9FB8-9273D908C661 唯一有效的四种方法 理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了</description>
     </item>
     
