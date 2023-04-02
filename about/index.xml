@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on 点点马的蚂蚁窝</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on 点点马的蚂蚁窝</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/index-en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/index-en/</guid>
+      <description>About Me Hao Feng is a starter and software engineer. I used to be a teacher in two universities in China as professor and manager.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/index-zh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/index-zh/</guid>
+      <description>关于我 我曾经是一名教育工作者，顺便做过一些科学研究，现在是一个自由打工者。曾混迹于几所高校和研究院，教授过《普通物理》、《量子力学》、《计算</description>
+    </item>
+    
+  </channel>
+</rss>

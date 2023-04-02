@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>点点马的蚂蚁窝</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 点点马的蚂蚁窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Feb 2023 11:35:00 +0800</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>文档中插入图形</title>
+      <link>http://localhost:1313/post/insert-figures-in-doc/</link>
+      <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/insert-figures-in-doc/</guid>
+      
+        <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;
+&lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;微软公司的 &lt;code&gt;word&lt;/code&gt; 软件之所以那么流行，就是因为它可以在文档的编辑时，插入图片文件，而且让文字和图片融合起来。虽然每次调整图形的时候，鼠标把手指都要练废了，但效果也算差强人意。后来， &lt;code&gt;word&lt;/code&gt; 还发展出了可以在字处理时，直接插入线条和几何形状，画出简单的图形。但这个图形和文字，还是可以看出，汤是汤，水是水，明显的两种类型。&lt;/p&gt;
+&lt;h2 id=&#34;从程序的角度融合&#34;&gt;从程序的角度融合&lt;/h2&gt;
+&lt;p&gt;从计算机和数学的角度来看，文字和图形其实都是编码的存储方式而已。文字也是算法生成和显示的，图形也是算法生成和显示的，为什么不能统一处理呢？D. Knuth 教授在发明 \(\TeX\) 软件时，就率先开发 &lt;code&gt;METAFONT&lt;/code&gt; 来统一生成文字和图形，效果是相当的好。也难怪，人家 Knuth 大师本身就是数学家和算法大家，最年轻的图灵奖获得者，搞点这种算法，还不是雕虫小技 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;借助 \(\TeX\) 标记型语言的思想，我们把文字的内容和排版分开，将排版的要求也用文字来描述，然后在后台用程序来识别对排版的要求，也就是说，排版其实是一种程序语言，不过人读起来很顺畅很简单。既然排版可以算作程序，那么，图形的制作为什么不能是程序设计呢？这样，我们在一个文档里，既写文字内容，又“写”图形的制作描述，还可以“写”数学公式，整个文档里只有 ASCII 码。方便编辑、复制、版本管理等。至于最后呈现给人阅读的样式，用后台程序来处理完成。&lt;/p&gt;
+&lt;h2 id=&#34;画图的程序语言选择&#34;&gt;画图的程序语言选择&lt;/h2&gt;
+&lt;p&gt;确定了用标记型语言来画图的思想后，操作上就有两个问题需要考虑：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如何描述一个图形；&lt;/li&gt;
+&lt;li&gt;画图的语言如何与文档无缝融合。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;从本质上来说，图形的描述也是基于数学的。所谓的图形，其实就是直线和曲线的组合。在线条的基础上，再生成三角形、四边形、多边形、圆形&amp;hellip;&amp;hellip;，然后在封闭的形状里，考虑是否填充进颜色。因此，一开始的画图语言，都是些数学函数的描述，比如 &lt;code&gt;gnuplot&lt;/code&gt;, &lt;code&gt;metapost&lt;/code&gt;, &lt;code&gt;tikz&lt;/code&gt;, &lt;code&gt;Asymptote&lt;/code&gt; 等。但就像造房子不能每次都从砌砖开始一样，可以生成一些作为积木的基本形状，然后用程序语言来组合。很多人潜意识地以为，那些好看的函数图形，肯定是数学公式生成的。但是随手涂鸦，就不好用数学公式描述了。其实不然，这个世界上什么东西不是数学的呢？:-) 只要你愿意，用数学公式来随手涂鸦，简直是一件乐趣。&lt;/p&gt;
+&lt;p&gt;作图语言和文档的融合，倒不是大问题。但纯文本的 &lt;code&gt;txt&lt;/code&gt; 文档，还是不太适合完成这样的工作。目前，最好的融合文字和其他语言的写作环境是 &lt;code&gt;org mode&lt;/code&gt; 。它简直能识别几乎所有的作图语言，当然，它还能识别 &lt;code&gt;C/C++&lt;/code&gt;, &lt;code&gt;java&lt;/code&gt;, &lt;code&gt;shell&lt;/code&gt;, &lt;code&gt;python&lt;/code&gt;, &amp;hellip;&amp;hellip;.。所有的程序语言，在这里都被同等对待了。&lt;/p&gt;
+&lt;h2 id=&#34;plantuml&#34;&gt;plantuml&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://plantuml.com&#34;&gt;plantuml官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;plantuml&lt;/code&gt; 是基于 &lt;code&gt;java&lt;/code&gt; 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 &lt;code&gt;org mode&lt;/code&gt; 里被 &lt;code&gt;org&lt;/code&gt; 统一管理。我喜欢用它来画各种流程图，比开始我用 &lt;code&gt;draw.io&lt;/code&gt; 生成 &lt;code&gt;png&lt;/code&gt; 文件，再插入到文档中，要方便多了。&lt;/p&gt;
+&lt;h3 id=&#34;范例&#34;&gt;范例&lt;/h3&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/plantuml-AI-program-flow.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/plantuml-AI-program-flow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;文字和图片的融合&#34;&gt;文字和图片的融合&lt;/h3&gt;
+&lt;p&gt;为什么说这里的图形和文档是融合的呢？实际上，在我的原始文档里，上述的内容是长这个样子的：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt; ~plantuml~ 是基于 ~java~ 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 ~org mode~
+里被 ~org~ 统一管理。我喜欢用它来画各种流程图，比开始我用 ~draw.io~ 生成 ~png~
+文件，再插入到文档中，要方便多了。
+
+  *** 范例
+  #+begin_src plantuml :file ../static/img/test.png
+    @startuml
+    title AI Programming Flow
+    start
+    fork
+       :Training;
+       split
+         :Sample Data;
+       split again
+         #lightGreen:Expected Results;
+       end split
+       :Machine;
+       #red:Model;
+       stop
+    fork again
+       :Prediction;
+       split
+         :New Data;
+       split again
+         #red:Model;
+       end split
+       :Machine;
+       :results;
+       end
+    end fork
+    @enduml
+  \+end_src
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这就是 Knuth 教授一再推崇的 &amp;ldquo;literal programming&amp;rdquo; 啊，整个世界大统一了。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>读书的步骤</title>
+      <link>http://localhost:1313/post/reading-steps/</link>
+      <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/reading-steps/</guid>
+      
+        <description>&lt;p&gt;书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪费时间。&lt;/p&gt;
+&lt;p&gt;文艺书，是抓起来就可以读的，甚至从哪读起都不重要。初中时，第一次读四卷本的《倚天屠龙记》，就是从第三卷开始。发现主人公叫张无忌，然后知道《倚天》是《神雕》的后续。那么，在《神雕》结尾提到一个少年叫张君宝。这俩人啥关系呢？脑补之后，自认为张君宝长大，改了名字叫张无忌。纵横四海，所向无敌。哪里晓得，张君宝长大了之后叫张三丰，张三丰收了个徒弟叫张翠山，张翠山娶了个“妖女”老婆殷素素，生了个儿子才是张无忌&amp;hellip;..，完全差辈了。不过，丝毫不影响我当时读《倚天》的快乐。&lt;/p&gt;
+&lt;p&gt;学术书，是不能打开就读的。我以前犯的错误就是，读学术书和读文艺书一样，兴之所致，一路狂读。读了几十上百页，发现写得不怎么样，又长又啰嗦，头昏脑胀，看看页码还不到三分之一，遂长叹一声，扔到角落里去。时间是消磨了，获取的思想和知识，也只能自我安慰。&lt;/p&gt;
+&lt;p&gt;读多了，总结一些心得。学术著作，切记马上翻开第一篇，直接开读。这样容易陷入“只见树木不见森林”的困境。好的步骤应该是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;🚩 看书的标题&lt;/li&gt;
+&lt;li&gt;🚩 看书的作者&lt;/li&gt;
+&lt;li&gt;🚩 &lt;strong&gt;看书的目录，把握基本脉络&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🚩 随意翻开其中一页，比如166页，试着读一下，作者（译者）的写作风格，是否自己喜欢&lt;/li&gt;
+&lt;li&gt;🚩 读前言和后记，对书的来龙去脉有个大致了解&lt;/li&gt;
+&lt;li&gt;🚩 正式开始读自己感兴趣的章节&lt;/li&gt;
+&lt;li&gt;🚩 合上书，整理脉络&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这其中，花一点点时间，先看看书的目录，是极其重要的一环。清楚书的脉络和走向，读的时候才能明白什么时候该详读，什么时候该略读。实在读不下去的时候，也可以快速跳跃。切记，学术书是让人增长知识、提升思想的。糊里糊涂，看了几句“知识点”就放弃，可不是最终的目的。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>价值</title>
+      <link>http://localhost:1313/post/human-value/</link>
+      <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/human-value/</guid>
+      
+        <description>&lt;p&gt;人的价值体现为，这个世界由于你的存在 &lt;strong&gt;变得更好&lt;/strong&gt;, 而不是变得更差。&lt;/p&gt;
+&lt;p&gt;大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大，因为他们只是为自己活着。还有些人，存在只是添乱，就更不必提了。&lt;/p&gt;
+&lt;p&gt;现代社会下，很少有事情只依靠一个人就可以完成。常常需要几十上百、甚至几万、几十万人协同工作。因此若想发挥价值，要么是自己完成工作，要么是协调他人共同完成。这两种技能是完全不同的。一个是做某个工作的专业技能，一个是协调管理能力。处于两端的人，常常轻视另一方的工作。注重于专业技能的一方，觉得管理是在添乱，“虚”的成分太多；管理方却认为，并不缺专业技能，谁都可以被顶替，所以管理才是最重要的。&lt;/p&gt;
+&lt;p&gt;当然，这两种观点都有失偏颇。之所以会有偏颇的认识，主要的原因还是大多数工作都是简单的模仿。原创只要做出来了，大家“依葫芦画瓢”就好。因此专业技能并不缺乏，实在没有，还可批发培训；管理就更是可有可无，因为已经有现成的工艺和流程，哪里还需要这些领导在那里指手画脚？&lt;/p&gt;
+&lt;p&gt;正本清源，创新性的工作是最难的，对这两方面的要求都非常高。制作原子弹的“曼哈顿工程”项目，就是一个典型的例子。汇聚了一众高智商的诺贝尔奖级的大师，还需要 Oppenheimer, Vannevar Bush 这样既有远见卓识又有高超管理水平的超一流的管理者。后面的人要研制原子弹，虽然也不太容易，但有了模版和路径，其实也没有那么难了。&lt;/p&gt;
+&lt;p&gt;一些产品，做出来之前大家就都知道会很有价值。但是更多产品，除了极少数人外，世人并不知晓有何用处。比如，汽车出来之前，人们只想要跑得更快的马；iphone 出来之前，大家并不觉得移动网络有那么大的广阔天地。这时候就需要营销和宣传了。但常常人们又容易走入另一个极端，把营销本身宣传成了最重要的部分。实际上，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个产品能否卖的出去、是否畅销，首要的前提是这个产品是有用的，对用户来说花钱是值得的。营销必须建立在价值的基础上，否则，单纯靠手段营销产品，迟早会“翻车”；&lt;/li&gt;
+&lt;li&gt;一定要真正认可产品的价值，单纯靠营销和宣传，是不能发掘产品的价值的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正因为太多的产品，其实并没有价值，创造出来的只是“伪需求”，自然这样的“价值”就需要营销。&lt;/p&gt;
+&lt;p&gt;总的来说，创造价值，需要三方面的能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;专业技能&lt;/li&gt;
+&lt;li&gt;协调管理&lt;/li&gt;
+&lt;li&gt;宣传普及&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;三种能力都不可或缺，但本质不要忘记： &lt;strong&gt;让这个世界变得更好，让做出的产品真正有用&lt;/strong&gt; 。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>empathy vs. sympathy</title>
+      <link>http://localhost:1313/post/sympathy-vs-empathy/</link>
+      <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/sympathy-vs-empathy/</guid>
+      
+        <description>&lt;dl&gt;
+&lt;dt&gt;empathy&lt;/dt&gt;
+&lt;dd&gt;同理心&lt;/dd&gt;
+&lt;dt&gt;sympathy&lt;/dt&gt;
+&lt;dd&gt;同情心&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;简而言之，同情心表明你知道对方的感受，也表达了自己的情感；同理心却是主动站在对方的角度考虑遭遇。所以，同理心更能引起共鸣，并直达双方的心灵深处。在同情心的表达中，常常犯的一个错误是：你看，你遭遇了不幸，我也有过同样的不幸啊，所以，你不必难过了。这样的“安慰”只会让对方觉得，我难道是因为和你比较来感受幸福和痛苦吗？&lt;/p&gt;
+&lt;p&gt;因此，设身处地这四个字，说起来简单，做起来却不容易。试着多站在对方的角度来考虑事情吧，这样更能解决问题。&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=773882017&amp;bvid=BV1g14y1772s&amp;cid=857502036&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; width=&#34;80%&#34; height=&#34;400&#34;&gt; &lt;/iframe&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
+      <link>http://localhost:1313/post/org-hugo-blog/</link>
+      <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/org-hugo-blog/</guid>
+      
+        <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;
+&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；&lt;/li&gt;
+&lt;li&gt;使用 hugo 建立静态网页；&lt;/li&gt;
+&lt;li&gt;将本地静态网页发布到互联网上。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;org-mode-写文档&#34;&gt;org-mode 写文档&lt;/h2&gt;
+&lt;p&gt;org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 &lt;a href=&#34;https://orgmode.org&#34;&gt;org mode&lt;/a&gt; 网站，学习如何使用 org-mode 模式。&lt;/p&gt;
+&lt;h2 id=&#34;hugo-制作网页&#34;&gt;hugo 制作网页&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;hugo&lt;/code&gt; 是一个静态网站生成器。所谓网站，就是有逻辑关系的各 html 网页组成的集合。html 本质上也是一种标记语言，呈现的样式用特殊的标记来指明。由于组成网站的每个 html 网页的样式基本是相同的，因此，对于网站来说，更好的方式是把样式统一在一起。这些样式说明文件以 css 语言最为流行。&lt;/p&gt;
+&lt;h3 id=&#34;快速建立网站&#34;&gt;快速建立网站&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quickstart&lt;/a&gt; 介绍了如何使用 hugo 快速建立一个网站，非常实用。这里我将模仿使用的命令记录如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-5&#34;&gt;5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-6&#34;&gt;6&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site quickstart
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;cd&lt;/span&gt; quickstart
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; config.toml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;进入建立好的 quickstart 目录，检查 hugo 大致的目录结构如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── archetypes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── assets
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── config.toml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── content
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── data
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── layouts
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── public
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── resources
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── static
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── themes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其中，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;config.toml 文件为基本设置文件，网站样式都可以在这里指定。&lt;/li&gt;
+&lt;li&gt;themes 下包含多种不同的样式模版，可以到网上寻找喜欢的模版并改造。&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;content/post 目录下是原始的文章内容，hugo 只认 markdwon 格式的。&lt;/li&gt;
+&lt;li&gt;public 目录下所有的内容可以打包发布出去。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;本地浏览网站&#34;&gt;本地浏览网站&lt;/h3&gt;
+&lt;p&gt;在 hugo 网站目录下执行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-2-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后打开浏览器，输入网址：&lt;a href=&#34;http://127.0.0.1:1313&#34;&gt;http://127.0.0.1:1313&lt;/a&gt; 。则可以浏览网站所有内容。&lt;/p&gt;
+&lt;h3 id=&#34;发布网站内容&#34;&gt;发布网站内容&lt;/h3&gt;
+&lt;p&gt;在 hugo 网站目录下执行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;则在 public 目录下会生成所有静态网站所需的全部文档，把这个目录下的所有内容拷贝到支持的域名中即可。&lt;/p&gt;
+&lt;h2 id=&#34;ox-hugo&#34;&gt;ox-hugo&lt;/h2&gt;
+&lt;p&gt;org-mode 写成的 &lt;code&gt;.org&lt;/code&gt; 文档，可以直接输出成 &lt;code&gt;.md&lt;/code&gt; 格式。然后拷贝到 hugo 网站的 content/post 目录下，用 hugo 进行管理，发布成静态网页。但这样的方式显得很“愚笨”，也不利于 org 的统一管理，尤其是想直接把 org-roam 建立的个人笔记系统中的文章发布在博客上。这时，我们可以采用 ox-hugo 宏包来方便处理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在 emacs 的设置文件中加入：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#007020&#34;&gt;use-package&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;ox-hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;:ensure&lt;/span&gt; &lt;span style=&#34;color:#60add5&#34;&gt;t&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;:pin&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;melpa&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;:after&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;ox&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 hugo 网站下建立目录&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-5-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-5-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir content-org
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在该目录下建立文件&amp;mdash; all-posts.org，其表头内容如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-6-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-6-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-6-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-6-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+hugo_base_dir: ../
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+hugo_section: ./post/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这里，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HUGO_BASE_DIR:&lt;/strong&gt; 这里是博客的根目录，因为我的 &lt;code&gt;org&lt;/code&gt; 文件放在博客根目录下的 content-org，所以这里博客的根目录就是 “../” ，也就是本目录的上一层目录&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HUGO_SECTION:&lt;/strong&gt; 生成的 &lt;code&gt;markdown&lt;/code&gt; 文件的位置，比如 &amp;ldquo;./post/&amp;rdquo; 就会将 &lt;code&gt;markdown&lt;/code&gt; 文件生成在博客根目录下的 &amp;ldquo;content/post/&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后在里面按照 org-mode 的格式添加博客文章，比如：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-5&#34;&gt;5&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;​*  DONE 使用 Org-Mode+ox-hugo+github page 创建个人 Blog       :tech:@技术:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  CLOSED: [2023-01-14 Sat 16:36] SCHEDULED: &amp;lt;2023-01-14 Sat&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :PROPERTIES:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :EXPORT_FILE_NAME: org-hugo-blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :END:
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;即，每一篇博客文章都作为 all-posts.org 文件里的一级标题，且必须包含如下三行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-8-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-8-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-8-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-8-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-8-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-8-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:PROPERTIES:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:EXPORT_FILE_NAME: filename
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:END:
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;状态为 DONE 的文章，才会被正式发布出去。如果是 TODO，则在本地预览时，也可看到。当然，还可以添加 tag 和 category。这样设置以后的文档出现在网站的不同分类中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;每当更新完一篇博客文章后，都在 all-posts.org 文件里执行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;C-c&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;C-e&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;H&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;A&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;发布到-github-静态网站上&#34;&gt;发布到 github 静态网站上&lt;/h2&gt;
+&lt;p&gt;如果有域名，则可以将 public 目录下的所有内容拷贝上去即可。github 网站提供了一个免费的个人 blog 方法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 github 上建立 yourname.github.io 仓库。（注意：必须是你在 github 上的账号名作为 yourname。）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2。 在 public 目录下建立 git 仓库：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-10-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-10-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-10-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-10-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add github git@github.com:yourname/yourname.github.io.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;以后每次博客更新后，都按照 git 的方式提交就好了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -f github master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;github.io&lt;/code&gt; 经常被屏蔽，可以尝试在阿里云上申请个人域名，再用域名解析的方式将 &lt;code&gt;github.io&lt;/code&gt; 绑定。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;采用他人的主题，大多数只需要修改 &lt;code&gt;config.toml&lt;/code&gt; 文件即可。但若想完全改造成自己希望的样式，还是需要深入到目录内部。因此，一旦选定了某个 theme，好好地定制一下，不要随便更新。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>梅西，终于得偿所愿</title>
+      <link>http://localhost:1313/post/messi-de-chang-suo-yuan/</link>
+      <pubDate>Sat, 31 Dec 2022 09:21:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/messi-de-chang-suo-yuan/</guid>
+      
+        <description>&lt;p&gt;距离阿根廷世界杯夺冠，已经过去2个星期了。似乎还像梦幻一样，每天刷着足球论坛，回忆着决赛时领先、扳平、反超、再扳平，然后点球大战时的惊心动魄，最后胜利时梅西跪在草地上&amp;hellip;&amp;hellip;.。连举杯庆祝的镜头都反复看了很多遍，百看不厌。&lt;/p&gt;
+&lt;p&gt;可是，脑海里更多反复出现的，却是14、15、16、18、19，那些失败的镜头，那些梅西无助的背影、无可奈何低下的头颅。在18年世界杯上被法国队淘汰时，我甚至觉得梅西此生的国家队生涯就这样了。这次和法国在决赛的再次相遇，让我有一种宿命的轮回感。阿根廷两度被扳平的时候，我还是充满信心。可是，当姆巴佩攻入最后扳平的第三球时，我发了一条信息：天命如此啊。&lt;/p&gt;
+&lt;p&gt;实际上，我自己也低估了梅西。我以为人生就认命了，可是梅西最后依然重新站立了起来。想起那句格言：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;成功的含义不在于得到什么。&lt;/p&gt;
+&lt;p&gt;而是在于，你从那个奋斗的起点走了多远。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;曾经多少次困惑于成功到底是什么，为什么有些人靠营销获得了不匹配的名利，而认真踏实做事的人，一次次的失败。尼采说，&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What does not kill me, makes me stronger.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可是，那只是一句话啊。现实的力量在哪里呢？当这次看到梅西最后云淡风轻的一笑时，我踏实了。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:400px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/messi1.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/messi1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;和曾经的追风少年相比，梅西老了，大概算是中年大叔了。但更加让人唏嘘和感叹：有梦想，就要坚持。梅西，你的坚守终于回报了。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:400px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/messi2.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/messi2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>罗大佑的线上演唱会</title>
+      <link>http://localhost:1313/post/luodayou-concert/</link>
+      <pubDate>Sat, 28 May 2022 10:12:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/luodayou-concert/</guid>
+      
+        <description>&lt;p&gt;68岁的罗大佑昨晚在线上开了一个演唱会。在我看来，罗大佑当之无愧为华人乐坛第一音乐教父。他写的歌，从爱情到友情，从政治到社会，很多精品。有一些歌，大概其他人都写不出来，也不敢写。&lt;/p&gt;
+&lt;p&gt;记得94年的暑假，躺在宿舍听收音机，传来《童年》这首歌。突然发现，原来这首歌不是儿歌啊。于是翻箱倒柜，翻遍自己和同学的磁带匣，找出罗大佑的所有专辑，滚动听了一晚上。&lt;/p&gt;
+&lt;p&gt;每次听罗大佑的《恋曲1990》，都会想起90年的高中，想起晓天、晓瑞、则雄、杨兴&amp;hellip;&amp;hellip;，那短短的两个多月，躲在教室的一角自得其乐的日子。&lt;/p&gt;
+&lt;p&gt;后来，听《你的样子》、《鹿港小镇》，都喜欢得不得了。直到听到《亚细亚的孤儿》，惊为天人，从此正式确立罗大佑在我心中华语乐坛第一人的位置。于是，所有他的歌，我都找来听。罗大佑的嗓音大概只能算三流，但是作词作曲，就是超一流了，甚至很多歌的编曲，也都是超乎常人的。比如余光中写的《乡愁四韵》，最后我还是觉得罗大佑作曲的那首最经典，竟然用吉他都能表现出古琴的韵味。&lt;/p&gt;
+&lt;p&gt;林夕曾将讲过一个故事，说自己为什么写歌那么好呢？是因为大佑哥刚从台湾去香港，不会粤语，所以大佑哥先把歌写成国语，然后林夕翻译成粤语。在这个过程中，林夕逐渐会作词了。但是，林夕说，他学不会大佑哥的作曲，于是一辈子就只能当作词家了。&lt;/p&gt;
+&lt;p&gt;“只要大佑的歌一直流传，我们的青春就永远生长”。感谢罗大佑。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:400px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/luodayou.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/luodayou.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>关于辞去公职的缘由</title>
+      <link>http://localhost:1313/post/resign/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/resign/</guid>
+      
+        <description>&lt;p&gt;:ID:       5B2D9CCF-8974-4F0C-BD87-0FD0B0CB3276&lt;/p&gt;
+&lt;p&gt;昨天中午，原单位同事一起小聚，同事小谭问我为何当初要辞职，有什么真正不开心的缘由吗？我给她认真回复了一封信，解释我辞去公职的原因。其实无他，当内心的理想与现实有较大出入时，我曾经选择妥协，但无法背离我内心的抗拒，最终选择不妥协。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小谭，你好。&lt;/p&gt;
+&lt;p&gt;你昨天中午很认真地问我，为什么对在行政楼工作不满意，有什么真正不高兴的原因吗。我感觉你很真诚，于是今天我也认真地回答你，除了昨天说的对各部门各自为政，都从各自利益出发争功免责感到非常失望以外，最主要的原因是：我不同意学校大部分人对科研的认识以及对科技处的定位，包括领导和普通老师。在我看来，科技处的真正职责如下：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;切实提高老师们对科研的认识。对于大学来说，学术研究和教学是相辅相成的，没有科研的教学，就沦为了职业学校，无法真正培养有创新思想的学生。而学校绝大部分人竟然觉得，科研是在抢大家的利益，科研是争名夺利的手段之一，而忘却了高校的基本职责：培养人才、科学研究、服务社会。这三项中，每一个都和学术研究密切相关。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;真正挖掘和帮助认真做学术研究的老师，不论一个学科有多弱，老师们做科研的起点和水平有多低，都不要紧，只要他们愿意做，学校就要鼓励和支持。这就需要建立良好的奖惩制度，“奖“是用来鼓励，而不是让少数人“发财”；“惩”是用来规范学术氛围，防止部分人弄虚作假，出现劣币驱逐良币的现象。因此，坚决要杜绝假经费、假论文，更不允许科研假获奖。这会极大地破坏学术风气，造成教学-科研的人为对立。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;真正做好教师们科研的助手，首先搞清楚学校科研的现状，需要哪些外部资源。比如，教师们做研究，遇到困难需要合作，科技处要联系外部合作者，牵线搭桥。普通老师是没有这个资源和条件的。科技处要尽可能地帮助各学院开展学术交流活动，扩大老师们的视野和学术交往。所以，建立国际合作，至少是国内学术机构的合作，是完成这一功能的有效办法之一。而现在实际的所谓合作，只是花钱走关系，为少数人服务。为评奖、争项目搞私下内幕交易而已。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;在学校学术研究氛围真正建立起来的大环境下，积极扩大学校的成果宣传，对接政府、企业，真正做到成果落地转换，构建社会的实际需求与老师的科研成果之间的桥梁。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;科研不仅要面对教师，也要面对学生。对学生的创新思想培养，不能只放在教务处，而应该是科研-教学-学工一起来做。帮助学生培养提出问题-自我学习-解决问题的能力。学生的这种能力，不是简单的在课堂讲授45分钟就可以掌握的，最好的办法是：项目实践 ––– 亲自动手 –––– 有学术研究能力的老师辅导。只会课堂讲授的老师，哪里能完成这样的培养任务呢？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;做好学术道德和规范的监督执行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你看，不论是学校还是科技处，现行的做法都和我的设想相去甚远。我们疲于应付的是如何快速提高学校的科研指标，于是对假经费睁一只眼闭一只眼，甚至主动去做假；对论文从来不去探究学术价值，而只沉醉于影响因子有多少，可以得到多少奖励；花费大量的资源去拉关系，为了评奖，为了争项目……。后果是，真正做研究的老师，得不到支持 –––– 领导们占据大量的资源获得了好处；做教学和科研的老师人为对立，相互看不起 –––– 一个老师是否有真正的学术本事，大家是心知肚明的，一个弄虚作假又得了如此多利益的“假科研”，当然会被鄙视。而且，对于很多高校来说，学校的经费有限，都用去扶植“假科研”，切了教学的蛋糕，自然会造成底层的分裂。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;昨天谈起，这次省教学奖的评选，特等奖、一等奖、二等奖几乎都是各单位的领导，而且大多还是主要领导。这已经让我极其愤怒了。实际上，在科研界，大致也差不多。不过由于科研有全世界的学术评价，领导们还有一点点畏惧。教学完全没有统一的评价标准，就明目张胆成了这样。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;于是，我觉得我作为一个处长，是无能为力摆脱上述困境、解决上述问题，也无法实现我的抱负的。我曾经委曲求全，暂时隐藏自己，待时而动。但发觉实际操作下来，十分违背我的内心准则。孟子说，“达则兼济天下，穷则独善其身”。我想了想，对于我，“达”是不可能的，独善其身也许能勉力为之。孔子坚持：“笃信好学，守死善道。危邦不入，乱邦不居。天下有道则见，无道则隐。邦有道，贫且贱焉，耻也，邦无道，富且贵焉，耻也”。我觉得，在原单位得到越多好处，越感到“耻也”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;维克多·弗兰克告诉我们：人有终极的自由，那就是 ––– 选择的自由。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!--quoteend--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以，我选择辞去所有公职，离去。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>众人拾材火焰高</title>
+      <link>http://localhost:1313/post/zhongren-shichai-huoyangao/</link>
+      <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/zhongren-shichai-huoyangao/</guid>
+      
+        <description>&lt;p&gt;程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续下去。&lt;/p&gt;
+&lt;p&gt;想起一个切身体会的例子。目前用变分法处理电子与分子散射的方法和程序主要有三种：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;V. McKoy 等人创建的多通道 Schwinger 法；&lt;/li&gt;
+&lt;li&gt;P. Burke 等人创建的 &lt;em&gt;R&lt;/em&gt;-matrix (&lt;em&gt;R&lt;/em&gt; 矩阵)法；&lt;/li&gt;
+&lt;li&gt;我的导师的导师 C. McCurdy 等人创建的 Complex Kohn (复科恩)法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其实，1979年国际学术年会的时候， &lt;em&gt;R&lt;/em&gt;-matrix 法结果还远远比不上另外两个，但到了今天，我看 &lt;em&gt;R&lt;/em&gt;-matrix 法快一统江湖了。虽然原因很多，但我觉得其中主要的一个原因是：Burke 等人把自己开发的 &lt;em&gt;R&lt;/em&gt;-matrix 程序包公开在网上，所有人都可以自由索取，并继续开发。 &lt;strong&gt;众人拾材火焰高&lt;/strong&gt; ， &lt;em&gt;R&lt;/em&gt;-matirx 法发展得越来越好。而另外两个方法，程序包只在自己的课题组内部流传，外人就算搞懂了理论，也由于没有程序可以实践，完全无法实用。&lt;/p&gt;
+&lt;p&gt;到现在，Complex Kohn 法除了 McCurdy 自己和学生在用外，其他人几乎没有用这个方法做出好的工作；多通道 Schwinger 法大概传到了巴西，Bettega 课题组大量用这个方法发文章。不过我写信去请教他们，没有任何回音。而反观 &lt;em&gt;R&lt;/em&gt;-matrix 法，我从网上下载了所有的源代码，再仔细研读 Burke、Tennyson 等人的文章，竟然也可以用 &lt;em&gt;R&lt;/em&gt;-matrix 方法计算实用的体系，并发表了 SCI 论文。&lt;/p&gt;
+&lt;p&gt;所以啊，一定不要“小心眼”，觉得程序公开了，别人就会“剽窃”自己的成果。其实，没有了大家的合作，不管再好的方法，最后都会束之高阁。想起当年读研究生时，看到过其他课题组有些教授不知道从哪拷了程序，连学生都不给看源码。现在，也只是尘世间的一粒灰尘而已。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>书非旧不能读也</title>
+      <link>http://localhost:1313/post/shu-feijiu-buneng-du/</link>
+      <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/shu-feijiu-buneng-du/</guid>
+      
+        <description>&lt;p&gt;顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，不知道怎么就对政治感了兴趣，或者仅仅是为了学习英语，就跑到图书馆借阅《The Federalist Papers》。在布满灰尘的8楼书架上，翻到这本书，然后在末尾看到借阅记录：上一次有人借这本书大概是91年，再上一次是88年。嗯，当时我去的时候是99年。有时候真是感叹，一些人当成宝珍藏的事物，在大多数人看来，其实就是灰尘而已。&lt;/p&gt;
+&lt;p&gt;再想起，我在九眼桥旧书摊和鄢校长抢书的事情。花了5元钱买了狄拉克的《量子力学原理》，结果书摊老板说这种书根本没人要，看我如获至宝地抢在手里，觉得可怜，顺手又附带送我一本英文的。&lt;/p&gt;
+&lt;p&gt;唉，汝之蜜糖，彼之砒霜。无论如何，我还是觉得《联邦党人文集》很值得一读。&lt;/p&gt;
+&lt;p&gt;鄢校长就是川大的老校长鄢国森教授。96年我奉导师之命去鄢校长家里安装 &lt;code&gt;Linux&lt;/code&gt; 系统。间隙，鄢校长谆谆教导我：咱们这个专业，有两本书一定要读好。一是 P. A. M. Dirac 的《量子力学原理》，二是 Szabo 和 Ostlund 的《Modern Quantum Chemistry》。&lt;/p&gt;
+&lt;p&gt;狄拉克是大物理学家啊，当然要读。英文版的《原理》一书，我是手抄了一遍，通读了三遍。实在是每次读都受益匪浅。可是 Szabo 的书，我就没觉得有什么特别的。直到后来去美国，在 Schaefer 教授的实验室里，发现他得意的几个学生，Francesco、Jeremey、Andy 等，对里面的公式简直是顺手拈来，推起方程毫不费力，才发觉自己没有领会鄢校长的意思。赶紧重新研读，不懂的地方请教实验室的谢尧明老师，三个月后才舒了一口气。顺便说一下，谢尧明老师是鄢校长在国内的大弟子，八十年代初就到美国攻读博士。所以啊，我也算没有辜负鄢校长的嘱托。:-)&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:400px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/dirac-qm.jpeg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/dirac-qm.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《鱼翅与花椒》</title>
+      <link>http://localhost:1313/post/after-reading-yuchi-yu-huajiao/</link>
+      <pubDate>Sat, 12 Mar 2022 21:05:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/after-reading-yuchi-yu-huajiao/</guid>
+      
+        <description>&lt;p&gt;《鱼翅与花椒》是英国女孩扶霞的著作，其实就是一本讲四川美食的书。这本书不论是书名还是讲述的内容，似乎都很难引起大众的兴趣。也难怪顾衡在好书榜推荐时，虽然大力赞扬，我却没有动力找来看。直到昨天，我打开了这本书，结果一发不可收拾，已经放不下了。尤其白天写一天程序后，晚餐后灯下慢慢翻来，闲适无比。&lt;/p&gt;
+&lt;p&gt;扶霞的文笔真是幽默风趣，描写的成都文化如此的细腻又逼真。我在成都生活整三十年了，很多饮食和生活方式都融入了血液。除了不说成都话以及从来不看四川和成都的电视台外，大概和一个成都人差别也不大了。但读这本书，还是新鲜又亲切，如同一个老朋友在对面娓娓道来，龙门阵摆得巴适。&lt;/p&gt;
+&lt;p&gt;扶霞说她90年代中期在川大访学，住在“熊猫馆”，就是那个时期尝遍成都美食。我当时正读大三，经常在熊猫馆外面来来回回，觉得里面的老外个个都是宝。唯一一次进去还是为了接待香港来的学生团，被外事办的老师在里面培训外交礼仪。没想到，当时一个英国人经常和我擦肩而过，储备着未来要写给我看的文字，真是奇妙啊。&lt;/p&gt;
+&lt;p&gt;扶霞作为一个英国人，刚开始看待中国的食物，的确有种完全不同的视角。有些感觉是我从来没有意识到的，仿佛这些从我出生就固化在基因里。比如，有一章她形容刺参（就是一种海参），说看起来像男性的某种部位，上面还调皮地长满了小刺。这种描述法我可大开眼界，又过目不忘。为什么我从未有过这样的感觉呢？还有鸡郡肝、牛百叶、鹅肠&amp;hellip;.，等等动物内脏。我们习以为常，老外们接受起来，可得费一番劲了。&lt;/p&gt;
+&lt;p&gt;不同的文化，带来不同的感受。多接触不同的视角和观点，可以给平凡的生活带来无穷的乐趣。我见过许多人，一辈子都只从自己固有的角度看问题，这是非常遗憾的。&lt;/p&gt;
+&lt;p&gt;真是强烈推荐大家看看这本书。想起顾衡推荐它时，还借机大力称赞川菜。有读者请顾老师也表扬表扬山东菜。顾老师嘴一撇：山东菜，平常一张大饼卷一颗葱，过年一摞大饼卷一捆大葱，有啥好说的？哈哈，于是我们都猜测，顾夫人一定是成都人。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>四川联大往事</title>
+      <link>http://localhost:1313/post/scuu-memory/</link>
+      <pubDate>Wed, 20 Mar 2019 21:07:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/scuu-memory/</guid>
+      
+        <description>&lt;p&gt;母校在发校友卡，我急急忙忙地申请了一个。看着这个与母校仅存的一点联系，不禁勾起了当年的好多回忆。1992年高考，最拿手的数学考砸了，只好听从父母的建议回四川读书。当时，川大、电子科大、华西医大、成都科大在河南的收分一样。班主任说，川大毕业有可能要当中学老师哟（不知道他听谁说的）。老爸赶紧拒绝，不行不行，不当老师，放弃；电子科大以前有军校背景，有可能要到部队上去哟。老爸慌张，不行不行，咱家独生子，不能去当兵；华西医大？轮到我摇头了，从小就害怕医生啊，坚决不行坚决不去。于是，就来到了成都科大。现在想起来，一点单纯的想法，几多偶然的猜测，就决定了高考志愿，真好玩啊。&lt;/p&gt;
+&lt;p&gt;来到学校，看别人都在同学会。我是中原油田的，油田子弟。虽然从河南考过来，但是一句河南话不会说，河南同学没人把我当成同乡；四川人民显然不认为我有四川血统；重庆？我一岁多就离开重庆了，身上一点重庆影子都没有。只好和张忠伟两个油田来的人，相依为命&amp;mdash;&amp;mdash;忠伟，谢谢你当年照顾我啊。&lt;/p&gt;
+&lt;p&gt;川大和成都科大要合并的时候，我们是没什么感觉的。只听说川大不愿意，科大也不愿意。科大教师还去 &lt;code&gt;you xing&lt;/code&gt; ，被劝阻回来了。然后就是搬个小凳子，坐在电影广场，听时任四川省省长肖秧在广播里说：这个四川联合大学好啊，我们加个括号，把川大和成都科大都括进去，以后还可以把更多的学校括进来。我就两眼望天，心想，以后四川的大学都括进来了，咱们就是天下第一了。&lt;/p&gt;
+&lt;p&gt;结果最后，入学的学校没有了，毕业的学校也没了。通知书不知道老爸还有没有收藏纪念，毕业证我是留着了。有人说，可以去换成四川大学的毕业证。我开玩笑回答，打死都不换。这多珍贵啊，上面还有陈校长的印章呢。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:400px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/CertificateU.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/CertificateU.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>如何与世界相处</title>
+      <link>http://localhost:1313/post/how-to-live-with-world/</link>
+      <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/how-to-live-with-world/</guid>
+      
+        <description>&lt;p&gt;:ID:       410ACF3E-4029-4197-B95D-97C8774363C9&lt;/p&gt;
+&lt;h2 id=&#34;如何做一个靠谱的人&#34;&gt;如何做一个靠谱的人&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;事事有回音；凡事有交代；件件有着落。&lt;/li&gt;
+&lt;li&gt;及时反馈，形成闭环。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;团队精神&#34;&gt;团队精神&lt;/h2&gt;
+&lt;h3 id=&#34;思维决定位置&#34;&gt;思维决定位置&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;领导者：“这事我负责!”&lt;/li&gt;
+&lt;li&gt;顶梁柱：“这事我搞定!”&lt;/li&gt;
+&lt;li&gt;左右手：“这事我来做!”&lt;/li&gt;
+&lt;li&gt;基层人：“这事我要学。”&lt;/li&gt;
+&lt;li&gt;多余人：“这事找谁啊?”&lt;/li&gt;
+&lt;li&gt;垃圾人：“这事不怪我。”&lt;/li&gt;
+&lt;li&gt;落后者：“这事没人教。”&lt;/li&gt;
+&lt;li&gt;寄生虫：“这事为什么我来做?”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;如何做一个管理者&#34;&gt;如何做一个管理者&lt;/h2&gt;
+&lt;h3 id=&#34;优秀领导者的特质&#34;&gt;优秀领导者的特质&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;有勾画蓝图的能力&lt;/li&gt;
+&lt;li&gt;有让他人追随你的能力&lt;/li&gt;
+&lt;li&gt;有实现理想与抱负的能力&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;案例-曹操&#34;&gt;案例：曹操&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;真心实意，以情感人；&lt;/li&gt;
+&lt;li&gt;推心置腹，以诚待人；&lt;/li&gt;
+&lt;li&gt;开诚布公，以理服人；&lt;/li&gt;
+&lt;li&gt;言行一致，以信取人；&lt;/li&gt;
+&lt;li&gt;令行禁止，以法制人；&lt;/li&gt;
+&lt;li&gt;设身处地，以宽容人；&lt;/li&gt;
+&lt;li&gt;扬人责己，以功归人；&lt;/li&gt;
+&lt;li&gt;论功行赏，以奖励人。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>构建笔记系统</title>
+      <link>http://localhost:1313/post/create-notes/</link>
+      <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/create-notes/</guid>
+      
+        <description>&lt;p&gt;:ID:       328E7380-BF24-417E-B052-4BAD54BA7B04&lt;/p&gt;
+&lt;p&gt;学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdquo;。笔记系统不仅可以帮助我们收集、整理、归纳所学的知识，还能够启发我们发现知识的联系。因此，做好一个笔记系统是非常必要的。&lt;/p&gt;
+&lt;p&gt;理解笔记系统，我们要先明白一些原理。&lt;a href=&#34;https://www.zhihu.com/question/23427617/answer/1461195696&#34;&gt;如何构建自己的笔记系统&lt;/a&gt;一文，将原理阐述的比较清楚。&lt;a href=&#34;https://zhuanlan.zhihu.com/p/353521308&#34;&gt;实际操作篇&lt;/a&gt;也有助于做好一个有用的笔记系统。&lt;/p&gt;
+&lt;h2 id=&#34;记笔记的原则&#34;&gt;记笔记的原则&lt;/h2&gt;
+&lt;p&gt;具体写笔记时，要遵循一些重要的原则：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不能原文照抄&lt;/li&gt;
+&lt;li&gt;要用作者或者文中主人公的视角进行主要论点的叙述&lt;/li&gt;
+&lt;li&gt;尽量写下自己的思考和评述&lt;/li&gt;
+&lt;li&gt;尽可能地写下论点形成的逻辑过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;笔记的作用&#34;&gt;笔记的作用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;整理知识点&lt;/li&gt;
+&lt;li&gt;梳理脉络，明晰结构&lt;/li&gt;
+&lt;li&gt;方便交叉检索&lt;/li&gt;
+&lt;li&gt;方便日后查询和回忆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;强力研读笔记&#34;&gt;强力研读笔记&lt;/h2&gt;
+&lt;p&gt;（摘自万维钢精英日课）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;清晰表现每一章的逻辑脉络&lt;/li&gt;
+&lt;li&gt;带走书中所有的亮点&lt;/li&gt;
+&lt;li&gt;大量自己的看法和心得&lt;/li&gt;
+&lt;li&gt;发现这本书和以前读过的其它书或文章的联系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;如何记笔记&#34;&gt;如何记笔记&lt;/h2&gt;
+&lt;p&gt;:ID:       0C0CF913-8F0D-442F-A127-DF120D32CD9D&lt;/p&gt;
+&lt;p&gt;笔记是学习过程中重要的工具。从一张随手记录的纸，到精心装扮的笔记本，甚而到今天各种花里胡哨的电子笔记本，都可以作为笔记的承载体。如何做好笔记，必须始终基于一个基本原则：笔记的内容是为了帮助大脑学习、理解、链接，最终固化为自己牢靠的知识体系。&lt;/p&gt;
+&lt;h3 id=&#34;笔记的基本形式&#34;&gt;笔记的基本形式&lt;/h3&gt;
+&lt;p&gt;按功能分，笔记有三种基本形式：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;随手记录的所思所想所悟；&lt;/li&gt;
+&lt;li&gt;逐步更新的学习记录；&lt;/li&gt;
+&lt;li&gt;基本定型的学习记录，可用于今后的索引。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;更多的形式，反而会阻碍笔记的记录。尽量简化形式，注重实际。&lt;/p&gt;
+&lt;h3 id=&#34;如何做笔记&#34;&gt;如何做笔记&lt;/h3&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>学习的途径</title>
+      <link>http://localhost:1313/post/study-road/</link>
+      <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/study-road/</guid>
+      
+        <description>&lt;p&gt;:ID:       D1CF20C0-7229-47D0-9FB8-9273D908C661&lt;/p&gt;
+&lt;h2 id=&#34;唯一有效的四种方法&#34;&gt;唯一有效的四种方法&lt;/h2&gt;
+&lt;p&gt;理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了，这是非常肤浅的。若想掌握某项知识，并能在今后的工作生活中灵活运用，正确的学习途径就必不可少：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;同时运用多种方式学习和记忆：包括视听结合、手写机打，总之就是尽可能调动一切接收信息的能力；&lt;/li&gt;
+&lt;li&gt;及时复习：遗忘曲线不可盲从，但必须得有间隔性地复习；&lt;/li&gt;
+&lt;li&gt;用自己的语言复述或者写作下来，切不可照抄；&lt;/li&gt;
+&lt;li&gt;将所学习的内容加入到自己已有的知识网状结构中，使之成为网络中的一个节点，与原有的知识形成关联。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>大学教育</title>
+      <link>http://localhost:1313/post/advanced-education/</link>
+      <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/advanced-education/</guid>
+      
+        <description>&lt;p&gt;在高校读书工作直到现在，已经二十多年了。经常有人问起的一个问题是：高校教师究竟应该以教书为主还是做科研为主？刚开始我以为这样的问题是不用回答的，因为现代大学不论中外，都有三个职责：培养人才、科学研究、服务社会，而前两个工作也是广义的服务社会。既然有三个功能，又怎能只偏向其中一个呢？&lt;/p&gt;
+&lt;p&gt;可是，问的人很真诚，似乎很想知道答案。于是，我也经常参与讨论。结果却经常是吵得一塌糊，大家不欢而散。慢慢地，我也发现，一些人是真的疑惑，但更多的人是因为利益相关，才各执一词。其实不论是教学或者研究，只要你不擅长，自然就夸大另一方面。凡事与利益纠缠在一起，就无所谓是非，只有偏执了。&lt;/p&gt;
+&lt;p&gt;学校当然是以育人为主，但问题在于，说起教育，我们到底在谈论什么？很多人一提起重视教育，就是加强课堂教学，教师认真把书本知识传授给学生。一代传一代，薪火相传。&lt;/p&gt;
+&lt;p&gt;我不完全赞同这个观点，相反，我更欣赏爱因斯坦曾经说过的话：教育就是忘记了在学校所学的一切之后剩下的东西。&lt;/p&gt;
+&lt;p&gt;我理解的教育，就是 &lt;strong&gt;传授给学生解决未知问题的能力&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;尤其在现代社会，发展的速度比一百年前，甚至二十年前，都远远超过了。我们每天面对的问题，很多是以前闻所未闻的。刚面对的时候，完全无所适从。可是，我们无从逃避，只能去解决。&lt;/p&gt;
+&lt;p&gt;解决的好与坏，就和个人的能力大大相关了。但现在国内的大多数高校，还是依靠传统的方式教导学生，教师只管照本宣科，学生只管考试及格。我们对教育的评价甚至已经降到，认为把书本知识讲清楚了，就是一个好老师。如果一个老师能够讲得学生不睡觉，就被认为是一个优秀老师了。至于学生未来如何，那不关学校的事。反正只要毕业了，把学生丢到社会上去，他们自然会生存下来。所以，我们现在经常听到中国的学生反馈：我们工作所需的知识和能力，都不是来自于学校，反而大多是自学才掌握的。我们怀念大学，更多的是怀念我们的青春，以及建立的人脉资源关系。&lt;/p&gt;
+&lt;p&gt;社会需要人才， &lt;strong&gt;但更需要有创新精神和能力的人才&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;我常常想，如果一个老师自己都没有解决未知问题的能力，他/她如何能够把这种人类最重要的本领传授给学生？学生又如何才能拥有创新能力？我们的高等教育做出过很大贡献，但无法回避的问题就是，我们没有培养出大量具有创新精神和能力的人才。否则，总理也不会各种场合大声疾呼，社会需要什么样的人才了。&lt;/p&gt;
+&lt;p&gt;所以，科学研究除了探索世界的作用外，在学校更重要的一个功能是帮助学生建立如何解决未知问题的思维。从这个意义上来说，如果一个问题你不知道答案，即使这是一个已知的问题，对你来说也是研究。从初次面对问题时的一头雾水、毫无头绪，到寻找相关的工具来试探解决，再反复地试错，查找文献，与人讨论，&amp;hellip;&amp;hellip;，甚至自己发明工具，直到曙光初现。这整个过程不就是一个研究历程吗？&lt;/p&gt;
+&lt;p&gt;学校的教育可以简化这个流程，就如同我们可以模仿工厂建立一个简单的模型来训练学生，但不能缺失这整个环节。如果一名教师，还是死守着自己当年学习的方式和知识不放，是不能适应这个快速发展的社会的。从这个角度来说，能够传授学生解决未知问题能力的老师，才是合格的老师。反过来，如果一名教师只会自己做科研，不愿意或者不能把自己如何解决未知问题的能力总结提炼再传授给学生，也不是一名合格的高校教师。&lt;/p&gt;
+&lt;p&gt;借口教学忙不能/不愿意做科研的老师，和借口科研忙不能/不愿意做教学的老师，也许，都只是利益纠结，忘了高校的本质。大学，不是研究院，更不是中小学。&lt;/p&gt;
+&lt;p&gt;今天听最新的罗辑思维，正好讲到世界是不连续的这个话题和观点。我们无法从过去的知识中判断未来的发展，我们面对的是快速变化的世界，在这个新的世界里，失去了自我学习、解决未知问题的能力，就只有被淘汰。人如此，学校如此，社会也如此。&lt;/p&gt;
+&lt;p&gt;照片是我在斯坦福大学校园拍摄的，全世界能够把教学、研究、服务社会做得这么好的高校，斯坦福大学应该数一数二。我十分赞赏斯坦福大学的教育理念： &lt;strong&gt;培养创造力是大学教育的灵魂&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:400px&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/stanford.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/stanford.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>理论和计算</title>
+      <link>http://localhost:1313/post/theory-and-computing/</link>
+      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/theory-and-computing/</guid>
+      
+        <description>&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。&lt;/p&gt;
+&lt;p&gt;这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应的二阶微扰极限。因为微扰不同于变分法，不是能量越低越好。但也不能就此认为微扰的判定没有准则。这个工作就是想告诉大家，双电子情况下，二阶微扰理论的下限在哪里。&lt;/p&gt;
+&lt;p&gt;之所以拖了这么久，主要是卡在三电子积分的精确求解上。这周我终于借助 &lt;code&gt;Mathematica&lt;/code&gt; 完成了这个九维积分的快速精确求解，在实际计算中，可以精确到四十位有效数字。&lt;/p&gt;
+&lt;p&gt;我有时会想，这些年是不是浪费了很多时间在杂事情上，说不定可以早点解决？也或许这些年认认真真学习关联理论和 &lt;code&gt;Mathematica&lt;/code&gt; ，厚积薄发，积累久了才可以真正解决这个问题。我资质不算聪明，只有靠勤奋才能弥补一下。&lt;/p&gt;
+&lt;p&gt;常常有人问我，做计算的和做理论的有什么不同。仿佛现在宣称做理论的都在用一个现成的程序算一算，得到数据就可以发表了一样。其实，计算只是研究的一个手段和工具而已。真正的理论，是要探索未知的世界，得出一个明确的结论，即使从本质上说只能有概率性的答案，但必须真正解决一个问题。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>人生不如意事</title>
+      <link>http://localhost:1313/post/bu-ru-yi-shi/</link>
+      <pubDate>Sun, 05 Jul 2015 23:21:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/bu-ru-yi-shi/</guid>
+      
+        <description>&lt;p&gt;今天凌晨，爬起来看美洲杯决赛。虽然我很累很困，但因为有梅西，有阿根廷，仍然坚持，在黑暗中捧着iPad观看。&lt;/p&gt;
+&lt;p&gt;从黑夜到曙光来临，经历了加时赛，阿根廷还是输了，倒在了 点球码上。当伊瓜因罚丢的时候，我注意到梅西转过了头，也许在感叹又一次的决赛失利。&lt;/p&gt;
+&lt;p&gt;梅西今年已经拿了三冠王，大家都在评论他是不是新一代的球王。可是，我们都知道，他一直梦想为阿根廷拿一座大赛冠军。去年世界杯，他失败了；今年美洲杯，他还是没有成功。放眼未来，也不知道成败几何。&lt;/p&gt;
+&lt;p&gt;每天都上网浏览虎扑的，今天起，也不敢看了。知道上面一定是扑天盖地的批评、嘲讽。梅西，是不是球王有什么关系呢？也许，失败的英雄，更让我牵挂和喜爱吧。&lt;/p&gt;
+&lt;p&gt;人生事，不如意十之八九。强如梅西，也未必比常人更快乐一些。那萧索的背影，更让我魂牵梦萦。&lt;/p&gt;
+&lt;p&gt;以下是2014年世界杯决赛后的感悟，可见，悲伤依旧还是悲伤。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;12年前，我孤独地为德国队祈祷，但最后，是巴西捧起了大力神杯。今天，我仍是独自地为阿根廷队祷告，还是没有成功。&lt;/p&gt;
+&lt;p&gt;很多人问我，最喜欢的球队是哪个？我会毫不犹豫地说：阿根廷。其次是荷兰，再次是德国。所以，这届的世界杯我纠结了两次，一次喜忧参半，一次黯然神伤。记忆中，那个长发飘飘的阿根廷队，有肯佩斯，有卡尼吉亚，有雷东多，有巴蒂斯图塔&amp;hellip;&amp;hellip;。现在的阿根廷，有我喜欢的梅西。低调，不张扬，才华横溢。也许，悲情英雄，永远都是我的最爱。&lt;/p&gt;
+&lt;p&gt;94年的巴乔、02年的卡恩，现在，14年的梅西。&lt;/p&gt;
+&lt;p&gt;祝福你，梅西。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/messi-2014.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;http://localhost:1313/img/messi-2014.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>研究生招生</title>
+      <link>http://localhost:1313/post/grad-zhaoseng/</link>
+      <pubDate>Sun, 23 Mar 2014 23:31:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/grad-zhaoseng/</guid>
+      
+        <description>&lt;p&gt;又要到每年一度的研究生复试的时候了。在我们这样的学校，复试其实不是在选拔更优秀的学生，而大多是在调剂考别的学校分数不够或挑剩下的。因此，绝大多数考生对物理和化学的兴趣极低，只是为了读研究生而读，或者不想面对复杂的社会，不敢去找工作。&lt;/p&gt;
+&lt;p&gt;每当这时，我都心情极其复杂，对于测不准原理都无法正确描述、表象是什么意思都一片茫然的学生来说，这个物理的硕士学位该如何读下去？我根本不相信在研究生阶段他/她可以奋发用功，既可以把基础补上来，还能够攻克更艰深的学术问题。因为，从他们的眼神里我没有看到任何对知识的渴望，对科学的向往，对真理的追求……&lt;/p&gt;
+&lt;p&gt;作为一个自由主义分子，按照我的本性，我应该劝他/她不要读这个物理学位，而去找寻自己喜爱的事情。即使今年找不到，来年，或者两三年之后一定可以圆梦。&lt;/p&gt;
+&lt;p&gt;以往，我就是这样做的。我很自由自在，学生也很开心。结果，自然也是皆大欢喜的。可是现在，我却不能这样随心所欲&amp;mdash;因为我要维护这个硕士点的存在。如果我这样劝说学生，就会招不够学生，明年招生名额就会减少，慢慢硕士点就会被取消。所以，每个点的负责老师这几天都在想方设法地动用各种关系，巧舌如簧，“坑蒙拐骗”，只要能把学生诓进自己的圈子。各位老师，也在明争暗斗，以期能多几个劳力。每次看到这样的场景，我都会想起车站里拉客的导游，或者住宿，或者拉车。无论条件如何，只要上了他们的车，你就无可奈何，他也大功告成。&lt;/p&gt;
+&lt;p&gt;我什么时候变成这样的拉客了？我崇尚的自由选择、随心所欲又到哪里去了？就因为我在这样的体制下，就因为我要维护既得利益吗？&lt;/p&gt;
+&lt;p&gt;这不是我的本性。实际上，我一点也不热衷于指导学生。在我看来，每个人都是平等的，包括老师和学生。大家在一起，是因为对某个问题感兴趣，共同来解决而已。在这个过程中，你愿意学，我就愿意讲；你喜欢听，我就乐于分享。如果我也不懂，就和你一起学习。如果你先明白，我安于做你的学生。今后，你展翅高飞，我在这里欢喜祝福。&lt;/p&gt;
+&lt;p&gt;所以，我的学生很少。我不羡慕，更耻于与靠学生赢利的人为伍。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>素质教育</title>
+      <link>http://localhost:1313/post/suzhi-jiaoyu/</link>
+      <pubDate>Sun, 09 Mar 2014 23:32:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/suzhi-jiaoyu/</guid>
+      
+        <description>&lt;p&gt;什么是素质教育？素质教育的目的是什么？答案其实非常简单。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;培养健全的人格&lt;/li&gt;
+&lt;li&gt;培养学习的能力&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;说的再通俗一点，就是培养适应社会、适应发展的能力。这个能力应该是每个大学生的基本能力，拥有这个能力的人才能叫大学生或者是本科生。&lt;/p&gt;
+&lt;p&gt;21世纪的今天，专业对口应该是一个世界难题了吧？我们教科书的内容能跟上这个社会的发展吗？如何让我们通过学两本教材就能干好某个工作？比世界难题可能还要难。有些教育工作者思考的出发点是落后的，让我想起了那个广告，“学技术，去蓝翔。”&lt;/p&gt;
+&lt;p&gt;蓝翔的技校生的标准是记住“修车的过程”就可以了，大学的理工科学生必须还要思考、学习“车为什么这么修”，更要去研究“怎么修更好”。这种思考的能力和欲望就是素质教育培养的内容，这也是技工和工程师的本质区别，更是技校和大学的本质区别。说的再简单一点就是四个字&amp;mdash;君子不器。&lt;/p&gt;
+&lt;p&gt;大学出来的学生迷茫、迷惑是正常的，懂得思考的人才会有迷茫，如果短短四年就让你把理想、把社会这些需要思考的东西都想明白，那才是奇怪的。不迷茫的人往往不去想，上班挣钱混日子。没有理想的人多了才是可怕的。&lt;/p&gt;
+&lt;p&gt;对综合素质的培养，其出发点是毋庸置疑的，适应发展、适应社会，君子不器。中国高校在培养综合素质的方面和西方还是有差距的，强调的标准倒是不少，但扯淡的成分居多，而且教育内容落后。我觉得中国高校可以参考美国一些高校的通识教育课程，学习他们的课程设置，提高真正的素质能力。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>
