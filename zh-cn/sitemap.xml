@@ -3,34 +3,55 @@
   
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2023-02-02T11:35:00+08:00</lastmod>
+    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2023-02-02T11:35:00+08:00</lastmod>
+    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/study/</loc>
+    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-02-02T11:35:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/tech/</loc>
-    <lastmod>2023-02-02T11:35:00+08:00</lastmod>
+    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/writing-own-words/</loc>
+    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/tech/</loc>
     <lastmod>2023-02-02T11:35:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -51,21 +72,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/study/</loc>
-    <lastmod>2023-01-27T10:38:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/post/reading-steps/</loc>
-    <lastmod>2023-01-27T10:38:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-01-27T10:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

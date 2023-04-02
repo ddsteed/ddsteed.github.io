@@ -5,7 +5,16 @@
     <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Feb 2023 11:35:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 09:58:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用自己的话表达思想</title>
+      <link>http://localhost:1313/post/writing-own-words/</link>
+      <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/writing-own-words/</guid>
+      <description>得到的联合创始人罗振宇写了一本书《阅读的方法》，</description>
+    </item>
+    
     <item>
       <title>文档中插入图形</title>
       <link>http://localhost:1313/post/insert-figures-in-doc/</link>
@@ -175,15 +184,6 @@
       
       <guid>http://localhost:1313/post/grad-zhaoseng/</guid>
       <description>又要到每年一度的研究生复试的时候了。在我们这样的学校，复试其实不是在选拔更优秀的学生，而大多是在调剂考别的学校分数不够或挑剩下的。因此，绝大</description>
-    </item>
-    
-    <item>
-      <title>素质教育</title>
-      <link>http://localhost:1313/post/suzhi-jiaoyu/</link>
-      <pubDate>Sun, 09 Mar 2014 23:32:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/suzhi-jiaoyu/</guid>
-      <description>什么是素质教育？素质教育的目的是什么？答案其实非常简单。 培养健全的人格 培养学习的能力 说的再通俗一点，就是培养适应社会、适应发展的能力。这个能</description>
     </item>
     
   </channel>

@@ -5,10 +5,35 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Feb 2023 11:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Apr 2023 09:58:00 +0800</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>用自己的话表达思想</title>
+      <link>http://localhost:1313/post/writing-own-words/</link>
+      <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/writing-own-words/</guid>
+      
+        <description>&lt;p&gt;得到的联合创始人罗振宇写了一本书《阅读的方法》，&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img1.doubanio.com/view/subject/l/public/s34212048.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://img1.doubanio.com/view/subject/l/public/s34212048.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
     
     <item>
       <title>文档中插入图形</title>
@@ -857,27 +882,6 @@
 &lt;p&gt;我什么时候变成这样的拉客了？我崇尚的自由选择、随心所欲又到哪里去了？就因为我在这样的体制下，就因为我要维护既得利益吗？&lt;/p&gt;
 &lt;p&gt;这不是我的本性。实际上，我一点也不热衷于指导学生。在我看来，每个人都是平等的，包括老师和学生。大家在一起，是因为对某个问题感兴趣，共同来解决而已。在这个过程中，你愿意学，我就愿意讲；你喜欢听，我就乐于分享。如果我也不懂，就和你一起学习。如果你先明白，我安于做你的学生。今后，你展翅高飞，我在这里欢喜祝福。&lt;/p&gt;
 &lt;p&gt;所以，我的学生很少。我不羡慕，更耻于与靠学生赢利的人为伍。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>素质教育</title>
-      <link>http://localhost:1313/post/suzhi-jiaoyu/</link>
-      <pubDate>Sun, 09 Mar 2014 23:32:00 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/suzhi-jiaoyu/</guid>
-      
-        <description>&lt;p&gt;什么是素质教育？素质教育的目的是什么？答案其实非常简单。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;培养健全的人格&lt;/li&gt;
-&lt;li&gt;培养学习的能力&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;说的再通俗一点，就是培养适应社会、适应发展的能力。这个能力应该是每个大学生的基本能力，拥有这个能力的人才能叫大学生或者是本科生。&lt;/p&gt;
-&lt;p&gt;21世纪的今天，专业对口应该是一个世界难题了吧？我们教科书的内容能跟上这个社会的发展吗？如何让我们通过学两本教材就能干好某个工作？比世界难题可能还要难。有些教育工作者思考的出发点是落后的，让我想起了那个广告，“学技术，去蓝翔。”&lt;/p&gt;
-&lt;p&gt;蓝翔的技校生的标准是记住“修车的过程”就可以了，大学的理工科学生必须还要思考、学习“车为什么这么修”，更要去研究“怎么修更好”。这种思考的能力和欲望就是素质教育培养的内容，这也是技工和工程师的本质区别，更是技校和大学的本质区别。说的再简单一点就是四个字&amp;mdash;君子不器。&lt;/p&gt;
-&lt;p&gt;大学出来的学生迷茫、迷惑是正常的，懂得思考的人才会有迷茫，如果短短四年就让你把理想、把社会这些需要思考的东西都想明白，那才是奇怪的。不迷茫的人往往不去想，上班挣钱混日子。没有理想的人多了才是可怕的。&lt;/p&gt;
-&lt;p&gt;对综合素质的培养，其出发点是毋庸置疑的，适应发展、适应社会，君子不器。中国高校在培养综合素质的方面和西方还是有差距的，强调的标准倒是不少，但扯淡的成分居多，而且教育内容落后。我觉得中国高校可以参考美国一些高校的通识教育课程，学习他们的课程设置，提高真正的素质能力。&lt;/p&gt;
 </description>
       
     </item>
