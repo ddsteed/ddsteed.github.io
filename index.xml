@@ -25,9 +25,9 @@
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://img1.doubanio.com/view/subject/l/public/s34212048.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://localhost:1313/img/luo_read.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://img1.doubanio.com/view/subject/l/public/s34212048.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;http://localhost:1313/img/luo_read.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
