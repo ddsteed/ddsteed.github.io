@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ddsteed&#39;s personal blog</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://www.ddsteed.space/en/</link>
     <description>Recent content on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-        <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ddsteed.space/en/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

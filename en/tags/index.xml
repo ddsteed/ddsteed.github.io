@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ddsteed&#39;s personal blog</title>
-    <link>http://localhost:1313/en/tags.html</link>
+    <link>https://www.ddsteed.space/en/tags.html</link>
     <description>Recent content in Tags on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://www.ddsteed.space/en/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

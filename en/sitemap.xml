@@ -1,20 +1,20 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://www.ddsteed.space/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/en/categories.html</loc>
+    <loc>https://www.ddsteed.space/en/categories.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://www.ddsteed.space/en/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/tags.html</loc>
+    <loc>https://www.ddsteed.space/en/tags.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

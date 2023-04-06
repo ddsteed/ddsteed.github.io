@@ -2,187 +2,187 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 点点马的蚂蚁窝</title>
-    <link>http://localhost:1313/post.html</link>
+    <link>https://www.ddsteed.space/post.html</link>
     <description>Recent content in Posts on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Apr 2023 09:58:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 09:58:00 +0800</lastBuildDate><atom:link href="https://www.ddsteed.space/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用自己的话表达思想</title>
-      <link>http://localhost:1313/post/writing-own-words.html</link>
+      <link>https://www.ddsteed.space/post/writing-own-words.html</link>
       <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/writing-own-words.html</guid>
+      <guid>https://www.ddsteed.space/post/writing-own-words.html</guid>
       <description>得到的联合创始人罗振宇写了一本书《阅读的方法》，本意是像劝导更多的人喜爱读书、发现读书的乐趣，甚至于找到知识的用途。他大力推崇陶渊明的读书心</description>
     </item>
     
     <item>
       <title>文档中插入图形</title>
-      <link>http://localhost:1313/post/insert-figures-in-doc.html</link>
+      <link>https://www.ddsteed.space/post/insert-figures-in-doc.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/insert-figures-in-doc.html</guid>
+      <guid>https://www.ddsteed.space/post/insert-figures-in-doc.html</guid>
       <description>传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但</description>
     </item>
     
     <item>
       <title>读书的步骤</title>
-      <link>http://localhost:1313/post/reading-steps.html</link>
+      <link>https://www.ddsteed.space/post/reading-steps.html</link>
       <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/reading-steps.html</guid>
+      <guid>https://www.ddsteed.space/post/reading-steps.html</guid>
       <description>书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪</description>
     </item>
     
     <item>
       <title>价值</title>
-      <link>http://localhost:1313/post/human-value.html</link>
+      <link>https://www.ddsteed.space/post/human-value.html</link>
       <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/human-value.html</guid>
+      <guid>https://www.ddsteed.space/post/human-value.html</guid>
       <description>人的价值体现为，这个世界由于你的存在 变得更好, 而不是变得更差。 大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大</description>
     </item>
     
     <item>
       <title>empathy vs. sympathy</title>
-      <link>http://localhost:1313/post/sympathy-vs-empathy.html</link>
+      <link>https://www.ddsteed.space/post/sympathy-vs-empathy.html</link>
       <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/sympathy-vs-empathy.html</guid>
+      <guid>https://www.ddsteed.space/post/sympathy-vs-empathy.html</guid>
       <description>empathy 同理心 sympathy 同情心 简而言之，同情心表明你知道对方的感受，也表达了自己的情感；同理心却是主动站在对方的角度考虑遭遇。所以，同理心更能引起共鸣，并</description>
     </item>
     
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
-      <link>http://localhost:1313/post/org-hugo-blog.html</link>
+      <link>https://www.ddsteed.space/post/org-hugo-blog.html</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/org-hugo-blog.html</guid>
+      <guid>https://www.ddsteed.space/post/org-hugo-blog.html</guid>
       <description>:ID: 7BD855BC-853C-4DA0-B85E-641ED741932E 这里有三个概念首先需要理清： 用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网</description>
     </item>
     
     <item>
       <title>梅西，终于得偿所愿</title>
-      <link>http://localhost:1313/post/messi-de-chang-suo-yuan.html</link>
+      <link>https://www.ddsteed.space/post/messi-de-chang-suo-yuan.html</link>
       <pubDate>Sat, 31 Dec 2022 09:21:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/messi-de-chang-suo-yuan.html</guid>
+      <guid>https://www.ddsteed.space/post/messi-de-chang-suo-yuan.html</guid>
       <description>距离阿根廷世界杯夺冠，已经过去2个星期了。似乎还像梦幻一样，每天刷着足球论坛，回忆着决赛时领先、扳平、反超、再扳平，然后点球大战时的惊心动魄</description>
     </item>
     
     <item>
       <title>罗大佑的线上演唱会</title>
-      <link>http://localhost:1313/post/luodayou-concert.html</link>
+      <link>https://www.ddsteed.space/post/luodayou-concert.html</link>
       <pubDate>Sat, 28 May 2022 10:12:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/luodayou-concert.html</guid>
+      <guid>https://www.ddsteed.space/post/luodayou-concert.html</guid>
       <description>68岁的罗大佑昨晚在线上开了一个演唱会。在我看来，罗大佑当之无愧为华人乐坛第一音乐教父。他写的歌，从爱情到友情，从政治到社会，很多精品。有一</description>
     </item>
     
     <item>
       <title>关于辞去公职的缘由</title>
-      <link>http://localhost:1313/post/resign.html</link>
+      <link>https://www.ddsteed.space/post/resign.html</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/resign.html</guid>
+      <guid>https://www.ddsteed.space/post/resign.html</guid>
       <description>:ID: 5B2D9CCF-8974-4F0C-BD87-0FD0B0CB3276 昨天中午，原单位同事一起小聚，同事小谭问我为何当初要辞职，有什么真正不开心的缘由吗？我给她认真回复了一封信，解释我辞去公职的原因。其实无</description>
     </item>
     
     <item>
       <title>众人拾材火焰高</title>
-      <link>http://localhost:1313/post/zhongren-shichai-huoyangao.html</link>
+      <link>https://www.ddsteed.space/post/zhongren-shichai-huoyangao.html</link>
       <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/zhongren-shichai-huoyangao.html</guid>
+      <guid>https://www.ddsteed.space/post/zhongren-shichai-huoyangao.html</guid>
       <description>程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续</description>
     </item>
     
     <item>
       <title>书非旧不能读也</title>
-      <link>http://localhost:1313/post/shu-feijiu-buneng-du.html</link>
+      <link>https://www.ddsteed.space/post/shu-feijiu-buneng-du.html</link>
       <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shu-feijiu-buneng-du.html</guid>
+      <guid>https://www.ddsteed.space/post/shu-feijiu-buneng-du.html</guid>
       <description>顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，</description>
     </item>
     
     <item>
       <title>《鱼翅与花椒》</title>
-      <link>http://localhost:1313/post/after-reading-yuchi-yu-huajiao.html</link>
+      <link>https://www.ddsteed.space/post/after-reading-yuchi-yu-huajiao.html</link>
       <pubDate>Sat, 12 Mar 2022 21:05:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/after-reading-yuchi-yu-huajiao.html</guid>
+      <guid>https://www.ddsteed.space/post/after-reading-yuchi-yu-huajiao.html</guid>
       <description>《鱼翅与花椒》是英国女孩扶霞的著作，其实就是一本讲四川美食的书。这本书不论是书名还是讲述的内容，似乎都很难引起大众的兴趣。也难怪顾衡在好书榜</description>
     </item>
     
     <item>
       <title>四川联大往事</title>
-      <link>http://localhost:1313/post/scuu-memory.html</link>
+      <link>https://www.ddsteed.space/post/scuu-memory.html</link>
       <pubDate>Wed, 20 Mar 2019 21:07:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/scuu-memory.html</guid>
+      <guid>https://www.ddsteed.space/post/scuu-memory.html</guid>
       <description>母校在发校友卡，我急急忙忙地申请了一个。看着这个与母校仅存的一点联系，不禁勾起了当年的好多回忆。1992年高考，最拿手的数学考砸了，只好听从</description>
     </item>
     
     <item>
       <title>如何与世界相处</title>
-      <link>http://localhost:1313/post/how-to-live-with-world.html</link>
+      <link>https://www.ddsteed.space/post/how-to-live-with-world.html</link>
       <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/how-to-live-with-world.html</guid>
+      <guid>https://www.ddsteed.space/post/how-to-live-with-world.html</guid>
       <description>:ID: 410ACF3E-4029-4197-B95D-97C8774363C9 如何做一个靠谱的人 事事有回音；凡事有交代；件件有着落。 及时反馈，形成闭环。 团队精神 思维决定位置 领导者：“这事我负责!” 顶梁柱：“这事我搞</description>
     </item>
     
     <item>
       <title>构建笔记系统</title>
-      <link>http://localhost:1313/post/create-notes.html</link>
+      <link>https://www.ddsteed.space/post/create-notes.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/create-notes.html</guid>
+      <guid>https://www.ddsteed.space/post/create-notes.html</guid>
       <description>:ID: 328E7380-BF24-417E-B052-4BAD54BA7B04 学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdq</description>
     </item>
     
     <item>
       <title>学习的途径</title>
-      <link>http://localhost:1313/post/study-road.html</link>
+      <link>https://www.ddsteed.space/post/study-road.html</link>
       <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/study-road.html</guid>
+      <guid>https://www.ddsteed.space/post/study-road.html</guid>
       <description>:ID: D1CF20C0-7229-47D0-9FB8-9273D908C661 唯一有效的四种方法 理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了</description>
     </item>
     
     <item>
       <title>大学教育</title>
-      <link>http://localhost:1313/post/advanced-education.html</link>
+      <link>https://www.ddsteed.space/post/advanced-education.html</link>
       <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/advanced-education.html</guid>
+      <guid>https://www.ddsteed.space/post/advanced-education.html</guid>
       <description>在高校读书工作直到现在，已经二十多年了。经常有人问起的一个问题是：高校教师究竟应该以教书为主还是做科研为主？刚开始我以为这样的问题是不用回答</description>
     </item>
     
     <item>
       <title>理论和计算</title>
-      <link>http://localhost:1313/post/theory-and-computing.html</link>
+      <link>https://www.ddsteed.space/post/theory-and-computing.html</link>
       <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/theory-and-computing.html</guid>
+      <guid>https://www.ddsteed.space/post/theory-and-computing.html</guid>
       <description>终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。 这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应</description>
     </item>
     
     <item>
       <title>人生不如意事</title>
-      <link>http://localhost:1313/post/bu-ru-yi-shi.html</link>
+      <link>https://www.ddsteed.space/post/bu-ru-yi-shi.html</link>
       <pubDate>Sun, 05 Jul 2015 23:21:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/bu-ru-yi-shi.html</guid>
+      <guid>https://www.ddsteed.space/post/bu-ru-yi-shi.html</guid>
       <description>今天凌晨，爬起来看美洲杯决赛。虽然我很累很困，但因为有梅西，有阿根廷，仍然坚持，在黑暗中捧着iPad观看。 从黑夜到曙光来临，经历了加时赛，阿</description>
     </item>
     
     <item>
       <title>研究生招生</title>
-      <link>http://localhost:1313/post/grad-zhaoseng.html</link>
+      <link>https://www.ddsteed.space/post/grad-zhaoseng.html</link>
       <pubDate>Sun, 23 Mar 2014 23:31:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/grad-zhaoseng.html</guid>
+      <guid>https://www.ddsteed.space/post/grad-zhaoseng.html</guid>
       <description>又要到每年一度的研究生复试的时候了。在我们这样的学校，复试其实不是在选拔更优秀的学生，而大多是在调剂考别的学校分数不够或挑剩下的。因此，绝大</description>
     </item>
     
