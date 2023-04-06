@@ -1,20 +1,20 @@
-<?xml-stylesheet type="text/xsl" href="https://www.ddsteed.space/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ddsteed.space/en/categories.html</loc>
+    <loc>/en/categories.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/en/</loc>
+    <loc>/en/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/en/tags.html</loc>
+    <loc>/en/tags.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

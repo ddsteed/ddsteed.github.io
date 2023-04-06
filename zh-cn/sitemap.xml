@@ -1,348 +1,348 @@
-<?xml-stylesheet type="text/xsl" href="https://www.ddsteed.space/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ddsteed.space/tags/about.html</loc>
+    <loc>/tags/about.html</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/about.html</loc>
+    <loc>/about.html</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags.html</loc>
+    <loc>/tags.html</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/</loc>
+    <loc>/</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/about.html</loc>
+    <loc>/about.html</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/about/index-zh.html</loc>
+    <loc>/about/index-zh.html</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/categories.html</loc>
+    <loc>/categories.html</loc>
     <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post.html</loc>
+    <loc>/post.html</loc>
     <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/study.html</loc>
+    <loc>/tags/study.html</loc>
     <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/categories/%E5%AD%A6%E4%B9%A0.html</loc>
+    <loc>/categories/%E5%AD%A6%E4%B9%A0.html</loc>
     <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/writing-own-words.html</loc>
+    <loc>/post/writing-own-words.html</loc>
     <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/tech.html</loc>
+    <loc>/tags/tech.html</loc>
     <lastmod>2023-02-02T11:35:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/categories/%E6%8A%80%E6%9C%AF.html</loc>
+    <loc>/categories/%E6%8A%80%E6%9C%AF.html</loc>
     <lastmod>2023-02-02T11:35:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/insert-figures-in-doc.html</loc>
+    <loc>/post/insert-figures-in-doc.html</loc>
     <lastmod>2023-02-02T11:35:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/reading-steps.html</loc>
+    <loc>/post/reading-steps.html</loc>
     <lastmod>2023-01-27T10:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/startup.html</loc>
+    <loc>/tags/startup.html</loc>
     <lastmod>2023-01-25T12:18:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/categories/%E5%88%9B%E4%B8%9A.html</loc>
+    <loc>/categories/%E5%88%9B%E4%B8%9A.html</loc>
     <lastmod>2023-01-25T12:18:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/human-value.html</loc>
+    <loc>/post/human-value.html</loc>
     <lastmod>2023-01-25T12:18:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/sympathy-vs-empathy.html</loc>
+    <loc>/post/sympathy-vs-empathy.html</loc>
     <lastmod>2023-01-19T11:37:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/misc.html</loc>
+    <loc>/tags/misc.html</loc>
     <lastmod>2023-01-19T11:37:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/categories/%E6%84%9F%E6%82%9F.html</loc>
+    <loc>/categories/%E6%84%9F%E6%82%9F.html</loc>
     <lastmod>2023-01-19T11:37:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/article.html</loc>
+    <loc>/tags/article.html</loc>
     <lastmod>2023-01-15T21:19:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/org-hugo-blog.html</loc>
+    <loc>/post/org-hugo-blog.html</loc>
     <lastmod>2023-01-15T21:19:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/messi-de-chang-suo-yuan.html</loc>
+    <loc>/post/messi-de-chang-suo-yuan.html</loc>
     <lastmod>2022-12-31T09:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/luodayou-concert.html</loc>
+    <loc>/post/luodayou-concert.html</loc>
     <lastmod>2022-05-28T10:12:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/resign.html</loc>
+    <loc>/post/resign.html</loc>
     <lastmod>2022-04-16T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/zhongren-shichai-huoyangao.html</loc>
+    <loc>/post/zhongren-shichai-huoyangao.html</loc>
     <lastmod>2022-04-09T10:14:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/shu-feijiu-buneng-du.html</loc>
+    <loc>/post/shu-feijiu-buneng-du.html</loc>
     <lastmod>2022-04-07T19:53:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/after-reading-yuchi-yu-huajiao.html</loc>
+    <loc>/post/after-reading-yuchi-yu-huajiao.html</loc>
     <lastmod>2022-03-12T21:05:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/scuu-memory.html</loc>
+    <loc>/post/scuu-memory.html</loc>
     <lastmod>2019-03-20T21:07:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/how-to-live-with-world.html</loc>
+    <loc>/post/how-to-live-with-world.html</loc>
     <lastmod>2018-03-01T09:40:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/progress.html</loc>
+    <loc>/tags/progress.html</loc>
     <lastmod>2017-11-29T09:53:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/create-notes.html</loc>
+    <loc>/post/create-notes.html</loc>
     <lastmod>2017-11-29T09:53:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/study-road.html</loc>
+    <loc>/post/study-road.html</loc>
     <lastmod>2017-07-22T10:01:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/education.html</loc>
+    <loc>/tags/education.html</loc>
     <lastmod>2016-07-25T18:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/advanced-education.html</loc>
+    <loc>/post/advanced-education.html</loc>
     <lastmod>2016-07-25T18:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/categories/%E6%95%99%E8%82%B2.html</loc>
+    <loc>/categories/%E6%95%99%E8%82%B2.html</loc>
     <lastmod>2016-07-25T18:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/theory-and-computing.html</loc>
+    <loc>/post/theory-and-computing.html</loc>
     <lastmod>2016-07-24T19:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/categories/%E7%A0%94%E7%A9%B6.html</loc>
+    <loc>/categories/%E7%A0%94%E7%A9%B6.html</loc>
     <lastmod>2016-07-24T19:51:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/bu-ru-yi-shi.html</loc>
+    <loc>/post/bu-ru-yi-shi.html</loc>
     <lastmod>2015-07-05T23:21:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/grad-zhaoseng.html</loc>
+    <loc>/post/grad-zhaoseng.html</loc>
     <lastmod>2014-03-23T23:31:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/suzhi-jiaoyu.html</loc>
+    <loc>/post/suzhi-jiaoyu.html</loc>
     <lastmod>2014-03-09T23:32:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/erliu-daxue.html</loc>
+    <loc>/post/erliu-daxue.html</loc>
     <lastmod>2014-02-08T15:06:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/tags/reference.html</loc>
+    <loc>/tags/reference.html</loc>
     <lastmod>2014-02-08T15:06:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/minguo-naxieren.html</loc>
+    <loc>/post/minguo-naxieren.html</loc>
     <lastmod>2012-11-05T23:34:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/post/fangzhouzi-ku-yu-bei.html</loc>
+    <loc>/post/fangzhouzi-ku-yu-bei.html</loc>
     <lastmod>2012-06-23T23:36:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/about/index-en.html</loc>
+    <loc>/about/index-en.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/search/placeholder.html</loc>
+    <loc>/search/placeholder.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/archive.html</loc>
+    <loc>/archive.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ddsteed.space/search.html</loc>
+    <loc>/search.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

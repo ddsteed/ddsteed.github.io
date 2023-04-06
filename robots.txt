@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.ddsteed.space/sitemap.xml
+Sitemap: /sitemap.xml

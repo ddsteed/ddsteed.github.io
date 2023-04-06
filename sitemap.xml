@@ -2,12 +2,12 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://www.ddsteed.space/en/sitemap.xml</loc>
+    <loc>/en/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://www.ddsteed.space/zh-cn/sitemap.xml</loc>
+    <loc>/zh-cn/sitemap.xml</loc>
     
       <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     

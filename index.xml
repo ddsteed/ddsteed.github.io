@@ -2,31 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>点点马的蚂蚁窝</title>
-    <link>https://www.ddsteed.space/</link>
+    <link>/</link>
     <description>Recent content on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Apr 2023 11:38:00 +0800</lastBuildDate>
     
-        <atom:link href="https://www.ddsteed.space/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于我自己</title>
-      <link>https://www.ddsteed.space/about.html</link>
+      <link>/about.html</link>
       <pubDate>Sun, 02 Apr 2023 11:38:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/about.html</guid>
+      <guid>/about.html</guid>
       
         <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:200px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/avatar.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/avatar.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -46,21 +47,21 @@
     
     <item>
       <title>关于我自己</title>
-      <link>https://www.ddsteed.space/about/index-zh.html</link>
+      <link>/about/index-zh.html</link>
       <pubDate>Sun, 02 Apr 2023 11:38:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/about/index-zh.html</guid>
+      <guid>/about/index-zh.html</guid>
       
         <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:200px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/avatar.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/avatar.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -80,23 +81,23 @@
     
     <item>
       <title>用自己的话表达思想</title>
-      <link>https://www.ddsteed.space/post/writing-own-words.html</link>
+      <link>/post/writing-own-words.html</link>
       <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/writing-own-words.html</guid>
+      <guid>/post/writing-own-words.html</guid>
       
         <description>&lt;p&gt;得到的联合创始人罗振宇写了一本书《阅读的方法》，本意是像劝导更多的人喜爱读书、发现读书的乐趣，甚至于找到知识的用途。他大力推崇陶渊明的读书心得：“好读书，不求甚解；每有会意，便欣然忘食。”万维钢也推荐了这本书，并补充了司马迁的读书见解：精益求精，应收尽收。&lt;/p&gt;
 &lt;p&gt;罗振宇是一个读书非常多也非常快的人，据他自己说他每天用34寸的大显示器打开电子书，每次扫过三千字，很快读完三万字的书&amp;hellip;&amp;hellip;。因此，这本书大量引用了他觉得很好很有用的其他人书里的内容，看起来的风格就像这样：&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/luo_read_2.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luo_read_2.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/luo_read_2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/luo_read_2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -119,9 +120,9 @@
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:30%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/luo_read.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luo_read.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/luo_read.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/luo_read.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -131,10 +132,10 @@
     
     <item>
       <title>文档中插入图形</title>
-      <link>https://www.ddsteed.space/post/insert-figures-in-doc.html</link>
+      <link>/post/insert-figures-in-doc.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/insert-figures-in-doc.html</guid>
+      <guid>/post/insert-figures-in-doc.html</guid>
       
         <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;
 &lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;
@@ -155,14 +156,14 @@
 &lt;p&gt;&lt;code&gt;plantuml&lt;/code&gt; 是基于 &lt;code&gt;java&lt;/code&gt; 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 &lt;code&gt;org mode&lt;/code&gt; 里被 &lt;code&gt;org&lt;/code&gt; 统一管理。我喜欢用它来画各种流程图，比开始我用 &lt;code&gt;draw.io&lt;/code&gt; 生成 &lt;code&gt;png&lt;/code&gt; 文件，再插入到文档中，要方便多了。&lt;/p&gt;
 &lt;h3 id=&#34;范例&#34;&gt;范例&lt;/h3&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/plantuml-AI-program-flow.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/plantuml-AI-program-flow.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/plantuml-AI-program-flow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/plantuml-AI-program-flow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -207,10 +208,10 @@
     
     <item>
       <title>读书的步骤</title>
-      <link>https://www.ddsteed.space/post/reading-steps.html</link>
+      <link>/post/reading-steps.html</link>
       <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/reading-steps.html</guid>
+      <guid>/post/reading-steps.html</guid>
       
         <description>&lt;p&gt;书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪费时间。&lt;/p&gt;
 &lt;p&gt;文艺书，是抓起来就可以读的，甚至从哪读起都不重要。初中时，第一次读四卷本的《倚天屠龙记》，就是从第三卷开始。发现主人公叫张无忌，然后知道《倚天》是《神雕》的后续。那么，在《神雕》结尾提到一个少年叫张君宝。这俩人啥关系呢？脑补之后，自认为张君宝长大，改了名字叫张无忌。纵横四海，所向无敌。哪里晓得，张君宝长大了之后叫张三丰，张三丰收了个徒弟叫张翠山，张翠山娶了个“妖女”老婆殷素素，生了个儿子才是张无忌&amp;hellip;..，完全差辈了。不过，丝毫不影响我当时读《倚天》的快乐。&lt;/p&gt;
@@ -232,10 +233,10 @@
     
     <item>
       <title>价值</title>
-      <link>https://www.ddsteed.space/post/human-value.html</link>
+      <link>/post/human-value.html</link>
       <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/human-value.html</guid>
+      <guid>/post/human-value.html</guid>
       
         <description>&lt;p&gt;人的价值体现为，这个世界由于你的存在 &lt;strong&gt;变得更好&lt;/strong&gt;, 而不是变得更差。&lt;/p&gt;
 &lt;p&gt;大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大，因为他们只是为自己活着。还有些人，存在只是添乱，就更不必提了。&lt;/p&gt;
@@ -261,10 +262,10 @@
     
     <item>
       <title>empathy vs. sympathy</title>
-      <link>https://www.ddsteed.space/post/sympathy-vs-empathy.html</link>
+      <link>/post/sympathy-vs-empathy.html</link>
       <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/sympathy-vs-empathy.html</guid>
+      <guid>/post/sympathy-vs-empathy.html</guid>
       
         <description>&lt;dl&gt;
 &lt;dt&gt;empathy&lt;/dt&gt;
@@ -280,10 +281,10 @@
     
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
-      <link>https://www.ddsteed.space/post/org-hugo-blog.html</link>
+      <link>/post/org-hugo-blog.html</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/org-hugo-blog.html</guid>
+      <guid>/post/org-hugo-blog.html</guid>
       
         <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;
 &lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;
@@ -512,10 +513,10 @@
     
     <item>
       <title>梅西，终于得偿所愿</title>
-      <link>https://www.ddsteed.space/post/messi-de-chang-suo-yuan.html</link>
+      <link>/post/messi-de-chang-suo-yuan.html</link>
       <pubDate>Sat, 31 Dec 2022 09:21:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/messi-de-chang-suo-yuan.html</guid>
+      <guid>/post/messi-de-chang-suo-yuan.html</guid>
       
         <description>&lt;p&gt;距离阿根廷世界杯夺冠，已经过去2个星期了。似乎还像梦幻一样，每天刷着足球论坛，回忆着决赛时领先、扳平、反超、再扳平，然后点球大战时的惊心动魄，最后胜利时梅西跪在草地上&amp;hellip;&amp;hellip;.。连举杯庆祝的镜头都反复看了很多遍，百看不厌。&lt;/p&gt;
 &lt;p&gt;可是，脑海里更多反复出现的，却是14、15、16、18、19，那些失败的镜头，那些梅西无助的背影、无可奈何低下的头颅。在18年世界杯上被法国队淘汰时，我甚至觉得梅西此生的国家队生涯就这样了。这次和法国在决赛的再次相遇，让我有一种宿命的轮回感。阿根廷两度被扳平的时候，我还是充满信心。可是，当姆巴佩攻入最后扳平的第三球时，我发了一条信息：天命如此啊。&lt;/p&gt;
@@ -530,15 +531,15 @@
 &lt;/blockquote&gt;
 &lt;p&gt;可是，那只是一句话啊。现实的力量在哪里呢？当这次看到梅西最后云淡风轻的一笑时，我踏实了。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:400px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/messi1.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi1.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/messi1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/messi1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -550,9 +551,9 @@
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:400px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/messi2.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi2.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/messi2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/messi2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -562,10 +563,10 @@
     
     <item>
       <title>罗大佑的线上演唱会</title>
-      <link>https://www.ddsteed.space/post/luodayou-concert.html</link>
+      <link>/post/luodayou-concert.html</link>
       <pubDate>Sat, 28 May 2022 10:12:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/luodayou-concert.html</guid>
+      <guid>/post/luodayou-concert.html</guid>
       
         <description>&lt;p&gt;68岁的罗大佑昨晚在线上开了一个演唱会。在我看来，罗大佑当之无愧为华人乐坛第一音乐教父。他写的歌，从爱情到友情，从政治到社会，很多精品。有一些歌，大概其他人都写不出来，也不敢写。&lt;/p&gt;
 &lt;p&gt;记得94年的暑假，躺在宿舍听收音机，传来《童年》这首歌。突然发现，原来这首歌不是儿歌啊。于是翻箱倒柜，翻遍自己和同学的磁带匣，找出罗大佑的所有专辑，滚动听了一晚上。&lt;/p&gt;
@@ -574,15 +575,15 @@
 &lt;p&gt;林夕曾将讲过一个故事，说自己为什么写歌那么好呢？是因为大佑哥刚从台湾去香港，不会粤语，所以大佑哥先把歌写成国语，然后林夕翻译成粤语。在这个过程中，林夕逐渐会作词了。但是，林夕说，他学不会大佑哥的作曲，于是一辈子就只能当作词家了。&lt;/p&gt;
 &lt;p&gt;“只要大佑的歌一直流传，我们的青春就永远生长”。感谢罗大佑。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:400px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/luodayou.png&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luodayou.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/luodayou.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/luodayou.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -592,10 +593,10 @@
     
     <item>
       <title>关于辞去公职的缘由</title>
-      <link>https://www.ddsteed.space/post/resign.html</link>
+      <link>/post/resign.html</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/resign.html</guid>
+      <guid>/post/resign.html</guid>
       
         <description>&lt;p&gt;:ID:       5B2D9CCF-8974-4F0C-BD87-0FD0B0CB3276&lt;/p&gt;
 &lt;p&gt;昨天中午，原单位同事一起小聚，同事小谭问我为何当初要辞职，有什么真正不开心的缘由吗？我给她认真回复了一封信，解释我辞去公职的原因。其实无他，当内心的理想与现实有较大出入时，我曾经选择妥协，但无法背离我内心的抗拒，最终选择不妥协。&lt;/p&gt;
@@ -665,10 +666,10 @@
     
     <item>
       <title>众人拾材火焰高</title>
-      <link>https://www.ddsteed.space/post/zhongren-shichai-huoyangao.html</link>
+      <link>/post/zhongren-shichai-huoyangao.html</link>
       <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/zhongren-shichai-huoyangao.html</guid>
+      <guid>/post/zhongren-shichai-huoyangao.html</guid>
       
         <description>&lt;p&gt;程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续下去。&lt;/p&gt;
 &lt;p&gt;想起一个切身体会的例子。目前用变分法处理电子与分子散射的方法和程序主要有三种：&lt;/p&gt;
@@ -686,10 +687,10 @@
     
     <item>
       <title>书非旧不能读也</title>
-      <link>https://www.ddsteed.space/post/shu-feijiu-buneng-du.html</link>
+      <link>/post/shu-feijiu-buneng-du.html</link>
       <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/shu-feijiu-buneng-du.html</guid>
+      <guid>/post/shu-feijiu-buneng-du.html</guid>
       
         <description>&lt;p&gt;顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，不知道怎么就对政治感了兴趣，或者仅仅是为了学习英语，就跑到图书馆借阅《The Federalist Papers》。在布满灰尘的8楼书架上，翻到这本书，然后在末尾看到借阅记录：上一次有人借这本书大概是91年，再上一次是88年。嗯，当时我去的时候是99年。有时候真是感叹，一些人当成宝珍藏的事物，在大多数人看来，其实就是灰尘而已。&lt;/p&gt;
 &lt;p&gt;再想起，我在九眼桥旧书摊和鄢校长抢书的事情。花了5元钱买了狄拉克的《量子力学原理》，结果书摊老板说这种书根本没人要，看我如获至宝地抢在手里，觉得可怜，顺手又附带送我一本英文的。&lt;/p&gt;
@@ -697,15 +698,15 @@
 &lt;p&gt;鄢校长就是川大的老校长鄢国森教授。96年我奉导师之命去鄢校长家里安装 &lt;code&gt;Linux&lt;/code&gt; 系统。间隙，鄢校长谆谆教导我：咱们这个专业，有两本书一定要读好。一是 P. A. M. Dirac 的《量子力学原理》，二是 Szabo 和 Ostlund 的《Modern Quantum Chemistry》。&lt;/p&gt;
 &lt;p&gt;狄拉克是大物理学家啊，当然要读。英文版的《原理》一书，我是手抄了一遍，通读了三遍。实在是每次读都受益匪浅。可是 Szabo 的书，我就没觉得有什么特别的。直到后来去美国，在 Schaefer 教授的实验室里，发现他得意的几个学生，Francesco、Jeremey、Andy 等，对里面的公式简直是顺手拈来，推起方程毫不费力，才发觉自己没有领会鄢校长的意思。赶紧重新研读，不懂的地方请教实验室的谢尧明老师，三个月后才舒了一口气。顺便说一下，谢尧明老师是鄢校长在国内的大弟子，八十年代初就到美国攻读博士。所以啊，我也算没有辜负鄢校长的嘱托。:-)&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:400px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/dirac-qm.jpeg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/dirac-qm.jpeg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/dirac-qm.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/dirac-qm.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -715,10 +716,10 @@
     
     <item>
       <title>《鱼翅与花椒》</title>
-      <link>https://www.ddsteed.space/post/after-reading-yuchi-yu-huajiao.html</link>
+      <link>/post/after-reading-yuchi-yu-huajiao.html</link>
       <pubDate>Sat, 12 Mar 2022 21:05:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/after-reading-yuchi-yu-huajiao.html</guid>
+      <guid>/post/after-reading-yuchi-yu-huajiao.html</guid>
       
         <description>&lt;p&gt;《鱼翅与花椒》是英国女孩扶霞的著作，其实就是一本讲四川美食的书。这本书不论是书名还是讲述的内容，似乎都很难引起大众的兴趣。也难怪顾衡在好书榜推荐时，虽然大力赞扬，我却没有动力找来看。直到昨天，我打开了这本书，结果一发不可收拾，已经放不下了。尤其白天写一天程序后，晚餐后灯下慢慢翻来，闲适无比。&lt;/p&gt;
 &lt;p&gt;扶霞的文笔真是幽默风趣，描写的成都文化如此的细腻又逼真。我在成都生活整三十年了，很多饮食和生活方式都融入了血液。除了不说成都话以及从来不看四川和成都的电视台外，大概和一个成都人差别也不大了。但读这本书，还是新鲜又亲切，如同一个老朋友在对面娓娓道来，龙门阵摆得巴适。&lt;/p&gt;
@@ -732,25 +733,25 @@
     
     <item>
       <title>四川联大往事</title>
-      <link>https://www.ddsteed.space/post/scuu-memory.html</link>
+      <link>/post/scuu-memory.html</link>
       <pubDate>Wed, 20 Mar 2019 21:07:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/scuu-memory.html</guid>
+      <guid>/post/scuu-memory.html</guid>
       
         <description>&lt;p&gt;母校在发校友卡，我急急忙忙地申请了一个。看着这个与母校仅存的一点联系，不禁勾起了当年的好多回忆。1992年高考，最拿手的数学考砸了，只好听从父母的建议回四川读书。当时，川大、电子科大、华西医大、成都科大在河南的收分一样。班主任说，川大毕业有可能要当中学老师哟（不知道他听谁说的）。老爸赶紧拒绝，不行不行，不当老师，放弃；电子科大以前有军校背景，有可能要到部队上去哟。老爸慌张，不行不行，咱家独生子，不能去当兵；华西医大？轮到我摇头了，从小就害怕医生啊，坚决不行坚决不去。于是，就来到了成都科大。现在想起来，一点单纯的想法，几多偶然的猜测，就决定了高考志愿，真好玩啊。&lt;/p&gt;
 &lt;p&gt;来到学校，看别人都在同学会。我是中原油田的，油田子弟。虽然从河南考过来，但是一句河南话不会说，河南同学没人把我当成同乡；四川人民显然不认为我有四川血统；重庆？我一岁多就离开重庆了，身上一点重庆影子都没有。只好和张忠伟两个油田来的人，相依为命&amp;mdash;&amp;mdash;忠伟，谢谢你当年照顾我啊。&lt;/p&gt;
 &lt;p&gt;川大和成都科大要合并的时候，我们是没什么感觉的。只听说川大不愿意，科大也不愿意。科大教师还去 &lt;code&gt;you xing&lt;/code&gt; ，被劝阻回来了。然后就是搬个小凳子，坐在电影广场，听时任四川省省长肖秧在广播里说：这个四川联合大学好啊，我们加个括号，把川大和成都科大都括进去，以后还可以把更多的学校括进来。我就两眼望天，心想，以后四川的大学都括进来了，咱们就是天下第一了。&lt;/p&gt;
 &lt;p&gt;结果最后，入学的学校没有了，毕业的学校也没了。通知书不知道老爸还有没有收藏纪念，毕业证我是留着了。有人说，可以去换成四川大学的毕业证。我开玩笑回答，打死都不换。这多珍贵啊，上面还有陈校长的印章呢。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:400px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/CertificateU.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/CertificateU.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/CertificateU.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/CertificateU.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -760,10 +761,10 @@
     
     <item>
       <title>如何与世界相处</title>
-      <link>https://www.ddsteed.space/post/how-to-live-with-world.html</link>
+      <link>/post/how-to-live-with-world.html</link>
       <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/how-to-live-with-world.html</guid>
+      <guid>/post/how-to-live-with-world.html</guid>
       
         <description>&lt;p&gt;:ID:       410ACF3E-4029-4197-B95D-97C8774363C9&lt;/p&gt;
 &lt;h2 id=&#34;如何做一个靠谱的人&#34;&gt;如何做一个靠谱的人&lt;/h2&gt;
@@ -807,10 +808,10 @@
     
     <item>
       <title>构建笔记系统</title>
-      <link>https://www.ddsteed.space/post/create-notes.html</link>
+      <link>/post/create-notes.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/create-notes.html</guid>
+      <guid>/post/create-notes.html</guid>
       
         <description>&lt;p&gt;:ID:       328E7380-BF24-417E-B052-4BAD54BA7B04&lt;/p&gt;
 &lt;p&gt;学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdquo;。笔记系统不仅可以帮助我们收集、整理、归纳所学的知识，还能够启发我们发现知识的联系。因此，做好一个笔记系统是非常必要的。&lt;/p&gt;
@@ -856,10 +857,10 @@
     
     <item>
       <title>学习的途径</title>
-      <link>https://www.ddsteed.space/post/study-road.html</link>
+      <link>/post/study-road.html</link>
       <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/study-road.html</guid>
+      <guid>/post/study-road.html</guid>
       
         <description>&lt;p&gt;:ID:       D1CF20C0-7229-47D0-9FB8-9273D908C661&lt;/p&gt;
 &lt;h2 id=&#34;唯一有效的四种方法&#34;&gt;唯一有效的四种方法&lt;/h2&gt;
@@ -876,10 +877,10 @@
     
     <item>
       <title>大学教育</title>
-      <link>https://www.ddsteed.space/post/advanced-education.html</link>
+      <link>/post/advanced-education.html</link>
       <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/advanced-education.html</guid>
+      <guid>/post/advanced-education.html</guid>
       
         <description>&lt;p&gt;在高校读书工作直到现在，已经二十多年了。经常有人问起的一个问题是：高校教师究竟应该以教书为主还是做科研为主？刚开始我以为这样的问题是不用回答的，因为现代大学不论中外，都有三个职责：培养人才、科学研究、服务社会，而前两个工作也是广义的服务社会。既然有三个功能，又怎能只偏向其中一个呢？&lt;/p&gt;
 &lt;p&gt;可是，问的人很真诚，似乎很想知道答案。于是，我也经常参与讨论。结果却经常是吵得一塌糊，大家不欢而散。慢慢地，我也发现，一些人是真的疑惑，但更多的人是因为利益相关，才各执一词。其实不论是教学或者研究，只要你不擅长，自然就夸大另一方面。凡事与利益纠缠在一起，就无所谓是非，只有偏执了。&lt;/p&gt;
@@ -896,15 +897,15 @@
 &lt;p&gt;今天听最新的罗辑思维，正好讲到世界是不连续的这个话题和观点。我们无法从过去的知识中判断未来的发展，我们面对的是快速变化的世界，在这个新的世界里，失去了自我学习、解决未知问题的能力，就只有被淘汰。人如此，学校如此，社会也如此。&lt;/p&gt;
 &lt;p&gt;照片是我在斯坦福大学校园拍摄的，全世界能够把教学、研究、服务社会做得这么好的高校，斯坦福大学应该数一数二。我十分赞赏斯坦福大学的教育理念： &lt;strong&gt;培养创造力是大学教育的灵魂&lt;/strong&gt; 。&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ddsteed.space/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:400px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.ddsteed.space/img/stanford.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/stanford.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;https://www.ddsteed.space/img/stanford.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/stanford.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -914,10 +915,10 @@
     
     <item>
       <title>理论和计算</title>
-      <link>https://www.ddsteed.space/post/theory-and-computing.html</link>
+      <link>/post/theory-and-computing.html</link>
       <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/post/theory-and-computing.html</guid>
+      <guid>/post/theory-and-computing.html</guid>
       
         <description>&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。&lt;/p&gt;
 &lt;p&gt;这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应的二阶微扰极限。因为微扰不同于变分法，不是能量越低越好。但也不能就此认为微扰的判定没有准则。这个工作就是想告诉大家，双电子情况下，二阶微扰理论的下限在哪里。&lt;/p&gt;

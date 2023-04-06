@@ -2,25 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on 点点马的蚂蚁窝</title>
-    <link>https://www.ddsteed.space/about.html</link>
+    <link>/about.html</link>
     <description>Recent content in Abouts on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Apr 2023 11:38:00 +0800</lastBuildDate><atom:link href="https://www.ddsteed.space/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 02 Apr 2023 11:38:00 +0800</lastBuildDate><atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于我自己</title>
-      <link>https://www.ddsteed.space/about/index-zh.html</link>
+      <link>/about/index-zh.html</link>
       <pubDate>Sun, 02 Apr 2023 11:38:00 +0800</pubDate>
       
-      <guid>https://www.ddsteed.space/about/index-zh.html</guid>
+      <guid>/about/index-zh.html</guid>
       <description>我曾经是一名高校教师，从事教学、科学研究和管理，现在是一个自由打工者。教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇S</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.ddsteed.space/about/index-en.html</link>
+      <link>/about/index-en.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ddsteed.space/about/index-en.html</guid>
+      <guid>/about/index-en.html</guid>
       <description>About Me Hao Feng is a starter and software engineer. I used to be a teacher in two universities in China as professor and manager.</description>
     </item>
     
