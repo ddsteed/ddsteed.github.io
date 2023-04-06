@@ -13,10 +13,10 @@
     
     <item>
       <title>关于我自己</title>
-      <link>/about.html</link>
+      <link>/about/about.html</link>
       <pubDate>Sun, 02 Apr 2023 11:38:00 +0800</pubDate>
       
-      <guid>/about.html</guid>
+      <guid>/about/about.html</guid>
       
         <description>
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
