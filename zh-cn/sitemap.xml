@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>/about.html</loc>
+    <lastmod>2023-04-02T11:38:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/tags.html</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -24,6 +31,13 @@
   
   <url>
     <loc>/about.html</loc>
+    <lastmod>2023-04-02T11:38:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/about/index-zh.html</loc>
     <lastmod>2023-04-02T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -305,6 +319,12 @@
   <url>
     <loc>/post/fangzhouzi-ku-yu-bei.html</loc>
     <lastmod>2012-06-23T23:36:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/about/index-en.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
