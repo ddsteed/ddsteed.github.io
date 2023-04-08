@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on 点点马的蚂蚁窝</title>
-    <link>/about.html</link>
-    <description>Recent content in Abouts on 点点马的蚂蚁窝</description>
+    <title>about on 点点马的蚂蚁窝</title>
+    <link>/tags/about.html</link>
+    <description>Recent content in about on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Apr 2023 11:38:00 +0800</lastBuildDate><atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2023 11:38:00 +0800</lastBuildDate><atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于我自己</title>
       <link>/about/index-zh.html</link>
@@ -14,15 +14,6 @@
       
       <guid>/about/index-zh.html</guid>
       <description>我曾经是一名高校教师，从事教学、科学研究和管理工作，教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/about/index-en.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/index-en.html</guid>
-      <description>About Me Hao Feng is a starter and software engineer. I used to be a teacher in two universities in China as professor and manager.</description>
     </item>
     
   </channel>
