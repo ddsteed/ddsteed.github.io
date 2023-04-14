@@ -25,9 +25,9 @@
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
   style=&#34;max-width:200px&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/avatar.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/me.png&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/img/me.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
