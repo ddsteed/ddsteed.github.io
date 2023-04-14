@@ -23,7 +23,7 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:800px&#34; &gt;
+  style=&#34;max-width:200%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/me.png&#34; /&gt;
     &lt;/div&gt;
