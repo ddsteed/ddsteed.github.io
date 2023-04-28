@@ -6,10 +6,54 @@
     <description>Recent content on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 08 Apr 2023 11:38:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2023 19:58:00 +0800</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Not Even Wrong</title>
+      <link>/post/not-even-wrong.html</link>
+      <pubDate>Fri, 28 Apr 2023 19:58:00 +0800</pubDate>
+      
+      <guid>/post/not-even-wrong.html</guid>
+      
+        <description>&lt;p&gt;《Not Even Wrong》是一本科普书，关于弦理论的来龙去脉，以及为什么这个高大上的理论会“失败”的调侃。我很喜欢这本书，一是它通过超弦这个理论的曲折发展历程，再次阐明了为什么物理学之所以是科学的道理；二是它还略带幽默和自嘲的文笔，特别是书名，来自于伟大的物理学家 Pauli 的名言：这连错误都算不上。(英文：It is not only not right, it is not even wrong. 德语原版：Das ist nicht nur nicht richtig, es ist nicht einmal falsch!)&lt;/p&gt;
+&lt;p&gt;作者自称是科普书，但随便找出一页，让大家看看，长什么样子：&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/not_even_wrong_qm.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/not_even_wrong_qm.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我敢打赌，凡是没有拿到物理学博士学位的读者，一定不知道他在讲啥 😅。但是，它确实是一本科普书，有《纽约时报》、《波士顿环球报》&amp;hellip;&amp;hellip; 等一大票粉丝为它鼓吹站台，不吝溢美之词。由此感叹：物理学真是优美啊，即使大家搞不懂你在讲啥，但仍然充满了崇拜和尊敬之情。回想起自己当年在课堂上侃侃而谈，大吹特吹物理理论之美，高高立于所有科学学科之上。底下的学生，大概都是这种心态：虽然不知道你在讲啥，但一定了不起 😎&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/not_even_wrong_praise.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/not_even_wrong_praise.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;弦理论成名甚早，七八十年代就已经名满天下，九十年代有一段时期，甚至霸占了理论物理的绝大部分头条。在国际物理学术年会上，理论物理如果不和弦论扯上点关系，自己都不好意思读报告。但是，直到今天，这个理论仍然被称为空中楼阁、水中满月。杨振宁曾经开玩笑说：自己的实验室不准谈论弦论，否则统统赶出去。弦论教主威滕，由于在弦理论的贡献，1990年就获得了数学最高的奖项 &amp;mdash; 菲尔兹奖，诺贝尔物理奖到现在都没有认真考虑过他。&lt;/p&gt;
+&lt;p&gt;不是物理学有多么傲气，其实菲尔兹奖的难度比诺贝尔奖高多了。诺贝尔奖每年颁发一次，最近几十年来，每年的物理学奖都是2、3个人一起平分。而菲尔兹奖，每4年才颁发一次，每次不超过4个人。那为什么弦论那么多优秀的科学家，一个都没有获得诺贝尔物理学奖呢？这就涉及到物理学和数学的本质区别了。诚然，两者，尤其是理论物理和数学，都严格地建立在逻辑的基础之上。但是，数学只要在自身的框架上自洽就可以了。物理学不能这样，它必须既要解释已有的现象，还要能预测未来的事实。最为重要的，它必须要接受实验的验证。无论多么漂亮的理论，如果不能被实验验证，都不会被物理学正式接纳。不管提出理论的人，有多么伟大，一旦实验给出了否定的结果，我们只能遗憾地与之告别。牛顿、爱因斯坦、泡利 &amp;hellip;&amp;hellip;，概莫能外。反之则是，理论如果接受了实验的检验，且简单而又漂亮，物理学界则会张开双臂，热烈欢迎。当年，李政道和杨振宁提出宇称不守恒定律的时候，虽然年轻，绝大多数物理学家也充满怀疑。但当吴健雄的实验表明结果与李-杨理论相符时，骄傲的泡利，马上都承认错误。而诺贝尔奖委员会第二年就迅速地将物理学奖颁发给了这两个年轻人。&lt;/p&gt;
+&lt;p&gt;超弦理论，至今没有给出能被实验检验的预言。因此，无论多么漂亮，无论多么深奥，科学界并没有真正将之纳入到自身的体系中。我们都等着那一天，超弦理论可以提出某种预测，能被实验验证，并给出正面的结果。翘首以盼了这么多年，依然还在等待。有些人觉得，这么完美的理论，不可能不是正确的。但正如 Pauli 的名言，不，它现在还不对，或者，它连错误都算不上。&lt;/p&gt;
+&lt;p&gt;很多人常常觉得物理学家很高傲，实际上，在伟大的事实面前，最谦虚的就是物理学家了。我没有见过其他任何学科的人，如此地为自己骄傲，但又如此地尊重事实。现实生活中的人，为了面子或者利益，罔顾事实，胡搅蛮缠，更是屡见不鲜。这也是我如此钟爱物理学的原因，一旦陷入物理学的“爱河”，终生不能自拔。&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>关于我自己</title>
@@ -891,40 +935,6 @@
 &lt;p&gt;之所以拖了这么久，主要是卡在三电子积分的精确求解上。这周我终于借助 &lt;code&gt;Mathematica&lt;/code&gt; 完成了这个九维积分的快速精确求解，在实际计算中，可以精确到四十位有效数字。&lt;/p&gt;
 &lt;p&gt;我有时会想，这些年是不是浪费了很多时间在杂事情上，说不定可以早点解决？也或许这些年认认真真学习关联理论和 &lt;code&gt;Mathematica&lt;/code&gt; ，厚积薄发，积累久了才可以真正解决这个问题。我资质不算聪明，只有靠勤奋才能弥补一下。&lt;/p&gt;
 &lt;p&gt;常常有人问我，做计算的和做理论的有什么不同。仿佛现在宣称做理论的都在用一个现成的程序算一算，得到数据就可以发表了一样。其实，计算只是研究的一个手段和工具而已。真正的理论，是要探索未知的世界，得出一个明确的结论，即使从本质上说只能有概率性的答案，但必须真正解决一个问题。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>人生不如意事</title>
-      <link>/post/bu-ru-yi-shi.html</link>
-      <pubDate>Sun, 05 Jul 2015 23:21:00 +0800</pubDate>
-      
-      <guid>/post/bu-ru-yi-shi.html</guid>
-      
-        <description>&lt;p&gt;今天凌晨，爬起来看美洲杯决赛。虽然我很累很困，但因为有梅西，有阿根廷，仍然坚持，在黑暗中捧着iPad观看。&lt;/p&gt;
-&lt;p&gt;从黑夜到曙光来临，经历了加时赛，阿根廷还是输了，倒在了 点球码上。当伊瓜因罚丢的时候，我注意到梅西转过了头，也许在感叹又一次的决赛失利。&lt;/p&gt;
-&lt;p&gt;梅西今年已经拿了三冠王，大家都在评论他是不是新一代的球王。可是，我们都知道，他一直梦想为阿根廷拿一座大赛冠军。去年世界杯，他失败了；今年美洲杯，他还是没有成功。放眼未来，也不知道成败几何。&lt;/p&gt;
-&lt;p&gt;每天都上网浏览虎扑的，今天起，也不敢看了。知道上面一定是扑天盖地的批评、嘲讽。梅西，是不是球王有什么关系呢？也许，失败的英雄，更让我牵挂和喜爱吧。&lt;/p&gt;
-&lt;p&gt;人生事，不如意十之八九。强如梅西，也未必比常人更快乐一些。那萧索的背影，更让我魂牵梦萦。&lt;/p&gt;
-&lt;p&gt;以下是2014年世界杯决赛后的感悟，可见，悲伤依旧还是悲伤。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;12年前，我孤独地为德国队祈祷，但最后，是巴西捧起了大力神杯。今天，我仍是独自地为阿根廷队祷告，还是没有成功。&lt;/p&gt;
-&lt;p&gt;很多人问我，最喜欢的球队是哪个？我会毫不犹豫地说：阿根廷。其次是荷兰，再次是德国。所以，这届的世界杯我纠结了两次，一次喜忧参半，一次黯然神伤。记忆中，那个长发飘飘的阿根廷队，有肯佩斯，有卡尼吉亚，有雷东多，有巴蒂斯图塔&amp;hellip;&amp;hellip;。现在的阿根廷，有我喜欢的梅西。低调，不张扬，才华横溢。也许，悲情英雄，永远都是我的最爱。&lt;/p&gt;
-&lt;p&gt;94年的巴乔、02年的卡恩，现在，14年的梅西。&lt;/p&gt;
-&lt;p&gt;祝福你，梅西。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi-2014.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/messi-2014.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
 </description>
       
     </item>

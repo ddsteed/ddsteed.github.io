@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/categories.html</loc>
+    <lastmod>2023-04-28T19:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/not-even-wrong.html</loc>
+    <lastmod>2023-04-28T19:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post.html</loc>
+    <lastmod>2023-04-28T19:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/study.html</loc>
+    <lastmod>2023-04-28T19:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+    <lastmod>2023-04-28T19:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-04-28T19:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%AD%A6%E4%B9%A0.html</loc>
+    <lastmod>2023-04-28T19:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/tags/about.html</loc>
     <lastmod>2023-04-08T11:38:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,50 +65,8 @@
   </url>
   
   <url>
-    <loc>/tags.html</loc>
-    <lastmod>2023-04-08T11:38:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2023-04-08T11:38:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/about/index-zh.html</loc>
     <lastmod>2023-04-08T11:38:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories.html</loc>
-    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post.html</loc>
-    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/study.html</loc>
-    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E5%AD%A6%E4%B9%A0.html</loc>
-    <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
