@@ -6,10 +6,54 @@
     <description>Recent content on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Apr 2023 19:58:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 May 2023 18:45:00 +0800</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>old fashion man</title>
+      <link>/post/old-fashion-man.html</link>
+      <pubDate>Sun, 07 May 2023 18:45:00 +0800</pubDate>
+      
+      <guid>/post/old-fashion-man.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/clock-desktop.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/clock-desktop.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;上面的截图是我此时此刻的计算机桌面，右下角的那个时钟有点突兀，其实和整体不怎么搭配，但这是我实在不忍放弃的小程序，因为这时常提醒我当年的日子。&lt;/p&gt;
+&lt;p&gt;1995年还在读大四的时候，被保送读研究生。导师才从美国回来，带回了刚刚在美国也才使用的 Linux 操作系统。我对这个操作系统是如此地痴迷，以至于天天睡在实验室，每晚都折腾到2、3点钟。依然清晰地记得，我们用的版本是 Slackware Linux 1.0，当时安装这套系统，我们用了48张3.5寸的软盘。也许现在的人们对于软盘的概念很陌生了，因为连光盘都已经被淘汰😉。光是 Linux 是无法完全工作的，因为只是一个黑黢黢的字符界面，就像 DOS 一样。执行命令可以，画图等就不行了，因此必须配备一个图形窗口。我们选择了 X Window，用的管理器是 olwm。这个桌面现在看起来很简陋，但对于当时的我，这是世界上最好的工作环境，最好的学习平台，最好的，我的玩具。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/olwm.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/olwm.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在这个简陋的桌面环境里，我乐此不疲地调出各个小工具，其中就包含一个时钟。我选择时钟的表盘，精心调换秒针的颜色，尝试把它放在桌面的各个位置，以决定哪种情况下，我既能随时看到时间，又不影响我正常的工作。记得还有一个小工具：xeyes。随着鼠标的位置，眼睛骨碌碌地乱转 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;Linux 的版本越来越多，RedHat 逐渐取代了 Slackware，然后是 SuSE、Debian、Ubuntu &amp;hellip;..。可是不管哪个版本，我都想恢复我最初的哪个 olwm 桌面管理器，调出那个小时钟和那双小眼睛。2000年起，我把 Linux 也换成了 FreeBSD，仍然保留 olwm。直到有一天，olwm 版本不再更新，最新的硬件装不上了。&lt;/p&gt;
+&lt;p&gt;2006年，我买了第一台 powerbook pro 笔记本电脑，正式用上了 mac osx。我还是不死心地把当年 olwm 上的小工具移植过来，找到一个算一个，打开一个算一个。可是，似乎 apple 公司开发 mac osx 的工程师，对老的 X window 下的这些小工具并不喜欢，它们不再被集成在系统里，而支持它们运行的 X window 库，也慢慢被遗弃了。我不甘心地强行安装了一个 X Window 模拟器，只为了运行那些古老的 xwindow 小工具。&lt;/p&gt;
+&lt;p&gt;很多人嘲笑我很老旧，我也自认为是一个 old fashion man。不知怎么，我总是忘不了那时情景，没有任何功利地学习，只是为了兴趣。我没有想过量子力学、泛函分析、群论、GNU/Linux、X Window &amp;hellip;&amp;hellip;，这些东西对今后有什么作用，只是觉得它们很好玩，理论很美，技术很潮，而我，很喜欢。&lt;/p&gt;
+&lt;p&gt;快三十年了，我依然还是喜欢这些。虽然痛心地明白，我回不去那个年龄了，但是，我梦想自己还能保持那时的纯真。&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Not Even Wrong</title>
@@ -919,22 +963,6 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-</description>
-      
-    </item>
-    
-    <item>
-      <title>理论和计算</title>
-      <link>/post/theory-and-computing.html</link>
-      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
-      
-      <guid>/post/theory-and-computing.html</guid>
-      
-        <description>&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。&lt;/p&gt;
-&lt;p&gt;这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应的二阶微扰极限。因为微扰不同于变分法，不是能量越低越好。但也不能就此认为微扰的判定没有准则。这个工作就是想告诉大家，双电子情况下，二阶微扰理论的下限在哪里。&lt;/p&gt;
-&lt;p&gt;之所以拖了这么久，主要是卡在三电子积分的精确求解上。这周我终于借助 &lt;code&gt;Mathematica&lt;/code&gt; 完成了这个九维积分的快速精确求解，在实际计算中，可以精确到四十位有效数字。&lt;/p&gt;
-&lt;p&gt;我有时会想，这些年是不是浪费了很多时间在杂事情上，说不定可以早点解决？也或许这些年认认真真学习关联理论和 &lt;code&gt;Mathematica&lt;/code&gt; ，厚积薄发，积累久了才可以真正解决这个问题。我资质不算聪明，只有靠勤奋才能弥补一下。&lt;/p&gt;
-&lt;p&gt;常常有人问我，做计算的和做理论的有什么不同。仿佛现在宣称做理论的都在用一个现成的程序算一算，得到数据就可以发表了一样。其实，计算只是研究的一个手段和工具而已。真正的理论，是要探索未知的世界，得出一个明确的结论，即使从本质上说只能有概率性的答案，但必须真正解决一个问题。&lt;/p&gt;
 </description>
       
     </item>
