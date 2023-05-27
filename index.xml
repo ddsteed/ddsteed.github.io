@@ -6,10 +6,66 @@
     <description>Recent content on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 May 2023 18:45:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 May 2023 17:43:00 +0800</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>  &#34;ijkl&#34;和鼠标的斗争
+  </title>
+      <link>/post/ijkl-vs-mouse.html</link>
+      <pubDate>Sat, 27 May 2023 17:43:00 +0800</pubDate>
+      
+      <guid>/post/ijkl-vs-mouse.html</guid>
+      
+        <description>&lt;p&gt;程序员的世界里，有两派截然不同的风格：一是老旧的“键盘侠”，喜欢手不离开键盘，操纵一切；与之相反的是“鼠标点点点”，所有的东西都尽量用图形界面，用鼠标来操控方向，指点江山。&lt;/p&gt;
+&lt;p&gt;在苹果公司“窃取” Xerox 公司的图形操作系统之前，大家都是面对黑乎乎的屏幕，处理文档，或者编写代码。Windows 95在中国普及之前，大家也是习惯于 DOS 那个简陋的字符界面。在这种情况下输入字符和修改，就产生了一个非常具体的问题：我们怎么把光标快速移动到想修改或者输入的地方？最开始的 ex 编辑器，只能一行一行地编辑，然后提交。如果发现提交过的字符需要修改，就要发“请求”把那一行撤回来，然户用键盘上的光标移动键，左右移动那里，进行删除/增加/修改。我当年初学计算机的时候，是经历了这种炼狱般的折磨的。回想那时用这样的编辑器书写 FORTRNAN 代码，调试，发现错了再修改，真是不堪回首啊 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;Unix 世界里的精英们，是不会容许这样笨拙的操作来控制人类的额。于是，vi 这个全屏编辑器就应运而生。在这个编辑器里，整篇文档都全部呈现出来，然后用光标键移动光标到指定的地方，进行编辑。但是啊，程序员是如此地“懒”，他们发现键盘的布局里，要移动光标键，需要手掌离开原来的位置。这怎么行？于是，ijkl&amp;hellip;这样的操作就出现了：我们把编辑文档分为两个部分，一个是编辑状态，直接敲字符，屏幕上就会显示那个字符；另一个是命令状态，我们按下字符键的时候，只会操作光标移动，而不是真正地输入这个字符。这两者的切换是用 ESC 键来完成的。为什么用 ijkl 呢？因为则是右手的手指放在键盘上的默认位置 &amp;mdash;- 当你不输入任何字符的时候，右手的食指会被要求放在 j 键，中指放在 k 键上。啊哈，这个设置是如此地方便，等于是，我们的手掌不要任何地一定，就可以完成文档/代码的全屏编辑、修改、提交&amp;hellip;..。当我1995年开始学习 Linux 的时候，就迷上了这样的操作方式，以至于后来我换用了 Emacs 编辑器后，仍然装上了 vim-like 的键盘操作，就像下面的演示里一样，每天 ijkl &amp;hellip; 地工作着。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-emacs.gif&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/ijk-emacs.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;“鼠标点点点”派在我这里就没有了市场，更有甚者，我习惯了 ijkl 之后，不仅编辑文档手不想离开键盘，连看浏览器都不愿意用鼠标来移动页面了。macos 下的 Safari 浏览器和 Google Chrome 浏览器都有限地支持了键盘的操作，比如，用空格键下翻一页，Shift-space 键上翻一页；Shift-] 键变换到下一个标签页 &amp;hellip;&amp;hellip;。可是，对于我来说，这远远不够。我们看网页或者文档时，眼睛的焦点都喜欢集中在屏幕的正中，上下移动的行数最好不要超过三行。空格键一按，就是翻了半页，这就要求我们看7、8行，这时眼睛的焦点已经在屏幕的底部了，翻页之后然后再把眼睛移动到屏幕的上方。啊，对于我这样的懒人来说，这是不可接受的。&lt;/p&gt;
+&lt;p&gt;难道不能像 vi 一样，一次只移动一行吗？而且要做到每次移动了之后，那一行仍然处于屏幕的正中。你要相信，只要你有需求，这个世界上就有人帮你做好了这个工作。Safari 浏览器有个 vimari 插件、Chrome 浏览器有个 vimium 插件，它们就是来完成这个工作的。然后，就像下面的演示一样，我一行一行地阅读网页，手仍然在 ijkl 上，i 下移一行，k 上移一行。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-chrome.gif&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/ijk-chrome.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我的要求越来越高，已经不满足于浏览器了，我需要所有的 application 都应该有这个功能，尤其是 pdf 阅读器。我已经习惯了眼睛焦点不离开屏幕的阅读方式，pdf 怎么能例外？极客们是不会让我失望的，有一个程序&amp;mdash;karabiner，它可以重新定义任何程序的键盘操作。因此，Preview 这个苹果下的 pdf 阅读器，也纳入了我的 ijkl 阵营。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-pdf.gif&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/ijk-pdf.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;上次我说我是一个 old fashion man，那是真的。我连键盘处理方式，都完全是一个老派人士。所以，我对现在的及时通工具，微信、QQ、&amp;hellip;，都是深恶痛绝。曾经我觉得能够随时联系是多酷的一件事，可是，当我发现我的计算机/手机上那些显示未读的红色提醒时，强迫症会让我坐立难安。而发微信的人，由于太方便了，会忍不住随时随地脱口而出。因此，除了工作外，我不喜欢看快餐式的文字。我关掉了微信上的朋友圈、视频号，甚至，基本停用了微信。我喜欢信件这样老派的方式，虽然 email 比起手写的信，少了点温度，但这已经是我现在感觉最舒心的联系工具了。&lt;/p&gt;
+&lt;p&gt;ijkl，嗯，好土的方式，却是我最爱的方式。&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>old fashion man</title>
@@ -926,44 +982,6 @@
 &lt;li&gt;用自己的语言复述或者写作下来，切不可照抄；&lt;/li&gt;
 &lt;li&gt;将所学习的内容加入到自己已有的知识网状结构中，使之成为网络中的一个节点，与原有的知识形成关联。&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>大学教育</title>
-      <link>/post/advanced-education.html</link>
-      <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
-      
-      <guid>/post/advanced-education.html</guid>
-      
-        <description>&lt;p&gt;在高校读书工作直到现在，已经二十多年了。经常有人问起的一个问题是：高校教师究竟应该以教书为主还是做科研为主？刚开始我以为这样的问题是不用回答的，因为现代大学不论中外，都有三个职责：培养人才、科学研究、服务社会，而前两个工作也是广义的服务社会。既然有三个功能，又怎能只偏向其中一个呢？&lt;/p&gt;
-&lt;p&gt;可是，问的人很真诚，似乎很想知道答案。于是，我也经常参与讨论。结果却经常是吵得一塌糊，大家不欢而散。慢慢地，我也发现，一些人是真的疑惑，但更多的人是因为利益相关，才各执一词。其实不论是教学或者研究，只要你不擅长，自然就夸大另一方面。凡事与利益纠缠在一起，就无所谓是非，只有偏执了。&lt;/p&gt;
-&lt;p&gt;学校当然是以育人为主，但问题在于，说起教育，我们到底在谈论什么？很多人一提起重视教育，就是加强课堂教学，教师认真把书本知识传授给学生。一代传一代，薪火相传。&lt;/p&gt;
-&lt;p&gt;我不完全赞同这个观点，相反，我更欣赏爱因斯坦曾经说过的话：教育就是忘记了在学校所学的一切之后剩下的东西。&lt;/p&gt;
-&lt;p&gt;我理解的教育，就是 &lt;strong&gt;传授给学生解决未知问题的能力&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;尤其在现代社会，发展的速度比一百年前，甚至二十年前，都远远超过了。我们每天面对的问题，很多是以前闻所未闻的。刚面对的时候，完全无所适从。可是，我们无从逃避，只能去解决。&lt;/p&gt;
-&lt;p&gt;解决的好与坏，就和个人的能力大大相关了。但现在国内的大多数高校，还是依靠传统的方式教导学生，教师只管照本宣科，学生只管考试及格。我们对教育的评价甚至已经降到，认为把书本知识讲清楚了，就是一个好老师。如果一个老师能够讲得学生不睡觉，就被认为是一个优秀老师了。至于学生未来如何，那不关学校的事。反正只要毕业了，把学生丢到社会上去，他们自然会生存下来。所以，我们现在经常听到中国的学生反馈：我们工作所需的知识和能力，都不是来自于学校，反而大多是自学才掌握的。我们怀念大学，更多的是怀念我们的青春，以及建立的人脉资源关系。&lt;/p&gt;
-&lt;p&gt;社会需要人才， &lt;strong&gt;但更需要有创新精神和能力的人才&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;我常常想，如果一个老师自己都没有解决未知问题的能力，他/她如何能够把这种人类最重要的本领传授给学生？学生又如何才能拥有创新能力？我们的高等教育做出过很大贡献，但无法回避的问题就是，我们没有培养出大量具有创新精神和能力的人才。否则，总理也不会各种场合大声疾呼，社会需要什么样的人才了。&lt;/p&gt;
-&lt;p&gt;所以，科学研究除了探索世界的作用外，在学校更重要的一个功能是帮助学生建立如何解决未知问题的思维。从这个意义上来说，如果一个问题你不知道答案，即使这是一个已知的问题，对你来说也是研究。从初次面对问题时的一头雾水、毫无头绪，到寻找相关的工具来试探解决，再反复地试错，查找文献，与人讨论，&amp;hellip;&amp;hellip;，甚至自己发明工具，直到曙光初现。这整个过程不就是一个研究历程吗？&lt;/p&gt;
-&lt;p&gt;学校的教育可以简化这个流程，就如同我们可以模仿工厂建立一个简单的模型来训练学生，但不能缺失这整个环节。如果一名教师，还是死守着自己当年学习的方式和知识不放，是不能适应这个快速发展的社会的。从这个角度来说，能够传授学生解决未知问题能力的老师，才是合格的老师。反过来，如果一名教师只会自己做科研，不愿意或者不能把自己如何解决未知问题的能力总结提炼再传授给学生，也不是一名合格的高校教师。&lt;/p&gt;
-&lt;p&gt;借口教学忙不能/不愿意做科研的老师，和借口科研忙不能/不愿意做教学的老师，也许，都只是利益纠结，忘了高校的本质。大学，不是研究院，更不是中小学。&lt;/p&gt;
-&lt;p&gt;今天听最新的罗辑思维，正好讲到世界是不连续的这个话题和观点。我们无法从过去的知识中判断未来的发展，我们面对的是快速变化的世界，在这个新的世界里，失去了自我学习、解决未知问题的能力，就只有被淘汰。人如此，学校如此，社会也如此。&lt;/p&gt;
-&lt;p&gt;照片是我在斯坦福大学校园拍摄的，全世界能够把教学、研究、服务社会做得这么好的高校，斯坦福大学应该数一数二。我十分赞赏斯坦福大学的教育理念： &lt;strong&gt;培养创造力是大学教育的灵魂&lt;/strong&gt; 。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:400px&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/stanford.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/stanford.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
 </description>
       
     </item>

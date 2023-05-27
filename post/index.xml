@@ -6,7 +6,17 @@
     <description>Recent content in Posts on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 May 2023 18:45:00 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 May 2023 17:43:00 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>  &#34;ijkl&#34;和鼠标的斗争
+  </title>
+      <link>/post/ijkl-vs-mouse.html</link>
+      <pubDate>Sat, 27 May 2023 17:43:00 +0800</pubDate>
+      
+      <guid>/post/ijkl-vs-mouse.html</guid>
+      <description>程序员的世界里，有两派截然不同的风格：一是老旧的“键盘侠”，喜欢手不离开键盘，操纵一切；与之相反的是“鼠标点点点”，所有的东西都尽量用图形界</description>
+    </item>
+    
     <item>
       <title>old fashion man</title>
       <link>/post/old-fashion-man.html</link>
@@ -176,15 +186,6 @@
       
       <guid>/post/advanced-education.html</guid>
       <description>在高校读书工作直到现在，已经二十多年了。经常有人问起的一个问题是：高校教师究竟应该以教书为主还是做科研为主？刚开始我以为这样的问题是不用回答</description>
-    </item>
-    
-    <item>
-      <title>理论和计算</title>
-      <link>/post/theory-and-computing.html</link>
-      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
-      
-      <guid>/post/theory-and-computing.html</guid>
-      <description>终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。 这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应</description>
     </item>
     
   </channel>
