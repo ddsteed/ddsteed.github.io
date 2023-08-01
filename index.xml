@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>点点马的蚂蚁窝</title>
+    <title>ddsteed&#39;s personal blog</title>
     <link>/</link>
-    <description>Recent content on 点点马的蚂蚁窝</description>
+    <description>Recent content on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en</language>
     <lastBuildDate>Tue, 01 Aug 2023 13:47:00 +0800</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />

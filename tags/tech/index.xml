@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tech on 点点马的蚂蚁窝</title>
+    <title>tech on ddsteed&#39;s personal blog</title>
     <link>/tags/tech.html</link>
-    <description>Recent content in tech on 点点马的蚂蚁窝</description>
+    <description>Recent content in tech on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en</language>
     <lastBuildDate>Thu, 02 Feb 2023 11:35:00 +0800</lastBuildDate><atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>文档中插入图形</title>
