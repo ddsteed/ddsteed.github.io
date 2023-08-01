@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 点点马的蚂蚁窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 18 Jul 2023 11:33:00 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 13:47:00 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《芯片战争》读后感</title>
+      <link>/post/chipwar.html</link>
+      <pubDate>Tue, 01 Aug 2023 13:47:00 +0800</pubDate>
+      
+      <guid>/post/chipwar.html</guid>
+      <description>最近，我花了将近三个月的时间阅读了一本去年刚出的新书 《Chip War: The Fight for the World&amp;rsquo;s Most Critical Techonolgy》。这大概算是过去几年，耗费我最多时间的一</description>
+    </item>
+    
     <item>
       <title>那些稀奇古怪的发音</title>
       <link>/post/pronounce.html</link>
@@ -177,15 +186,6 @@
       
       <guid>/post/how-to-live-with-world.html</guid>
       <description>:ID: 410ACF3E-4029-4197-B95D-97C8774363C9 如何做一个靠谱的人 事事有回音；凡事有交代；件件有着落。 及时反馈，形成闭环。 团队精神 思维决定位置 领导者：“这事我负责!” 顶梁柱：“这事我搞</description>
-    </item>
-    
-    <item>
-      <title>构建笔记系统</title>
-      <link>/post/create-notes.html</link>
-      <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
-      
-      <guid>/post/create-notes.html</guid>
-      <description>:ID: 328E7380-BF24-417E-B052-4BAD54BA7B04 学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdq</description>
     </item>
     
   </channel>
