@@ -6,96 +6,77 @@
     <description>Recent content in Tags on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Sep 2023 07:35:00 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 11:11:00 +0800</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>misc</title>
       <link>/tags/misc.html</link>
-      <pubDate>Fri, 29 Sep 2023 07:35:00 +0800</pubDate>
-      
+      <pubDate>Wed, 20 Dec 2023 11:11:00 +0800</pubDate>
       <guid>/tags/misc.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>reading</title>
       <link>/tags/reading.html</link>
       <pubDate>Tue, 01 Aug 2023 13:47:00 +0800</pubDate>
-      
       <guid>/tags/reading.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>about</title>
       <link>/tags/about.html</link>
       <pubDate>Sat, 08 Apr 2023 11:38:00 +0800</pubDate>
-      
       <guid>/tags/about.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>tech</title>
       <link>/tags/tech.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
-      
       <guid>/tags/tech.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>study</title>
       <link>/tags/study.html</link>
       <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
-      
       <guid>/tags/study.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>startup</title>
       <link>/tags/startup.html</link>
       <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
-      
       <guid>/tags/startup.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>article</title>
       <link>/tags/article.html</link>
       <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
-      
       <guid>/tags/article.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>progress</title>
       <link>/tags/progress.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
-      
       <guid>/tags/progress.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>education</title>
       <link>/tags/education.html</link>
       <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
-      
       <guid>/tags/education.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>reference</title>
       <link>/tags/reference.html</link>
       <pubDate>Sat, 08 Feb 2014 15:06:00 +0800</pubDate>
-      
       <guid>/tags/reference.html</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

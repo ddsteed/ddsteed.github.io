@@ -6,33 +6,28 @@
     <description>Recent content in study on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Jan 2023 10:38:00 +0800</lastBuildDate><atom:link href="/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jan 2023 10:38:00 +0800</lastBuildDate>
+    <atom:link href="/tags/study/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>读书的步骤</title>
       <link>/post/reading-steps.html</link>
       <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
-      
       <guid>/post/reading-steps.html</guid>
       <description>书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪</description>
     </item>
-    
     <item>
       <title>构建笔记系统</title>
       <link>/post/create-notes.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
-      
       <guid>/post/create-notes.html</guid>
       <description>:ID: 328E7380-BF24-417E-B052-4BAD54BA7B04 学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdq</description>
     </item>
-    
     <item>
       <title>学习的途径</title>
       <link>/post/study-road.html</link>
       <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
-      
       <guid>/post/study-road.html</guid>
       <description>:ID: D1CF20C0-7229-47D0-9FB8-9273D908C661 唯一有效的四种方法 理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了</description>
     </item>
-    
   </channel>
 </rss>

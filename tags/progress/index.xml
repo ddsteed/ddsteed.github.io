@@ -6,15 +6,14 @@
     <description>Recent content in progress on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Nov 2017 09:53:00 +0800</lastBuildDate><atom:link href="/tags/progress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Nov 2017 09:53:00 +0800</lastBuildDate>
+    <atom:link href="/tags/progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>构建笔记系统</title>
       <link>/post/create-notes.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
-      
       <guid>/post/create-notes.html</guid>
       <description>:ID: 328E7380-BF24-417E-B052-4BAD54BA7B04 学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdq</description>
     </item>
-    
   </channel>
 </rss>
