@@ -90,7 +90,8 @@
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/opp-prometheus.png&#34; /&gt;
     &lt;/div&gt;
@@ -115,7 +116,8 @@
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/chipwar.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -165,7 +167,8 @@
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/gnu.jpeg&#34; /&gt;
     &lt;/div&gt;
@@ -209,7 +212,8 @@
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luguhu.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -857,7 +861,7 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:400px&#34; &gt;
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi1.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -871,7 +875,7 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:400px&#34; &gt;
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi2.jpg&#34; /&gt;
     &lt;/div&gt;
