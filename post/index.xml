@@ -6,8 +6,15 @@
     <description>Recent content in Posts on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 11:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 16:03:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习“分岔”的乐趣</title>
+      <link>/post/study-multiple.html</link>
+      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
+      <guid>/post/study-multiple.html</guid>
+      <description>我学习的习惯非常不好，常常会在学习一个知识的时候，偏离主航道，花费很多时间在偏路上。等蓦然回头时，才发现时间已经被“浪费”了很多。 比如，最近</description>
+    </item>
     <item>
       <title>梅西“封王”，纪念一周年</title>
       <link>/post/messi-jinian.html</link>
@@ -141,13 +148,6 @@
       <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
       <guid>/post/shu-feijiu-buneng-du.html</guid>
       <description>顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，</description>
-    </item>
-    <item>
-      <title>《鱼翅与花椒》</title>
-      <link>/post/after-reading-yuchi-yu-huajiao.html</link>
-      <pubDate>Sat, 12 Mar 2022 21:05:00 +0800</pubDate>
-      <guid>/post/after-reading-yuchi-yu-huajiao.html</guid>
-      <description>《鱼翅与花椒》是英国女孩扶霞的著作，其实就是一本讲四川美食的书。这本书不论是书名还是讲述的内容，似乎都很难引起大众的兴趣。也难怪顾衡在好书榜</description>
     </item>
   </channel>
 </rss>

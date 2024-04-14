@@ -6,10 +6,66 @@
     <description>Recent content on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 11:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 16:03:00 +0800</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>学习“分岔”的乐趣</title>
+      <link>/post/study-multiple.html</link>
+      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
+      
+      <guid>/post/study-multiple.html</guid>
+      
+        <description>&lt;p&gt;我学习的习惯非常不好，常常会在学习一个知识的时候，偏离主航道，花费很多时间在偏路上。等蓦然回头时，才发现时间已经被“浪费”了很多。&lt;/p&gt;
+&lt;p&gt;比如，最近我正在研究 AI 里的大语言模型结合知识图谱的工作。本来，这已经需要我学习很多以前不懂的知识了。我还“乱上加乱”，因为我发现我需要记点笔记。然后，在记笔记的时候我觉得应该每学完一个知识就写一个读后感；接着，我发现读后感里要增加一个功能：每增加一个读后感，当然要自动计数，告诉自己，文档又多了一个哦。但是呢，这个自动计数肯定不能自己手动去数，必须让计算机自动完成，否则太愧对“程序员”的自我标榜了。&lt;/p&gt;
+&lt;p&gt;可是，对于一个普通的文档，比如 &lt;code&gt;markdown&lt;/code&gt; 格式或者 &lt;code&gt;org&lt;/code&gt; 格式，怎么能让程序自动运行呢？当然，这就引入了 Knuth 教授当年提出的“文学编程”概念，也就是，一边写文档，一边写程序，然后两者要无缝嵌入。在我的“读后感”org 文档里，自然是要用 &lt;code&gt;Emacs Lisp&lt;/code&gt; 语言来自动实现我的要求的。问题在于，唔，Elisp 我不熟悉啊 🤣 也就是说，我自吹自擂用 Emacs 了很多年，竟然连 Elisp 编程都不会。怎么办呢？当然要先去学习 Elisp 编程啊。&lt;/p&gt;
+&lt;p&gt;于是，我的学习路径，就从最开始的 &lt;code&gt;AI + LLM + Knowledge Graph&lt;/code&gt; ，变成了学习 &lt;code&gt;Elisp&lt;/code&gt; 。嗯，分岔到天涯海角去了。中间的过程我就不描述了，看书、上网查资料、调试代码、AI 问讯&amp;hellip;..。总之，经过了大约 8 个小时之后，这个问题被我解决了。代码很简单，只有短短的几行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-11&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-11&#34;&gt;11&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-12&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-12&#34;&gt;12&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-13&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-13&#34;&gt;13&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-14&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-14&#34;&gt;14&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-15&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-15&#34;&gt;15&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-16&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-16&#34;&gt;16&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;;; Counting sub-headings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#007020&#34;&gt;cl-defun&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;my/count-org-headings&lt;/span&gt; (&lt;span style=&#34;color:#007020&#34;&gt;&amp;amp;optional&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;4&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;计算当前headings下指定sub-headings的数目.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;LEVEL 是一个数字，作为参数提供，默认指定第4级&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#007020&#34;&gt;interactive&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;nLevel: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#007020&#34;&gt;let&lt;/span&gt; ((&lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;0&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#007020&#34;&gt;save-excursion&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (&lt;span style=&#34;color:#bb60d5&#34;&gt;org-map-entries&lt;/span&gt; (&lt;span style=&#34;color:#007020&#34;&gt;lambda&lt;/span&gt; () (&lt;span style=&#34;color:#007020&#34;&gt;when&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;=&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;org-current-level&lt;/span&gt;) &lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           (&lt;span style=&#34;color:#007020&#34;&gt;setq&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;1&lt;/span&gt;))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#60add5&#34;&gt;nil&lt;/span&gt; &lt;span style=&#34;color:#517918&#34;&gt;&amp;#39;tree&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#06287e&#34;&gt;insert&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;number-to-string&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#06287e&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;Number of level %d subheadings: %d&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#bb60d5&#34;&gt;add-hook&lt;/span&gt; &lt;span style=&#34;color:#517918&#34;&gt;&amp;#39;org-mode-hook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          (&lt;span style=&#34;color:#007020&#34;&gt;lambda&lt;/span&gt; () (&lt;span style=&#34;color:#bb60d5&#34;&gt;local-set-key&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;kbd&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;C-c C-h n&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;啊，每当我在“读后感”文档里，轻轻地按下组合键： &lt;code&gt;C-c C-h n&lt;/code&gt; 时，就会有一个数字跳出来，显示在当前行，告诉我已经写了几篇读后感了。当然，连同最新的这篇《Introduction to Emacs Lisp》，一并算在内了。&lt;/p&gt;
+&lt;p&gt;总有人问我，每天都在看书，到底看了些什么啊？我自己也经常稀里糊涂，我不喜欢喝酒、不喜欢应酬、不喜欢打游戏、不喜欢看肥皂剧&amp;hellip;&amp;hellip;，可是我的时间去哪儿呢？就在这一次次的“分岔”学习中，我学了好多乱七八糟的知识。有些是我工作所需要的，大多数是没什么直接用处的。可是，我经常乐在其中。也许，这样的随心所欲学习，才是我真正喜欢的。没有功利，没有利害，只有自己的喜欢。&lt;/p&gt;
+&lt;p&gt;前两天一个朋友发来信息，说看到一句话： &lt;code&gt;所谓魅力，就是比当下的时代老派一点点&lt;/code&gt; 。朋友第一时间就想到了我，说完全是我的贴身写照嘛。我回答：那我魅力无穷，因为我不是老派一点点，我是老派好多代，我就是一个 old-fashion man，就连学习，大概都是工业时代前的，或许要追溯到苏格拉底时代： &lt;code&gt;我什么都不知道，但我什么都想知道，我就愿意去找寻原因，无论有没有用处&lt;/code&gt; 。&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>梅西“封王”，纪念一周年</title>
@@ -1007,35 +1063,6 @@
 &lt;p&gt;其实，1979年国际学术年会的时候， &lt;em&gt;R&lt;/em&gt;-matrix 法结果还远远比不上另外两个，但到了今天，我看 &lt;em&gt;R&lt;/em&gt;-matrix 法快一统江湖了。虽然原因很多，但我觉得其中主要的一个原因是：Burke 等人把自己开发的 &lt;em&gt;R&lt;/em&gt;-matrix 程序包公开在网上，所有人都可以自由索取，并继续开发。 &lt;strong&gt;众人拾材火焰高&lt;/strong&gt; ， &lt;em&gt;R&lt;/em&gt;-matirx 法发展得越来越好。而另外两个方法，程序包只在自己的课题组内部流传，外人就算搞懂了理论，也由于没有程序可以实践，完全无法实用。&lt;/p&gt;
 &lt;p&gt;到现在，Complex Kohn 法除了 McCurdy 自己和学生在用外，其他人几乎没有用这个方法做出好的工作；多通道 Schwinger 法大概传到了巴西，Bettega 课题组大量用这个方法发文章。不过我写信去请教他们，没有任何回音。而反观 &lt;em&gt;R&lt;/em&gt;-matrix 法，我从网上下载了所有的源代码，再仔细研读 Burke、Tennyson 等人的文章，竟然也可以用 &lt;em&gt;R&lt;/em&gt;-matrix 方法计算实用的体系，并发表了 SCI 论文。&lt;/p&gt;
 &lt;p&gt;所以啊，一定不要“小心眼”，觉得程序公开了，别人就会“剽窃”自己的成果。其实，没有了大家的合作，不管再好的方法，最后都会束之高阁。想起当年读研究生时，看到过其他课题组有些教授不知道从哪拷了程序，连学生都不给看源码。现在，也只是尘世间的一粒灰尘而已。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>书非旧不能读也</title>
-      <link>/post/shu-feijiu-buneng-du.html</link>
-      <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
-      
-      <guid>/post/shu-feijiu-buneng-du.html</guid>
-      
-        <description>&lt;p&gt;顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，不知道怎么就对政治感了兴趣，或者仅仅是为了学习英语，就跑到图书馆借阅《The Federalist Papers》。在布满灰尘的8楼书架上，翻到这本书，然后在末尾看到借阅记录：上一次有人借这本书大概是91年，再上一次是88年。嗯，当时我去的时候是99年。有时候真是感叹，一些人当成宝珍藏的事物，在大多数人看来，其实就是灰尘而已。&lt;/p&gt;
-&lt;p&gt;再想起，我在九眼桥旧书摊和鄢校长抢书的事情。花了5元钱买了狄拉克的《量子力学原理》，结果书摊老板说这种书根本没人要，看我如获至宝地抢在手里，觉得可怜，顺手又附带送我一本英文的。&lt;/p&gt;
-&lt;p&gt;唉，汝之蜜糖，彼之砒霜。无论如何，我还是觉得《联邦党人文集》很值得一读。&lt;/p&gt;
-&lt;p&gt;鄢校长就是川大的老校长鄢国森教授。96年我奉导师之命去鄢校长家里安装 &lt;code&gt;Linux&lt;/code&gt; 系统。间隙，鄢校长谆谆教导我：咱们这个专业，有两本书一定要读好。一是 P. A. M. Dirac 的《量子力学原理》，二是 Szabo 和 Ostlund 的《Modern Quantum Chemistry》。&lt;/p&gt;
-&lt;p&gt;狄拉克是大物理学家啊，当然要读。英文版的《原理》一书，我是手抄了一遍，通读了三遍。实在是每次读都受益匪浅。可是 Szabo 的书，我就没觉得有什么特别的。直到后来去美国，在 Schaefer 教授的实验室里，发现他得意的几个学生，Francesco、Jeremey、Andy 等，对里面的公式简直是顺手拈来，推起方程毫不费力，才发觉自己没有领会鄢校长的意思。赶紧重新研读，不懂的地方请教实验室的谢尧明老师，三个月后才舒了一口气。顺便说一下，谢尧明老师是鄢校长在国内的大弟子，八十年代初就到美国攻读博士。所以啊，我也算没有辜负鄢校长的嘱托。:-)&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:400px&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/dirac-qm.jpeg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/dirac-qm.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
 </description>
       
     </item>

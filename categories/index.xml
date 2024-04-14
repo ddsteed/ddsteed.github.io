@@ -6,8 +6,15 @@
     <description>Recent content in Categories on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 11:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 16:03:00 +0800</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习</title>
+      <link>/categories/%E5%AD%A6%E4%B9%A0.html</link>
+      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
+      <guid>/categories/%E5%AD%A6%E4%B9%A0.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>感悟</title>
       <link>/categories/%E6%84%9F%E6%82%9F.html</link>
@@ -34,13 +41,6 @@
       <link>/categories/%E6%8A%80%E6%9C%AF.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
       <guid>/categories/%E6%8A%80%E6%9C%AF.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>学习</title>
-      <link>/categories/%E5%AD%A6%E4%B9%A0.html</link>
-      <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
-      <guid>/categories/%E5%AD%A6%E4%B9%A0.html</guid>
       <description></description>
     </item>
     <item>

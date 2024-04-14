@@ -6,8 +6,15 @@
     <description>Recent content in Tags on ddsteed&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2023 11:11:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 16:03:00 +0800</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Study</title>
+      <link>/tags/study.html</link>
+      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
+      <guid>/tags/study.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>Misc</title>
       <link>/tags/misc.html</link>
@@ -34,13 +41,6 @@
       <link>/tags/tech.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
       <guid>/tags/tech.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Study</title>
-      <link>/tags/study.html</link>
-      <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
-      <guid>/tags/study.html</guid>
       <description></description>
     </item>
     <item>
