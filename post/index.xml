@@ -4,10 +4,17 @@
     <title>Posts on ddsteed&#39;s personal blog</title>
     <link>/post.html</link>
     <description>Recent content in Posts on ddsteed&#39;s personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Apr 2024 16:03:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jul 2024 19:33:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大学的逻辑</title>
+      <link>/post/what-is-advanced-education.html</link>
+      <pubDate>Sun, 07 Jul 2024 19:33:00 +0800</pubDate>
+      <guid>/post/what-is-advanced-education.html</guid>
+      <description>在高等教育的认识问题上，我经历了好几个阶段，现在的想法和最开始的认识，甚至可以用反转来形容。 我自己在国内的一所虽不顶尖但还不错的大学接受了本</description>
+    </item>
     <item>
       <title>学习“分岔”的乐趣</title>
       <link>/post/study-multiple.html</link>
@@ -110,7 +117,7 @@
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
       <link>/post/org-hugo-blog.html</link>
-      <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate>
       <guid>/post/org-hugo-blog.html</guid>
       <description>:ID: 7BD855BC-853C-4DA0-B85E-641ED741932E 这里有三个概念首先需要理清： 用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网</description>
     </item>
@@ -141,13 +148,6 @@
       <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
       <guid>/post/zhongren-shichai-huoyangao.html</guid>
       <description>程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续</description>
-    </item>
-    <item>
-      <title>书非旧不能读也</title>
-      <link>/post/shu-feijiu-buneng-du.html</link>
-      <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
-      <guid>/post/shu-feijiu-buneng-du.html</guid>
-      <description>顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，</description>
     </item>
   </channel>
 </rss>

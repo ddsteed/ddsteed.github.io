@@ -3,34 +3,55 @@
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2024-04-14T16:03:00+08:00</lastmod>
+    <lastmod>2024-07-07T19:33:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2024-04-14T16:03:00+08:00</lastmod>
+    <lastmod>2024-07-07T19:33:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/education.html</loc>
+    <lastmod>2024-07-07T19:33:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post.html</loc>
-    <lastmod>2024-04-14T16:03:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/study.html</loc>
-    <lastmod>2024-04-14T16:03:00+08:00</lastmod>
+    <lastmod>2024-07-07T19:33:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags.html</loc>
+    <lastmod>2024-07-07T19:33:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/what-is-advanced-education.html</loc>
+    <lastmod>2024-07-07T19:33:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%95%99%E8%82%B2.html</loc>
+    <lastmod>2024-07-07T19:33:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/study.html</loc>
     <lastmod>2024-04-14T16:03:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -317,21 +338,7 @@
   </url>
   
   <url>
-    <loc>/tags/education.html</loc>
-    <lastmod>2016-07-25T18:10:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/advanced-education.html</loc>
-    <lastmod>2016-07-25T18:10:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E6%95%99%E8%82%B2.html</loc>
     <lastmod>2016-07-25T18:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
