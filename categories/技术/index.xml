@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>技术 on 点点马的蚂蚁窝</title>
-    <link>/categories/%E6%8A%80%E6%9C%AF/</link>
-    <description>Recent content in 技术 on 点点马的蚂蚁窝</description>
+    <title>技术 on ddsteed&#39;s personal blog</title>
+    <link>/categories/%E6%8A%80%E6%9C%AF.html</link>
+    <description>Recent content in 技术 on ddsteed&#39;s personal blog</description>
     <generator>Hugo</generator>
-    <language>zh-cn</language>
+    <language>en</language>
     <lastBuildDate>Thu, 02 Feb 2023 11:35:00 +0800</lastBuildDate>
     <atom:link href="/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>文档中插入图形</title>
-      <link>/post/insert-figures-in-doc/</link>
+      <link>/post/insert-figures-in-doc.html</link>
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
-      <guid>/post/insert-figures-in-doc/</guid>
+      <guid>/post/insert-figures-in-doc.html</guid>
       <description>传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但</description>
     </item>
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
-      <link>/post/org-hugo-blog/</link>
+      <link>/post/org-hugo-blog.html</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate>
-      <guid>/post/org-hugo-blog/</guid>
+      <guid>/post/org-hugo-blog.html</guid>
       <description>:ID: 7BD855BC-853C-4DA0-B85E-641ED741932E 这里有三个概念首先需要理清： 用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网</description>
     </item>
   </channel>
