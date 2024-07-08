@@ -75,16 +75,118 @@
     </item>
     
     <item>
+      <title>学习“分岔”的乐趣</title>
+      <link>/post/study-multiple.html</link>
+      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
+      
+      <guid>/post/study-multiple.html</guid>
+      
+        <description>&lt;p&gt;我学习的习惯非常不好，常常会在学习一个知识的时候，偏离主航道，花费很多时间在偏路上。等蓦然回头时，才发现时间已经被“浪费”了很多。&lt;/p&gt;
+&lt;p&gt;比如，最近我正在研究 AI 里的大语言模型结合知识图谱的工作。本来，这已经需要我学习很多以前不懂的知识了。我还“乱上加乱”，因为我发现我需要记点笔记。然后，在记笔记的时候我觉得应该每学完一个知识就写一个读后感；接着，我发现读后感里要增加一个功能：每增加一个读后感，当然要自动计数，告诉自己，文档又多了一个哦。但是呢，这个自动计数肯定不能自己手动去数，必须让计算机自动完成，否则太愧对“程序员”的自我标榜了。&lt;/p&gt;
+&lt;p&gt;可是，对于一个普通的文档，比如 &lt;code&gt;markdown&lt;/code&gt; 格式或者 &lt;code&gt;org&lt;/code&gt; 格式，怎么能让程序自动运行呢？当然，这就引入了 Knuth 教授当年提出的“文学编程”概念，也就是，一边写文档，一边写程序，然后两者要无缝嵌入。在我的“读后感”org 文档里，自然是要用 &lt;code&gt;Emacs Lisp&lt;/code&gt; 语言来自动实现我的要求的。问题在于，唔，Elisp 我不熟悉啊 🤣 也就是说，我自吹自擂用 Emacs 了很多年，竟然连 Elisp 编程都不会。怎么办呢？当然要先去学习 Elisp 编程啊。&lt;/p&gt;
+&lt;p&gt;于是，我的学习路径，就从最开始的 &lt;code&gt;AI + LLM + Knowledge Graph&lt;/code&gt; ，变成了学习 &lt;code&gt;Elisp&lt;/code&gt; 。嗯，分岔到天涯海角去了。中间的过程我就不描述了，看书、上网查资料、调试代码、AI 问讯&amp;hellip;..。总之，经过了大约 8 个小时之后，这个问题被我解决了。代码很简单，只有短短的几行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-11&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-11&#34;&gt;11&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-12&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-12&#34;&gt;12&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-13&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-13&#34;&gt;13&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-14&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-14&#34;&gt;14&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-15&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-15&#34;&gt;15&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-16&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-16&#34;&gt;16&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;;; Counting sub-headings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#007020&#34;&gt;cl-defun&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;my/count-org-headings&lt;/span&gt; (&lt;span style=&#34;color:#007020&#34;&gt;&amp;amp;optional&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;4&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;计算当前headings下指定sub-headings的数目.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;LEVEL 是一个数字，作为参数提供，默认指定第4级&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#007020&#34;&gt;interactive&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;nLevel: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#007020&#34;&gt;let&lt;/span&gt; ((&lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;0&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#007020&#34;&gt;save-excursion&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (&lt;span style=&#34;color:#bb60d5&#34;&gt;org-map-entries&lt;/span&gt; (&lt;span style=&#34;color:#007020&#34;&gt;lambda&lt;/span&gt; () (&lt;span style=&#34;color:#007020&#34;&gt;when&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;=&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;org-current-level&lt;/span&gt;) &lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           (&lt;span style=&#34;color:#007020&#34;&gt;setq&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;1&lt;/span&gt;))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#60add5&#34;&gt;nil&lt;/span&gt; &lt;span style=&#34;color:#517918&#34;&gt;&amp;#39;tree&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#06287e&#34;&gt;insert&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;number-to-string&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#06287e&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;Number of level %d subheadings: %d&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#bb60d5&#34;&gt;add-hook&lt;/span&gt; &lt;span style=&#34;color:#517918&#34;&gt;&amp;#39;org-mode-hook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          (&lt;span style=&#34;color:#007020&#34;&gt;lambda&lt;/span&gt; () (&lt;span style=&#34;color:#bb60d5&#34;&gt;local-set-key&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;kbd&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;C-c C-h n&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;啊，每当我在“读后感”文档里，轻轻地按下组合键： &lt;code&gt;C-c C-h n&lt;/code&gt; 时，就会有一个数字跳出来，显示在当前行，告诉我已经写了几篇读后感了。当然，连同最新的这篇《Introduction to Emacs Lisp》，一并算在内了。&lt;/p&gt;
+&lt;p&gt;总有人问我，每天都在看书，到底看了些什么啊？我自己也经常稀里糊涂，我不喜欢喝酒、不喜欢应酬、不喜欢打游戏、不喜欢看肥皂剧&amp;hellip;&amp;hellip;，可是我的时间去哪儿呢？就在这一次次的“分岔”学习中，我学了好多乱七八糟的知识。有些是我工作所需要的，大多数是没什么直接用处的。可是，我经常乐在其中。也许，这样的随心所欲学习，才是我真正喜欢的。没有功利，没有利害，只有自己的喜欢。&lt;/p&gt;
+&lt;p&gt;前两天一个朋友发来信息，说看到一句话： &lt;code&gt;所谓魅力，就是比当下的时代老派一点点&lt;/code&gt; 。朋友第一时间就想到了我，说完全是我的贴身写照嘛。我回答：那我魅力无穷，因为我不是老派一点点，我是老派好多代，我就是一个 old-fashion man，就连学习，大概都是工业时代前的，或许要追溯到苏格拉底时代： &lt;code&gt;我什么都不知道，但我什么都想知道，我就愿意去找寻原因，无论有没有用处&lt;/code&gt; 。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>梅西“封王”，纪念一周年</title>
+      <link>/post/messi-jinian.html</link>
+      <pubDate>Wed, 20 Dec 2023 11:11:00 +0800</pubDate>
+      
+      <guid>/post/messi-jinian.html</guid>
+      
+        <description>&lt;p&gt;距离阿根廷世界杯夺冠，刚刚一年。网上阿根廷的粉丝、梅西的粉丝热闹起来，到处都是回忆和开心的帖子。连梅西自己也在 ins 上连发两条，十几张照片。可见梅西心里也是久久不能忘怀的。更有财力雄厚的粉丝，继续在上海外滩包下大屏，滚动播放夺冠的镜头。于是，去年世界杯的各种场景，尤其决赛的画面，又浮现在脑海里，仿佛没有过去一年，而是一天。很多人在感慨，去年，我们“阳”了，梅西也“羊”了。（梅西去年正式被国际足联称为“Greatest of All Times”，简称 GOAT。）&lt;/p&gt;
+&lt;p&gt;我心里的激动，却并不多，也没有参与粉丝们在论坛上的各种狂欢。大概在我心里，觉得锦上添花的事情，不需要我来做的。我更看重的是低谷里的扶持、鼓励、陪伴。因此，2015-2021 年梅西最低谷的时候，我才是经常在网上和那些诋毁他的人“论战”、对线。我其实明白，对面争论的也许都是些中学生。我这样地年纪，还在和小我几十岁的人争辩，实在是有些可笑。但那时，就是觉得，这是我真心喜欢的梅西啊，虽然我们在网上为他的辩解，他根本就不知道。而遥远东方一个足球荒漠国家的足球论坛，又有什么意义呢？于他几乎没有影响。&lt;/p&gt;
+&lt;p&gt;但我愿意这么做。梅西，值得我这么做。&lt;/p&gt;
+&lt;p&gt;我喜欢的足球运动员，或者说所有体育类运动员，我真正喜欢的就两个：古利特和梅西。1988 年欧洲杯，是荷兰三剑客光茫四射的舞台。我一眼看到古利特，就喜欢上了，即使当时最火的球王是马拉多纳，即使在荷兰三剑客里，最帅的是范巴斯腾。但我就喜欢这个满头辫子的黑大个。后来古利特受伤病困扰，膝盖做过几次大手术，不能支撑他全力地在球场上奔跑了。逐渐沦为替补，甚至远走英伦（当时的英超，完全比不上意甲）。我读大学的时候，没有网络，看不到电视。我只有在报纸上努力地寻找关于古利特的消息。有时候，《成都商报》的足球版块里一句话：古利特和队友撞墙配合，射进一球。我都会高兴好久，反复地看着这句话，一天的心情都好很多。班里同学慢慢知道我的喜好，每次看到有古利特的消息，都贴心地赶紧把报纸给我，说一句，古利特进球了哦。&lt;/p&gt;
+&lt;p&gt;但是梅西，还是不同的。球技好的球员很多&amp;mdash;虽然梅西的球技我也认为是非常好的&amp;mdash;但技术这个东西，并没有绝对的标准，如同“文无第一”。梅西与众不同的，是他的人品，以及眼里只有足球的赤诚之心。当初，看到【梅西 - 一个犬人, 一个病人】这个粉丝自己制作的视频时，一下就被感动了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1os411e7JA/?share_source=copy_web&amp;vd_source=b55217ca21ad6b48d21cb33a5d4856fd&#34;&gt;梅西，一个犬人，一个病人&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=4990062&amp;bvid=BV1os411e7JA&amp;cid=8105920&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;只是，那时还仅仅把他当成一个热爱足球的运动员而已。曾经有人评价，梅西只能踢顺境足球，逆境时他无法站出来带领大家。在三连亚的时候，在 2018 年世界杯被法国踢出局的时候，在欧冠被拜仁 8:2 击溃的时候，梅西默默地承受这些失败，但他没有屈服，一次又一次地站出来。真正的领袖，不需要口头上的大声吆喝，而是以坚韧的毅力，努力地向前。&lt;/p&gt;
+&lt;p&gt;当看到如下梅西的访谈时，我明白，这才是真正的领袖，也才是真正的人生。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我觉得不仅仅是足球。只要人有梦想，不论梦想多渺小，去做，去奋斗，对吗。&lt;/p&gt;
+&lt;p&gt;我相信事在人为。只要你努力，旅途遍布荆棘，你会摔倒无数次，但梦想就在前方。当你明白人生不可能一帆风顺，很多时候困难才是人生主旋律的时候，你也就获得了成长。&lt;/p&gt;
+&lt;p&gt;工作会让人们感到烦躁，每天都会烦忧，这都是日常，这就是生活。爬起身吧，再试一次，再去为你所要的奋斗一次，尽全力去做。&lt;/p&gt;
+&lt;p&gt;很显然，每个人都想赢，都希望做到最好，但有很多足球运动员在踢球，我们都希望他们能成为自己的冠军，第二名也是冠军。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi3.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/messi3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;梅西也会慢慢老去，眼角也都布满了皱纹。我的青春，也在古利特、梅西的陪伴下，逝去了。很多粉丝说，梅西不需要世界杯来证明自己的球王地位，但我们粉丝需要拿来对线。其实，真正的粉丝也不需要。在我们的心里，有这么一个纯粹的足球运动员存在，是足球的幸运，也是我们的幸运。&lt;/p&gt;
+&lt;p&gt;曾经谦逊是一个人的美德，后来张扬成了时尚的标识。对于我这样的 old fashion man 来说，梅西似乎就是一个生活在上世纪的绅士。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人生当中成功只是一时的，失败却是主旋律，但是如何面对失败，却把人分成了不同的样子。有的人会被失败击垮，有的人能够不断的爬起来继续向前。&lt;/p&gt;
+&lt;p&gt;我想真正的成熟应该不是追求完美，而是直面自己的缺憾，这才是生活的本质！难道向上攀爬的那条路不是比站在顶峰更让人热血澎湃吗？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;梅西，值得。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>“殉道者”有什么意义</title>
       <link>/post/oppenheimer.html</link>
       <pubDate>Fri, 29 Sep 2023 07:35:00 +0800</pubDate>
       
       <guid>/post/oppenheimer.html</guid>
       
-        <description>&lt;p&gt;诺兰导演的《奥本海默》，在国内外的反响差别很大。在北美的票房超过3亿美元，但是在中国，很多人评价说故事沉闷乏味，没有情节的剧烈冲突，在电影院几乎睡着。&lt;/p&gt;
+        <description>&lt;p&gt;诺兰导演的《奥本海默》，在国内外的反响差别很大。在北美的票房超过 3 亿美元，但是在中国，很多人评价说故事沉闷乏味，没有情节的剧烈冲突，在电影院几乎睡着。&lt;/p&gt;
 &lt;p&gt;电影的故事情节很简单，奥本海默是一个极其聪明的人，领导了美国或者说全世界第一个原子弹计划&amp;mdash;-曼哈顿工程。在这个计划中，几乎汇聚了美国最顶尖的物理学家和化学家：康普顿、拉比、劳伦斯、西拉德&amp;hellip;&amp;hellip;，连我的偶像费曼，当时都只是一个稍微有点名气的小年轻而已。这众多的大佬&amp;ndash;要么迟早获得诺贝尔奖，要么也是同等级别的大科学家&amp;ndash;都安心在奥本海默的领导下开展工作。因为他们知道，奥本海默不仅自己通晓物理，还能第一时间准确理解所有人的想法。更重要的是，他有能力组织不同领域、不同风格的人在一起，解决所有难题。&lt;/p&gt;
 &lt;p&gt;原子弹的研制成功，给奥本海默带来了空前的声誉，但是，也给他带来了深深的苦恼：人类制造出这样“恶魔”般的武器，到底是福还是祸？上世纪五十年代，美国麦卡锡主义盛行，参议员施特劳斯将军设计陷害奥本海默，让他受尽无尽的屈辱和折磨，剥夺了他的安全许可，在公众面前羞辱他。最后奥本海默在孤独中渡过残生，虽然在最后，美国恢复了他的名誉，但已是风烛残年，于事无补。&lt;/p&gt;
-&lt;p&gt;整个电影以大段大段的内心独白为主，没有情节的高潮迭起，这也是很多国内观众昏昏欲睡的主要原因。但是，我一看，就立刻明白了奥本海默的心里，他如此聪明的人，为什么会受施特劳斯将军的陷害？电影里他的夫人也一再强调，反击、反击。可是，他选择了默默的承受。在我看来，奥本海默就是一个&amp;mdash;-“殉道者”，他选择牺牲自己，来向公众传达自己的理念：人类面对自己制造出来的不可控武器，一定要尽最大的力量束缚自己，而不能滥用。&lt;/p&gt;
+&lt;p&gt;整个电影以大段大段的内心独白为主，没有情节的高潮迭起，这也是很多国内观众昏昏欲睡的主要原因。但是，我明白奥本海默的心里。他如此聪明的人，为什么会受施特劳斯将军的陷害？电影里他的夫人也一再强调，反击、反击。可是，他选择了默默的承受。在我看来，奥本海默就是一个&amp;mdash;-“殉道者”，他选择牺牲自己，来向公众传达自己的理念：人类面对自己制造出来的不可控武器，一定要尽最大的力量束缚自己，而不能滥用。&lt;/p&gt;
 &lt;p&gt;现实生活中，很多人完全不能理解“殉道者”，觉得他们很傻。大多不能理解他们想传达的理念，即使理解了，也觉得他们的做法很愚蠢，为什么需要牺牲自己呢？难道不能两全其美吗？从策略的角度来看，保全自己最重要，宣传理念顺道而来。可是呢，在有些人心里，自己是最不重要的，他们想表达的思想、想做成的事业，才如此地超越生命。牺牲，有什么用？因为这是悲剧的力量。人是一种很奇怪的动物，我们看重欢乐，可是悲剧的力量，才能让人省悟。莎士比亚的四大喜剧，人们看了笑哈哈，但不大记得住。但他的四大悲剧：《哈姆雷特》、《奥赛罗》、《李尔王》、《麦克白》，很多人都能脱口而出。我甚至曾经有段时间还把《麦克白》里的一段独白作为自己的签名。而莎士比亚，在这样的力量中，诉说了自己的观点。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Life is but a walking shadow,&lt;/p&gt;
@@ -102,12 +204,13 @@
 &lt;p&gt;但无任何意义&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;苏格拉底、孔子、耶稣&amp;hellip;&amp;hellip;，不都是这样的“殉道者”吗？苏格拉底愿意面对死亡，告诫“乌合之众”的愚蠢；孔子“知其不可而为之”，为了“礼”的信念。他们失败了吗？在他们的时代，也许是。可是，多少年以后，我们记住的是他们想做的事、他们用毕生力量告诉世人的理念。我们记住了，他们就“成功”了。&lt;/p&gt;
-&lt;p&gt;奥本海默可以选择反击，可以用无与伦比的聪明才智让自己功成名就。可是，他选择了牺牲自己，通过让自己在那些愚蠢的“审查者”面前受尽屈辱的方式，传递自己的观点：我们盗取了“火”，该如何正确使用它？实际上，诺兰的电影，正是这本获得普利策奖的著作改编而来&amp;mdash;&amp;ndash;“American Prometheus”。普罗大众，理解了奥本海默的思想，尽管并没有真正知晓他牺牲的方式。&lt;/p&gt;
+&lt;p&gt;奥本海默可以选择反击，可以用无与伦比的聪明才智让自己功成名就。可是，他选择了牺牲自己，通过让自己在那些愚蠢的“审查者”面前受尽屈辱的方式，传递自己的观点：我们盗取了“火”，该如何正确使用它？实际上，诺兰的电影，正是这本获得普利策奖的著作改编而来&amp;mdash;&amp;ndash;“American Prometheus”。普罗大众，知晓了奥本海默的思想，尽管并没有真正理解他牺牲的方式。&lt;/p&gt;
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/opp-prometheus.png&#34; /&gt;
     &lt;/div&gt;
@@ -115,7 +218,7 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;我从小就受这样的思想影响，想当“英雄”，可是我没有足够的能力，我想牺牲自己，但即使这样，也常常做不好。但我，深深地理解他们的想法。我十年前在 xhu 的时候做改革，实际上也存了这样的想法。我知道我不会成功，但我想试一试。我义无反顾地，但或许现在也没有留下丝毫的印迹。但是，又如何呢？做过了，也就踏实了。&lt;/p&gt;
+&lt;p&gt;我从小就受这样的思想影响，想当“英雄”，可是我没有足够的能力，我想牺牲自己，但即使这样，也常常做不好。但我，深深地理解他们的想法。我十年前在 xhu 的时候做改革，实际上也存了这样的念头。我知道我不会成功，但我想试一试。我义无反顾地，但或许现在也没有留下丝毫的印迹。但是，又如何呢？做过了，也就踏实了。&lt;/p&gt;
 </description>
       
     </item>
@@ -132,7 +235,8 @@
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/chipwar.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -140,7 +244,7 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;该书的英文版是去年10月份刚出的，繁体中文版和简体中文版也刚刚上市。只是，繁体版的很多术语我读起来非常别扭，简体版又似乎删掉了某些内容。因此，还是硬着头皮啃下了英文版。作者 Chris Miller 是塔夫茨大学的国际历史副教授，很年轻，但是学术功底非常扎实。本书的参考文献，就占了全书内容的20%。可见治学之严谨，考据之充分，绝非那些靠发点吸引眼球的爆炸新闻的所谓“专家”可以比拟。《纽约时报》对此书评价颇高，认为“情节跌宕起伏，读起来就像是一部非虚构的惊悚片”。&lt;/p&gt;
+&lt;p&gt;该书的英文版是去年 10 月份刚出的，繁体中文版和简体中文版也刚刚上市。只是，繁体版的很多术语我读起来非常别扭，简体版又似乎删掉了某些内容。因此，还是硬着头皮啃下了英文版。作者 Chris Miller 是塔夫茨大学的国际历史副教授，很年轻，但是学术功底非常扎实。本书的参考文献，就占了全书内容的 20%。可见治学之严谨，考据之充分，绝非那些靠发点吸引眼球的爆炸新闻的所谓“专家”可以比拟。《纽约时报》对此书评价颇高，认为“情节跌宕起伏，读起来就像是一部非虚构的惊悚片”。&lt;/p&gt;
 &lt;p&gt;芯片行业，或者更广泛的半导体行业，已经成了各个国家发展的重中之重。对于中美这样的大国来说，更是事关国运，成了当前国际竞争的焦点。现在中国大力提倡破除“卡脖子”工程，力争做到自给自足、完全不依赖国际进口。整个社会，大干快上，颇有当年赶英超美的“大炼钢铁”之风。只是，很少有人问过这样的问题：如此重要的芯片，为什么中国一直不能独立生产？美国能否自给自足？是什么原因造成了当今的这种局面？&lt;/p&gt;
 &lt;p&gt;读完此书后，对于上述问题，就会有比较清晰的认识。实际上，不光中国不能自给自足，美国也不行。或者说，全世界没有一个国家可以单独地完成整个芯片产业链的设计、生产、组装&amp;hellip;&amp;hellip;。&lt;/p&gt;
 &lt;ul&gt;
@@ -148,10 +252,10 @@
 &lt;li&gt;制造芯片母版用的是光刻技术。能制造最高端光刻机的，只有荷兰 ASML 一家。而 ASML 的主要技术来自于美国；&lt;/li&gt;
 &lt;li&gt;能够实际生产高端芯片的，全世界只有台积电、三星和英特尔三家。这三家中，只有台积电只专注于生产，而完全不涉及芯片设计。因此，全世界的设计厂商都喜欢台积电，而对三星和英特尔充满了防备和竞争；&lt;/li&gt;
 &lt;li&gt;硅片等原材料由日本控制；&lt;/li&gt;
-&lt;li&gt;存储芯片和专用芯片的要求不高，中国和很多国家都能自己生产。这也是普通老百姓经常在媒体上听到的，中国又独立生产出某某芯片的新闻。但基本属于中低端的芯片，落后最先进的芯片大约15-20年。&lt;/li&gt;
+&lt;li&gt;存储芯片和专用芯片的要求不高，中国和很多国家都能自己生产。这也是普通老百姓经常在媒体上听到的，中国又独立生产出某某芯片的新闻。但基本属于中低端的芯片，落后最先进的芯片大约 15-20 年。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;之所以造成上述局面，是由于技术发展、冷战、商业利益、国家战略选择、全球化思潮、&amp;hellip;&amp;hellip;.，等等，多个复杂因素导致的。如果历史可以重来一遍，大概率芯片的布局会和今天大相径庭。即使是美国，也无法控制和主导这一切。“美国掌控了其中大部分节点，所以这个局面对美国最有利。但美国并不能掌控一切。美国的心腹大患是在芯片制造这一块。五角大楼并不信任台积电，它想有一个自己的芯片厂，但是它玩不起。制造芯片的门槛已经很高，而且会越来越高。一艘航空母舰的造价才100亿美元，而你要搞一个配套的芯片厂，需要两艘航空母舰的价格一—就这样，领先优势也只能维持几年而己。”历史上日本、韩国、新加坡，&amp;hellip;&amp;hellip;.，都曾经对美国说“不”，但都是你方唱罢我登场，来去匆匆一场梦。&lt;/p&gt;
-&lt;p&gt;芯片太复杂了，也太脆弱了。任何一个关键环节出问题，都会导致整个产业链的崩溃。即使你会设计，但没有光刻机，你也做不出母版。“ASML现在出品的极紫外光刻机，是用了30年的研发才完成商业化，背后有超过一千家供应商的支持。它一个激光器就有457,329个部件。这些部件中有一个出问题，就会导致整个机器不可靠、不好用。就算ASML不设防，所有图纸都给你，中国也没有办法立即把这台机器造出来。这是因为具体生产过程中有很多 know how 是只能意会、没有写进手册里的「默会知识」，只有在现场实际操作的人才知道，那是人家几十年摸索出来的经验积累。更何况中国没有那一千家供应商。退一步说，就算中国用了十年时间、花上几百亿美元，真把光刻机造出来了，也没有商业价值。因为你模仿的是前一代，人家又出下一代了。ASML 2025年要出的新一代的光刻机将使用「高光園极紫外 (high-aperture EuV)」技术，每台成本3亿美元，你怎么跟它竟争？”&lt;/p&gt;
+&lt;p&gt;之所以造成上述局面，是由于技术发展、冷战、商业利益、国家战略选择、全球化思潮、&amp;hellip;&amp;hellip;.，等等，多个复杂因素导致的。如果历史可以重来一遍，大概率芯片的布局会和今天大相径庭。即使是美国，也无法控制和主导这一切。“美国掌控了其中大部分节点，所以这个局面对美国最有利。但美国并不能掌控一切。美国的心腹大患是在芯片制造这一块。五角大楼并不信任台积电，它想有一个自己的芯片厂，但是它玩不起。制造芯片的门槛已经很高，而且会越来越高。一艘航空母舰的造价才 100 亿美元，而你要搞一个配套的芯片厂，需要两艘航空母舰的价格一—就这样，领先优势也只能维持几年而己。”历史上日本、韩国、新加坡，&amp;hellip;&amp;hellip;.，都曾经对美国说“不”，但都是你方唱罢我登场，来去匆匆一场梦。&lt;/p&gt;
+&lt;p&gt;芯片太复杂了，也太脆弱了。任何一个关键环节出问题，都会导致整个产业链的崩溃。即使你会设计，但没有光刻机，你也做不出母版。“ASML 现在出品的极紫外光刻机，是用了 30 年的研发才完成商业化，背后有超过一千家供应商的支持。它一个激光器就有 457,329 个部件。这些部件中有一个出问题，就会导致整个机器不可靠、不好用。就算 ASML 不设防，所有图纸都给你，中国也没有办法立即把这台机器造出来。这是因为具体生产过程中有很多 know how 是只能意会、没有写进手册里的「默会知识」，只有在现场实际操作的人才知道，那是人家几十年摸索出来的经验积累。更何况中国没有那一千家供应商。退一步说，就算中国用了十年时间、花上几百亿美元，真把光刻机造出来了，也没有商业价值。因为你模仿的是前一代，人家又出下一代了。ASML 2025 年要出的新一代的光刻机将使用「高光園极紫外 (high-aperture EuV)」技术，每台成本 3 亿美元，你怎么跟它竟争？”&lt;/p&gt;
 &lt;p&gt;有了光刻机就行了吗？远远不够，大规模生产和制造芯片的企业，全世界只有台积电一家。有人开玩笑说，台积电的创始人张忠谋以一己之力，让全世界认识了台湾。连美国都求着台积电，软硬兼施，让台积电在美国建了几个分厂。但大家都心知肚明，最先进的生产线，还在台湾。最好的制造人才，也都还在亚洲。&lt;/p&gt;
 &lt;p&gt;那么，有没有办法解决“卡脖子”呢？Miller 给了一些建议，万维刚也说了一些办法。我想，认真读了此书的人，都会有自己的见解。&lt;/p&gt;
 &lt;p&gt;这确实是值得一读的好书，认真做学问的人，才能写出如此精彩的专著，给读者以启发。&lt;/p&gt;
@@ -169,12 +273,12 @@
         <description>&lt;p&gt;我有个癖好，喜欢对外文中那些稀奇古怪的词，研究它们的正确发音。大概是因为我有强迫症，所以我完全无法忍受一个词被错误地念来念去。如果是人名，念错了，我更要疯掉。我的名字就从小被人喊错，每次听到被喊“Feng Ying”的时候，我都不愿意答应 😤&lt;/p&gt;
 &lt;p&gt;为了搞清楚那些稀奇古怪的发音，我还不惜花时间认真考古，所以，我念这些词的时候，有根有据，绝不乱说 😝 唉，不知道浪费了多少时间啊。&lt;/p&gt;
 &lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-&lt;p&gt;Linux 是现在最流行的开源操作系统的名字。我听大多数中国人，都把它念成：李纳克斯。甚至在专门学术大会上，行业内的人也这么叫，但这是不对的。我导师94年从美国回来的时候，带回了 Slackware Linux 1.0 版本，他读的发音是：乃乐克斯。虽然他告诉我，他的美国同学都这么叫，但是，这也不对。为什么老美这么叫呢？也不是没有原因。Linux 是一个叫 Linus Torvarlds 的人，搞出的类 Unix 操作系统内核，因此，Linus 把它称为 Linus&amp;rsquo; Unix，简称 Linux。在美国，Linus 是一个常见的名字，比如，诺贝尔化学奖得主 Linus Pauling。老美念 Linus，就是类似于：乃乐斯。当然，Linux 就被他们发音为“乃乐克斯”了。&lt;/p&gt;
-&lt;p&gt;本着名字就该本人的意见为第一标准的原则，我可不能因为其他人怎么念，我就怎么念。因此，我在96年前后，到处找 Linus 本人是如何念自己的名字的。万幸，我找到了本尊的亲自发音。Linus 是芬兰人，他说，在他的家乡，别人都喊他：林乐斯。注意，这个林，不要发太死了，应该是类似于“林”和“乃”之间的那个音，嘴不能太小，也不能太大，有点像中国人喊小囡囡的那个“囡”字，但是没有前面没有鼻音，后面有鼻音。所以，Linux 最后的发音应该是：林乐克斯。&lt;/p&gt;
+&lt;p&gt;Linux 是现在最流行的开源操作系统的名字。我听大多数中国人，都把它念成：李纳克斯。甚至在专门学术大会上，行业内的人也这么叫，但这是不对的。我导师 94 年从美国回来的时候，带回了 Slackware Linux 1.0 版本，他读的发音是：乃乐克斯。虽然他告诉我，他的美国同学都这么叫，但是，这也不对。为什么老美这么叫呢？也不是没有原因。Linux 是一个叫 Linus Torvarlds 的人，搞出的类 Unix 操作系统内核，因此，Linus 把它称为 Linus&amp;rsquo; Unix，简称 Linux。在美国，Linus 是一个常见的名字，比如，诺贝尔化学奖得主 Linus Pauling。老美念 Linus，就是类似于：乃乐斯。当然，Linux 就被他们发音为“乃乐克斯”了。&lt;/p&gt;
+&lt;p&gt;本着名字就该本人的意见为第一标准的原则，我可不能因为其他人怎么念，我就怎么念。因此，我在 96 年前后，到处找 Linus 本人是如何念自己的名字的。万幸，我找到了本尊的亲自发音。Linus 是芬兰人，他说，在他的家乡，别人都喊他：林乐斯。注意，这个林，不要发太死了，应该是类似于“林”和“乃”之间的那个音，嘴不能太小，也不能太大，有点像中国人喊小囡囡的那个“囡”字，但是没有前面没有鼻音，后面有鼻音。所以，Linux 最后的发音应该是：林乐克斯。&lt;/p&gt;
 &lt;h2 id=&#34;suse&#34;&gt;SUSE&lt;/h2&gt;
-&lt;p&gt;SUSE Linux 是一个德国发行的 Linux 版本，我曾经在2000年前后，很喜欢用这个版本。直到今天，它也是 Linux 家族中比较出名的版本之一。我第一次看到这个词，完全不知道该怎么念。它也不是一个标准的外文单词，实际上，连维基百科上的标注发音，都是不太对的。我困惑了很多年，直到2008年我在美国的时候，实验室有一次来了一个德国的博士。我就专门跑去问他，德语中这个该怎么发音。他告诉我，应该念：苏匝，只是那个“匝”不能发太重，应该类似于 zoo 这个单词里的英文读音。当然，也有人读：苏细。题外话，SUSE 是一个德语的简写：Software und System-Entwicklung。意思是 software and systems development，仅此而已。考虑到德国人发明的，咱们还是按照德国人的习惯来读比较正宗 😆&lt;/p&gt;
+&lt;p&gt;SUSE Linux 是一个德国发行的 Linux 版本，我曾经在 2000 年前后，很喜欢用这个版本。直到今天，它也是 Linux 家族中比较出名的版本之一。我第一次看到这个词，完全不知道该怎么念。它也不是一个标准的外文单词，实际上，连维基百科上的标注发音，都是不太对的。我困惑了很多年，直到 2008 年我在美国的时候，实验室有一次来了一个德国的博士。我就专门跑去问他，德语中这个该怎么发音。他告诉我，应该念：苏匝，只是那个“匝”不能发太重，应该类似于 zoo 这个单词里的英文读音。当然，也有人读：苏细。题外话，SUSE 是一个德语的简写：Software und System-Entwicklung。意思是 software and systems development，仅此而已。考虑到德国人发明的，咱们还是按照德国人的习惯来读比较正宗 😆&lt;/p&gt;
 &lt;h2 id=&#34;bjarne-stroustrup&#34;&gt;Bjarne Stroustrup&lt;/h2&gt;
-&lt;p&gt;Bjarne 是 C++ 语言的发明者，人称“C++之父”，妥妥的大牛，人也很谦虚。20、30年以前，总有些好事者，把 C++ 和其它语言比来比去，秒天秒地秒空气，谁都不放在眼里。但人家真正的 C++之父，却是异常谦虚，常常说，哎呀，C++ 的发明实际上是不得已为之。C 就已经很好很好了，但是有时候没有类，稍微不太方便。我为了自己工作顺手，才发明的 C++。看，哪像那些自以为的高手，学了点面向对象，就以为天底下所有的东西都是类（class）了。&lt;/p&gt;
+&lt;p&gt;Bjarne 是 C++ 语言的发明者，人称“C++之父”，妥妥的大牛，人也很谦虚。20、30 年以前，总有些好事者，把 C++ 和其它语言比来比去，秒天秒地秒空气，谁都不放在眼里。但人家真正的 C++之父，却是异常谦虚，常常说，哎呀，C++ 的发明实际上是不得已为之。C 就已经很好很好了，但是有时候没有类，稍微不太方便。我为了自己工作顺手，才发明的 C++。看，哪像那些自以为的高手，学了点面向对象，就以为天底下所有的东西都是类（class）了。&lt;/p&gt;
 &lt;p&gt;我是听过很多著名大学的计算机学院的老师，把 Bjarne 念成：“B 酱”的。因此，很多学生，也跟着这样念。但实际上，Bjarne 是丹麦人，不按英语发音的。他亲口念过他的名字，读：“B 阿恩呐”。这里，j 不发音，结尾的 e 反而要发音。惊不惊喜？刺不刺激？😝&lt;/p&gt;
 &lt;h2 id=&#34;gnu&#34;&gt;GNU&lt;/h2&gt;
 &lt;p&gt;GNU 就是大名鼎鼎的开源社区的大本营，是开源的领袖 Richard M. Stallman 一手打造的开源工具。这个 gnu 呢，本身是一个英文词，读 /nu:/，就是一种野生的动物角马。因此，GNU 的 logo，就是一头角马。&lt;/p&gt;
@@ -182,7 +286,8 @@
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/gnu.jpeg&#34; /&gt;
     &lt;/div&gt;
@@ -193,7 +298,7 @@
 &lt;p&gt;但是，GNU 不能念成“努”，因为，GNU 实际上是 GNU is NOT Unix 的简写。所以，这个 G 是一定要发音的。这些计算机的黑客们啊，实在是喜欢用这种递归的方式来命名，以显示自己的水平 :-)&lt;/p&gt;
 &lt;h2 id=&#34;knuth&#34;&gt;Knuth&lt;/h2&gt;
 &lt;p&gt;Donald E. Knuth 教授，是我最最最尊敬的计算机科学家，甚至不用加之一。他写的《The Art of Computer Programming》，即使看不懂，也要买回来放进书柜，装门面的。Knuth 教授计划写七卷，刚写到第三卷，图灵奖就忍不住了，赶紧给他颁奖。图灵奖就是计算机届的诺贝尔奖，因为诺贝尔那时不知道还可以给计算机这个专业授奖。也难怪，诺贝尔也不知道计算机长啥样啊。&lt;/p&gt;
-&lt;p&gt;Knuth 教授爱好极其广泛，为了写“TAOCP”一书，觉得人家排版不好看，因此就先发明了 \(\TeX\) 语言和 &lt;strong&gt;METAFONT&lt;/strong&gt; 画图工具，自己来排版书。这个 \(\TeX\) 发明了之后，数学家们一看，哇，太漂亮了，写数学公式完全就像艺术。因此，1979年数学大会，毫无悬念的，一致通过，今后数学期刊论文，以 \(\TeX\) 语言作为官方排版印刷标准。凡是用 \(\TeX\) 写论文的，一律不收版面费。用其他方式写数学公式的，每页纸800美刀，不打折。我当年在《Physical Review》上发的第一篇论文，就是用 \(\TeX\) 写的，物理评论期刊部真的没收我的钱&amp;hellip;&amp;hellip;.。感谢伟大的 Knuth 教授。（我在这随手写个数学公式，让大家看看，多么的漂亮，多么的简洁，多么的，无与伦比。）&lt;/p&gt;
+&lt;p&gt;Knuth 教授爱好极其广泛，为了写“TAOCP”一书，觉得人家排版不好看，因此就先发明了 \(\TeX\) 语言和 &lt;strong&gt;METAFONT&lt;/strong&gt; 画图工具，自己来排版书。这个 \(\TeX\) 发明了之后，数学家们一看，哇，太漂亮了，写数学公式完全就像艺术。因此，1979 年数学大会，毫无悬念的，一致通过，今后数学期刊论文，以 \(\TeX\) 语言作为官方排版印刷标准。凡是用 \(\TeX\) 写论文的，一律不收版面费。用其他方式写数学公式的，每页纸 800 美刀，不打折。我当年在《Physical Review》上发的第一篇论文，就是用 \(\TeX\) 写的，物理评论期刊部真的没收我的钱&amp;hellip;&amp;hellip;.。感谢伟大的 Knuth 教授。（我在这随手写个数学公式，让大家看看，多么的漂亮，多么的简洁，多么的，无与伦比。）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;e^{i x} = \cos(x) + i \sin(x)&lt;/p&gt;
 &lt;p&gt;e^{i\ pi} + 1  = 0&lt;/p&gt;
@@ -209,14 +314,14 @@
     </item>
     
     <item>
-      <title>13年后的“重逢”</title>
+      <title>13 年后的“重逢”</title>
       <link>/post/luguhu.html</link>
       <pubDate>Sun, 02 Jul 2023 11:04:00 +0800</pubDate>
       
       <guid>/post/luguhu.html</guid>
       
-        <description>&lt;p&gt;女儿暑期要去深圳实习，于是闹着安排了一次西昌和泸沽湖的自驾游。上一次来泸沽湖是2010年1月，当时刚去西华大学，年终的时候学院有传统，大家自费集体出去玩一次。那次选的是泸沽湖，而我对出去旅游这件事毫无经验，连准备什么都不知道，因此冬季的泸沽湖气温是多少，都是到了之后才有感觉。结果就是&amp;mdash;-我不得不借同事的衣服来御寒 😅&lt;/p&gt;
-&lt;p&gt;因为赶在端午节之后，和暑假之前，人很少。这是我喜欢的，或者说，尤其喜欢的。不管什么美景，只要人一多，我就头昏。而只要人少，即使在偏僻的小山村，我都能感受到宁静。这次沿泸沽湖一周，看水看天看云看花，异常的安宁，可以听到风的声音，可以闻到泥土的气息。在13年前照相的地方，又重新照了一张。看着这两张同人同地异时的照片，看到两鬓多了的白发，恍惚时光交错，这13年后的“重逢”，并没有想象中的那样伤感。&lt;/p&gt;
+        <description>&lt;p&gt;女儿暑期要去深圳实习，于是闹着安排了一次西昌和泸沽湖的自驾游。上一次来泸沽湖是 2010 年 1 月，当时刚去西华大学，年终的时候学院有传统，大家自费集体出去玩一次。那次选的是泸沽湖，而我对出去旅游这件事毫无经验，连准备什么都不知道，因此冬季的泸沽湖气温是多少，都是到了之后才有感觉。结果就是&amp;mdash;-我不得不借同事的衣服来御寒 😅&lt;/p&gt;
+&lt;p&gt;因为赶在端午节之后，和暑假之前，人很少。这是我喜欢的，或者说，尤其喜欢的。不管什么美景，只要人一多，我就头昏。而只要人少，即使在偏僻的小山村，我都能感受到宁静。这次沿泸沽湖一周，看水看天看云看花，异常的安宁，可以听到风的声音，可以闻到泥土的气息。在 13 年前照相的地方，又重新照了一张。看着这两张同人同地异时的照片，看到两鬓多了的白发，恍惚时光交错，这 13 年后的“重逢”，并没有想象中的那样伤感。&lt;/p&gt;
 &lt;p&gt;经常觉得时间是停滞的，十年、二十年，仿佛就是前两天发生的事一样。而我对自己在西华的经历，却并不认可。回想自己所做的事，失败远远大于成功，甚至如果要问我，在西华说一两件引以自豪的事，我大概都会语塞，半天回答不出来。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;落魄江湖载酒行，楚腰纤细掌中轻。&lt;/p&gt;
@@ -226,7 +331,8 @@
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luguhu.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -247,8 +353,8 @@
       <guid>/post/hjkl-vs-mouse.html</guid>
       
         <description>&lt;p&gt;程序员的世界里，有两派截然不同的风格：一是老旧的“键盘侠”，喜欢手不离开键盘，操纵一切；与之相反的是“鼠标点点点”，所有的东西都尽量用图形界面，用鼠标来操控方向，指点江山。&lt;/p&gt;
-&lt;p&gt;在苹果公司“窃取” Xerox 公司的图形操作系统之前，大家都是面对黑乎乎的屏幕，处理文档，或者编写代码。Windows 95在中国普及之前，大家也是习惯于 DOS 那个简陋的字符界面。在这种情况下输入字符和修改，就产生了一个非常具体的问题：我们怎么把光标快速移动到想修改或者输入的地方？最开始的 ex 编辑器，只能一行一行地编辑，然后提交。如果发现提交过的字符需要修改，就要发“请求”把那一行撤回来，然户用键盘上的光标移动键，左右移动那里，进行删除/增加/修改。我当年初学计算机的时候，是经历了这种炼狱般的折磨的。回想那时用这样的编辑器书写 FORTRNAN 代码，调试，发现错了再修改，真是不堪回首啊 &amp;hellip;&amp;hellip;。&lt;/p&gt;
-&lt;p&gt;Unix 世界里的精英们，是不会容许这样笨拙的操作来控制人类的。于是，vi 这个全屏编辑器就应运而生。在这个编辑器里，整篇文档都全部呈现出来，然后用光标键移动光标到指定的地方，进行编辑。但是啊，程序员是如此地“懒”，他们发现键盘的布局里，要移动光标键，需要手掌离开原来的位置。这怎么行？于是，hjkl&amp;hellip;这样的操作就出现了：我们把编辑文档分为两个状态，一个是编辑状态，直接敲字符，屏幕上就会显示那个字符；另一个是命令状态，我们按下字符键的时候，只会操作光标移动，而不是真正地输入这个字符。这两者的切换是用 ESC 键来完成的。为什么用 hjkl 呢？因为那是右手的手指放在键盘上的默认位置&amp;mdash;当你不输入任何字符的时候，右手的食指会被要求放在 j 键，中指放在 k 键上。啊哈，这个设置是如此地方便，等于是，我们的手掌不要任何地移动，就可以完成文档/代码的全屏编辑、修改、提交&amp;hellip;..。当我1995年开始学习 Linux 的时候，就迷上了这样的操作方式，以至于后来我换用了 Emacs 编辑器后，仍然装上了 vim-like 的键盘操作，就像下面的演示里一样，每天 hjkl &amp;hellip; 地工作着。&lt;/p&gt;
+&lt;p&gt;在苹果公司“窃取” Xerox 公司的图形操作系统之前，大家都是面对黑乎乎的屏幕，处理文档，或者编写代码。Windows 95 在中国普及之前，大家也是习惯于 DOS 那个简陋的字符界面。在这种情况下输入字符和修改，就产生了一个非常具体的问题：我们怎么把光标快速移动到想修改或者输入的地方？最开始的 ex 编辑器，只能一行一行地编辑，然后提交。如果发现提交过的字符需要修改，就要发“请求”把那一行撤回来，然户用键盘上的光标移动键，左右移动那里，进行删除/增加/修改。我当年初学计算机的时候，是经历了这种炼狱般的折磨的。回想那时用这样的编辑器书写 FORTRNAN 代码，调试，发现错了再修改，真是不堪回首啊 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;Unix 世界里的精英们，是不会容许这样笨拙的操作来控制人类的。于是，vi 这个全屏编辑器就应运而生。在这个编辑器里，整篇文档都全部呈现出来，然后用光标键移动光标到指定的地方，进行编辑。但是啊，程序员是如此地“懒”，他们发现键盘的布局里，要移动光标键，需要手掌离开原来的位置。这怎么行？于是，hjkl&amp;hellip;这样的操作就出现了：我们把编辑文档分为两个状态，一个是编辑状态，直接敲字符，屏幕上就会显示那个字符；另一个是命令状态，我们按下字符键的时候，只会操作光标移动，而不是真正地输入这个字符。这两者的切换是用 ESC 键来完成的。为什么用 hjkl 呢？因为那是右手的手指放在键盘上的默认位置&amp;mdash;当你不输入任何字符的时候，右手的食指会被要求放在 j 键，中指放在 k 键上。啊哈，这个设置是如此地方便，等于是，我们的手掌不要任何地移动，就可以完成文档/代码的全屏编辑、修改、提交&amp;hellip;..。当我 1995 年开始学习 Linux 的时候，就迷上了这样的操作方式，以至于后来我换用了 Emacs 编辑器后，仍然装上了 vim-like 的键盘操作，就像下面的演示里一样，每天 hjkl &amp;hellip; 地工作着。&lt;/p&gt;
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
@@ -261,7 +367,7 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;p&gt;“鼠标点点点”派在我这里就没有了市场，更有甚者，我习惯了 hjkl 之后，不仅编辑文档手不想离开键盘，连看浏览器都不愿意用鼠标来移动页面了。macos 下的 Safari 浏览器和 Google Chrome 浏览器都有限地支持了键盘的操作，比如，用空格键下翻一页，Shift-space 键上翻一页；Shift-] 键变换到下一个标签页 &amp;hellip;&amp;hellip;。可是，对于我来说，这远远不够。我们看网页或者文档时，眼睛的焦点都喜欢集中在屏幕的正中，上下移动的行数最好不要超过三行。空格键一按，就是翻了半页，这就要求我们看7、8行，这时眼睛的焦点已经在屏幕的底部了，翻页之后然后再把眼睛移动到屏幕的上方。啊，对于我这样的懒人来说，这是不可接受的。&lt;/p&gt;
+&lt;p&gt;“鼠标点点点”派在我这里就没有了市场，更有甚者，我习惯了 hjkl 之后，不仅编辑文档手不想离开键盘，连看浏览器都不愿意用鼠标来移动页面了。macos 下的 Safari 浏览器和 Google Chrome 浏览器都有限地支持了键盘的操作，比如，用空格键下翻一页，Shift-space 键上翻一页；Shift-] 键变换到下一个标签页 &amp;hellip;&amp;hellip;。可是，对于我来说，这远远不够。我们看网页或者文档时，眼睛的焦点都喜欢集中在屏幕的正中，上下移动的行数最好不要超过三行。空格键一按，就是翻了半页，这就要求我们看 7、8 行，这时眼睛的焦点已经在屏幕的底部了，翻页之后然后再把眼睛移动到屏幕的上方。啊，对于我这样的懒人来说，这是不可接受的。&lt;/p&gt;
 &lt;p&gt;难道不能像 vi 一样，一次只移动一行吗？而且要做到每次移动了之后，那一行仍然处于屏幕的正中。你要相信，只要你有需求，这个世界上就有人帮你做好了这个工作。Safari 浏览器有个 vimari 插件、Chrome 浏览器有个 vimium 插件，它们就是来完成这个工作的。然后，就像下面的演示一样，我一行一行地阅读网页，手仍然在 hjkl 上，j 下移一行，k 上移一行。&lt;/p&gt;
 
 
@@ -998,56 +1104,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;所以，我选择辞去所有公职，离去。&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>众人拾材火焰高</title>
-      <link>/post/zhongren-shichai-huoyangao.html</link>
-      <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
-      
-      <guid>/post/zhongren-shichai-huoyangao.html</guid>
-      
-        <description>&lt;p&gt;程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续下去。&lt;/p&gt;
-&lt;p&gt;想起一个切身体会的例子。目前用变分法处理电子与分子散射的方法和程序主要有三种：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;V. McKoy 等人创建的多通道 Schwinger 法；&lt;/li&gt;
-&lt;li&gt;P. Burke 等人创建的 &lt;em&gt;R&lt;/em&gt;-matrix (&lt;em&gt;R&lt;/em&gt; 矩阵)法；&lt;/li&gt;
-&lt;li&gt;我的导师的导师 C. McCurdy 等人创建的 Complex Kohn (复科恩)法。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;其实，1979年国际学术年会的时候， &lt;em&gt;R&lt;/em&gt;-matrix 法结果还远远比不上另外两个，但到了今天，我看 &lt;em&gt;R&lt;/em&gt;-matrix 法快一统江湖了。虽然原因很多，但我觉得其中主要的一个原因是：Burke 等人把自己开发的 &lt;em&gt;R&lt;/em&gt;-matrix 程序包公开在网上，所有人都可以自由索取，并继续开发。 &lt;strong&gt;众人拾材火焰高&lt;/strong&gt; ， &lt;em&gt;R&lt;/em&gt;-matirx 法发展得越来越好。而另外两个方法，程序包只在自己的课题组内部流传，外人就算搞懂了理论，也由于没有程序可以实践，完全无法实用。&lt;/p&gt;
-&lt;p&gt;到现在，Complex Kohn 法除了 McCurdy 自己和学生在用外，其他人几乎没有用这个方法做出好的工作；多通道 Schwinger 法大概传到了巴西，Bettega 课题组大量用这个方法发文章。不过我写信去请教他们，没有任何回音。而反观 &lt;em&gt;R&lt;/em&gt;-matrix 法，我从网上下载了所有的源代码，再仔细研读 Burke、Tennyson 等人的文章，竟然也可以用 &lt;em&gt;R&lt;/em&gt;-matrix 方法计算实用的体系，并发表了 SCI 论文。&lt;/p&gt;
-&lt;p&gt;所以啊，一定不要“小心眼”，觉得程序公开了，别人就会“剽窃”自己的成果。其实，没有了大家的合作，不管再好的方法，最后都会束之高阁。想起当年读研究生时，看到过其他课题组有些教授不知道从哪拷了程序，连学生都不给看源码。现在，也只是尘世间的一粒灰尘而已。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>书非旧不能读也</title>
-      <link>/post/shu-feijiu-buneng-du.html</link>
-      <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
-      
-      <guid>/post/shu-feijiu-buneng-du.html</guid>
-      
-        <description>&lt;p&gt;顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，不知道怎么就对政治感了兴趣，或者仅仅是为了学习英语，就跑到图书馆借阅《The Federalist Papers》。在布满灰尘的8楼书架上，翻到这本书，然后在末尾看到借阅记录：上一次有人借这本书大概是91年，再上一次是88年。嗯，当时我去的时候是99年。有时候真是感叹，一些人当成宝珍藏的事物，在大多数人看来，其实就是灰尘而已。&lt;/p&gt;
-&lt;p&gt;再想起，我在九眼桥旧书摊和鄢校长抢书的事情。花了5元钱买了狄拉克的《量子力学原理》，结果书摊老板说这种书根本没人要，看我如获至宝地抢在手里，觉得可怜，顺手又附带送我一本英文的。&lt;/p&gt;
-&lt;p&gt;唉，汝之蜜糖，彼之砒霜。无论如何，我还是觉得《联邦党人文集》很值得一读。&lt;/p&gt;
-&lt;p&gt;鄢校长就是川大的老校长鄢国森教授。96年我奉导师之命去鄢校长家里安装 &lt;code&gt;Linux&lt;/code&gt; 系统。间隙，鄢校长谆谆教导我：咱们这个专业，有两本书一定要读好。一是 P. A. M. Dirac 的《量子力学原理》，二是 Szabo 和 Ostlund 的《Modern Quantum Chemistry》。&lt;/p&gt;
-&lt;p&gt;狄拉克是大物理学家啊，当然要读。英文版的《原理》一书，我是手抄了一遍，通读了三遍。实在是每次读都受益匪浅。可是 Szabo 的书，我就没觉得有什么特别的。直到后来去美国，在 Schaefer 教授的实验室里，发现他得意的几个学生，Francesco、Jeremey、Andy 等，对里面的公式简直是顺手拈来，推起方程毫不费力，才发觉自己没有领会鄢校长的意思。赶紧重新研读，不懂的地方请教实验室的谢尧明老师，三个月后才舒了一口气。顺便说一下，谢尧明老师是鄢校长在国内的大弟子，八十年代初就到美国攻读博士。所以啊，我也算没有辜负鄢校长的嘱托。:-)&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:400px&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/dirac-qm.jpeg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/dirac-qm.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
 </description>
       
     </item>
