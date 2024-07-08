@@ -6,8 +6,15 @@
     <description>Recent content in Posts on ddsteed&#39;s personal blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Sep 2023 07:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jul 2024 19:33:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大学的逻辑</title>
+      <link>/post/what-is-advanced-education.html</link>
+      <pubDate>Sun, 07 Jul 2024 19:33:00 +0800</pubDate>
+      <guid>/post/what-is-advanced-education.html</guid>
+      <description>在高等教育的认识问题上，我经历了好几个阶段，现在的想法和最开始的认识，甚至可以用反转来形容。 我自己在国内的一所虽不顶尖但还不错的大学接受了本</description>
+    </item>
     <item>
       <title>“殉道者”有什么意义</title>
       <link>/post/oppenheimer.html</link>
@@ -141,13 +148,6 @@
       <pubDate>Sat, 12 Mar 2022 21:05:00 +0800</pubDate>
       <guid>/post/after-reading-yuchi-yu-huajiao.html</guid>
       <description>《鱼翅与花椒》是英国女孩扶霞的著作，其实就是一本讲四川美食的书。这本书不论是书名还是讲述的内容，似乎都很难引起大众的兴趣。也难怪顾衡在好书榜</description>
-    </item>
-    <item>
-      <title>四川联大往事</title>
-      <link>/post/scuu-memory.html</link>
-      <pubDate>Wed, 20 Mar 2019 21:07:00 +0800</pubDate>
-      <guid>/post/scuu-memory.html</guid>
-      <description>母校在发校友卡，我急急忙忙地申请了一个。看着这个与母校仅存的一点联系，不禁勾起了当年的好多回忆。1992年高考，最拿手的数学考砸了，只好听从</description>
     </item>
   </channel>
 </rss>
