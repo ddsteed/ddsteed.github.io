@@ -6,8 +6,15 @@
     <description>Recent content in Posts on ddsteed&#39;s personal blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Jul 2024 19:33:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2024 13:52:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《中国历代政治得失》读后</title>
+      <link>/post/politics_qs.html</link>
+      <pubDate>Tue, 09 Jul 2024 13:52:00 +0800</pubDate>
+      <guid>/post/politics_qs.html</guid>
+      <description>钱穆先生的《中国历代政治得失》一书，断断续续看了两个多月，终于看完了。年轻时多次听说过钱穆的大名，但对于他的书，总提不起兴致，好像觉得是一位</description>
+    </item>
     <item>
       <title>大学的逻辑</title>
       <link>/post/what-is-advanced-education.html</link>
@@ -141,13 +148,6 @@
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
       <guid>/post/resign.html</guid>
       <description>:ID: 5B2D9CCF-8974-4F0C-BD87-0FD0B0CB3276 昨天中午，原单位同事一起小聚，同事小谭问我为何当初要辞职，有什么真正不开心的缘由吗？我给她认真回复了一封信，解释我辞去公职的原因。其实无</description>
-    </item>
-    <item>
-      <title>众人拾材火焰高</title>
-      <link>/post/zhongren-shichai-huoyangao.html</link>
-      <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
-      <guid>/post/zhongren-shichai-huoyangao.html</guid>
-      <description>程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续</description>
     </item>
   </channel>
 </rss>
