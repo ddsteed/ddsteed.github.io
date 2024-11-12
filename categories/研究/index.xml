@@ -6,14 +6,16 @@
     <description>Recent content in 研究 on ddsteed&#39;s personal blog</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
     <lastBuildDate>Sun, 24 Jul 2016 19:51:00 +0800</lastBuildDate>
     <atom:link href="/categories/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>理论和计算</title>
       <link>/post/theory-and-computing.html</link>
-      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
+      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/theory-and-computing.html</guid>
-      <description>&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。&lt;/p&gt;&#xA;&lt;p&gt;这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应的二阶微扰极限。因为微扰不同于变分法，不是能量越低越好。但也不能就此认为微扰的判定没有准则。这个工作就是想告诉大家，双电子情况下，二阶微扰理论的下限在哪里。&lt;/p&gt;</description>
+      <description>&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。&lt;/p&gt;&#xA;&lt;p&gt;这是在美国的时候，Allen 教授就和我讨论想要解决的问题：关于两个电子关联效应的二阶微扰极限。因为微扰不同于变分法，不是能量越低越好。但也不能就此认为微扰的判定没有准则。这个工作就是想告诉大家，双电子情况下，二阶微扰理论的下限在哪里。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -3,48 +3,55 @@
   
   <url>
     <loc>/categories.html</loc>
-    <lastmod>2024-09-15T17:55:00+08:00</lastmod>
+    <lastmod>2024-11-12T19:56:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2024-09-15T17:55:00+08:00</lastmod>
+    <lastmod>2024-11-12T19:56:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post.html</loc>
-    <lastmod>2024-09-15T17:55:00+08:00</lastmod>
+    <lastmod>2024-11-12T19:56:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/reading.html</loc>
-    <lastmod>2024-09-15T17:55:00+08:00</lastmod>
+    <lastmod>2024-11-12T19:56:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags.html</loc>
-    <lastmod>2024-09-15T17:55:00+08:00</lastmod>
+    <lastmod>2024-11-12T19:56:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/idea_power.html</loc>
-    <lastmod>2024-09-15T17:55:00+08:00</lastmod>
+    <loc>/post/hushi.html</loc>
+    <lastmod>2024-11-12T19:56:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/%E8%AF%BB%E4%B9%A6.html</loc>
+    <lastmod>2024-11-12T19:56:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/idea_power.html</loc>
     <lastmod>2024-09-15T17:55:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

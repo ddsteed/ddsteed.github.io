@@ -8,13 +8,13 @@
   </url>
   
   <url>
-    <loc>/zh-cn/tags.html</loc>
+    <loc>/zh-cn/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/zh-cn/</loc>
+    <loc>/zh-cn/tags.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
