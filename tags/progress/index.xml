@@ -17,5 +17,12 @@
       <guid>/post/create-notes.html</guid>
       <description>&lt;p&gt;:ID:       328E7380-BF24-417E-B052-4BAD54BA7B04&lt;/p&gt;&#xA;&lt;p&gt;学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdquo;。笔记系统不仅可以帮助我们收集、整理、归纳所学的知识，还能够启发我们发现知识的联系。因此，做好一个笔记系统是非常必要的。&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>org-mode-hugo-to-blog 关于辞去公职的缘由 如何与世界相处 构建笔记系统 how-to-take-notes 学习的途径 漫谈二流大学 方舟子的苦与悲</title>
+      <link>/post/all-posts-1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/all-posts-1.html</guid>
+      <description>&lt;h2 id=&#34;old-fashion-man&#34;&gt;&lt;span class=&#34;org-todo done __DONE&#34;&gt;✔ DONE&lt;/span&gt; old fashion man &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;misc&#34;&gt;misc&lt;/span&gt;&lt;span class=&#34;___&#34;&gt;@杂谈&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;&#xA;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;&#xA;&lt;div class=&#34;box&#34;&gt;&#xA;&lt;figure  itemprop=&#34;associatedMedia&#34;&#xA;  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &#xA;  style=&#34;max-width:50%&#34; &gt;&#xA;    &lt;div class=&#34;img&#34;&gt;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/clock-desktop.jpg&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;a href=&#34;/img/clock-desktop.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;上面的截图是我此时此刻的计算机桌面，右下角的那个时钟有点突兀，其实和整体不怎么搭配，但这是我实在不忍放弃的小程序，因为这时常提醒我当年的日子。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
