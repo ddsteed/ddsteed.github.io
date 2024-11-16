@@ -464,12 +464,6 @@
   </url>
   
   <url>
-    <loc>/post/all-posts-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/search/placeholder.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -478,12 +472,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2024-11-14T11:13:58+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/all-posts-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
