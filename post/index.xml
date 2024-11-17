@@ -110,7 +110,7 @@
       <description>&lt;p&gt;《Not Even Wrong》是一本科普书，关于弦理论的来龙去脉，以及为什么这个高大上的理论会“失败”的调侃。我很喜欢这本书，一是它通过超弦这个理论的曲折发展历程，再次阐明了为什么物理学之所以是科学的道理；二是它还略带幽默和自嘲的文笔，特别是书名，来自于伟大的物理学家 Pauli 的名言：这连错误都算不上。(英文：It is not only not right, it is not even wrong. 德语原版：Das ist nicht nur nicht richtig, es ist nicht einmal falsch!)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>《阅读的方法》-用自己的话表达思想</title>
+      <title>《阅读的方法》--–—用自己的话表达思想</title>
       <link>/post/writing-own-words.html</link>
       <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/writing-own-words.html</guid>
@@ -145,7 +145,7 @@
       <description>&lt;dl&gt;&#xA;&lt;dt&gt;empathy&lt;/dt&gt;&#xA;&lt;dd&gt;同理心&lt;/dd&gt;&#xA;&lt;dt&gt;sympathy&lt;/dt&gt;&#xA;&lt;dd&gt;同情心&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;p&gt;简而言之，同情心表明你知道对方的感受，也表达了自己的情感；同理心却是主动站在对方的角度考虑遭遇。所以，同理心更能引起共鸣，并直达双方的心灵深处。在同情心的表达中，常常犯的一个错误是：你看，你遭遇了不幸，我也有过同样的不幸啊，所以，你不必难过了。这样的“安慰”只会让对方觉得，我难道是因为和你比较来感受幸福和痛苦吗？&lt;/p&gt;</description>
     </item>
     <item>
-      <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
+      <title>如何创建个人 Blog</title>
       <link>/post/org-hugo-blog.html</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/org-hugo-blog.html</guid>

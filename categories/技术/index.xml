@@ -18,7 +18,7 @@
       <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;&#xA;&lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
+      <title>如何创建个人 Blog</title>
       <link>/post/org-hugo-blog.html</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/org-hugo-blog.html</guid>

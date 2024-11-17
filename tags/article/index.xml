@@ -11,7 +11,7 @@
     <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate>
     <atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
+      <title>如何创建个人 Blog</title>
       <link>/post/org-hugo-blog.html</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/org-hugo-blog.html</guid>
