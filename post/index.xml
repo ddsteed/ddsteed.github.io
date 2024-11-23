@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Sat, 16 Nov 2024 12:13:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2024 12:27:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>好友的故事-–—小宋</title>
+      <link>/post/song-xin-yan.html</link>
+      <pubDate>Sat, 23 Nov 2024 12:27:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/song-xin-yan.html</guid>
+      <description>&lt;p&gt;小宋是我大学的同学，比我年长几岁，因为他复读了一年，高考的成绩也很好。我有次问他，为啥高考那么高成绩，还来这里读化学？他说，不知道啊，或许就是因为一个姑娘而已。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>好友的故事-–—陶</title>
       <link>/post/chen-tao.html</link>
@@ -143,13 +150,6 @@
       <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/sympathy-vs-empathy.html</guid>
       <description>&lt;dl&gt;&#xA;&lt;dt&gt;empathy&lt;/dt&gt;&#xA;&lt;dd&gt;同理心&lt;/dd&gt;&#xA;&lt;dt&gt;sympathy&lt;/dt&gt;&#xA;&lt;dd&gt;同情心&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;p&gt;简而言之，同情心表明你知道对方的感受，也表达了自己的情感；同理心却是主动站在对方的角度考虑遭遇。所以，同理心更能引起共鸣，并直达双方的心灵深处。在同情心的表达中，常常犯的一个错误是：你看，你遭遇了不幸，我也有过同样的不幸啊，所以，你不必难过了。这样的“安慰”只会让对方觉得，我难道是因为和你比较来感受幸福和痛苦吗？&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>如何创建个人 Blog</title>
-      <link>/post/org-hugo-blog.html</link>
-      <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/org-hugo-blog.html</guid>
-      <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;&#xA;&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；&lt;/li&gt;&#xA;&lt;li&gt;使用 hugo 建立静态网页；&lt;/li&gt;&#xA;&lt;li&gt;将本地静态网页发布到互联网上。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;org-mode-写文档&#34;&gt;org-mode 写文档&lt;/h2&gt;&#xA;&lt;p&gt;org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 &lt;a href=&#34;https://orgmode.org&#34;&gt;org mode&lt;/a&gt; 网站，学习如何使用 org-mode 模式。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
