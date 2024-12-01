@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Sat, 23 Nov 2024 12:27:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 11:44:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是成功</title>
+      <link>/post/what-is-success.html</link>
+      <pubDate>Sun, 01 Dec 2024 11:44:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/what-is-success.html</guid>
+      <description>&lt;p&gt;我戒了朋友圈，也不怎么看短视频。今早有人发了一个小视频给我看，原来是为《天龙八部》里的慕容复“翻案”的。说我们不能嘲笑慕容复，他只是没有成功而已。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>好友的故事-–—小宋</title>
       <link>/post/song-xin-yan.html</link>
@@ -143,13 +150,6 @@
       <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/human-value.html</guid>
       <description>&lt;p&gt;人的价值体现为，这个世界由于你的存在 &lt;strong&gt;变得更好&lt;/strong&gt;, 而不是变得更差。&lt;/p&gt;&#xA;&lt;p&gt;大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大，因为他们只是为自己活着。还有些人，存在只是添乱，就更不必提了。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>empathy vs. sympathy</title>
-      <link>/post/sympathy-vs-empathy.html</link>
-      <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/sympathy-vs-empathy.html</guid>
-      <description>&lt;dl&gt;&#xA;&lt;dt&gt;empathy&lt;/dt&gt;&#xA;&lt;dd&gt;同理心&lt;/dd&gt;&#xA;&lt;dt&gt;sympathy&lt;/dt&gt;&#xA;&lt;dd&gt;同情心&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;p&gt;简而言之，同情心表明你知道对方的感受，也表达了自己的情感；同理心却是主动站在对方的角度考虑遭遇。所以，同理心更能引起共鸣，并直达双方的心灵深处。在同情心的表达中，常常犯的一个错误是：你看，你遭遇了不幸，我也有过同样的不幸啊，所以，你不必难过了。这样的“安慰”只会让对方觉得，我难道是因为和你比较来感受幸福和痛苦吗？&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

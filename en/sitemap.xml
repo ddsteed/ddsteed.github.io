@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/categories.html</loc>
+    <lastmod>2024-12-01T11:44:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/misc.html</loc>
+    <lastmod>2024-12-01T11:44:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post.html</loc>
     <lastmod>2024-12-01T11:44:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,22 +23,22 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2024-11-23T12:27:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/misc.html</loc>
-    <lastmod>2024-11-23T12:27:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags.html</loc>
-    <lastmod>2024-11-23T12:27:00+08:00</lastmod>
+    <lastmod>2024-12-01T11:44:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/what-is-success.html</loc>
+    <lastmod>2024-12-01T11:44:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%84%9F%E6%82%9F.html</loc>
+    <lastmod>2024-12-01T11:44:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -123,13 +137,6 @@
   <url>
     <loc>/post/study-multiple.html</loc>
     <lastmod>2024-04-14T16:03:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E6%84%9F%E6%82%9F.html</loc>
-    <lastmod>2023-12-20T11:11:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
