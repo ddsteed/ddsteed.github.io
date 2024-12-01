@@ -21,10 +21,20 @@
       
         <description>&lt;p&gt;我戒了朋友圈，也不怎么看短视频。今早有人发了一个小视频给我看，原来是为《天龙八部》里的慕容复“翻案”的。说我们不能嘲笑慕容复，他只是没有成功而已。&lt;/p&gt;
 &lt;p&gt;我忍不住就在视频的留言里回复了：&lt;/p&gt;
-&lt;div align=&#34;center&#34;&gt;
-&lt;img src=&#34;/img/murongfu.jpg&#34; alt=&#34;murongfu.jpg&#34; width=&#34;50%&#34; align=&#34;center&#34; /&gt;
-=
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/murongfu.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/murongfu.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
 &lt;/div&gt;
+
+&lt;p&gt;=&lt;/p&gt;
 &lt;p&gt;慕容复是《天龙八部》里的一个角色，曾经与乔峰齐名，号称“北乔峰 南慕容”。他从小背负兴复大燕国的重任，为了这个所谓的“理想”，用尽了各种方法&amp;mdash;&amp;mdash;更严格地形容，是不择手段。最后，他为了得到权力，杀害了“生死与共”的兄弟：包不同、邓百川等人，认贼作父，陷害他人&amp;hellip;&amp;hellip;。可最后，他依然没有如愿，疯了，成了自己梦里的皇上。&lt;/p&gt;
 &lt;p&gt;视频里，将慕容复与创业者相提并论，说不论以成败论英雄，不能嘲笑为了努力过的失败者。&lt;/p&gt;
 &lt;p&gt;我从不嘲笑努力过的失败者，也没有资格取笑从底层开始的努力。实际上，我自己又哪里成功呢？没有被纳入彻头彻尾的失败，已经是社会给予我最大的厚待了。但是，我绝不认可为了达到目的，可以不择手段的做法。有时候，我们太看重结果，太计较利益得失，以至于忘记了我们是如何开始的，忘记了我们曾经许下的承诺。当物质得失成为唯一的衡量标准时，理想才是被嘲笑的对象。而我，不喜欢这样的“成功标准”。&lt;/p&gt;
