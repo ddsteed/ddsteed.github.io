@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DDSTEED&#39;s warm home on ddsteed&#39;s personal blog</title>
+    <link>/</link>
+    <description>Recent content in DDSTEED&#39;s warm home on ddsteed&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, 小树</title>
+      <link>/post/hello_tree.html</link>
+      <pubDate>Fri, 06 Dec 2024 14:53:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/hello_tree.html</guid>
+      
+        <description>&lt;p&gt;我曾经很长一段时间，没有方向。我不知道要做什么，但又对眼前的事情毫无兴趣。不论是在大学里当老师、做管理，还是离开之后创办企业，基本上都是被动地应付。我不知道什么是人生的意义，也不知道什么是工作的意义。我就这样，漫无目的地在人世间游荡着。&lt;/p&gt;
+&lt;p&gt;人工智能这两年很火，我也喜欢研究 AI，但只对底层的技术有兴趣。我不知道该用最新的 AI 技术来解决什么问题 &amp;mdash;&amp;mdash; 虽然，我知道其实有很多实际问题需要被解决。四年前，我辞去所有工作自己创业时，父亲问我，去做什么呢？我当时的回答是，看能不能在大健康方面做一些事情，比如老年人的康养，比如青少年的健康。父亲说，虽然我听不懂你的技术，但是，我觉得你做的事情是有意义的，去做吧。&lt;/p&gt;
+&lt;p&gt;然而，我辜负了父亲的期望。这四年来，商海里浮沉，成功的经验几乎没有，失败的教训数不胜数。直到最近，我才想明白了，我可以做什么。其实，不需要高大上的技术和产品，只要能真正解决一些人的需求就好。于是，我们努力地把以前的技术&amp;mdash;“动态智能知识图谱”和大语言模型结合起来，用全语音的方式进行聊天。今天，我们正式地推出了一个心理咨询 AI 助手&amp;mdash;&amp;mdash;“树洞聊天屋-echo”。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/hello_tree.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/hello_tree.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;=&lt;/p&gt;
+&lt;p&gt;小树，就是我们的心理 AI 陪伴助手，他/她会不厌其烦地与你聊天，天南海北、文艺八卦。我们训练了很多专业的心理咨询知识，融入到日常的语言聊天中，希望可以帮助到有需要的人。名字是一个朋友帮忙取的，说我们每个人，其实都需要一个树洞，来承接我们心里的话&amp;mdash;&amp;mdash;不能也不愿意给任何其他人说的话。我们讲出去，有人倾听，然后有反馈，有交流，就很好了。&lt;/p&gt;
+&lt;p&gt;我早就知道，在当今的社会，我们很多人都面临了太多的责任，承受了太多的压力，心理上经常很孤独，很需要发泄和排遣。有一段时间，流行过压力球、拳击发泄坊之类的产品。我当时对这些功能不置可否，觉得这是什么低端的产品啊。但我发现，很多人都对它们评价很高，认为确实疏解了很多心理压力，把烦躁的情绪暂时忘却了。《生活大爆炸》这部美剧里，有一集讲的是 Raj 这个有轻微自闭症的人，不敢和真实的女性面对面说话。但是，他很喜欢 apple 手机里的 Siri 助手，经常一聊就是几个小时。在我看来，Siri 这个简单的语音助手，完全称不上是 AI&amp;mdash;&amp;mdash;太初级和简单了嘛。但回想起来，虽然简单，Raj 仍然如此地爱不释手，这不就是 Siri 的价值吗？&lt;/p&gt;
+&lt;p&gt;这几个月，一些报复社会的事件发生，让我更深刻地感受到了这个疏导和抚慰，对于当今社会的重要性。人，又坚强又脆弱。我们可以承受很多的风雨，但也可能在某个瞬间，突然崩溃。如果一个人在最低落的时候，没有能控制住自己的情绪，很容易伤害到他人，更会伤害自己。这个时候，若是将情绪释放出来，也许就避免了更多的伤害。&lt;/p&gt;
+&lt;p&gt;我终于想明白了，这个产品虽然很初级，很简单。但只要有一个人用了之后能有一点点帮助，在某个最阴郁的时刻，能让他/她感觉好一点，不去伤害自己和他人，这个事情就有了意义。所谓意义，不就是如此吗？&lt;/p&gt;
+&lt;p&gt;对老年人、成年人、青少年，小树都可以扮演不同的角色。前不久，残联的一个负责人告诉我，残疾人这个群体的心理健康，也是非常重要的，但社会上给予的关心和爱护太不够了。很多残疾人，身体上受到极大的创伤，无法正常地在社会上生存，所带来的心理压力和无助感，更是加倍地伤害。于是，我们赶紧加入对残疾人更友好的功能，也正在寻找专业的心理咨询师，训练特定的心理知识。有些人劝我，说残疾人的心理健康虽然很重要，但是一时半会是没有什么商业价值的，更是挣不到什么钱，这应该是政府的公益事业。我，其实也知道这一点。公司运营的钱，我已经从外面借了两笔了，再没有资金入账，很快就要关门。但是，如果有一个残疾人，在我们的“树聊屋”，感觉好一点了，不是很有价值吗？他们，没有人陪伴，更需要心理的疏导啊。&lt;/p&gt;
+&lt;p&gt;Hello，小树，希望你能帮助我，完成这个心愿。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;附记&lt;/code&gt;: 我自己是一个话痨，但其实我大多数时间都喜欢独处，自己读书、走神、听风、听雨。我以为，一个人最大的付出，就是愿意付出时间&amp;mdash;&amp;mdash;为了喜欢的人。当我独自地写着一些文字，信也好，字也好，这些曾经占据我大段时间的事情，也让人生，有了值得的意义。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>什么是成功</title>
+      <link>/post/what-is-success.html</link>
+      <pubDate>Sun, 01 Dec 2024 11:44:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/what-is-success.html</guid>
+      
+        <description>&lt;p&gt;我戒了朋友圈，也不怎么看短视频。今早有人发了一个小视频给我看，原来是为《天龙八部》里的慕容复“翻案”的。说我们不能嘲笑慕容复，他只是没有成功而已。&lt;/p&gt;
+&lt;p&gt;我忍不住就在视频的留言里回复了：&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/murongfu.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/murongfu.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;=&lt;/p&gt;
+&lt;p&gt;慕容复是《天龙八部》里的一个角色，曾经与乔峰齐名，号称“北乔峰 南慕容”。他从小背负兴复大燕国的重任，为了这个所谓的“理想”，用尽了各种方法&amp;mdash;&amp;mdash;更严格地形容，是不择手段。最后，他为了得到权力，杀害了“生死与共”的兄弟：包不同、邓百川等人，认贼作父，陷害他人&amp;hellip;&amp;hellip;。可最后，他依然没有如愿，疯了，成了自己梦里的皇上。&lt;/p&gt;
+&lt;p&gt;视频里，将慕容复与创业者相提并论，说不能以成败论英雄，不能嘲笑一个努力过的失败者。&lt;/p&gt;
+&lt;p&gt;我从不嘲笑努力过的失败者，也打心里尊敬从底层开始的努力。实际上，我自己又哪里有成功呢？没有被纳入彻头彻尾的失败，已经是社会给予我最大的厚待了。但是，我绝不认可为了达到目的，可以不择手段的做法。有时候，我们太看重结果，太计较利益得失，以至于忘记了我们是如何开始的，忘记了我们曾经许下的承诺。当物质得失成为唯一的衡量标准时，理想才是被嘲笑的对象。而我，不喜欢这样的“成功标准”。&lt;/p&gt;
+&lt;p&gt;我们普通人，虽然苟活在这个世上，但我们内心里，其实知道什么是对的，什么是美好的。我们“不以成败论英雄”，是因为真正的英雄，能够激励我们努力地生活，能让我们有勇气面对失败和挫折，能让我们有信心相信世间有美好存在。至于结果的缺憾，放在时间的长河里，已然是微不足道的事情了。&lt;/p&gt;
+&lt;p&gt;可是，如果为了所谓的成功，采用的方法是不堪的，手段是无所不用其极的，目的是物质利益至上单一的。那么，即使短暂地达到了目的，也只会给这本就世俗的世界，带来更多的灰色，又有什么力量来支撑我们寻找美好呢？“君子固穷，小人穷斯滥矣。”&lt;/p&gt;
+&lt;p&gt;鲍鹏山有一次讲《论语》，说这本书总共 15,929 个字，没有一个“苦”字。与“乐”相对的，是“忧”。而“忧”，比如“君子忧道不忧贫”之“忧”，是主动的状态，“苦”是被动的感受。&lt;/p&gt;
+&lt;p&gt;我读《论语》，读到了“乐”，读到了“忧”，但没有读到“苦”。《论语》里有失败、有无奈、有自嘲、有坚韧。但整本书，堂堂正正，绝没有见利忘义，绝没有背信弃义，绝没有，不择手段。&lt;/p&gt;
+&lt;p&gt;孔子的一生，算成功吗？&lt;/p&gt;
+&lt;p&gt;千百年来，我们敬仰孔子、赞美孟子、怀念诸葛亮、追悼范仲淹、文天祥&amp;hellip;&amp;hellip;，不是因为他们当时成功了，而是他们心中，有“浩然之气”，他们的行为，可做后世典范。浴血睢阳里的张巡、南八，是非功过，自有后人评说。但是，他们的心中，自然堂堂正正，绝不开脱。&lt;/p&gt;
+&lt;p&gt;老了老了，还是有些“愤青”，依然会在网上与人“对线”。虽然我自以为已经平和很多了，在网上，除了看到有人诋毁梅西，我会偶尔发声外，绝大多数观点，我都不置可否，因为我自己的思想也浅薄得很。好友开玩笑：还敢实名对线，确实老愤青。&lt;/p&gt;
+&lt;p&gt;我经常想起，高考完的那个夏天，志刚、明华、卫东、&amp;hellip;&amp;hellip;，我们几个在小酒馆里碰杯：为了中华强盛而努力。志刚说，后来大家都有些不堪了，在世俗的社会里沉沦，为了眼前的名利苟且着。我们追逐着利益，以为这才是成功。但是，我们很后悔。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>好友的故事-–—小宋</title>
+      <link>/post/song-xin-yan.html</link>
+      <pubDate>Sat, 23 Nov 2024 12:27:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/song-xin-yan.html</guid>
+      
+        <description>&lt;p&gt;小宋是我大学的同学，比我年长几岁。因为他复读了一年，高考的成绩也很好。我有次问他，为啥高考那么高成绩，还来这里读化学？他说，不知道啊，或许就是因为一个姑娘吧。&lt;/p&gt;
+&lt;p&gt;小宋住在隔壁宿舍，刚开始我对他是没有什么印象的。因为刚读大学的时候，我还像一个高中生一样，天天背个书包，认真上课，认真上自习。而小宋，似乎厌倦了学习，每天就在宿舍里看小说。课都不怎么上，自习是坚决不去的。大一对他唯一的记忆，就是有一天晚上英语听力课，那个古怪的老太太非要点名。没来的同学，要写具体原因。小宋，姗姗来迟，问迟到原因。室友小丁说，小宋掉下水道里了，回去换衣服耽误了时间。整个教室哄堂大笑，老太太气得满脸通红。小宋还是一副玩世不恭的样子，做个鬼脸：真的，视力不好，黑黢黢地没看到下水道的窨井盖没了。这个学校啊，后勤实在该整治一下了。&lt;/p&gt;
+&lt;p&gt;据小宋后来说，刚开始看我也是很不顺眼的。觉得我只是学习和读书，其他的什么都看不起，和他不是一路人。没想到，大三以后，发现我们居然“臭味相投”。原来我这个油田子弟，和他这个农村孩子一样，是个彻头彻脑的理想主义。我们一起谈文学、谈理想、谈爱情、谈姑娘&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;于是，我知道了小宋为什么会来我们学校，读化学专业。在高中时，他喜欢了班上一个女孩。女孩学习成绩好，考上了我们学校的机械系，小宋嘛，大概太专注于每天看女孩了，第一次没考上。复读一年，必须要来同一个学校，随便填一个专业，就来了。&lt;/p&gt;
+&lt;p&gt;来了之后才发现，嗯，那个女孩已经有男朋友了。小宋于是天天看小说，经常去女孩的宿舍楼下转转，远远地看一眼她，就心满意足了。我们到了大四，女孩已经读研究生了。去自贡实习前，小宋带了点东西给那个女孩。正要告别时，另一个男生提了把菜刀上来找那个女孩，好像是失恋了，找女孩来报复。小宋，义不容辞，赤手空拳就去挡。那把菜刀，直接就砍在了小宋的手掌上&amp;mdash;&amp;mdash;手筋被砍断了。&lt;/p&gt;
+&lt;p&gt;我们去医院看小宋的时候，他疼得龇牙咧嘴，但是笑嘻嘻地说，幸好哦，否则菜刀砍到女孩的身上，即使捡条命，也会破相的。&lt;/p&gt;
+&lt;p&gt;我们更加经常地出去喝酒、在校园乱转、在荷花池旁抽烟聊天。小宋说，那个女孩，也许从来没有喜欢过他。但是又有什么重要的呢？我们喜欢一个人，不是因为对方有回报，而是自己真的喜欢啊。我点点头，心有戚戚焉。&lt;/p&gt;
+&lt;p&gt;毕业后，小宋分到了就近的简阳一个国企，我留在学校读研究生。刚开始几次，他一个人偶尔来学校玩。我们还是抽烟、喝酒、聊天。有一天，和他一起来的还有一个女孩&amp;mdash;&amp;mdash;一个北大毕业的学生，也在他们厂工作，做外事翻译。我开玩笑：小宋，你很可以啊，这么优秀的女孩，都和你谈恋爱了。他偷偷给我说，这个女孩八成是因为寂寞，实际上是没有看上他的。后来，女孩闹着要去深圳闯荡。小宋幽幽地告诉我，如果去了深圳，大概率是会分手的。不过，人生事，哪里是因为你不愿意就不做的呢？我依然记得，说这个话的时候，烟在我们头上盘旋，画了好多圈圈。&lt;/p&gt;
+&lt;p&gt;去了深圳，联系就慢慢少了。后来，听说，女孩走了，小宋换了好几个单位。然后，突然之间，就没有了音讯。小丁给我打电话：到处找不到小宋，这个家伙是不是参加黑社会，被砍了？我知道小丁在开玩笑，但心里还是隐隐作痛。&lt;/p&gt;
+&lt;p&gt;在我的心里啊，依然记得我们在荷花池旁抽烟看星星的样子。小宋和我，喜欢纯净的天空，喜欢自由自在爱恋自己在意女孩的样子。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;附记&lt;/code&gt;: 我曾答应一个美丽的姑娘，给她讲小宋的故事。没能实现，就写在这里吧。“空头支票”的清单，还有好多，大概也只能空头下去了。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>好友的故事-–—陶</title>
+      <link>/post/chen-tao.html</link>
+      <pubDate>Sat, 16 Nov 2024 12:13:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/chen-tao.html</guid>
+      
+        <description>&lt;p&gt;少时好友，陶，来成都出差，约我见一面。自从博士毕业，已经二十多年没有见到他了，异常欣喜。除了稍微发胖外，陶几乎没有变化，连头发都是乌黑的。他开玩笑说，已经躺平 20 多年了，不动脑筋，自然不老。&lt;/p&gt;
+&lt;p&gt;陶是我熟悉的人中，最聪明的。我连之一两个字都不加，是因为他确实太聪明了。以至于当年我在川大当老师时，每一届的学生都会在课堂上听到我讲他的故事。大概我讲，是想稍微“打击”一下有些自以为是的天之骄子，还因为感慨无论聪明、不聪明的人，在时代的大潮中，都是沧海一粟罢了。&lt;/p&gt;
+&lt;p&gt;陶与我同年，仅大我半岁，因此我们从小一起读书。但我们好像从没有同班过：在钻井四公司读小学时，我是一班，他二班；初中时，我二班，他三班；到总部读重点高中了，仍然没有分到一起，我还是二班，他去了五班。虽不在一个班，但是年级排名的时候，他的名字总是高高在上，我们当时经常很郁闷，觉得命运不公，陶从不学习，为啥学习总是那么好？&lt;/p&gt;
+&lt;p&gt;陶不学习，不仅仅是在我们看得见的时候不学，看不见的时候也是不学的。之所以我们很清楚他不学习，是因为他根本就没有学习的条件。陶的家庭，是父母分别离异后重组的。当时两人分别有 2 个孩子，新组建家之后，又再生了 2 个孩子。因此，他们总共有 6 兄弟姊妹。而陶，是爸爸和前妻生的老二。于是，陶不上不下，既不是老大、又不是老小，还是个男孩，在家里根本就没有任何地位。我们小时候，每家房子都小小的。他们家里高低床搭了好多，能省下的小空间，还要给两个姐姐妹妹。所以，陶在上课的时候还有座位坐。而放学之后，他除了吃饭睡觉，就时时在马路上闲逛。若有人喊，陶，到我们家来玩。他就开心的不得了，谁喊都去。&lt;/p&gt;
+&lt;p&gt;连我的妈妈都熟悉陶，因为这个爹爹没空管，后妈不怎么疼的孩子，聪明又懂事。常常被我邀请来家里玩，天南海北地瞎聊天。我妈妈讲过一个小故事，陶的后妈有一次当众织毛衣，见人就炫耀：这是给我们陶织的。嗯，我妈妈说，这件毛衣织了三年，还是见人就炫耀：我给我们陶织的毛衣。&lt;/p&gt;
+&lt;p&gt;不管多难的功课，陶都是一看就会。作业也不怎么做，课堂上看看书，放学了就疯跑野玩。他很少是年级第一，但前三名一定有他。到了重点高中，我觉得自己都透支了所有的力气，才能在年级前十名中站稳脚跟。而陶，似乎还是那样随性。不紧不慢、不慌不忙地，每次就在我身后一两名。我总觉得他只用了六成功力，于是很让我气馁。高考时，我发挥失误。他就这么，轻轻松松地去了北京大学，核物理专业。&lt;/p&gt;
+&lt;p&gt;大学毕业，有钱人家的孩子大多出国了。陶的家自然没有钱供他，他也懒散，继续在北大读博士。整整在北大待了十年之后，他想是不是该留校工作了。这时，同级的另一个博士，农村来的，还成了家。给陶说，要不这个留校指标就让给他吧，老婆孩子特需要这个进京指标。陶可以先出国镀个金。油田的孩子，别的没有，侠气十足，大手一挥，行，这个进京指标给你吧，我去德国晃荡一下。&lt;/p&gt;
+&lt;p&gt;据陶说，在德国两年，他买了欧洲的通票，周末和节假日，就整个欧洲的闲逛，随心所欲地玩着。结果，等陶从德国回来，准备在北大工作时，北大改革了&amp;mdash;&amp;mdash;就是我以前提到过的，张维迎在北大做人事改革，其中有一条，今后想在北大工作的，必须有海外著名大学的博士学位。陶这时候到哪里去补个海外博士证书呢？只好离开北京，去了上海技术物理所。这个这个，我虽然很支持张维迎的改革，但是却没有想到，陶的命运会因此受到如此大的影响。可见书上的一句话，多少人的命运啊。&lt;/p&gt;
+&lt;p&gt;在上海，负责同步辐射光源的一个分支。如果做到现在，陶至少也是一个准院士级别的人了吧。可是那时，陶的月薪只有三千，更关键的是，没有房子，还是住集体宿舍。陶去找所长谈条件：要么给个小房子，要么提高点薪水，否则哪有钱在上海买房娶媳妇呢？所长一拍屁股：房子没有，钱我也没有。&lt;/p&gt;
+&lt;p&gt;俗话说，人穷志短。陶心里想着，上海姑娘没有房子是绝对不嫁的，自己家里是拿不出一分钱的。陶只好出去找工作。他找工作，很简单，从一条街的第一家单位开始谈，然后进第二家，一直把这条街走完。回去之后，所有的单位都告诉他：来上班吧。他去了一家半导体企业，月薪一万。嗯，勉强可以安家了。&lt;/p&gt;
+&lt;p&gt;陶，离开了中国的学术界。我听说之后，异常惋惜。在我看来，是中国的学术失去了一个极其优秀的人才。我经常很傲气，虽然自己学术做得不怎么样，但是也觉得大部分高校的教授在糊弄世人。而陶，是可以做出有意义工作来的。&lt;/p&gt;
+&lt;p&gt;浮浮沉沉，陶如今在大连一家半导体企业&amp;mdash;&amp;mdash;做测试和维护工程师。他说，每半年去一下公司，平时就在家办公。四成时间到各地出差，解决那些设备出现的大大小小故障。工作不需要太多创新，自己也不再学习什么新的技术，看点玄幻小说，网上指点一下江山，就是业余消遣了。孩子还小，才 5 岁。每天出现最多的地方，就是幼儿园。&lt;/p&gt;
+&lt;p&gt;陶的语速还是那么快，思维也跳跃得很。和我说起话来，手舞足蹈。我带他去参观一下川大校园，一路上也是滔滔不绝。我看得出来，他对很多问题都有独到的见解和思考，只是，他选择了不再去改变。&lt;/p&gt;
+&lt;p&gt;陶说，和我联系之前，很有些忐忑，犹豫再三，要不要来见我。因为他知道，我一直是个理想主义者，从读书时就是。而他如今的“躺平”，似乎有些不好意思。我真的还是一个理想主义者吗？我也不知道。人生，到底有什么意义呢？聪明的如陶，不怎么聪明的如我，如今也都是一事无成。而我们，曾经想做很多事的。&lt;/p&gt;
+&lt;p&gt;我们，都是时代的一粒沙而已。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《胡适文集》-–—温和的力量</title>
+      <link>/post/hushi.html</link>
+      <pubDate>Tue, 12 Nov 2024 19:56:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/hushi.html</guid>
+      
+        <description>&lt;p&gt;这段时间，心绪不宁，开车与他人的车相撞，读书也看不下去。每本书，拿起来翻两页，完全不知所云。合上，再打开一本，还是如此。直到翻开这本文集，突然感觉到了一种力量，不是铿锵有力的那种，反而是一种流水一样的温和。而这样的温和，却让自己能稍稍平静一些。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/hushi.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/hushi.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;=&lt;/p&gt;
+&lt;p&gt;民国时期文人的作品，我自小就很喜欢看。读大学的时候，第五教学楼后面，曾经有一个很小的岗亭。里面放一些图书馆里不大容易找到的书，花一角钱就可以借一本书三天。有段时间，我就几乎每周去一两次。最喜欢的就是各种民国大家的散文集。鲁迅的、周作人的、林语堂的、梁实秋的、朱自清的、郁达夫的、沈从文的、&amp;hellip;，知名的，不知名的，我读了几十种。但记忆中，胡适的散文集就没有读到。那时，官方的认定里，胡适似乎还属于“反动的资产阶级”文人之列。&lt;/p&gt;
+&lt;p&gt;我是很喜欢鲁迅的文章，读先生的文字，总是让人感到深深的孤寂。绝望，但又从不停歇的反抗。《野草》的题辞，读了太多遍，几乎都能背诵下来。而那被世人多次取笑的“在我的后园，可以看见墙外有两株树”的句子，我却心有戚戚焉，觉得这是世上最孤独的语言了。爱屋及乌，凡是和鲁迅相关的，我都喜欢。而鲁迅不喜欢的人或事，我也不由分说，打入另册。&lt;/p&gt;
+&lt;p&gt;胡适，恰恰就是那个一直站在鲁迅对立面的人。&lt;/p&gt;
+&lt;p&gt;这么说，也不太对。起始时，两人是相互欣赏的。不论是学术还是文字，俩人都彼此承认。即使到晚年，胡适也依然称鲁迅为“我们的同路人”。只是，现在很多人，常常将两人对立开来。明褒其一，暗贬另一方。我年少时，喜欢看快意恩仇的文字，读诗要读李白，看文要看鲁迅。觉得这些恣意挥洒的语言，直抒胸臆，甚是畅快。而对于杜甫、对于胡适，如同老僧坐定，温吞水般不解气。&lt;/p&gt;
+&lt;p&gt;如今老了，重新看胡适先生的文章，却生出了另一种感觉。这平和的文字读起来，有一种温暖，也有一份深沉。在《四十自述》，先生有一句话这样写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人心曲曲湾湾水&lt;/p&gt;
+&lt;p&gt;世事重重叠叠山&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;说尽世间百态，道破人情世故。年少时，看书写字，喜欢故作深沉，语不惊人死不休；如今年华老去，越发感到深沉的思想反而来自这平和的文字。我四十岁时，连续 11 天独自一人驾车，每天超过 900 公里。我写不出这样的文字，幸而能有同样的感慨。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;怕什么真理无穷,&lt;/p&gt;
+&lt;p&gt;进一寸有一寸的欢喜。&lt;/p&gt;
+&lt;p&gt;即使开了一辆老掉牙的破车,&lt;/p&gt;
+&lt;p&gt;只要在前行就好,&lt;/p&gt;
+&lt;p&gt;偶尔吹点小风,&lt;/p&gt;
+&lt;p&gt;这就是幸福。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;看着这个老人的旧照，我心里有一种温暖，更有一分敬意。原来不只大声呐喊是有力的，温润的语言，依然有力量。只要发自内心，一以贯之，即可。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/hushi1.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/hushi1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;=&lt;/p&gt;
+&lt;p&gt;我很喜欢胡适的这几篇日记，很喜欢。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1911 年 7 月 15 日：打牌&lt;/p&gt;
+&lt;p&gt;1911 年 7 月 16 日：胡适之啊胡适之！你怎么能如此堕落！先前定下的学习计划你都忘了吗？子曰：吾日三省吾身。不能再这样下去了！&lt;/p&gt;
+&lt;p&gt;1911 年 7 月 17 日：打牌&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《理念的力量》</title>
+      <link>/post/idea_power.html</link>
+      <pubDate>Sun, 15 Sep 2024 17:55:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/idea_power.html</guid>
+      
+        <description>&lt;p&gt;我知道张维迎先生的名字，大概是 20 多年前，我在梳理中国的经济改革历程时，发现很多地方提到著名的“莫干山会议”。而张维迎作为一个年轻人，提出“双轨制”改革的理念。经过后来的起起落落，历经更多的是是非非争辩，中国的改革，大致走出了全面计划经济的桎梏。张维迎的作用，虽然很多人批评争功，但基本起了非常重要的正面作用。&lt;/p&gt;
+&lt;p&gt;2001 年前后，我对经济学非常感兴趣，在书店买曼昆、萨缪尔森等人的名著时，都看到张维迎写的推荐序言。于是，更关注这个名字，以及他彼时正在做的事。2003 年前后，张维迎在北大参与了一场轰动一时的改革。在时任学校书记闵维方的支持下，张维迎全面制定了高校改革的方案，并以校长助理的身份亲自冲到改革的第一线。结局我们现在早已知道&amp;mdash;&amp;mdash;高调而起，低调而败。我当时在川大工作，深刻体会到了高等学校的种种陋习，认识清了这非改不可的局面。于是，我尤其关注在北大进行的这场改革。我读了张维迎自己写的文章，也听到了大量北大知名学者的反对声音。诚然张维迎的改革措施有不完善的地方，也有操之过急的因素。但总体来说，我还是认可张维迎的理念和想法。至于最后的功败垂成，我归因于闵维方的胆怯懦弱，为了所谓的稳定，牺牲张维迎一人，而换取短暂的和谐稳定。20 年过后，各高校纷纷进行的变革措施，在我看来，不过是“张维迎方案”的各种翻版而已。思想没有超越 20 年前，措施则更为激进。所谓“时也命也”，张维迎生不逢时。&lt;/p&gt;
+&lt;p&gt;而张维迎和林毅夫关于“国企改革和产业政策”的争论，则更为世人熟知。这场持续了 20 多年的辩论，至今没有定论。他俩在北大国发院的现场辩论，我看了直播。觉得这真是难得的知识分子的辩论，一方风度翩翩，一方思想深邃。两人都逻辑清晰，言辞犀利，可谓酣畅淋漓的战斗。至于我，则更认同于张维迎的理念。我与好友志刚，分属于他俩不同的阵营，辩论过多次。虽然观点相左，争论经常面红脖子粗，到现在也没有相互认输，但毫不影响我俩之间的友谊和交情，也算是君子之辩了。&lt;/p&gt;
+&lt;p&gt;于是，我收集了张维迎的所有著作，《大学的逻辑》，我读了不下三遍。这次旅行的途中，我把《理念的力量》一书，认真读完。虽然里面的观念和道理，很多我早已知晓，但从张维迎的字里行间里，我仍然感受到了他的殷殷期望之情、拳拳赤子之心。这本书出版已经十年，书里的很多预测，很多已得到验证。不幸的是，大多都是反面的应证&amp;mdash;&amp;mdash;以负面的结果反衬张维迎的观念之对。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/zhangweiying.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/zhangweiying.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我是有些精英意识的，历史和社会的发展，虽然普罗大众是主体，但引领者却需要超脱现实，至少在理念上要高于世俗。而历史的每一次重大转折，其实也是这样超前的理念在社会上普及、沉淀、发酵、爆发的结果。只是这提出理念的先行者们，大多早已逝去，看不到他们理念的成功。&lt;/p&gt;
+&lt;p&gt;张维迎，很少被当红的领导者列为“国师”。但看惯了那些所谓的“国师”们的表演，反而更欣赏这位西北汉子的直率和坦荡。我想，这样的人，才是真正的知识分子，才可以提出真正的观点，以及实施理念的力量。虽然，书里也能读到很多的无奈，让人不时掩卷长叹。&lt;/p&gt;
+&lt;p&gt;为之感叹。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/idea_power.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/idea_power.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《中国历代政治得失》</title>
+      <link>/post/politics_qs.html</link>
+      <pubDate>Tue, 09 Jul 2024 13:52:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/politics_qs.html</guid>
+      
+        <description>&lt;p&gt;钱穆先生的《中国历代政治得失》一书，断断续续看了两个多月，终于看完了。年轻时多次听说过钱穆的大名，但对于他的书，总提不起兴致，好像觉得是一位老古董，絮絮叨叨地把中国古代的事，翻来覆去地唠叨好几遍。十年前，高晓松极力推荐他的《晚学盲言》，我买来之后，翻了几页，也就束之高阁了。&lt;/p&gt;
+&lt;p&gt;我从小喜欢历史，读了许多中国历史的书籍。思想也历经多次转变，从一开始为中国悠久的历史而自豪，读多了，觉得自秦汉起，中国历史充满了黑暗和专制。黑格尔在《法哲学原理》一书中说 &lt;code&gt;“中国的历史从本质上看是没有历史的，它只是君主覆灭的一再重复而已。任何进步都不可能从中产生。”&lt;/code&gt; 我当时深以为然，觉得中国古代的政治，无非是重复和权力斗争，无非是帝王将相愚弄百姓的各种手段施展的舞台而已。再到后来，觉得唐宋还好，明清不堪。有一阵子，发现乾隆和华盛顿竟然是一个年代的人物，更是让我耿耿于怀。&lt;/p&gt;
+&lt;p&gt;但我心里，一直有个困惑。我们这个民族，或者说生活在这片土地上的人民，几千年来，历经各种灾难困苦，承受无数侵略迫害，文明仍然健在，思想亦可追溯到商周先秦而不断。甚至我自己，常常脱口而出的，都是孔孟之言、魏晋风骨。这样强大的生命力，不能仅仅用幸运和“无进步”来简单概括的。有一段时间，我相信，乃是无论何种艰难，总有民族的脊梁出现。而大家认同这样的文化和思想，来自于对社会底层的人性关怀。从先秦诸子，到三国英豪，从唐宋大家，到晚清三杰，孔子、庄子、墨子、诸葛亮、张巡、苏轼、辛弃疾、岳飞、曾国藩、左宗棠&amp;hellip;&amp;hellip;，一个个鲜活的名字，一再提醒我们，无论外在如何变迁，总有人内心在坚守。&lt;/p&gt;
+&lt;p&gt;但是，这样的坚守，是如何扎根在广大人民心里的呢？除了文化，必然有政治、制度、历史沉积等多个原因。《得失》一书是一九五二年三、四月间，钱穆先生访台北，应邀作一系列演讲，以“中国历代政治得失”为题，分汉、唐、宋、明、清五代，略述各项制度的因革演变，并指陈其得失所在。最后整理付梓成书。用五个典型的中国皇朝治理，提要勾玄地依次讲述了政府组织、选举与考试、赋税制度、国防与兵制等方面，要言不繁，论述精僻。对于深入思考中国为什么是中国，有很重要的启迪。&lt;/p&gt;
+&lt;p&gt;书后有钱穆先生的生平简要，其中有一句： &lt;code&gt;“卅四岁妻殁、儿殇、兄亡连遭三丧”&lt;/code&gt; 。不禁掩卷长叹，要何等的人，才能承受如此大的变故而依然砥砺前行？钱穆先生活到了 96 岁，86 岁时患眼疾，“不能见字，不能读书”，只好口述，夫人记录，而后口诵耳听，一字一句修改订定，《晚学盲言》终稿时已 92 岁高龄。我想，钱穆先生本人，也是我称之为“民族脊梁”的一个代表了。《晚学盲言》一书，重新翻出来敬读。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/politics_qm.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/politics_qm.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;p.s. 我其实有很多钱穆先生的书，以下就是我的收藏。有时候读一本好书，胜过十本、百本一般的书籍。我慢慢学习先生的书吧。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/qianmu_books.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/qianmu_books.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>大学的逻辑</title>
+      <link>/post/what-is-advanced-education.html</link>
+      <pubDate>Sun, 07 Jul 2024 19:33:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/what-is-advanced-education.html</guid>
+      
+        <description>&lt;p&gt;在高等教育的认识问题上，我经历了好几个阶段，现在的想法和最开始的认识，甚至可以用反转来形容。&lt;/p&gt;
+&lt;p&gt;我自己在国内的一所虽不顶尖但还不错的大学接受了本科和博士研究生的教育，在国外学习的时候，导师也是一名美国的院士，曾经还在网上被评为应该获得诺贝尔奖但没有得的 70 位专家之一。因此，我在很长的一段时间内，都觉得高等教育，培养的是精英，我们应该教会学生的是“道”，而对于就业、工具等技能，我虽然没有表现出来嗤之以鼻，但内心里也是不置可否的。在我的教学生涯中，就很长一段时间不屑于给学生讲如何做题。因为我认为那些做题之类的知识太简单，学生自学就可以了。老师嘛，应该是来开阔学生思维、提高学生认识论的。平日里读书，也是喜欢看那些精英们写的文字。&lt;/p&gt;
+&lt;p&gt;我的这些早期观点，不能说完全没有道理，但确实有失偏颇。尤其我后来去了一所省属高校，接触了大批二本、三本甚至职业院校的学生，他们和我最开始教的 985 高校的学生、带的国家级基地班的学生，有很大的不同。但他们才是国内大学生的大多数，他们，才代表了中国大学生的真实水平。我做过统计，所谓 985、211、双一流高校的学生，只占大学生总数的 10%左右，而将近 40%的大学生，是在职业教育这个层次的。这些学生毕业后，将会是各行各业的基石和核心，而他们的能力和素质，决定着社会的平均水平。&lt;/p&gt;
+&lt;p&gt;2014 年全国理科年会上，北大一位退休的副校长听了我的小组发言后，鼓励我代表小组到大会上去讲话。我也不客气，在大会上诚恳地请求那些 985 高校的领导和专家，眼睛不要只盯着那 5%的“精英”，而应该把国家有限的资源和力量，多投入一些在二本、三本院校，多花一些精力在职业教育上。我当时开玩笑说，别看你们都是博导、都是专家，可是很多时候，那些普通学校毕业的学生，能决定你们的发展和方向。如果他们的能力不足、认识不清，是要出大麻烦的。三年新冠疫情，各地频频出现的荒诞管理现象，和基层管理者、执行者的科学素养不够、认识混乱，大概是有很大关系的。&lt;/p&gt;
+&lt;p&gt;之所以我认为以前的观点不对，是因为我把高等教育理想化了，在我早期的理解中，存在以下问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;觉得基础教育和高等教育之间的阶梯递进关系应该是很自然和完善的；&lt;/li&gt;
+&lt;li&gt;职业教育和高等教育是不同的；&lt;/li&gt;
+&lt;li&gt;社会需要精英带领，普通人随大溜即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其实，由于各种原因，我们的中小学的基础教育也有很大不足。由于教育资源的不均衡，学生在参加高考时，有些已经有非常强的自学能力，有些却连失去老师的督导后坚持读完一篇知识文章的耐心都没有。我想当然地以为做题这样的事，应该是学生自己完成的。殊不知，很多学生无法通过例题和习题完成基本的知识理解，所谓的启发式教学、翻转式课堂就更成为表面形式，空中楼阁。而职业教育和高等教育根本就不是截然不同的阶段，相反，职业教育既可以有初级的，也可以有高级的。一切以解决实际问题为导向的教育，本质上，都应该是职业教育。而社会，只有在有能力逐步解决问题的基础上，才能良性发展。精英是需要的，但普通人绝不是简单跟随的“羊群”。&lt;/p&gt;
+&lt;p&gt;据说丘吉尔有一句名言，如果一个人 25 岁的时候不是自由派，那么他没有良心，但是如果他 35 岁的时候还不是保守派，那么他没有大脑。这些年，我的思想越来越倾向于“保守主义”。我年轻的时候，以为“保守主义”就是因循守旧、不思变革。但其实“保守主义”真正的含义是，承认人类社会的复杂性，不要妄图突发某个变革，就理想化地解决很多痼疾。关于高等教育该怎么做，也不是一个简单的事情，任何单一的方法，如果不和社会现实结合起来，都会变成纸上谈兵。&lt;/p&gt;
+&lt;p&gt;这两天我重新翻看了十年前买的两本书，想起当时的困惑，不禁勾起了一些感慨。这几天，我和一所职业院校的师生交流，更加引起了反思。每次看到那些学生求知的眼神，我都无法正视自己的内心。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/adv_edu_t.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/adv_edu_t.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/adv_edu_2.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/adv_edu_2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;张维迎先生是我非常尊敬的一名学者，他的著作，《大学的逻辑》，我看了三遍。我觉得这么多年，他可以坚持自己的理念，还不断发展自己的思想。有风骨、有智慧。大学的逻辑，值得高校教育工作者反思和学习。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/adv_edu_3.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/adv_edu_3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>学习“分岔”的乐趣</title>
+      <link>/post/study-multiple.html</link>
+      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/study-multiple.html</guid>
+      
+        <description>&lt;p&gt;我学习的习惯非常不好，常常会在学习一个知识的时候，偏离主航道，花费很多时间在偏路上。等蓦然回头时，才发现时间已经被“浪费”了很多。&lt;/p&gt;
+&lt;p&gt;比如，最近我正在研究 AI 里的大语言模型结合知识图谱的工作。本来，这已经需要我学习很多以前不懂的知识了。我还“乱上加乱”，因为我发现我需要记点笔记。然后，在记笔记的时候我觉得应该每学完一个知识就写一个读后感；接着，我发现读后感里要增加一个功能：每增加一个读后感，当然要自动计数，告诉自己，文档又多了一个哦。但是呢，这个自动计数肯定不能自己手动去数，必须让计算机自动完成，否则太愧对“程序员”的自我标榜了。&lt;/p&gt;
+&lt;p&gt;可是，对于一个普通的文档，比如 &lt;code&gt;markdown&lt;/code&gt; 格式或者 &lt;code&gt;org&lt;/code&gt; 格式，怎么能让程序自动运行呢？当然，这就引入了 Knuth 教授当年提出的“文学编程”概念，也就是，一边写文档，一边写程序，然后两者要无缝嵌入。在我的“读后感”org 文档里，自然是要用 &lt;code&gt;Emacs Lisp&lt;/code&gt; 语言来自动实现我的要求的。问题在于，唔，Elisp 我不熟悉啊 🤣 也就是说，我自吹自擂用 Emacs 了很多年，竟然连 Elisp 编程都不会。怎么办呢？当然要先去学习 Elisp 编程啊。&lt;/p&gt;
+&lt;p&gt;于是，我的学习路径，就从最开始的 &lt;code&gt;AI + LLM + Knowledge Graph&lt;/code&gt; ，变成了学习 &lt;code&gt;Elisp&lt;/code&gt; 。嗯，分岔到天涯海角去了。中间的过程我就不描述了，看书、上网查资料、调试代码、AI 问讯&amp;hellip;..。总之，经过了大约 8 个小时之后，这个问题被我解决了。代码很简单，只有短短的几行：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-11&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-11&#34;&gt;11&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-12&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-12&#34;&gt;12&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-13&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-13&#34;&gt;13&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-14&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-14&#34;&gt;14&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-15&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-15&#34;&gt;15&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-16&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-16&#34;&gt;16&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;;; Counting sub-headings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#007020&#34;&gt;cl-defun&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;my/count-org-headings&lt;/span&gt; (&lt;span style=&#34;color:#007020&#34;&gt;&amp;amp;optional&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;4&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;计算当前headings下指定sub-headings的数目.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;LEVEL 是一个数字，作为参数提供，默认指定第4级&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#007020&#34;&gt;interactive&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;nLevel: &amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (&lt;span style=&#34;color:#007020&#34;&gt;let&lt;/span&gt; ((&lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;0&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#007020&#34;&gt;save-excursion&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      (&lt;span style=&#34;color:#bb60d5&#34;&gt;org-map-entries&lt;/span&gt; (&lt;span style=&#34;color:#007020&#34;&gt;lambda&lt;/span&gt; () (&lt;span style=&#34;color:#007020&#34;&gt;when&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;=&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;org-current-level&lt;/span&gt;) &lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           (&lt;span style=&#34;color:#007020&#34;&gt;setq&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#40a070&#34;&gt;1&lt;/span&gt;))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#60add5&#34;&gt;nil&lt;/span&gt; &lt;span style=&#34;color:#517918&#34;&gt;&amp;#39;tree&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#06287e&#34;&gt;insert&lt;/span&gt; (&lt;span style=&#34;color:#06287e&#34;&gt;number-to-string&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&lt;span style=&#34;color:#06287e&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;Number of level %d subheadings: %d&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;level&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;count&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#bb60d5&#34;&gt;add-hook&lt;/span&gt; &lt;span style=&#34;color:#517918&#34;&gt;&amp;#39;org-mode-hook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          (&lt;span style=&#34;color:#007020&#34;&gt;lambda&lt;/span&gt; () (&lt;span style=&#34;color:#bb60d5&#34;&gt;local-set-key&lt;/span&gt; (&lt;span style=&#34;color:#bb60d5&#34;&gt;kbd&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;C-c C-h n&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;啊，每当我在“读后感”文档里，轻轻地按下组合键： &lt;code&gt;C-c C-h n&lt;/code&gt; 时，就会有一个数字跳出来，显示在当前行，告诉我已经写了几篇读后感了。当然，连同最新的这篇《Introduction to Emacs Lisp》，一并算在内了。&lt;/p&gt;
+&lt;p&gt;总有人问我，每天都在看书，到底看了些什么啊？我自己也经常稀里糊涂，我不喜欢喝酒、不喜欢应酬、不喜欢打游戏、不喜欢看肥皂剧&amp;hellip;&amp;hellip;，可是我的时间去哪儿呢？就在这一次次的“分岔”学习中，我学了好多乱七八糟的知识。有些是我工作所需要的，大多数是没什么直接用处的。可是，我经常乐在其中。也许，这样的随心所欲学习，才是我真正喜欢的。没有功利，没有利害，只有自己的喜欢。&lt;/p&gt;
+&lt;p&gt;前两天一个朋友发来信息，说看到一句话： &lt;code&gt;所谓魅力，就是比当下的时代老派一点点&lt;/code&gt; 。朋友第一时间就想到了我，说完全是我的贴身写照嘛。我回答：那我魅力无穷，因为我不是老派一点点，我是老派好多代，我就是一个 old-fashion man，就连学习，大概都是工业时代前的，或许要追溯到苏格拉底时代： &lt;code&gt;我什么都不知道，但我什么都想知道，我就愿意去找寻原因，无论有没有用处&lt;/code&gt; 。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>梅西“封王”，纪念一周年</title>
+      <link>/post/messi-jinian.html</link>
+      <pubDate>Wed, 20 Dec 2023 11:11:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/messi-jinian.html</guid>
+      
+        <description>&lt;p&gt;距离阿根廷世界杯夺冠，刚刚一年。网上阿根廷的粉丝、梅西的粉丝热闹起来，到处都是回忆和开心的帖子。连梅西自己也在 ins 上连发两条，十几张照片。可见梅西心里也是久久不能忘怀的。更有财力雄厚的粉丝，继续在上海外滩包下大屏，滚动播放夺冠的镜头。于是，去年世界杯的各种场景，尤其决赛的画面，又浮现在脑海里，仿佛没有过去一年，而是一天。很多人在感慨，去年，我们“阳”了，梅西也“羊”了。（梅西去年正式被国际足联称为“Greatest of All Times”，简称 GOAT。）&lt;/p&gt;
+&lt;p&gt;我心里的激动，却并不多，也没有参与粉丝们在论坛上的各种狂欢。大概在我心里，觉得锦上添花的事情，不需要我来做的。我更看重的是低谷里的扶持、鼓励、陪伴。因此，2015-2021 年梅西最低谷的时候，我才是经常在网上和那些诋毁他的人“论战”、对线。我其实明白，对面争论的也许都是些中学生。我这样地年纪，还在和小我几十岁的人争辩，实在是有些可笑。但那时，就是觉得，这是我真心喜欢的梅西啊，虽然我们在网上为他的辩解，他根本就不知道。而遥远东方一个足球荒漠国家的足球论坛，又有什么意义呢？于他几乎没有影响。&lt;/p&gt;
+&lt;p&gt;但我愿意这么做。梅西，值得我这么做。&lt;/p&gt;
+&lt;p&gt;我喜欢的足球运动员，或者说所有体育类运动员，我真正喜欢的就两个：古利特和梅西。1988 年欧洲杯，是荷兰三剑客光茫四射的舞台。我一眼看到古利特，就喜欢上了，即使当时最火的球王是马拉多纳，即使在荷兰三剑客里，最帅的是范巴斯腾。但我就喜欢这个满头辫子的黑大个。后来古利特受伤病困扰，膝盖做过几次大手术，不能支撑他全力地在球场上奔跑了。逐渐沦为替补，甚至远走英伦（当时的英超，完全比不上意甲）。我读大学的时候，没有网络，看不到电视。我只有在报纸上努力地寻找关于古利特的消息。有时候，《成都商报》的足球版块里一句话：古利特和队友撞墙配合，射进一球。我都会高兴好久，反复地看着这句话，一天的心情都好很多。班里同学慢慢知道我的喜好，每次看到有古利特的消息，都贴心地赶紧把报纸给我，说一句，古利特进球了哦。&lt;/p&gt;
+&lt;p&gt;但是梅西，还是不同的。球技好的球员很多&amp;mdash;虽然梅西的球技我也认为是非常好的&amp;mdash;但技术这个东西，并没有绝对的标准，如同“文无第一”。梅西与众不同的，是他的人品，以及眼里只有足球的赤诚之心。当初，看到【梅西 - 一个犬人, 一个病人】这个粉丝自己制作的视频时，一下就被感动了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1os411e7JA/?share_source=copy_web&amp;vd_source=b55217ca21ad6b48d21cb33a5d4856fd&#34;&gt;梅西，一个犬人，一个病人&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=4990062&amp;bvid=BV1os411e7JA&amp;cid=8105920&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;只是，那时还仅仅把他当成一个热爱足球的运动员而已。曾经有人评价，梅西只能踢顺境足球，逆境时他无法站出来带领大家。在三连亚的时候，在 2018 年世界杯被法国踢出局的时候，在欧冠被拜仁 8:2 击溃的时候，梅西默默地承受这些失败，但他没有屈服，一次又一次地站出来。真正的领袖，不需要口头上的大声吆喝，而是以坚韧的毅力，努力地向前。&lt;/p&gt;
+&lt;p&gt;当看到如下梅西的访谈时，我明白，这才是真正的领袖，也才是真正的人生。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我觉得不仅仅是足球。只要人有梦想，不论梦想多渺小，去做，去奋斗，对吗。&lt;/p&gt;
+&lt;p&gt;我相信事在人为。只要你努力，旅途遍布荆棘，你会摔倒无数次，但梦想就在前方。当你明白人生不可能一帆风顺，很多时候困难才是人生主旋律的时候，你也就获得了成长。&lt;/p&gt;
+&lt;p&gt;工作会让人们感到烦躁，每天都会烦忧，这都是日常，这就是生活。爬起身吧，再试一次，再去为你所要的奋斗一次，尽全力去做。&lt;/p&gt;
+&lt;p&gt;很显然，每个人都想赢，都希望做到最好，但有很多足球运动员在踢球，我们都希望他们能成为自己的冠军，第二名也是冠军。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi3.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/messi3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;梅西也会慢慢老去，眼角也都布满了皱纹。我的青春，也在古利特、梅西的陪伴下，逝去了。很多粉丝说，梅西不需要世界杯来证明自己的球王地位，但我们粉丝需要拿来对线。其实，真正的粉丝也不需要。在我们的心里，有这么一个纯粹的足球运动员存在，是足球的幸运，也是我们的幸运。&lt;/p&gt;
+&lt;p&gt;曾经谦逊是一个人的美德，后来张扬成了时尚的标识。对于我这样的 old fashion man 来说，梅西似乎就是一个生活在上世纪的绅士。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人生当中成功只是一时的，失败却是主旋律，但是如何面对失败，却把人分成了不同的样子。有的人会被失败击垮，有的人能够不断的爬起来继续向前。&lt;/p&gt;
+&lt;p&gt;我想真正的成熟应该不是追求完美，而是直面自己的缺憾，这才是生活的本质！难道向上攀爬的那条路不是比站在顶峰更让人热血澎湃吗？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;梅西，值得。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>“殉道者”有什么意义</title>
+      <link>/post/oppenheimer.html</link>
+      <pubDate>Fri, 29 Sep 2023 07:35:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/oppenheimer.html</guid>
+      
+        <description>&lt;p&gt;诺兰导演的《奥本海默》，在国内外的反响差别很大。在北美的票房超过 3 亿美元，但是在中国，很多人评价说故事沉闷乏味，没有情节的剧烈冲突，在电影院几乎睡着。&lt;/p&gt;
+&lt;p&gt;电影的故事情节很简单，奥本海默是一个极其聪明的人，领导了美国或者说全世界第一个原子弹计划&amp;mdash;-曼哈顿工程。在这个计划中，几乎汇聚了美国最顶尖的物理学家和化学家：康普顿、拉比、劳伦斯、西拉德&amp;hellip;&amp;hellip;，连我的偶像费曼，当时都只是一个稍微有点名气的小年轻而已。这众多的大佬&amp;ndash;要么迟早获得诺贝尔奖，要么也是同等级别的大科学家&amp;ndash;都安心在奥本海默的领导下开展工作。因为他们知道，奥本海默不仅自己通晓物理，还能第一时间准确理解所有人的想法。更重要的是，他有能力组织不同领域、不同风格的人在一起，解决所有难题。&lt;/p&gt;
+&lt;p&gt;原子弹的研制成功，给奥本海默带来了空前的声誉，但是，也给他带来了深深的苦恼：人类制造出这样“恶魔”般的武器，到底是福还是祸？上世纪五十年代，美国麦卡锡主义盛行，参议员施特劳斯将军设计陷害奥本海默，让他受尽无尽的屈辱和折磨，剥夺了他的安全许可，在公众面前羞辱他。最后奥本海默在孤独中渡过残生，虽然在最后，美国恢复了他的名誉，但已是风烛残年，于事无补。&lt;/p&gt;
+&lt;p&gt;整个电影以大段大段的内心独白为主，没有情节的高潮迭起，这也是很多国内观众昏昏欲睡的主要原因。但是，我明白奥本海默的心里。他如此聪明的人，为什么会受施特劳斯将军的陷害？电影里他的夫人也一再强调，反击、反击。可是，他选择了默默的承受。在我看来，奥本海默就是一个&amp;mdash;-“殉道者”，他选择牺牲自己，来向公众传达自己的理念：人类面对自己制造出来的不可控武器，一定要尽最大的力量束缚自己，而不能滥用。&lt;/p&gt;
+&lt;p&gt;现实生活中，很多人完全不能理解“殉道者”，觉得他们很傻。大多不能理解他们想传达的理念，即使理解了，也觉得他们的做法很愚蠢，为什么需要牺牲自己呢？难道不能两全其美吗？从策略的角度来看，保全自己最重要，宣传理念顺道而来。可是呢，在有些人心里，自己是最不重要的，他们想表达的思想、想做成的事业，才如此地超越生命。牺牲，有什么用？因为这是悲剧的力量。人是一种很奇怪的动物，我们看重欢乐，可是悲剧的力量，才能让人省悟。莎士比亚的四大喜剧，人们看了笑哈哈，但不大记得住。但他的四大悲剧：《哈姆雷特》、《奥赛罗》、《李尔王》、《麦克白》，很多人都能脱口而出。我甚至曾经有段时间还把《麦克白》里的一段独白作为自己的签名。而莎士比亚，在这样的力量中，诉说了自己的观点。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Life is but a walking shadow,&lt;/p&gt;
+&lt;p&gt;a poor player that struts and frets&lt;/p&gt;
+&lt;p&gt;his hour upon the stage and then is heard no more.&lt;/p&gt;
+&lt;p&gt;It is a tale told by an idiot,&lt;/p&gt;
+&lt;p&gt;full of sound and fury&lt;/p&gt;
+&lt;p&gt;signifying nothing.&lt;/p&gt;
+&lt;p&gt;生命犹如一个行走的影子&lt;/p&gt;
+&lt;p&gt;一个可怜的演员&lt;/p&gt;
+&lt;p&gt;他在舞台上昂首挺胸却又不停焦虑&lt;/p&gt;
+&lt;p&gt;担心着他的命运&lt;/p&gt;
+&lt;p&gt;然后，他便下场了&lt;/p&gt;
+&lt;p&gt;所发生的一切只不过是一个由傻子呈现的故事&lt;/p&gt;
+&lt;p&gt;里面满是嘈杂的怒斥&lt;/p&gt;
+&lt;p&gt;但无任何意义&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;苏格拉底、孔子、耶稣&amp;hellip;&amp;hellip;，不都是这样的“殉道者”吗？苏格拉底愿意面对死亡，告诫“乌合之众”的愚蠢；孔子“知其不可而为之”，为了“礼”的信念。他们失败了吗？在他们的时代，也许是。可是，多少年以后，我们记住的是他们想做的事、他们用毕生力量告诉世人的理念。我们记住了，他们就“成功”了。&lt;/p&gt;
+&lt;p&gt;奥本海默可以选择反击，可以用无与伦比的聪明才智让自己功成名就。可是，他选择了牺牲自己，通过让自己在那些愚蠢的“审查者”面前受尽屈辱的方式，传递自己的观点：我们盗取了“火”，该如何正确使用它？实际上，诺兰的电影，正是这本获得普利策奖的著作改编而来&amp;mdash;&amp;ndash;“American Prometheus”。普罗大众，知晓了奥本海默的思想，尽管并没有真正理解他牺牲的方式。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/opp-prometheus.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/opp-prometheus.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我从小就受这样的思想影响，想当“英雄”，可是我没有足够的能力，我想牺牲自己，但即使这样，也常常做不好。但我，深深地理解他们的想法。我十年前在 xhu 的时候做改革，实际上也存了这样的念头。我知道我不会成功，但我想试一试。我义无反顾地，但或许现在也没有留下丝毫的印迹。但是，又如何呢？做过了，也就踏实了。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《芯片战争》</title>
+      <link>/post/chipwar.html</link>
+      <pubDate>Tue, 01 Aug 2023 13:47:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/chipwar.html</guid>
+      
+        <description>&lt;p&gt;最近，我花了将近三个月的时间阅读了一本去年刚出的新书 《Chip War: The Fight for the World&amp;rsquo;s Most Critical Techonolgy》。这大概算是过去几年，耗费我最多时间的一本非专业书籍了。当然，部分原因是英文版的书，我读起来比中文版的要慢很多；部分原因是过去三个月头脑不是很清醒，读书速度大大变慢 😝&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/chipwar.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/chipwar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;该书的英文版是去年 10 月份刚出的，繁体中文版和简体中文版也刚刚上市。只是，繁体版的很多术语我读起来非常别扭，简体版又似乎删掉了某些内容。因此，还是硬着头皮啃下了英文版。作者 Chris Miller 是塔夫茨大学的国际历史副教授，很年轻，但是学术功底非常扎实。本书的参考文献，就占了全书内容的 20%。可见治学之严谨，考据之充分，绝非那些靠发点吸引眼球的爆炸新闻的所谓“专家”可以比拟。《纽约时报》对此书评价颇高，认为“情节跌宕起伏，读起来就像是一部非虚构的惊悚片”。&lt;/p&gt;
+&lt;p&gt;芯片行业，或者更广泛的半导体行业，已经成了各个国家发展的重中之重。对于中美这样的大国来说，更是事关国运，成了当前国际竞争的焦点。现在中国大力提倡破除“卡脖子”工程，力争做到自给自足、完全不依赖国际进口。整个社会，大干快上，颇有当年赶英超美的“大炼钢铁”之风。只是，很少有人问过这样的问题：如此重要的芯片，为什么中国一直不能独立生产？美国能否自给自足？是什么原因造成了当今的这种局面？&lt;/p&gt;
+&lt;p&gt;读完此书后，对于上述问题，就会有比较清晰的认识。实际上，不光中国不能自给自足，美国也不行。或者说，全世界没有一个国家可以单独地完成整个芯片产业链的设计、生产、组装&amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;芯片设计的公司很多，但所有的设计软件是美国的；&lt;/li&gt;
+&lt;li&gt;制造芯片母版用的是光刻技术。能制造最高端光刻机的，只有荷兰 ASML 一家。而 ASML 的主要技术来自于美国；&lt;/li&gt;
+&lt;li&gt;能够实际生产高端芯片的，全世界只有台积电、三星和英特尔三家。这三家中，只有台积电只专注于生产，而完全不涉及芯片设计。因此，全世界的设计厂商都喜欢台积电，而对三星和英特尔充满了防备和竞争；&lt;/li&gt;
+&lt;li&gt;硅片等原材料由日本控制；&lt;/li&gt;
+&lt;li&gt;存储芯片和专用芯片的要求不高，中国和很多国家都能自己生产。这也是普通老百姓经常在媒体上听到的，中国又独立生产出某某芯片的新闻。但基本属于中低端的芯片，落后最先进的芯片大约 15-20 年。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;之所以造成上述局面，是由于技术发展、冷战、商业利益、国家战略选择、全球化思潮、&amp;hellip;&amp;hellip;.，等等，多个复杂因素导致的。如果历史可以重来一遍，大概率芯片的布局会和今天大相径庭。即使是美国，也无法控制和主导这一切。“美国掌控了其中大部分节点，所以这个局面对美国最有利。但美国并不能掌控一切。美国的心腹大患是在芯片制造这一块。五角大楼并不信任台积电，它想有一个自己的芯片厂，但是它玩不起。制造芯片的门槛已经很高，而且会越来越高。一艘航空母舰的造价才 100 亿美元，而你要搞一个配套的芯片厂，需要两艘航空母舰的价格一—就这样，领先优势也只能维持几年而己。”历史上日本、韩国、新加坡，&amp;hellip;&amp;hellip;.，都曾经对美国说“不”，但都是你方唱罢我登场，来去匆匆一场梦。&lt;/p&gt;
+&lt;p&gt;芯片太复杂了，也太脆弱了。任何一个关键环节出问题，都会导致整个产业链的崩溃。即使你会设计，但没有光刻机，你也做不出母版。“ASML 现在出品的极紫外光刻机，是用了 30 年的研发才完成商业化，背后有超过一千家供应商的支持。它一个激光器就有 457,329 个部件。这些部件中有一个出问题，就会导致整个机器不可靠、不好用。就算 ASML 不设防，所有图纸都给你，中国也没有办法立即把这台机器造出来。这是因为具体生产过程中有很多 know how 是只能意会、没有写进手册里的「默会知识」，只有在现场实际操作的人才知道，那是人家几十年摸索出来的经验积累。更何况中国没有那一千家供应商。退一步说，就算中国用了十年时间、花上几百亿美元，真把光刻机造出来了，也没有商业价值。因为你模仿的是前一代，人家又出下一代了。ASML 2025 年要出的新一代的光刻机将使用「高光園极紫外 (high-aperture EuV)」技术，每台成本 3 亿美元，你怎么跟它竟争？”&lt;/p&gt;
+&lt;p&gt;有了光刻机就行了吗？远远不够，大规模生产和制造芯片的企业，全世界只有台积电一家。有人开玩笑说，台积电的创始人张忠谋以一己之力，让全世界认识了台湾。连美国都求着台积电，软硬兼施，让台积电在美国建了几个分厂。但大家都心知肚明，最先进的生产线，还在台湾。最好的制造人才，也都还在亚洲。&lt;/p&gt;
+&lt;p&gt;那么，有没有办法解决“卡脖子”呢？Miller 给了一些建议，万维刚也说了一些办法。我想，认真读了此书的人，都会有自己的见解。&lt;/p&gt;
+&lt;p&gt;这确实是值得一读的好书，认真做学问的人，才能写出如此精彩的专著，给读者以启发。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>那些稀奇古怪的发音</title>
+      <link>/post/pronounce.html</link>
+      <pubDate>Tue, 18 Jul 2023 11:33:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/pronounce.html</guid>
+      
+        <description>&lt;p&gt;我有个癖好，喜欢对外文中那些稀奇古怪的词，研究它们的正确发音。大概是因为我有强迫症，所以我完全无法忍受一个词被错误地念来念去。如果是人名，念错了，我更要疯掉。我的名字就从小被人喊错，每次听到被喊“Feng Ying”的时候，我都不愿意答应 😤&lt;/p&gt;
+&lt;p&gt;为了搞清楚那些稀奇古怪的发音，我还不惜花时间认真考古，所以，我念这些词的时候，有根有据，绝不乱说 😝 唉，不知道浪费了多少时间啊。&lt;/p&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+&lt;p&gt;Linux 是现在最流行的开源操作系统的名字。我听大多数中国人，都把它念成：李纳克斯。甚至在专门学术大会上，行业内的人也这么叫，但这是不对的。我导师 94 年从美国回来的时候，带回了 Slackware Linux 1.0 版本，他读的发音是：乃乐克斯。虽然他告诉我，他的美国同学都这么叫，但是，这也不对。为什么老美这么叫呢？也不是没有原因。Linux 是一个叫 Linus Torvarlds 的人，搞出的类 Unix 操作系统内核，因此，Linus 把它称为 Linus&amp;rsquo; Unix，简称 Linux。在美国，Linus 是一个常见的名字，比如，诺贝尔化学奖得主 Linus Pauling。老美念 Linus，就是类似于：乃乐斯。当然，Linux 就被他们发音为“乃乐克斯”了。&lt;/p&gt;
+&lt;p&gt;本着名字就该本人的意见为第一标准的原则，我可不能因为其他人怎么念，我就怎么念。因此，我在 96 年前后，到处找 Linus 本人是如何念自己的名字的。万幸，我找到了本尊的亲自发音。Linus 是芬兰人，他说，在他的家乡，别人都喊他：林乐斯。注意，这个林，不要发太死了，应该是类似于“林”和“乃”之间的那个音，嘴不能太小，也不能太大，有点像中国人喊小囡囡的那个“囡”字，但是没有前面没有鼻音，后面有鼻音。所以，Linux 最后的发音应该是：林乐克斯。&lt;/p&gt;
+&lt;h2 id=&#34;suse&#34;&gt;SUSE&lt;/h2&gt;
+&lt;p&gt;SUSE Linux 是一个德国发行的 Linux 版本，我曾经在 2000 年前后，很喜欢用这个版本。直到今天，它也是 Linux 家族中比较出名的版本之一。我第一次看到这个词，完全不知道该怎么念。它也不是一个标准的外文单词，实际上，连维基百科上的标注发音，都是不太对的。我困惑了很多年，直到 2008 年我在美国的时候，实验室有一次来了一个德国的博士。我就专门跑去问他，德语中这个该怎么发音。他告诉我，应该念：苏匝，只是那个“匝”不能发太重，应该类似于 zoo 这个单词里的英文读音。当然，也有人读：苏细。题外话，SUSE 是一个德语的简写：Software und System-Entwicklung。意思是 software and systems development，仅此而已。考虑到德国人发明的，咱们还是按照德国人的习惯来读比较正宗 😆&lt;/p&gt;
+&lt;h2 id=&#34;bjarne-stroustrup&#34;&gt;Bjarne Stroustrup&lt;/h2&gt;
+&lt;p&gt;Bjarne 是 C++ 语言的发明者，人称“C++之父”，妥妥的大牛，人也很谦虚。20、30 年以前，总有些好事者，把 C++ 和其它语言比来比去，秒天秒地秒空气，谁都不放在眼里。但人家真正的 C++之父，却是异常谦虚，常常说，哎呀，C++ 的发明实际上是不得已为之。C 就已经很好很好了，但是有时候没有类，稍微不太方便。我为了自己工作顺手，才发明的 C++。看，哪像那些自以为的高手，学了点面向对象，就以为天底下所有的东西都是类（class）了。&lt;/p&gt;
+&lt;p&gt;我是听过很多著名大学的计算机学院的老师，把 Bjarne 念成：“B 酱”的。因此，很多学生，也跟着这样念。但实际上，Bjarne 是丹麦人，不按英语发音的。他亲口念过他的名字，读：“B 阿恩呐”。这里，j 不发音，结尾的 e 反而要发音。惊不惊喜？刺不刺激？😝&lt;/p&gt;
+&lt;h2 id=&#34;gnu&#34;&gt;GNU&lt;/h2&gt;
+&lt;p&gt;GNU 就是大名鼎鼎的开源社区的大本营，是开源的领袖 Richard M. Stallman 一手打造的开源工具。这个 gnu 呢，本身是一个英文词，读 /nu:/，就是一种野生的动物角马。因此，GNU 的 logo，就是一头角马。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/gnu.jpeg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/gnu.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;但是，GNU 不能念成“努”，因为，GNU 实际上是 GNU is NOT Unix 的简写。所以，这个 G 是一定要发音的。这些计算机的黑客们啊，实在是喜欢用这种递归的方式来命名，以显示自己的水平 :-)&lt;/p&gt;
+&lt;h2 id=&#34;knuth&#34;&gt;Knuth&lt;/h2&gt;
+&lt;p&gt;Donald E. Knuth 教授，是我最最最尊敬的计算机科学家，甚至不用加之一。他写的《The Art of Computer Programming》，即使看不懂，也要买回来放进书柜，装门面的。Knuth 教授计划写七卷，刚写到第三卷，图灵奖就忍不住了，赶紧给他颁奖。图灵奖就是计算机届的诺贝尔奖，因为诺贝尔那时不知道还可以给计算机这个专业授奖。也难怪，诺贝尔也不知道计算机长啥样啊。&lt;/p&gt;
+&lt;p&gt;Knuth 教授爱好极其广泛，为了写“TAOCP”一书，觉得人家排版不好看，因此就先发明了 \(\TeX\) 语言和 &lt;strong&gt;METAFONT&lt;/strong&gt; 画图工具，自己来排版书。这个 \(\TeX\) 发明了之后，数学家们一看，哇，太漂亮了，写数学公式完全就像艺术。因此，1979 年数学大会，毫无悬念的，一致通过，今后数学期刊论文，以 \(\TeX\) 语言作为官方排版印刷标准。凡是用 \(\TeX\) 写论文的，一律不收版面费。用其他方式写数学公式的，每页纸 800 美刀，不打折。我当年在《Physical Review》上发的第一篇论文，就是用 \(\TeX\) 写的，物理评论期刊部真的没收我的钱&amp;hellip;&amp;hellip;.。感谢伟大的 Knuth 教授。（我在这随手写个数学公式，让大家看看，多么的漂亮，多么的简洁，多么的，无与伦比。）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;e^{i x} = \cos(x) + i \sin(x)&lt;/p&gt;
+&lt;p&gt;e^{i\ pi} + 1  = 0&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;\(e^{i x} = \cos(x) + i \sin(x) \)&lt;/p&gt;
+&lt;p&gt;\(e^{i\pi} + 1  = 0  \)&lt;/p&gt;
+&lt;p&gt;任职的斯坦福大学，一看，哟，Knuth 教授你这么兴趣广泛，啥时候能把书写完啊，全世界都还等着你呢。因此，做出一个决定：Donald，你不准上课、不准带学生、不准搞乱七八糟发明了，专心写书。你在斯坦福大学的薪水，足额照发，但是不准干任何与写书无关的事。啊，伟大的 Knuth，求求你了，赶紧把书写完吧。&lt;/p&gt;
+&lt;p&gt;咦，乱七八糟的，扯哪去了？哦，对，Knuth 该怎么发音呢？Kn 这两个字母，如果出现在英文单词的词首里，k 是不发音的。比如，knife 这个词，就念：/nai:f/。但是，Knuth 教授虽然是美国人，自然要与众不同。他的 K，是要发音的，读 /kəˈnuːθ/。为了佐证，再讲一个小故事。Knuth 教授第一次访华前，跑去问姚期智，就是那个首位华人图灵奖得主，是不是有个中文名字会比较酷？姚夫人&amp;mdash;储枫女士，亲自给 Knuth 教授取了一个中文名：高德纳。给他夫人取名：高精兰，儿子取名高小强，女儿取名高小珍。好嘛，一家子高。你看，K 是不是发音了？&lt;/p&gt;
+&lt;h2 id=&#34;feynman&#34;&gt;Feynman&lt;/h2&gt;
+&lt;p&gt;好像写太长了，结尾就以我最最喜欢的物理学家 Feynman 来收尾吧。中文一般称他为费曼，大概以为 fey 直接发称 &lt;em&gt;fei&lt;/em&gt; 就可以了。可是呢，我当年亲耳听杨振宁先生是这么称呼 Fenyman 的：/fainmən/。杨先生是见过 Feynman 的，是和 Feynman 打过招呼、当面直呼其名的。所以啊，必须的，不能叫费曼，而应该把嘴巴张大，发义恩曼。我的偶像，千万不要念错名字哦 🥹&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>13 年后的“重逢”</title>
+      <link>/post/luguhu.html</link>
+      <pubDate>Sun, 02 Jul 2023 11:04:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/luguhu.html</guid>
+      
+        <description>&lt;p&gt;女儿暑期要去深圳实习，于是闹着安排了一次西昌和泸沽湖的自驾游。上一次来泸沽湖是 2010 年 1 月，当时刚去西华大学，年终的时候学院有传统，大家自费集体出去玩一次。那次选的是泸沽湖，而我对出去旅游这件事毫无经验，连准备什么都不知道，因此冬季的泸沽湖气温是多少，都是到了之后才有感觉。结果就是&amp;mdash;-我不得不借同事的衣服来御寒 😅&lt;/p&gt;
+&lt;p&gt;因为赶在端午节之后，和暑假之前，人很少。这是我喜欢的，或者说，尤其喜欢的。不管什么美景，只要人一多，我就头昏。而只要人少，即使在偏僻的小山村，我都能感受到宁静。这次沿泸沽湖一周，看水看天看云看花，异常的安宁，可以听到风的声音，可以闻到泥土的气息。在 13 年前照相的地方，又重新照了一张。看着这两张同人同地异时的照片，看到两鬓多了的白发，恍惚时光交错，这 13 年后的“重逢”，并没有想象中的那样伤感。&lt;/p&gt;
+&lt;p&gt;经常觉得时间是停滞的，十年、二十年，仿佛就是前两天发生的事一样。而我对自己在 xhu 的经历，却并不认可。回想自己所做的事，失败远远大于成功，甚至如果要问我，在 xhu 说一两件引以自豪的事，我大概都会语塞，半天回答不出来。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;落魄江湖载酒行，楚腰纤细掌中轻。&lt;/p&gt;
+&lt;p&gt;十年一觉西华梦，白首方晓万事新。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luguhu.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/luguhu.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>  &#34;hjkl&#34;和鼠标的斗争
+  </title>
+      <link>/post/hjkl-vs-mouse.html</link>
+      <pubDate>Sat, 27 May 2023 17:43:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/hjkl-vs-mouse.html</guid>
+      
+        <description>&lt;p&gt;程序员的世界里，有两派截然不同的风格：一是老旧的“键盘侠”，喜欢手不离开键盘，操纵一切；与之相反的是“鼠标点点点”，所有的东西都尽量用图形界面，用鼠标来操控方向，指点江山。&lt;/p&gt;
+&lt;p&gt;在苹果公司“窃取” Xerox 公司的图形操作系统之前，大家都是面对黑乎乎的屏幕，处理文档，或者编写代码。Windows 95 在中国普及之前，大家也是习惯于 DOS 那个简陋的字符界面。在这种情况下输入字符和修改，就产生了一个非常具体的问题：我们怎么把光标快速移动到想修改或者输入的地方？最开始的 ex 编辑器，只能一行一行地编辑，然后提交。如果发现提交过的字符需要修改，就要发“请求”把那一行撤回来，然户用键盘上的光标移动键，左右移动那里，进行删除/增加/修改。我当年初学计算机的时候，是经历了这种炼狱般的折磨的。回想那时用这样的编辑器书写 FORTRNAN 代码，调试，发现错了再修改，真是不堪回首啊 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;Unix 世界里的精英们，是不会容许这样笨拙的操作来控制人类的。于是，vi 这个全屏编辑器就应运而生。在这个编辑器里，整篇文档都全部呈现出来，然后用光标键移动光标到指定的地方，进行编辑。但是啊，程序员是如此地“懒”，他们发现键盘的布局里，要移动光标键，需要手掌离开原来的位置。这怎么行？于是，hjkl&amp;hellip;这样的操作就出现了：我们把编辑文档分为两个状态，一个是编辑状态，直接敲字符，屏幕上就会显示那个字符；另一个是命令状态，我们按下字符键的时候，只会操作光标移动，而不是真正地输入这个字符。这两者的切换是用 ESC 键来完成的。为什么用 hjkl 呢？因为那是右手的手指放在键盘上的默认位置&amp;mdash;当你不输入任何字符的时候，右手的食指会被要求放在 j 键，中指放在 k 键上。啊哈，这个设置是如此地方便，等于是，我们的手掌不要任何地移动，就可以完成文档/代码的全屏编辑、修改、提交&amp;hellip;..。当我 1995 年开始学习 Linux 的时候，就迷上了这样的操作方式，以至于后来我换用了 Emacs 编辑器后，仍然装上了 vim-like 的键盘操作，就像下面的演示里一样，每天 hjkl &amp;hellip; 地工作着。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-emacs.gif&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/ijk-emacs.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;“鼠标点点点”派在我这里就没有了市场，更有甚者，我习惯了 hjkl 之后，不仅编辑文档手不想离开键盘，连看浏览器都不愿意用鼠标来移动页面了。macos 下的 Safari 浏览器和 Google Chrome 浏览器都有限地支持了键盘的操作，比如，用空格键下翻一页，Shift-space 键上翻一页；Shift-] 键变换到下一个标签页 &amp;hellip;&amp;hellip;。可是，对于我来说，这远远不够。我们看网页或者文档时，眼睛的焦点都喜欢集中在屏幕的正中，上下移动的行数最好不要超过三行。空格键一按，就是翻了半页，这就要求我们看 7、8 行，这时眼睛的焦点已经在屏幕的底部了，翻页之后然后再把眼睛移动到屏幕的上方。啊，对于我这样的懒人来说，这是不可接受的。&lt;/p&gt;
+&lt;p&gt;难道不能像 vi 一样，一次只移动一行吗？而且要做到每次移动了之后，那一行仍然处于屏幕的正中。你要相信，只要你有需求，这个世界上就有人帮你做好了这个工作。Safari 浏览器有个 vimari 插件、Chrome 浏览器有个 vimium 插件，它们就是来完成这个工作的。然后，就像下面的演示一样，我一行一行地阅读网页，手仍然在 hjkl 上，j 下移一行，k 上移一行。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-chrome.gif&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/ijk-chrome.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我的要求越来越高，已经不满足于浏览器了，我需要所有的 application 都应该有这个功能，尤其是 pdf 阅读器。我已经习惯了眼睛焦点不离开屏幕的阅读方式，pdf 怎么能例外？极客们是不会让我失望的，有一个程序&amp;mdash;karabiner，它可以重新定义任何程序的键盘操作。因此，Preview 这个苹果下的 pdf 阅读器，也纳入了我的 hjkl 阵营。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-pdf.gif&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/ijk-pdf.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;上次我说我是一个 old fashion man，那是真的。我连键盘处理方式，都完全是一个老派人士。所以，我对现在的即时通工具，微信、QQ、&amp;hellip;，都是深恶痛绝。曾经我觉得能够随时联系是多酷的一件事，可是，当我发现我的计算机/手机上那些显示未读的红色提醒时，强迫症会让我坐立难安。而发微信的人，由于太方便了，会忍不住随时随地脱口而出。因此，除了工作外，我不喜欢看快餐式的文字。我关掉了微信上的朋友圈、视频号，甚至，基本停用了微信。我喜欢信件这样老派的方式，虽然 email 比起手写的信，少了点温度，但这已经是我现在感觉最舒心的联系工具了。&lt;/p&gt;
+&lt;p&gt;hjkl，嗯，好土的方式，却是我最爱的方式。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>old fashion man</title>
+      <link>/post/old-fashion-man.html</link>
+      <pubDate>Sun, 07 May 2023 18:45:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/old-fashion-man.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/clock-desktop.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/clock-desktop.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;上面的截图是我此时此刻的计算机桌面，右下角的那个时钟有点突兀，其实和整体不怎么搭配，但这是我实在不忍放弃的小程序，因为这时常提醒我当年的日子。&lt;/p&gt;
+&lt;p&gt;1995 年还在读大四的时候，被保送读研究生。导师才从美国回来，带回了刚刚在美国也才使用的 Linux 操作系统。我对这个操作系统是如此地痴迷，以至于天天睡在实验室，每晚都折腾到 2、3 点钟。依然清晰地记得，我们用的版本是 Slackware Linux 1.0，当时安装这套系统，我们用了 48 张 3.5 寸的软盘。也许现在的人们对于软盘的概念很陌生了，因为连光盘都已经被淘汰😉。&lt;/p&gt;
+&lt;p&gt;光是 Linux 是无法完全工作的，它只是一个黑黢黢的字符界面，就像 DOS 一样。执行命令可以，画图等就不行了，因此必须配备一个图形窗口。我们选择了 X Window，用的管理器是 olwm。这个桌面现在看起来很简陋，但对于当时的我，这是世界上最好的工作环境，最好的学习平台，最好的，我的玩具。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/olwm.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/olwm.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;在这个简陋的桌面环境里，我乐此不疲地调出各个小工具，其中就包含一个时钟。我选择时钟的表盘，精心调换秒针的颜色，尝试把它放在桌面的各个位置，以决定哪种情况下，我既能随时看到时间，又不影响我正常的工作。记得还有一个小工具：xeyes。随着鼠标的位置，眼睛骨碌碌地乱转 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;Linux 的版本越来越多，RedHat 逐渐取代了 Slackware，然后是 SuSE、Debian、Ubuntu &amp;hellip;..。可是不管哪个版本，我都想恢复我最初的哪个 olwm 桌面管理器，调出那个小时钟和那双小眼睛。2000 年起，我把 Linux 也换成了 FreeBSD，仍然保留 olwm。直到有一天，olwm 版本不再更新，最新的硬件装不上了。&lt;/p&gt;
+&lt;p&gt;2006 年，我买了第一台 powerbook pro 笔记本电脑，正式用上了 mac osx。我还是不死心地把当年 olwm 上的小工具移植过来，找到一个算一个，打开一个算一个。可是，似乎 apple 公司开发 mac osx 的工程师，对老的 X window 下的这些小工具并不喜欢，它们不再被集成在系统里，而支持它们运行的 X window 库，也慢慢被遗弃了。我不甘心地强行安装了一个 X Window 模拟器，只为了运行那些古老的 X window 小工具。&lt;/p&gt;
+&lt;p&gt;很多人嘲笑我很老旧，我也自认为是一个 old fashion man。不知怎么，我总是忘不了那时情景，没有任何功利地学习，只是为了兴趣。我没有想过量子力学、泛函分析、群论、GNU/Linux、X Window &amp;hellip;&amp;hellip;，这些东西对今后有什么作用，只是觉得它们很好玩，理论很美，技术很潮，而我，很喜欢。&lt;/p&gt;
+&lt;p&gt;快三十年了，我依然还是喜欢这些。虽然痛心地明白，我回不去那个年龄了，但是，我梦想自己还能保持那时的纯真。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《Not Even Wrong》</title>
+      <link>/post/not-even-wrong.html</link>
+      <pubDate>Fri, 28 Apr 2023 19:58:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/not-even-wrong.html</guid>
+      
+        <description>&lt;p&gt;《Not Even Wrong》是一本科普书，关于弦理论的来龙去脉，以及为什么这个高大上的理论会“失败”的调侃。我很喜欢这本书，一是它通过超弦这个理论的曲折发展历程，再次阐明了为什么物理学之所以是科学的道理；二是它还略带幽默和自嘲的文笔，特别是书名，来自于伟大的物理学家 Pauli 的名言：这连错误都算不上。(英文：It is not only not right, it is not even wrong. 德语原版：Das ist nicht nur nicht richtig, es ist nicht einmal falsch!)&lt;/p&gt;
+&lt;p&gt;作者自称是科普书，但随便找出一页，让大家看看，长什么样子：&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/not_even_wrong_qm.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/not_even_wrong_qm.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我敢打赌，凡是没有拿到物理学博士学位的读者，一定不知道他在讲啥 😅。但是，它确实是一本科普书，有《纽约时报》、《波士顿环球报》&amp;hellip;&amp;hellip; 等一大票粉丝为它鼓吹站台，不吝溢美之词。由此感叹：物理学真是优美啊，即使大家搞不懂你在讲啥，但仍然充满了崇拜和尊敬之情。回想起自己当年在课堂上侃侃而谈，大吹特吹物理理论之美，高高立于所有科学学科之上。底下的学生，大概都是这种心态：虽然不知道你在讲啥，但一定了不起 😎&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/not_even_wrong_praise.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/not_even_wrong_praise.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;弦理论成名甚早，七八十年代就已经名满天下，九十年代有一段时期，甚至霸占了理论物理的绝大部分头条。在国际物理学术年会上，理论物理如果不和弦论扯上点关系，自己都不好意思读报告。但是，直到今天，这个理论仍然被称为空中楼阁、水中满月。杨振宁曾经开玩笑说：自己的实验室不准谈论弦论，否则统统赶出去。弦论教主威滕，由于在弦理论的贡献，1990 年就获得了数学最高的奖项 &amp;mdash; 菲尔兹奖，诺贝尔物理奖到现在都没有认真考虑过他。&lt;/p&gt;
+&lt;p&gt;不是物理学有多么傲气，其实菲尔兹奖的难度比诺贝尔奖高多了。诺贝尔奖每年颁发一次，最近几十年来，每年的物理学奖都是 2、3 个人一起平分。而菲尔兹奖，每 4 年才颁发一次，每次不超过 4 个人。那为什么弦论那么多优秀的科学家，一个都没有获得诺贝尔物理学奖呢？这就涉及到物理学和数学的本质区别了。诚然，两者，尤其是理论物理和数学，都严格地建立在逻辑的基础之上。但是，数学只要在自身的框架上自洽就可以了。物理学不能这样，它必须既要解释已有的现象，还要能预测未来的事实。最为重要的，它必须要接受实验的验证。无论多么漂亮的理论，如果不能被实验验证，都不会被物理学正式接纳。不管提出理论的人，有多么伟大，一旦实验给出了否定的结果，我们只能遗憾地与之告别。牛顿、爱因斯坦、泡利 &amp;hellip;&amp;hellip;，概莫能外。反之则是，理论如果接受了实验的检验，且简单而又漂亮，物理学界则会张开双臂，热烈欢迎。当年，李政道和杨振宁提出宇称不守恒定律的时候，虽然年轻，绝大多数物理学家也充满怀疑。但当吴健雄的实验表明结果与李-杨理论相符时，骄傲的泡利，马上都承认错误。而诺贝尔奖委员会第二年就迅速地将物理学奖颁发给了这两个年轻人。&lt;/p&gt;
+&lt;p&gt;超弦理论，至今没有给出能被实验检验的预言。因此，无论多么漂亮，无论多么深奥，科学界并没有真正将之纳入到自身的体系中。我们都等着那一天，超弦理论可以提出某种预测，能被实验验证，并给出正面的结果。翘首以盼了这么多年，依然还在等待。有些人觉得，这么完美的理论，不可能不是正确的。但正如 Pauli 的名言，不，它现在还不对，或者，它连错误都算不上。&lt;/p&gt;
+&lt;p&gt;很多人常常觉得物理学家很高傲，实际上，在伟大的事实面前，最谦虚的就是物理学家了。我没有见过其他任何学科的人，如此地为自己骄傲，但又如此地尊重事实。现实生活中的人，为了面子或者利益，罔顾事实，胡搅蛮缠，更是屡见不鲜。这也是我如此钟爱物理学的原因，一旦陷入物理学的“爱河”，终生不能自拔。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>关于我自己</title>
+      <link>/about/index-zh.html</link>
+      <pubDate>Sat, 08 Apr 2023 11:38:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/about/index-zh.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:200%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/me.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/me.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理工作，教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;
+&lt;p&gt;但总觉日子虚度，内心惶恐，困惑自己做过的事都没有什么意义。于是，痛定思痛，毅然离开舒适的窝，成为一名自由打工者。希望走不动路的时候，回想起来，可以坦然此生没有虚度，足矣。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个人的生活都是一条通向自身的道路。每个人的真正职责只有一个：找到自我。然后在心中坚守一生，全心全意，永不停息。所有其他的路都是不完整的，是人的逃避方式，是对社会角色的懦弱伪装，是随波逐流，是对内心的恐惧。&lt;/p&gt;
+&lt;p&gt;&amp;mdash; 阮一峰&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。&lt;/p&gt;
+&lt;p&gt;&amp;mdash; 罗伯·舒乐&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《阅读的方法》--–—用自己的话表达思想</title>
+      <link>/post/writing-own-words.html</link>
+      <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/writing-own-words.html</guid>
+      
+        <description>&lt;p&gt;得到的联合创始人罗振宇写了一本书《阅读的方法》，本意是像劝导更多的人喜爱读书、发现读书的乐趣，甚至于找到知识的用途。他大力推崇陶渊明的读书心得：“好读书，不求甚解；每有会意，便欣然忘食。”万维钢也推荐了这本书，并补充了司马迁的读书见解：精益求精，应收尽收。&lt;/p&gt;
+&lt;p&gt;罗振宇是一个读书非常多也非常快的人，据他自己说他每天用 34 寸的大显示器打开电子书，每次扫过三千字，很快读完三万字的书&amp;hellip;&amp;hellip;。因此，这本书大量引用了他觉得很好很有用的其他人书里的内容，看起来的风格就像这样：&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luo_read_2.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/luo_read_2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;凡是加粗加黑的都是别人书上的内容。他这样写的目的，大概是想表明自己诚实，不贪他人之功。学术论文即使这样写，大概都有问题，因为我们写东西主要是表明我们自己的观点，虽然也要大量引用他人的研究和思想，但主要目的是为了证明自己的新观点是可靠的。就算我们在引用他人的观点时，也尽量用自己的话重写一遍，然后把参考文献列在文后，有兴趣的读者自行去验证。&lt;/p&gt;
+&lt;p&gt;按照罗振宇这样的写法，就出现了两个问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自己书中的内容非常零散，大量的篇幅被其他书的内容破坏。网上也有很多人感到看这本书很头疼，跳来跳去的，逻辑并不通顺。整本书大概引用了上百本其他的书籍，但除了让我感觉他稍显卖弄外，提高读书的兴趣并不大；&lt;/li&gt;
+&lt;li&gt;更大的问题还是第二个。他引用的书，竟然是原文复制。也许为了表明自己诚实，可是，不同的人写文字，风格、语法、习惯、用词&amp;hellip;&amp;hellip;都是非常不一样的，强行把两种不同风格的文字放在一起，会让读者觉得极其不通顺。上一段还是甲在说，下一段就是乙在谈，他自己还偶尔插几句话。用戴建业的口头禅来说，就是：我了个天，这在吃夹生饭吗？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;写文章，无论如何，要用自己的话来写。吴军为了写《世界文明史》，我相信应该读了上百本关于世界史和文明在各地起源、发展、融合、消失的书籍。但是，吴军的文章，并不让人觉得生硬，因为他是自己消化理解了，重新用自己的语言娓娓道来，让我们读起来如沐春风、欣欣然有本意。万维钢的《精英日课》，有段时间，几乎每周都要介绍一本新书，但也是用自己的话重写一遍。顾衡就更不用说了，胸中藏有万卷书，说出来却是云淡风轻，仿佛信手拈来。这样做有两个好处：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要想自己能重写，必须自己理解。凡是自己没有搞清楚的，一定讲不清楚；&lt;/li&gt;
+&lt;li&gt;整个文章行文统一，读者没有负担。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以，虽然我觉得罗振宇的这本《阅读的方法》从内容上来说还算可以，但我也没有动力推荐给朋友看。反而我们自己需要引以为戒：阅读、理解、用自己的话讲述。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:30%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luo_read.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/luo_read.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
+    
+    <item>
+      <title>文档中插入图形</title>
+      <link>/post/insert-figures-in-doc.html</link>
+      <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/insert-figures-in-doc.html</guid>
+      
+        <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;
+&lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;微软公司的 &lt;code&gt;word&lt;/code&gt; 软件之所以那么流行，就是因为它可以在文档的编辑时，插入图片文件，而且让文字和图片融合起来。虽然每次调整图形的时候，鼠标把手指都要练废了，但效果也算差强人意。后来， &lt;code&gt;word&lt;/code&gt; 还发展出了可以在字处理时，直接插入线条和几何形状，画出简单的图形。但这个图形和文字，还是可以看出，汤是汤，水是水，明显的两种类型。&lt;/p&gt;
+&lt;h2 id=&#34;从程序的角度融合&#34;&gt;从程序的角度融合&lt;/h2&gt;
+&lt;p&gt;从计算机和数学的角度来看，文字和图形其实都是编码的存储方式而已。文字也是算法生成和显示的，图形也是算法生成和显示的，为什么不能统一处理呢？D. Knuth 教授在发明 \(\TeX\) 软件时，就率先开发 &lt;code&gt;METAFONT&lt;/code&gt; 来统一生成文字和图形，效果是相当的好。也难怪，人家 Knuth 大师本身就是数学家和算法大家，最年轻的图灵奖获得者，搞点这种算法，还不是雕虫小技 &amp;hellip;&amp;hellip;。&lt;/p&gt;
+&lt;p&gt;借助 \(\TeX\) 标记型语言的思想，我们把文字的内容和排版分开，将排版的要求也用文字来描述，然后在后台用程序来识别对排版的要求，也就是说，排版其实是一种程序语言，不过人读起来很顺畅很简单。既然排版可以算作程序，那么，图形的制作为什么不能是程序设计呢？这样，我们在一个文档里，既写文字内容，又“写”图形的制作描述，还可以“写”数学公式，整个文档里只有 ASCII 码。方便编辑、复制、版本管理等。至于最后呈现给人阅读的样式，用后台程序来处理完成。&lt;/p&gt;
+&lt;h2 id=&#34;画图的程序语言选择&#34;&gt;画图的程序语言选择&lt;/h2&gt;
+&lt;p&gt;确定了用标记型语言来画图的思想后，操作上就有两个问题需要考虑：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如何描述一个图形；&lt;/li&gt;
+&lt;li&gt;画图的语言如何与文档无缝融合。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;从本质上来说，图形的描述也是基于数学的。所谓的图形，其实就是直线和曲线的组合。在线条的基础上，再生成三角形、四边形、多边形、圆形&amp;hellip;&amp;hellip;，然后在封闭的形状里，考虑是否填充进颜色。因此，一开始的画图语言，都是些数学函数的描述，比如 &lt;code&gt;gnuplot&lt;/code&gt;, &lt;code&gt;metapost&lt;/code&gt;, &lt;code&gt;tikz&lt;/code&gt;, &lt;code&gt;Asymptote&lt;/code&gt; 等。但就像造房子不能每次都从砌砖开始一样，可以生成一些作为积木的基本形状，然后用程序语言来组合。很多人潜意识地以为，那些好看的函数图形，肯定是数学公式生成的。但是随手涂鸦，就不好用数学公式描述了。其实不然，这个世界上什么东西不是数学的呢？:-) 只要你愿意，用数学公式来随手涂鸦，简直是一件乐趣。&lt;/p&gt;
+&lt;p&gt;作图语言和文档的融合，倒不是大问题。但纯文本的 &lt;code&gt;txt&lt;/code&gt; 文档，还是不太适合完成这样的工作。目前，最好的融合文字和其他语言的写作环境是 &lt;code&gt;org mode&lt;/code&gt; 。它简直能识别几乎所有的作图语言，当然，它还能识别 &lt;code&gt;C/C++&lt;/code&gt;, &lt;code&gt;java&lt;/code&gt;, &lt;code&gt;shell&lt;/code&gt;, &lt;code&gt;python&lt;/code&gt;, &amp;hellip;&amp;hellip;.。所有的程序语言，在这里都被同等对待了。&lt;/p&gt;
+&lt;h2 id=&#34;plantuml&#34;&gt;plantuml&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://plantuml.com&#34;&gt;plantuml官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;plantuml&lt;/code&gt; 是基于 &lt;code&gt;java&lt;/code&gt; 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 &lt;code&gt;org mode&lt;/code&gt; 里被 &lt;code&gt;org&lt;/code&gt; 统一管理。我喜欢用它来画各种流程图，比开始我用 &lt;code&gt;draw.io&lt;/code&gt; 生成 &lt;code&gt;png&lt;/code&gt; 文件，再插入到文档中，要方便多了。&lt;/p&gt;
+&lt;h3 id=&#34;范例&#34;&gt;范例&lt;/h3&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/plantuml-AI-program-flow.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/plantuml-AI-program-flow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;文字和图片的融合&#34;&gt;文字和图片的融合&lt;/h3&gt;
+&lt;p&gt;为什么说这里的图形和文档是融合的呢？实际上，在我的原始文档里，上述的内容是长这个样子的：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt; ~plantuml~ 是基于 ~java~ 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 ~org mode~
+里被 ~org~ 统一管理。我喜欢用它来画各种流程图，比开始我用 ~draw.io~ 生成 ~png~
+文件，再插入到文档中，要方便多了。
+
+  *** 范例
+  #+begin_src plantuml :file ../static/img/test.png
+    @startuml
+    title AI Programming Flow
+    start
+    fork
+       :Training;
+       split
+         :Sample Data;
+       split again
+         #lightGreen:Expected Results;
+       end split
+       :Machine;
+       #red:Model;
+       stop
+    fork again
+       :Prediction;
+       split
+         :New Data;
+       split again
+         #red:Model;
+       end split
+       :Machine;
+       :results;
+       end
+    end fork
+    @enduml
+  \+end_src&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;这就是 Knuth 教授一再推崇的 &amp;ldquo;literal programming&amp;rdquo; 啊，整个世界大统一了。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

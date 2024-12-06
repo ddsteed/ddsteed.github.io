@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on ddsteed&#39;s personal blog</title>
+    <link>/categories/%E6%8A%80%E6%9C%AF.html</link>
+    <description>Recent content in 技术 on ddsteed&#39;s personal blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
+    <lastBuildDate>Thu, 02 Feb 2023 11:35:00 +0800</lastBuildDate>
+    <atom:link href="/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文档中插入图形</title>
+      <link>/post/insert-figures-in-doc.html</link>
+      <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/insert-figures-in-doc.html</guid>
+      <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;&#xA;&lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何创建个人 Blog</title>
+      <link>/post/org-hugo-blog.html</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/org-hugo-blog.html</guid>
+      <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;&#xA;&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；&lt;/li&gt;&#xA;&lt;li&gt;使用 hugo 建立静态网页；&lt;/li&gt;&#xA;&lt;li&gt;将本地静态网页发布到互联网上。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;org-mode-写文档&#34;&gt;org-mode 写文档&lt;/h2&gt;&#xA;&lt;p&gt;org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 &lt;a href=&#34;https://orgmode.org&#34;&gt;org mode&lt;/a&gt; 网站，学习如何使用 org-mode 模式。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
