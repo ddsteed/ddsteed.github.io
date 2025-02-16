@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Fri, 06 Dec 2024 14:53:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 14:28:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《一个村庄里的中国》-–—改革，改变了什么</title>
+      <link>/post/china_in_village.html</link>
+      <pubDate>Sun, 16 Feb 2025 14:28:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/china_in_village.html</guid>
+      <description>&lt;p&gt;这本书在我的书库里放了很久，都没有翻开来读。一是太厚重，二来也太沉重。但心里一直记挂着它，于是借这次来北京办事，路途和晚上，没有其他什么事，也就排除干扰，认真读完。果然如自己所料，读完之后，沉重的部分更加沉重，而当年迷茫之处，似乎也没有开悟多少。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello, 小树</title>
       <link>/post/hello_tree.html</link>
@@ -143,13 +150,6 @@
       <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/insert-figures-in-doc.html</guid>
       <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;&#xA;&lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>读书的步骤</title>
-      <link>/post/reading-steps.html</link>
-      <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/reading-steps.html</guid>
-      <description>&lt;p&gt;书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪费时间。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

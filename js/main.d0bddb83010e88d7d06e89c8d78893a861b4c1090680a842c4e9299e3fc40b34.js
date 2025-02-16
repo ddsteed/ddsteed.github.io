@@ -1,5 +1,5 @@
 (() => {
-  // ns-hugo:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initMobileNavbar.js
+  // ns-hugo-imp:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initMobileNavbar.js
   var initMobileNavbar = () => {
     const mobileNav = document.getElementById("mobile-navbar");
     const mobileNavIcon = document.getElementById("mobile-navbar-icon");
@@ -46,7 +46,7 @@
   };
   var initMobileNavbar_default = initMobileNavbar;
 
-  // ns-hugo:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initToc.js
+  // ns-hugo-imp:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initToc.js
   function createTocObserver() {
     const headings = document.querySelectorAll("article h1[id], article h2[id], article h3[id], article h4[id], article h5[id], article h6[id]");
     const setCurrentActive = () => {
@@ -86,7 +86,7 @@
   };
   var initToc_default = initToc;
 
-  // ns-hugo:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initHeaderAnchor.js
+  // ns-hugo-imp:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initHeaderAnchor.js
   var anchorForId = (id) => {
     var anchor = document.createElement("a");
     anchor.className = "header-link";
@@ -115,7 +115,7 @@
   };
   var initHeaderAnchor_default = initHeaderAnchor;
 
-  // ns-hugo:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initToggleTheme.js
+  // ns-hugo-imp:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initToggleTheme.js
   function initThemeToggle() {
     const html = document.documentElement;
     const themeToggles = document.querySelectorAll(".theme-toggle");
@@ -137,7 +137,7 @@
   }
   var initToggleTheme_default = initThemeToggle;
 
-  // ns-hugo:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initCopyCode.js
+  // ns-hugo-imp:/Users/fengh/Documents/RDS/BLOG/hugo/themes/jane/assets/js/initCopyCode.js
   var initCopyCode = () => {
     const containers = document.querySelectorAll(".highlight-container");
     containers.forEach((container) => {
