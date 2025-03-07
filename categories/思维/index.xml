@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思维 on ddsteed&#39;s personal blog</title>
+    <link>/categories/%E6%80%9D%E7%BB%B4.html</link>
+    <description>Recent content in 思维 on ddsteed&#39;s personal blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
+    <lastBuildDate>Fri, 07 Mar 2025 11:14:00 +0800</lastBuildDate>
+    <atom:link href="/categories/%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一个奇妙的数学思维</title>
+      <link>/post/math_thingking.html</link>
+      <pubDate>Fri, 07 Mar 2025 11:14:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/math_thingking.html</guid>
+      <description>&lt;p&gt;数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，又再一次地刷新了我对于数学思想的认识。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

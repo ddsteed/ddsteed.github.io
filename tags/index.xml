@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Sun, 16 Feb 2025 21:28:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 07 Mar 2025 11:14:00 +0800</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thinking</title>
+      <link>/tags/thinking.html</link>
+      <pubDate>Fri, 07 Mar 2025 11:14:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/tags/thinking.html</guid>
+      <description></description>
+    </item>
     <item>
       <title>Reading</title>
       <link>/tags/reading.html</link>
