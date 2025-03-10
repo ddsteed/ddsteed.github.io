@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Fri, 07 Mar 2025 11:14:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 09:32:00 +0800</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一个概率事件的启发</title>
+      <link>/post/probability_thingking.html</link>
+      <pubDate>Mon, 10 Mar 2025 09:32:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/probability_thingking.html</guid>
+      <description>&lt;p&gt;我们从中学开始，就学了概率和统计，但是大多数人都被那些绕来绕去的数学题搞得头昏脑胀，完全不知道这些思想在现实中有什么用处。其实，日常生活中，大量的事情都是由概率和统计来支撑的。脑袋里如果没有这个思想，就很容易犯错误，甚至被骗。我用一个例子来说明一下。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>一个奇妙的数学思维</title>
       <link>/post/math_thingking.html</link>
@@ -143,13 +150,6 @@
       <pubDate>Fri, 28 Apr 2023 19:58:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/not-even-wrong.html</guid>
       <description>&lt;p&gt;《Not Even Wrong》是一本科普书，关于弦理论的来龙去脉，以及为什么这个高大上的理论会“失败”的调侃。我很喜欢这本书，一是它通过超弦这个理论的曲折发展历程，再次阐明了为什么物理学之所以是科学的道理；二是它还略带幽默和自嘲的文笔，特别是书名，来自于伟大的物理学家 Pauli 的名言：这连错误都算不上。(英文：It is not only not right, it is not even wrong. 德语原版：Das ist nicht nur nicht richtig, es ist nicht einmal falsch!)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>《阅读的方法》--–—用自己的话表达思想</title>
-      <link>/post/writing-own-words.html</link>
-      <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/writing-own-words.html</guid>
-      <description>&lt;p&gt;得到的联合创始人罗振宇写了一本书《阅读的方法》，本意是像劝导更多的人喜爱读书、发现读书的乐趣，甚至于找到知识的用途。他大力推崇陶渊明的读书心得：“好读书，不求甚解；每有会意，便欣然忘食。”万维钢也推荐了这本书，并补充了司马迁的读书见解：精益求精，应收尽收。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
