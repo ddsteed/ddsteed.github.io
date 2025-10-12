@@ -2,22 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/categories.html</loc>
-    <lastmod>2025-03-10T09:32:00+08:00</lastmod>
+    <loc>/categories/index.html</loc>
+    <lastmod>2025-10-12T09:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post.html</loc>
-    <lastmod>2025-03-10T09:32:00+08:00</lastmod>
+    <loc>/post/index.html</loc>
+    <lastmod>2025-10-12T09:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags.html</loc>
-    <lastmod>2025-03-10T09:32:00+08:00</lastmod>
+    <loc>/tags/index.html</loc>
+    <lastmod>2025-10-12T09:10:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tech.html</loc>
+    <lastmod>2025-10-12T09:10:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%8A%80%E6%9C%AF.html</loc>
+    <lastmod>2025-10-12T09:10:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/emacs_as_python_ide.html</loc>
+    <lastmod>2025-10-12T09:10:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -261,7 +282,7 @@
   </url>
   
   <url>
-    <loc>/about.html</loc>
+    <loc>/about/index.html</loc>
     <lastmod>2024-12-06T16:53:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -277,20 +298,6 @@
   <url>
     <loc>/post/writing-own-words.html</loc>
     <lastmod>2023-04-02T09:58:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tech.html</loc>
-    <lastmod>2023-02-02T11:35:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E6%8A%80%E6%9C%AF.html</loc>
-    <lastmod>2023-02-02T11:35:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -520,13 +527,19 @@
   </url>
   
   <url>
+    <loc>/post/all-posts-25.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/search/placeholder.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/index.html</loc>
     <lastmod>2024-12-06T16:20:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -539,7 +552,7 @@
   </url>
   
   <url>
-    <loc>/search.html</loc>
+    <loc>/search/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

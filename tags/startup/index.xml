@@ -4,25 +4,77 @@
     <title>Startup on ddsteed&#39;s personal blog</title>
     <link>/tags/startup.html</link>
     <description>Recent content in Startup on ddsteed&#39;s personal blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
     <lastBuildDate>Fri, 06 Dec 2024 14:53:00 +0800</lastBuildDate>
-    <atom:link href="/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Hello, 小树</title>
       <link>/post/hello_tree.html</link>
-      <pubDate>Fri, 06 Dec 2024 14:53:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <pubDate>Fri, 06 Dec 2024 14:53:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/hello_tree.html</guid>
-      <description>&lt;p&gt;我曾经很长一段时间，没有方向。我不知道要做什么，但又对眼前的事情毫无兴趣。不论是在大学里当老师、做管理，还是离开之后创办企业，基本上都是被动地应付。我不知道什么是人生的意义，也不知道什么是工作的意义。我就这样，漫无目的地在人世间游荡着。&lt;/p&gt;</description>
+      
+        <description>&lt;p&gt;我曾经很长一段时间，没有方向。我不知道要做什么，但又对眼前的事情毫无兴趣。不论是在大学里当老师、做管理，还是离开之后创办企业，基本上都是被动地应付。我不知道什么是人生的意义，也不知道什么是工作的意义。我就这样，漫无目的地在人世间游荡着。&lt;/p&gt;
+&lt;p&gt;人工智能这两年很火，我也喜欢研究 AI，但只对底层的技术有兴趣。我不知道该用最新的 AI 技术来解决什么问题 &amp;mdash;&amp;mdash; 虽然，我知道其实有很多实际问题需要被解决。四年前，我辞去所有工作自己创业时，父亲问我，去做什么呢？我当时的回答是，看能不能在大健康方面做一些事情，比如老年人的康养，比如青少年的健康。父亲说，虽然我听不懂你的技术，但是，我觉得你做的事情是有意义的，去做吧。&lt;/p&gt;
+&lt;p&gt;然而，我辜负了父亲的期望。这四年来，商海里浮沉，成功的经验几乎没有，失败的教训数不胜数。直到最近，我才想明白了，我可以做什么。其实，不需要高大上的技术和产品，只要能真正解决一些人的需求就好。于是，我们努力地把以前的技术&amp;mdash;“动态智能知识图谱”和大语言模型结合起来，用全语音的方式进行聊天。今天，我们正式地推出了一个心理咨询 AI 助手&amp;mdash;&amp;mdash;“树洞聊天屋-echo”。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/hello_tree.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/hello_tree.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;=&lt;/p&gt;
+&lt;p&gt;小树，就是我们的心理 AI 陪伴助手，他/她会不厌其烦地与你聊天，天南海北、文艺八卦。我们训练了很多专业的心理咨询知识，融入到日常的语言聊天中，希望可以帮助到有需要的人。名字是一个朋友帮忙取的，说我们每个人，其实都需要一个树洞，来承接我们心里的话&amp;mdash;&amp;mdash;不能也不愿意给任何其他人说的话。我们讲出去，有人倾听，然后有反馈，有交流，就很好了。&lt;/p&gt;
+&lt;p&gt;我早就知道，在当今的社会，我们很多人都面临了太多的责任，承受了太多的压力，心理上经常很孤独，很需要发泄和排遣。有一段时间，流行过压力球、拳击发泄坊之类的产品。我当时对这些功能不置可否，觉得这是什么低端的产品啊。但我发现，很多人都对它们评价很高，认为确实疏解了很多心理压力，把烦躁的情绪暂时忘却了。《生活大爆炸》这部美剧里，有一集讲的是 Raj 这个有轻微自闭症的人，不敢和真实的女性面对面说话。但是，他很喜欢 apple 手机里的 Siri 助手，经常一聊就是几个小时。在我看来，Siri 这个简单的语音助手，完全称不上是 AI&amp;mdash;&amp;mdash;太初级和简单了嘛。但回想起来，虽然简单，Raj 仍然如此地爱不释手，这不就是 Siri 的价值吗？&lt;/p&gt;
+&lt;p&gt;这几个月，一些报复社会的事件发生，让我更深刻地感受到了这个疏导和抚慰，对于当今社会的重要性。人，又坚强又脆弱。我们可以承受很多的风雨，但也可能在某个瞬间，突然崩溃。如果一个人在最低落的时候，没有能控制住自己的情绪，很容易伤害到他人，更会伤害自己。这个时候，若是将情绪释放出来，也许就避免了更多的伤害。&lt;/p&gt;
+&lt;p&gt;我终于想明白了，这个产品虽然很初级，很简单。但只要有一个人用了之后能有一点点帮助，在某个最阴郁的时刻，能让他/她感觉好一点，不去伤害自己和他人，这个事情就有了意义。所谓意义，不就是如此吗？&lt;/p&gt;
+&lt;p&gt;对老年人、成年人、青少年，小树都可以扮演不同的角色。前不久，残联的一个负责人告诉我，残疾人这个群体的心理健康，也是非常重要的，但社会上给予的关心和爱护太不够了。很多残疾人，身体上受到极大的创伤，无法正常地在社会上生存，所带来的心理压力和无助感，更是加倍地伤害。于是，我们赶紧加入对残疾人更友好的功能，也正在寻找专业的心理咨询师，训练特定的心理知识。有些人劝我，说残疾人的心理健康虽然很重要，但是一时半会是没有什么商业价值的，更是挣不到什么钱，这应该是政府的公益事业。我，其实也知道这一点。公司运营的钱，我已经从外面借了两笔了，再没有资金入账，很快就要关门。但是，如果有一个残疾人，在我们的“树聊屋”，感觉好一点了，不是很有价值吗？他们，没有人陪伴，更需要心理的疏导啊。&lt;/p&gt;
+&lt;p&gt;Hello，小树，希望你能帮助我，完成这个心愿。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>价值</title>
       <link>/post/human-value.html</link>
-      <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
+      <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/human-value.html</guid>
-      <description>&lt;p&gt;人的价值体现为，这个世界由于你的存在 &lt;strong&gt;变得更好&lt;/strong&gt;, 而不是变得更差。&lt;/p&gt;&#xA;&lt;p&gt;大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大，因为他们只是为自己活着。还有些人，存在只是添乱，就更不必提了。&lt;/p&gt;</description>
+      
+        <description>&lt;p&gt;人的价值体现为，这个世界由于你的存在 &lt;strong&gt;变得更好&lt;/strong&gt;, 而不是变得更差。&lt;/p&gt;
+&lt;p&gt;大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大，因为他们只是为自己活着。还有些人，存在只是添乱，就更不必提了。&lt;/p&gt;
+&lt;p&gt;现代社会下，很少有事情只依靠一个人就可以完成。常常需要几十上百、甚至几万、几十万人协同工作。因此若想发挥价值，要么是自己完成工作，要么是协调他人共同完成。这两种技能是完全不同的。一个是做某个工作的专业技能，一个是协调管理能力。处于两端的人，常常轻视另一方的工作。注重于专业技能的一方，觉得管理是在添乱，“虚”的成分太多；管理方却认为，并不缺专业技能，谁都可以被顶替，所以管理才是最重要的。&lt;/p&gt;
+&lt;p&gt;当然，这两种观点都有失偏颇。之所以会有偏颇的认识，主要的原因还是大多数工作都是简单的模仿。原创只要做出来了，大家“依葫芦画瓢”就好。因此专业技能并不缺乏，实在没有，还可批发培训；管理就更是可有可无，因为已经有现成的工艺和流程，哪里还需要这些领导在那里指手画脚？&lt;/p&gt;
+&lt;p&gt;正本清源，创新性的工作是最难的，对这两方面的要求都非常高。制作原子弹的“曼哈顿工程”项目，就是一个典型的例子。汇聚了一众高智商的诺贝尔奖级的大师，还需要 Oppenheimer, Vannevar Bush 这样既有远见卓识又有高超管理水平的超一流的管理者。后面的人要研制原子弹，虽然也不太容易，但有了模版和路径，其实也没有那么难了。&lt;/p&gt;
+&lt;p&gt;一些产品，做出来之前大家就都知道会很有价值。但是更多产品，除了极少数人外，世人并不知晓有何用处。比如，汽车出来之前，人们只想要跑得更快的马；iphone 出来之前，大家并不觉得移动网络有那么大的广阔天地。这时候就需要营销和宣传了。但常常人们又容易走入另一个极端，把营销本身宣传成了最重要的部分。实际上，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个产品能否卖的出去、是否畅销，首要的前提是这个产品是有用的，对用户来说花钱是值得的。营销必须建立在价值的基础上，否则，单纯靠手段营销产品，迟早会“翻车”；&lt;/li&gt;
+&lt;li&gt;一定要真正认可产品的价值，单纯靠营销和宣传，是不能发掘产品的价值的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正因为太多的产品，其实并没有价值，创造出来的只是“伪需求”，自然这样的“价值”就需要营销。&lt;/p&gt;
+&lt;p&gt;总的来说，创造价值，需要三方面的能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;专业技能&lt;/li&gt;
+&lt;li&gt;协调管理&lt;/li&gt;
+&lt;li&gt;宣传普及&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;三种能力都不可或缺，但本质不要忘记： &lt;strong&gt;让这个世界变得更好，让做出的产品真正有用&lt;/strong&gt; 。&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>
