@@ -13,6 +13,37 @@
     
     
     <item>
+      <title>《深度学习革命》-–— 一部波澜壮阔的当代人工智能简史</title>
+      <link>/post/deep_learning_hisitory.html</link>
+      <pubDate>Tue, 14 Oct 2025 10:28:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/deep_learning_hisitory.html</guid>
+      
+        <description>&lt;p&gt;断断续续，用了两个星期看完了这本关于当代人工智能简介的书。由于人工智能这几年的火爆，类似题材的书已经很多了，但大多数都翻了几页就放下，引不起兴趣。因为这些作者对于人工智能的发展，尤其是深度学习的起起落落，都是人云亦云，没有新意。仿佛深度学习 就是天上掉下来一样，突然就火了。&lt;/p&gt;
+&lt;p&gt;而被成为深度学习教父的杰弗里·辛顿，为什么突然获得了计算机的最高奖&amp;mdash;图灵奖，以及更重要的诺贝尔物理学奖，很多人都一头雾水。在本书里，详细讲述了这个坚持的老头，如 何影响深度学习领域，并影响谷歌这样大公司的 AI 发展。读完之后，就会明白，辛顿作为教父，当之无愧。&lt;/p&gt;
+&lt;p&gt;世人比较熟知辛顿的学生伊利亚，因为他是如日中天的 OpenAI 公司的创始 CTO。对于另一个学生，阿列克斯，就少有人知晓了。实际上，伊利亚以纯粹技术家闻名，阿列克斯就更是一个只关心技术的“宅男”了。当初深度学习再度被认可，就是师徒三人，打造了一个 Alex-Net，在李飞飞的 ImageNet 识别比赛中，一举夺魁。这里的 Alex，就是阿列克斯的名字。师徒三人创建了一个公司，什么产品都没有，只有三个人，就被谷歌公司以 4400 万美元收购了。不看重具体的产品，只是因为这三个人。&lt;/p&gt;
+&lt;p&gt;杨立昆在 Meta，约书奥在微软，都深刻影响了这些企业的人工智能发展。书里把脉络梳理得又清楚又有故事性。而哈萨比斯如何创立 DeepMind，并被谷歌收购之后发挥重要作用的内幕，也徐徐道来，读起来津津有味。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/deep_learning_history.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/deep_learning_history.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;=&lt;/p&gt;
+&lt;p&gt;很久没有读到这么好的技术传记类书了，好像只有 20 年前，读米歇尔·沃尔德洛普的《复杂：诞生于秩序与混沌边缘的科学》可以比拟。还记得读《复杂》时，心潮澎湃，极其渴望投身到复杂科学研究的队伍里。可惜那时没有胆量，不敢放弃熟悉的研究领域。今天，我很开心，看到了深度学习的前景，更投身进了这个领域。即使没有成功，也不会后悔。&lt;/p&gt;
+&lt;p&gt;以前在学校时，总觉得自己的研究与社会是脱节的，心里十分惶恐。而真正的研究，是应该要解决实际的问题。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>把 Emacs 打造为 Python IDE</title>
       <link>/post/emacs_as_python_ide.html</link>
       <pubDate>Sun, 12 Oct 2025 09:10:00 +0800</pubDate>
@@ -773,7 +804,7 @@
     </item>
     
     <item>
-      <title>《一个村庄里的中国》-–—改革，改变了什么</title>
+      <title>《一个村庄里的中国》-–— 改革，改变了什么</title>
       <link>/post/china_in_village.html</link>
       <pubDate>Sun, 16 Feb 2025 21:28:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
@@ -793,6 +824,7 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
+&lt;p&gt;=&lt;/p&gt;
 &lt;p&gt;《一个村庄里的中国》以作者熊培云从小生活的小堡村为例，讲述了一个村庄近百年的变迁，进而引伸出国家的变化。中国几千年来都是一个农业国家，虽然近 30 年，随着世界潮流的进步，也大大加快了现代化的进程。但各种社会现象，以及出现的很多社会问题，本质上都与农村、农业和农民息息相关。我博士毕业的 2001 年前后，曾经社会上很热烈地讨论“三农”问题。当时，一个年轻的乡党委书记&amp;mdash;李昌平，给总理写了封信，大声呼吁：农民真苦、农村真穷、农业真危险！引起了社会极大的反响，高层也开始认真对待“三农”。我当时读了很多相关的书籍和文章，和志刚、唐博士都不止一次激烈争辩过类似话题，那就是，农民的问题，到底是个人因素多还是国家因素重？&lt;/p&gt;
 &lt;p&gt;封建帝王时代，自不必说，农民只是维系社会运转的零件而已。“草民”、“蚁民”、“贱民”等称呼，有自嘲的，有被强加的。但对于统治者来说，大约农民和一棵草、一只蚂蚁，真不会有多大区别。到了民国时代，从上层到社会中坚，很多人开始反思，如果农民不富足不开化，国家怎么称得上发达？国家又如何与列强抗衡？上个世纪二十年代开始的各种改革，有官方的，有自发的，有热血人士主动深入农村试验的&amp;hellip;&amp;hellip;，不一而足。但结果毫无例外，自然都是失败了。&lt;/p&gt;
 &lt;p&gt;因为土改，吸引了更多农村子弟参与革命。到了胜利，又回到农村。曾经的土地流转，最后又复归原点。底层的人民，似乎什么都没有拥有过，而有些人，却上下其手，城乡通吃，两面的利益都获取了。如今的乡村，青壮年流失严重，老少两极留守，诸多问题，基本是靠个体和家庭来消化。经济高速发展的时候，城市还可以带动农村。等到经济减缓或者停滞时，城市还需要农村来反哺。而克强总理曾经公开的数据 &amp;mdash;&amp;mdash; 6 亿人口，月收入低于千元 &amp;mdash;&amp;mdash; 如何平衡呢？&lt;/p&gt;
@@ -877,7 +909,7 @@
     </item>
     
     <item>
-      <title>好友的故事-–—小宋</title>
+      <title>好友的故事 -–— 小宋</title>
       <link>/post/song-xin-yan.html</link>
       <pubDate>Sat, 23 Nov 2024 12:27:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
@@ -898,7 +930,7 @@
     </item>
     
     <item>
-      <title>好友的故事-–—陶</title>
+      <title>好友的故事 -–— 陶</title>
       <link>/post/chen-tao.html</link>
       <pubDate>Sat, 16 Nov 2024 12:13:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
@@ -924,7 +956,7 @@
     </item>
     
     <item>
-      <title>《胡适文集》-–—温和的力量</title>
+      <title>《胡适文集》 -–— 温和的力量</title>
       <link>/post/hushi.html</link>
       <pubDate>Tue, 12 Nov 2024 19:56:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
@@ -1460,51 +1492,6 @@
 
 &lt;p&gt;上次我说我是一个 old fashion man，那是真的。我连键盘处理方式，都完全是一个老派人士。所以，我对现在的即时通工具，微信、QQ、&amp;hellip;，都是深恶痛绝。曾经我觉得能够随时联系是多酷的一件事，可是，当我发现我的计算机/手机上那些显示未读的红色提醒时，强迫症会让我坐立难安。而发微信的人，由于太方便了，会忍不住随时随地脱口而出。因此，除了工作外，我不喜欢看快餐式的文字。我关掉了微信上的朋友圈、视频号，甚至，基本停用了微信。我喜欢信件这样老派的方式，虽然 email 比起手写的信，少了点温度，但这已经是我现在感觉最舒心的联系工具了。&lt;/p&gt;
 &lt;p&gt;hjkl，嗯，好土的方式，却是我最爱的方式。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>old fashion man</title>
-      <link>/post/old-fashion-man.html</link>
-      <pubDate>Sun, 07 May 2023 18:45:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/old-fashion-man.html</guid>
-      
-        <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:50%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/clock-desktop.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/clock-desktop.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;上面的截图是我此时此刻的计算机桌面，右下角的那个时钟有点突兀，其实和整体不怎么搭配，但这是我实在不忍放弃的小程序，因为这时常提醒我当年的日子。&lt;/p&gt;
-&lt;p&gt;1995 年还在读大四的时候，被保送读研究生。导师才从美国回来，带回了刚刚在美国也才使用的 Linux 操作系统。我对这个操作系统是如此地痴迷，以至于天天睡在实验室，每晚都折腾到 2、3 点钟。依然清晰地记得，我们用的版本是 Slackware Linux 1.0，当时安装这套系统，我们用了 48 张 3.5 寸的软盘。也许现在的人们对于软盘的概念很陌生了，因为连光盘都已经被淘汰😉。&lt;/p&gt;
-&lt;p&gt;光是 Linux 是无法完全工作的，它只是一个黑黢黢的字符界面，就像 DOS 一样。执行命令可以，画图等就不行了，因此必须配备一个图形窗口。我们选择了 X Window，用的管理器是 olwm。这个桌面现在看起来很简陋，但对于当时的我，这是世界上最好的工作环境，最好的学习平台，最好的，我的玩具。&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:50%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/olwm.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/olwm.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;在这个简陋的桌面环境里，我乐此不疲地调出各个小工具，其中就包含一个时钟。我选择时钟的表盘，精心调换秒针的颜色，尝试把它放在桌面的各个位置，以决定哪种情况下，我既能随时看到时间，又不影响我正常的工作。记得还有一个小工具：xeyes。随着鼠标的位置，眼睛骨碌碌地乱转 &amp;hellip;&amp;hellip;。&lt;/p&gt;
-&lt;p&gt;Linux 的版本越来越多，RedHat 逐渐取代了 Slackware，然后是 SuSE、Debian、Ubuntu &amp;hellip;..。可是不管哪个版本，我都想恢复我最初的哪个 olwm 桌面管理器，调出那个小时钟和那双小眼睛。2000 年起，我把 Linux 也换成了 FreeBSD，仍然保留 olwm。直到有一天，olwm 版本不再更新，最新的硬件装不上了。&lt;/p&gt;
-&lt;p&gt;2006 年，我买了第一台 powerbook pro 笔记本电脑，正式用上了 mac osx。我还是不死心地把当年 olwm 上的小工具移植过来，找到一个算一个，打开一个算一个。可是，似乎 apple 公司开发 mac osx 的工程师，对老的 X window 下的这些小工具并不喜欢，它们不再被集成在系统里，而支持它们运行的 X window 库，也慢慢被遗弃了。我不甘心地强行安装了一个 X Window 模拟器，只为了运行那些古老的 X window 小工具。&lt;/p&gt;
-&lt;p&gt;很多人嘲笑我很老旧，我也自认为是一个 old fashion man。不知怎么，我总是忘不了那时情景，没有任何功利地学习，只是为了兴趣。我没有想过量子力学、泛函分析、群论、GNU/Linux、X Window &amp;hellip;&amp;hellip;，这些东西对今后有什么作用，只是觉得它们很好玩，理论很美，技术很潮，而我，很喜欢。&lt;/p&gt;
-&lt;p&gt;快三十年了，我依然还是喜欢这些。虽然痛心地明白，我回不去那个年龄了，但是，我梦想自己还能保持那时的纯真。&lt;/p&gt;
 </description>
       
     </item>
