@@ -74,7 +74,7 @@
   <meta itemprop="description" content="集成开发环境（IDE）是一种帮助程序员高效开发软件代码的软件应用程序。它通过将软件编辑、构建、测试和打包等功能结合到一个易于使用的应用程序中，提高了开发人员的工作效率。就像作家使用文本编辑器，会计师使用电子表格一样，软件开发人员使用 IDE 让他们的工作变得更轻松。当前比较流行的 Python IDE 有 PyCharm, IDEA, VS CODE 等。 Emacs 作为一个可扩展的文本编辑器，处理各种文本数据是非常方便的。我们在 Emacs 里增加 elisp 扩展，就可以模拟各种 IDE 的环境，还能更好。">
   <meta itemprop="datePublished" content="2025-10-12T09:10:00+08:00">
   <meta itemprop="dateModified" content="2025-10-12T09:10:00+08:00">
-  <meta itemprop="wordCount" content="3297">
+  <meta itemprop="wordCount" content="3070">
   <meta itemprop="keywords" content="Tech">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="把 Emacs 打造为 Python IDE">
@@ -375,7 +375,7 @@
 
   <div class="post-meta__right">
     <span class="post-meta-more">
-      3297 words -
+      3070 words -
       7 min read
       
       - <a href="/post/emacs_as_python_ide.html#disqus_thread">Comments</a>
@@ -558,7 +558,9 @@
 
 <p><code>elpy</code> 不仅仅是 python 的文档调用，它包含了更多的 python 环境设置（后面我会讲到其他的应用），这里只是显示了它的文档显示功能。</p>
 <h2 id="语法检查">语法检查</h2>
-<p>python 代码是否符合语法，我们可以用专门的检查工具来判断。最常用的有 <code>flycheck</code> 和 <code>flymake</code> 两种。我倾向于用 <code>flycheck</code> ，</p>
+<p>python 代码是否符合语法，我们可以用专门的检查工具来判断。最常用的有 <code>flycheck</code> 和
+<code>flymake</code> 两种。我倾向于用 <del>flycheck+</del> ，还是用 <code>flymake</code> 吧，Emacs 30 之后，就完全内
+置了，对 <code>ruff</code> 的支持也非常好。</p>
 <div class="highlight-container">
 
   <button class="copy-code-btn outline">Copy</button>
@@ -574,18 +576,18 @@
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-6">6</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">flycheck</span>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">flymake</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#007020">:ensure</span> <span style="color:#60add5">t</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 全局启用 flycheck</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:hook</span> (<span style="color:#bb60d5">python-mode</span> <span style="color:#666">.</span> <span style="color:#bb60d5">flycheck-mode</span>)
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:init</span> (<span style="color:#bb60d5">global-flycheck-mode</span>)
-</span></span><span style="display:flex;"><span>)</span></span></code></pre></td></tr></table>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:custom</span> ((<span style="color:#bb60d5">flymake-start-on-flymake-mode</span> <span style="color:#60add5">nil</span>)
+</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">flymake-no-changes-timeout</span> <span style="color:#60add5">nil</span>)
+</span></span><span style="display:flex;"><span>           (<span style="color:#007020">setq</span> <span style="color:#bb60d5">flymake-show-diagnostics-at-end-of-line</span> <span style="color:#60add5">t</span>)
+</span></span><span style="display:flex;"><span>           (<span style="color:#bb60d5">flymake-start-on-save-buffer</span> <span style="color:#60add5">t</span>)))</span></span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
 <p>如果发现代码里有红色的波浪线显示，就表示发现了语法错误，请尽快修改。</p>
 <h3 id="更好的语法检查">更好的语法检查</h3>
-<p><code>flycheck</code> 默认调用了 <code>flake8</code> 或者其他工具来进行语法检查，我们可以把这些工具换成最新最快的工具&mdash;- <code>ruff</code> 。</p>
+<p><code>flymake</code> 默认调用了 <code>flake8</code> 或者其他工具来进行语法检查，我们可以把这些工具换成最新最快的工具&mdash;- <code>ruff</code> 。</p>
 <div class="highlight-container">
 
   <button class="copy-code-btn outline">Copy</button>
@@ -603,102 +605,80 @@
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-8"> 8</a>
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-9"> 9</a>
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-10">10</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-11">11</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-12">12</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-13">13</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-14">14</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-15">15</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-16">16</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-17">17</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-18">18</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-19">19</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-20">20</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-21">21</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-22">22</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-23">23</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-24">24</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-25">25</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-26">26</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-27">27</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-28">28</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-29">29</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-30">30</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-31">31</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-32">32</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-33">33</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-34">34</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-35">35</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-36">36</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-37">37</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-38">38</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-39">39</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-40">40</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-41">41</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-42">42</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-43"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-43">43</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-44"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-44">44</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-45"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-45">45</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-46"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-46">46</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-47"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-47">47</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-48"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-48">48</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-49"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-49">49</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-50"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-50">50</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-51"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-51">51</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-52"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-52">52</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">flycheck</span>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; 通过 use-package 安装 flymake-ruff</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">flymake-ruff</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#007020">:ensure</span> <span style="color:#60add5">t</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 全局启用 flycheck</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:hook</span> (<span style="color:#bb60d5">python-mode</span> <span style="color:#666">.</span> <span style="color:#bb60d5">flycheck-mode</span>)
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:init</span> (<span style="color:#bb60d5">global-flycheck-mode</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:hook</span> ((<span style="color:#bb60d5">python-mode</span>    <span style="color:#666">.</span> <span style="color:#bb60d5">flymake-ruff-load</span>)      <span style="color:#60a0b0;font-style:italic">; 传统 python-mode</span>
+</span></span><span style="display:flex;"><span>         (<span style="color:#bb60d5">python-ts-mode</span> <span style="color:#666">.</span> <span style="color:#bb60d5">flymake-ruff-load</span>))     <span style="color:#60a0b0;font-style:italic">; Tree-sitter 版</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#007020">:config</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 设置 ruff 为 Python 的默认检查器。这样 flycheck 就会优先使用 ruff，而不是 flake8 或 pylint</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq-default</span> <span style="color:#bb60d5">flycheck-checker</span> <span style="color:#517918">&#39;python-ruff</span>)
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">flycheck-display-errors-delay</span> <span style="color:#40a070">0.3</span>)
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">flycheck-check-syntax-automatically</span> <span style="color:#666">&#39;</span>(<span style="color:#bb60d5">save</span> <span style="color:#bb60d5">mode-enabled</span>))
+</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">flymake-ruff-program-args</span> <span style="color:#666">&#39;</span>(<span style="color:#4070a0">&#34;--quiet&#34;</span> <span style="color:#4070a0">&#34;--output-format=concise&#34;</span>))
+</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">flymake-show-diagnostics-at-end-of-line</span> <span style="color:#60add5">t</span>) <span style="color:#60a0b0;font-style:italic">; 行尾显示</span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">flymake-no-changes-timeout</span> <span style="color:#60add5">nil</span>)            <span style="color:#60a0b0;font-style:italic">; 实时检查</span>
+</span></span><span style="display:flex;"><span>)</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+<h3 id="单独的检查函数">单独的检查函数</h3>
+<p>还可以单独定义一个检查函数，方便查看。</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-15">15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-16">16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-17">17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-18">18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-19">19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-20">20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-21">21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-22">22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-23">23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-24">24</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; 定义ruff-check 修复命令</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">reformatter-define</span> <span style="color:#bb60d5">ruff-check</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:program</span> <span style="color:#4070a0">&#34;ruff&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:args</span> <span style="color:#666">&#39;</span>(<span style="color:#4070a0">&#34;check&#34;</span> <span style="color:#4070a0">&#34;--fix&#34;</span> <span style="color:#4070a0">&#34;-&#34;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:lighter</span> <span style="color:#4070a0">&#34; RuffCheck&#34;</span>
 </span></span><span style="display:flex;"><span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;;️ 定义一个新的 Flycheck 检查器</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">flycheck-define-checker</span> <span style="color:#bb60d5">python-ruff</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#4070a0">&#34;A Python syntax checker using Ruff.&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:command</span> (<span style="color:#4070a0">&#34;ruff&#34;</span> <span style="color:#4070a0">&#34;check&#34;</span> <span style="color:#4070a0">&#34;--output-format&#34;</span> <span style="color:#4070a0">&#34;json&#34;</span> <span style="color:#bb60d5">source</span>) <span style="color:#60a0b0;font-style:italic">; 采用 JSON 输出，便于解析</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:error-parser</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">lambda</span> (<span style="color:#bb60d5">output</span> <span style="color:#bb60d5">_checker</span> <span style="color:#bb60d5">_buffer</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic">;; 将 Ruff 的 JSON 解析为 Flycheck 错误结构</span>
-</span></span><span style="display:flex;"><span>    (<span style="color:#007020">let</span> ((<span style="color:#bb60d5">json</span> (<span style="color:#bb60d5">json-parse-string</span> <span style="color:#bb60d5">output</span> <span style="color:#007020">:object-type</span> <span style="color:#517918">&#39;alist</span>)))
-</span></span><span style="display:flex;"><span>      (<span style="color:#bb60d5">mapcan</span> (<span style="color:#007020">lambda</span> (<span style="color:#bb60d5">diag</span>)
-</span></span><span style="display:flex;"><span>                (<span style="color:#007020">let*</span> ((<span style="color:#bb60d5">code</span> (<span style="color:#bb60d5">alist-get</span> <span style="color:#517918">&#39;code</span> <span style="color:#bb60d5">diag</span>))
-</span></span><span style="display:flex;"><span>                       (<span style="color:#bb60d5">msg</span>  (<span style="color:#bb60d5">alist-get</span> <span style="color:#517918">&#39;message</span> <span style="color:#bb60d5">diag</span>))
-</span></span><span style="display:flex;"><span>                       (<span style="color:#bb60d5">path</span> (<span style="color:#bb60d5">alist-get</span> <span style="color:#517918">&#39;filename</span> <span style="color:#bb60d5">diag</span>))
-</span></span><span style="display:flex;"><span>                       (<span style="color:#bb60d5">line</span> (<span style="color:#bb60d5">alist-get</span> <span style="color:#517918">&#39;line</span> <span style="color:#bb60d5">diag</span>))
-</span></span><span style="display:flex;"><span>                       (<span style="color:#bb60d5">col</span>  (<span style="color:#bb60d5">alist-get</span> <span style="color:#517918">&#39;column</span> <span style="color:#bb60d5">diag</span>))
-</span></span><span style="display:flex;"><span>                       (<span style="color:#bb60d5">severity</span> (<span style="color:#bb60d5">alist-get</span> <span style="color:#517918">&#39;severity</span> <span style="color:#bb60d5">diag</span>))
-</span></span><span style="display:flex;"><span>                       (<span style="color:#bb60d5">level</span> (<span style="color:#007020">pcase</span> <span style="color:#bb60d5">severity</span>
-</span></span><span style="display:flex;"><span>                                (<span style="color:#4070a0">&#34;error&#34;</span>   <span style="color:#517918">&#39;error</span>)
-</span></span><span style="display:flex;"><span>                                (<span style="color:#4070a0">&#34;warning&#34;</span> <span style="color:#517918">&#39;warning</span>)
-</span></span><span style="display:flex;"><span>                                (<span style="color:#bb60d5">_</span>         <span style="color:#517918">&#39;info</span>))))
-</span></span><span style="display:flex;"><span>                  (<span style="color:#06287e">list</span> (<span style="color:#bb60d5">flycheck-error-new</span>
-</span></span><span style="display:flex;"><span>                         <span style="color:#007020">:buffer</span> (<span style="color:#06287e">current-buffer</span>)
-</span></span><span style="display:flex;"><span>                         <span style="color:#007020">:filename</span> <span style="color:#bb60d5">path</span>
-</span></span><span style="display:flex;"><span>                         <span style="color:#007020">:line</span> <span style="color:#bb60d5">line</span>
-</span></span><span style="display:flex;"><span>                         <span style="color:#007020">:column</span> <span style="color:#bb60d5">col</span>
-</span></span><span style="display:flex;"><span>                         <span style="color:#007020">:message</span> (<span style="color:#06287e">format</span> <span style="color:#4070a0">&#34;%s [%s]&#34;</span> <span style="color:#bb60d5">msg</span> <span style="color:#bb60d5">code</span>)
-</span></span><span style="display:flex;"><span>                         <span style="color:#007020">:level</span> <span style="color:#bb60d5">level</span>))))
-</span></span><span style="display:flex;"><span>              (<span style="color:#bb60d5">alist-get</span> <span style="color:#517918">&#39;diagnostics</span> <span style="color:#bb60d5">json</span>))))
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:error-filter</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">lambda</span> (<span style="color:#bb60d5">errors</span>) (<span style="color:#bb60d5">flycheck-sanitize-errors</span> <span style="color:#bb60d5">errors</span>))
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:modes</span> (<span style="color:#bb60d5">python-mode</span>)
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:next-checkers</span> ((<span style="color:#bb60d5">warning</span> <span style="color:#666">.</span> <span style="color:#bb60d5">python-pylint</span>))) <span style="color:#60a0b0;font-style:italic">; 若想在 Ruff 之后再跑 pylint，可自行调整</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">; 单独再定义一个检查函数</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#007020">defun</span> <span style="color:#bb60d5">ruff-check</span> ()
+</span></span><span style="display:flex;"><span>  (<span style="color:#007020">interactive</span>)
+</span></span><span style="display:flex;"><span>  (<span style="color:#007020">let</span> ((<span style="color:#bb60d5">current-file</span> (<span style="color:#06287e">buffer-file-name</span>)))
+</span></span><span style="display:flex;"><span>    (<span style="color:#007020">if</span> <span style="color:#bb60d5">current-file</span>
+</span></span><span style="display:flex;"><span>        (<span style="color:#bb60d5">async-shell-command</span>
+</span></span><span style="display:flex;"><span>         (<span style="color:#06287e">format</span> <span style="color:#4070a0">&#34;ruff check --select ALL %s&#34;</span> (<span style="color:#bb60d5">shell-quote-argument</span> <span style="color:#bb60d5">current-file</span>))
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>  )
+</span></span><span style="display:flex;"><span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; 启用 ruff 检查器</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">add-to-list</span> <span style="color:#517918">&#39;flycheck-checkers</span> <span style="color:#517918">&#39;python-ruff</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; 启用该检查器（让它在 Python 缓冲区自动生效）</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; 在python mode中，保存时自动运行ruff-format</span>
 </span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">add-hook</span> <span style="color:#517918">&#39;python-mode-hook</span>
 </span></span><span style="display:flex;"><span>          (<span style="color:#007020">lambda</span> ()
-</span></span><span style="display:flex;"><span>            (<span style="color:#bb60d5">flycheck-select-checker</span> <span style="color:#517918">&#39;python-ruff</span>)
-</span></span><span style="display:flex;"><span>            (<span style="color:#bb60d5">flycheck-mode</span> <span style="color:#40a070">1</span>)))</span></span></code></pre></td></tr></table>
+</span></span><span style="display:flex;"><span>            (<span style="color:#bb60d5">add-hook</span> <span style="color:#517918">&#39;before-save-hook</span> <span style="color:#06287e">#&#39;</span><span style="color:#bb60d5">ruff-format-region</span> <span style="color:#60add5">nil</span> <span style="color:#60add5">t</span>))
+</span></span><span style="display:flex;"><span>)</span></span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
@@ -724,17 +704,17 @@
   
   <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1"> 1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2"> 2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3"> 3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4"> 4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5"> 5</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-6"> 6</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-7"> 7</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-8"> 8</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-9"> 9</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-10">10</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-11">11</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-11">11</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">defun</span> <span style="color:#bb60d5">elpy-goto-definition-or-rgrep</span> ()
@@ -761,51 +741,51 @@
   
   <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1"> 1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2"> 2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3"> 3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4"> 4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-5"> 5</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-6"> 6</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-7"> 7</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-8"> 8</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-9"> 9</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-10">10</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-11">11</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-12">12</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-13">13</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-14">14</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-15">15</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-16">16</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-17">17</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-18">18</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-19">19</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-20">20</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-21">21</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-22">22</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-23">23</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-24">24</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-25">25</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-26">26</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-27">27</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-28">28</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-29">29</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-30">30</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-31">31</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-32">32</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-33">33</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-34">34</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-35">35</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-36">36</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-37">37</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-38">38</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-39">39</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-40">40</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-41">41</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-42">42</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-43"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-43">43</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-44"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-44">44</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-45"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-45">45</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-15">15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-16">16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-17">17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-18">18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-19">19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-20">20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-21">21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-22">22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-23">23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-24">24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-25">25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-26">26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-27">27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-28">28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-29">29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-30">30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-31">31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-32">32</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-33">33</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-34">34</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-35">35</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-36">36</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-37">37</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-38">38</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-39">39</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-40">40</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-41">41</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-42">42</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-43"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-43">43</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-44"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-44">44</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-45"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-45">45</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">company</span>
@@ -887,55 +867,51 @@
   
   <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1"> 1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-2"> 2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-3"> 3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-4"> 4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-5"> 5</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-6"> 6</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-7"> 7</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-8"> 8</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-9"> 9</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-10">10</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-11">11</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-12">12</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-13">13</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-14">14</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-15">15</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-16">16</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-17">17</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-18">18</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-19">19</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-20">20</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-21">21</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-22">22</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-23">23</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-24">24</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-25">25</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-26">26</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-27">27</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-28">28</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-29">29</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-30">30</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-31">31</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-32">32</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-33">33</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-34">34</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-35">35</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-36">36</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-37">37</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-38">38</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-39">39</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-40">40</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-41">41</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-42">42</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-43"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-43">43</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-44"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-44">44</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-45"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-45">45</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-46"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-46">46</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-47"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-47">47</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-48"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-48">48</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-49"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-49">49</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-15">15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-16">16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-17">17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-18">18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-19">19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-20">20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-21">21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-22">22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-23">23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-24">24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-25">25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-26">26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-27">27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-28">28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-29">29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-30">30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-31">31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-32">32</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-33">33</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-34">34</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-35">35</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-36">36</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-37">37</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-38">38</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-39">39</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-40">40</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-41">41</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-42">42</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-43"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-43">43</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-44"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-44">44</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-45"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-45">45</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">eglot</span>
@@ -952,22 +928,18 @@
 </span></span><span style="display:flex;"><span>         (<span style="color:#bb60d5">python-mode</span> <span style="color:#666">.</span> <span style="color:#bb60d5">hs-minor-mode</span>)
 </span></span><span style="display:flex;"><span>         (<span style="color:#bb60d5">python-mode</span> <span style="color:#666">.</span> (<span style="color:#007020">lambda</span> () (<span style="color:#bb60d5">set-fill-column</span> <span style="color:#40a070">88</span>))))
 </span></span><span style="display:flex;"><span>  <span style="color:#007020">:config</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 告诉 eglot 不要管理 flymake</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">eglot-managed-flymake</span> <span style="color:#60add5">nil</span>)
-</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 用basedpyright替换默认pylsp</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 它会提供补全、跳转定义等功能，但诊断信息交给 flycheck</span>
 </span></span><span style="display:flex;"><span>  (<span style="color:#bb60d5">add-to-list</span> <span style="color:#517918">&#39;eglot-server-programs</span>
 </span></span><span style="display:flex;"><span>               <span style="color:#666">&#39;</span>(<span style="color:#bb60d5">python-mode</span>     <span style="color:#666">.</span> (<span style="color:#4070a0">&#34;basedpyright-langserver&#34;</span> <span style="color:#4070a0">&#34;--stdio&#34;</span>))
 </span></span><span style="display:flex;"><span>  )
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; --- 关键：让 Eglot 不要接管 Flymake，为 Flycheck 腾出空间 ---</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 这样 Eglot 和 Flycheck 就不会打架了</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">eglot-stay-out-of</span> <span style="color:#666">&#39;</span>(<span style="color:#bb60d5">flymake</span>))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 关闭 pyright linting</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 关闭 pyright 的 linting，由 ruff 处理</span>
 </span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">eglot-workspace-configuration</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#666">&#39;</span>((<span style="color:#007020">:python</span> (<span style="color:#007020">:analysis</span> (<span style="color:#007020">:lintingMode</span> <span style="color:#4070a0">&#34;off&#34;</span>)))))
+</span></span><span style="display:flex;"><span>        <span style="color:#666">&#39;</span>((<span style="color:#007020">:python</span> (<span style="color:#007020">:analysis</span> (<span style="color:#007020">:typeCheckingMode</span> <span style="color:#666">.</span> <span style="color:#4070a0">&#34;basic&#34;</span>)
+</span></span><span style="display:flex;"><span>                              (<span style="color:#007020">:lintingMode</span> <span style="color:#666">.</span> <span style="color:#4070a0">&#34;off&#34;</span>)
+</span></span><span style="display:flex;"><span>                              (<span style="color:#007020">:reportMissingImports</span> <span style="color:#666">.</span> <span style="color:#bb60d5">true</span>)))))
+</span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">eglot-ignored-server-capabilities</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#666">&#39;</span>(<span style="color:#007020">:diagnosticProvider</span>))    <span style="color:#60a0b0;font-style:italic">; 只让 Flymake 报告 lint</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 日志级别（调试时用 &#39;debug&#39;，日常用 &#39;warning&#39;）</span>
 </span></span><span style="display:flex;"><span>  (<span style="color:#007020">setq</span> <span style="color:#bb60d5">eglot-log-level</span> <span style="color:#517918">&#39;warning</span>)
@@ -992,7 +964,7 @@
 </div>
 <p>可以看出，eglot 帮助 Emacs 对接了很多外部服务： <code>basedpyrigh, elpy, flyspell</code>,
 &hellip;&hellip;。它接受 <code>basedpyright</code> 等处理 python 代码后发来的信息，然后交给相应的工具去
-处理，eglot 再最后统一显示出来。比如，我们可以在调用 <code>flycheck</code> 进行语法检查，</p>
+处理， <code>eglot</code> 再最后统一显示出来。比如，我们可以在调用 <code>flymake</code> 进行语法检查，</p>
 <div class="highlight-container">
 
   <button class="copy-code-btn outline">Copy</button>
@@ -1000,18 +972,10 @@
   
   <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1">1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-2">2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-3">3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-4">4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-5">5</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-1">1</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">flycheck-eglot</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:ensure</span> <span style="color:#60add5">t</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:after</span> (<span style="color:#bb60d5">flycheck</span> <span style="color:#bb60d5">eglot</span>)
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:config</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#bb60d5">global-flycheck-eglot-mode</span> <span style="color:#40a070">1</span>))</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#bb60d5">add-hook</span> <span style="color:#517918">&#39;eglot-managed-mode-hook</span> <span style="color:#06287e">#&#39;</span><span style="color:#bb60d5">flymake-ruff-load</span>)</span></span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
@@ -1024,67 +988,43 @@
   
   <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-1"> 1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-2"> 2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-3"> 3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-4"> 4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-5"> 5</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-6"> 6</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-7"> 7</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-8"> 8</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-9"> 9</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-10">10</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-11">11</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-12">12</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-13">13</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-14">14</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-15">15</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-16">16</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-17">17</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-18">18</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-19">19</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-20">20</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-21">21</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-22">22</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-23">23</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-24">24</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-25">25</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-26">26</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-27">27</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-28">28</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-29">29</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-30">30</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-31">31</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-32">32</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-33">33</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-34">34</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-35">35</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-36">36</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-37">37</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-38">38</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-39">39</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-40">40</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-41">41</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-42">42</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-15">15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-16">16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-17">17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-18">18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-19">19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-20">20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-21">21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-22">22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-23">23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-24">24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-25">25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-26">26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-27">27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-28">28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-29">29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-30">30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-31">31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-32">32</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">defun</span> <span style="color:#bb60d5">my/ruff-format-buffer</span> ()
-</span></span><span style="display:flex;"><span>  <span style="color:#4070a0">&#34;使用 ruff 对当前 buffer 进行格式化（等价于 `ruff format`).&#34;</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">interactive</span>)
-</span></span><span style="display:flex;"><span>  (<span style="color:#007020">when</span> (<span style="color:#06287e">eq</span> <span style="color:#bb60d5">major-mode</span> <span style="color:#517918">&#39;python-mode</span>)
-</span></span><span style="display:flex;"><span>    (<span style="color:#007020">let</span> ((<span style="color:#bb60d5">tmp</span> (<span style="color:#bb60d5">make-temp-file</span> <span style="color:#4070a0">&#34;ruff-format-&#34;</span> <span style="color:#60add5">nil</span> <span style="color:#4070a0">&#34;.py&#34;</span>)))
-</span></span><span style="display:flex;"><span>      (<span style="color:#06287e">write-region</span> <span style="color:#60add5">nil</span> <span style="color:#60add5">nil</span> <span style="color:#bb60d5">tmp</span> <span style="color:#60add5">nil</span> <span style="color:#517918">&#39;silent</span>)
-</span></span><span style="display:flex;"><span>      (<span style="color:#06287e">call-process</span> <span style="color:#4070a0">&#34;ruff&#34;</span> <span style="color:#60add5">nil</span> <span style="color:#60add5">nil</span> <span style="color:#60add5">nil</span> <span style="color:#4070a0">&#34;format&#34;</span> <span style="color:#4070a0">&#34;--quiet&#34;</span> <span style="color:#bb60d5">tmp</span>)
-</span></span><span style="display:flex;"><span>      (<span style="color:#bb60d5">replace-buffer-contents</span> (<span style="color:#bb60d5">find-file-noselect</span> <span style="color:#bb60d5">tmp</span>))
-</span></span><span style="display:flex;"><span>      (<span style="color:#06287e">delete-file</span> <span style="color:#bb60d5">tmp</span>)
-</span></span><span style="display:flex;"><span>      (<span style="color:#06287e">message</span> <span style="color:#4070a0">&#34;Ruff 格式化完成&#34;</span>))))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;; 保存时自动格式化（可自行决定是否开启）</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">add-hook</span> <span style="color:#517918">&#39;before-save-hook</span> <span style="color:#06287e">#&#39;</span><span style="color:#bb60d5">my/ruff-format-buffer</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">ruff-format</span>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">ruff-format</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#007020">:ensure</span> <span style="color:#60add5">t</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#007020">:defer</span> <span style="color:#60add5">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:after</span> (<span style="color:#bb60d5">flymake</span> <span style="color:#bb60d5">ruff</span>)
 </span></span><span style="display:flex;"><span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>(<span style="color:#007020">use-package</span> <span style="color:#bb60d5">reformatter</span>
@@ -1096,20 +1036,24 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 定义ruff-format格式化命令</span>
 </span></span><span style="display:flex;"><span>  (<span style="color:#bb60d5">reformatter-define</span> <span style="color:#bb60d5">ruff-format</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#007020">:program</span> <span style="color:#4070a0">&#34;ruff&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#007020">:args</span> <span style="color:#666">&#39;</span>(<span style="color:#4070a0">&#34;format&#34;</span> <span style="color:#4070a0">&#34;-&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020">:args</span> <span style="color:#666">&#39;</span>(<span style="color:#4070a0">&#34;format&#34;</span> <span style="color:#4070a0">&#34;--stdin-filename&#34;</span><span style="color:#666">,</span> <span style="color:#06287e">buffer-file-name</span> <span style="color:#4070a0">&#34;-&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#007020">:lighter</span> <span style="color:#4070a0">&#34; UrffFmt&#34;</span>
 </span></span><span style="display:flex;"><span>  )
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 定义ruff-check 修复命令</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#bb60d5">reformatter-define</span> <span style="color:#bb60d5">ruff-check</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#007020">:program</span> <span style="color:#4070a0">&#34;ruff&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#007020">:args</span> <span style="color:#666">&#39;</span>(<span style="color:#4070a0">&#34;check&#34;</span> <span style="color:#4070a0">&#34;--fix&#34;</span> <span style="color:#4070a0">&#34;-&#34;</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#007020">:lighter</span> <span style="color:#4070a0">&#34; RuffCheck&#34;</span>
-</span></span><span style="display:flex;"><span>  )
-</span></span><span style="display:flex;"><span>  <span style="color:#60a0b0;font-style:italic">;; 在python mode中，保存时自动运行ruff-format</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#bb60d5">add-hook</span> <span style="color:#517918">&#39;python-mode-hook</span>
-</span></span><span style="display:flex;"><span>            (<span style="color:#007020">lambda</span> ()
-</span></span><span style="display:flex;"><span>              (<span style="color:#bb60d5">add-hook</span> <span style="color:#517918">&#39;before-save-hook</span> <span style="color:#06287e">#&#39;</span><span style="color:#bb60d5">ruff-format-region</span> <span style="color:#60add5">nil</span> <span style="color:#60add5">t</span>)))
-</span></span><span style="display:flex;"><span>)</span></span></code></pre></td></tr></table>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(<span style="color:#007020">defcustom</span> <span style="color:#bb60d5">ruff-format-import-command</span> <span style="color:#4070a0">&#34;ruff&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#4070a0">&#34;Ruff command to use for formatting.&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:type</span> <span style="color:#517918">&#39;string</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:group</span> <span style="color:#517918">&#39;ruff-format-import</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;;;###autoload (autoload &#39;ruff-format-import-buffer &#34;ruff-format-import&#34; nil t)</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;;;###autoload (autoload &#39;ruff-format-import-region &#34;ruff-format-import&#34; nil t)</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">;;;###autoload (autoload &#39;ruff-format-import-on-save-mode &#34;ruff-format-import&#34; nil t)</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#bb60d5">reformatter-define</span> <span style="color:#bb60d5">ruff-format-import</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:program</span> <span style="color:#bb60d5">ruff-format-import-command</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:args</span> (<span style="color:#06287e">list</span> <span style="color:#4070a0">&#34;check&#34;</span> <span style="color:#4070a0">&#34;--fix&#34;</span> <span style="color:#4070a0">&#34;--select=I&#34;</span> <span style="color:#4070a0">&#34;--stdin-filename&#34;</span> (<span style="color:#007020">or</span> (<span style="color:#06287e">buffer-file-name</span>) <span style="color:#bb60d5">input-file</span>))
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:lighter</span> <span style="color:#4070a0">&#34; RuffFmt&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020">:group</span> <span style="color:#517918">&#39;ruff-format-import</span>)</span></span></code></pre></td></tr></table>
 </div>
 </div>
 </div>
@@ -1236,6 +1180,7 @@
     <li><a href="#语法检查">语法检查</a>
       <ul>
         <li><a href="#更好的语法检查">更好的语法检查</a></li>
+        <li><a href="#单独的检查函数">单独的检查函数</a></li>
       </ul>
     </li>
     <li><a href="#代码跳转">代码跳转</a>
