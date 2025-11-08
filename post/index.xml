@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 点点马的蚂蚁窝</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on 点点马的蚂蚁窝</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 08 Nov 2025 21:15:00 +0800</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>无题</title>
+      <link>/post/wuti/</link>
+      <pubDate>Sat, 08 Nov 2025 21:15:00 +0800</pubDate>
+      <guid>/post/wuti/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/img/xiao_chong_shan.jpg&#34; width=&#34;50%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;世人对岳飞的认识，大多来自于他写的《满江红》，“三十功名尘与土，八千里路云和月”，何等荡气回肠，何等波澜壮阔。“待从头，收拾旧河山，朝天阙”，然后风波亭，莫须有，金戈铁马，戛然而止。无论是当时的人，还是后世的我，都唏嘘不已，无语凝噎。但不管如何，这等豪迈的英雄气概，是长留心间的。可对于上面的这首词，很多人就不知晓了，即使读到它，看到作者是岳飞时，都很惊讶，难以置信豪迈的岳飞，也有如此的细腻情感。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《深度学习革命》-–— 一部波澜壮阔的当代人工智能简史</title>
+      <link>/post/deep_learning_hisitory/</link>
+      <pubDate>Tue, 14 Oct 2025 10:28:00 +0800</pubDate>
+      <guid>/post/deep_learning_hisitory/</guid>
+      <description>&lt;p&gt;断断续续，用了两个星期看完了这本关于当代人工智能简介的书。由于人工智能这几年的火爆，类似题材的书已经很多了，但大多数都翻了几页就放下，引不起兴趣。因为这些作者对于人工智能的发展，尤其是深度学习的起起落落，都是人云亦云，没有新意。仿佛深度学习 就是天上掉下来一样，突然就火了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>把 Emacs 打造为 Python IDE</title>
+      <link>/post/emacs_as_python_ide/</link>
+      <pubDate>Sun, 12 Oct 2025 09:10:00 +0800</pubDate>
+      <guid>/post/emacs_as_python_ide/</guid>
+      <description>&lt;p&gt;集成开发环境（IDE）是一种帮助程序员高效开发软件代码的软件应用程序。它通过将软件编辑、构建、测试和打包等功能结合到一个易于使用的应用程序中，提高了开发人员的工作效率。就像作家使用文本编辑器，会计师使用电子表格一样，软件开发人员使用 &lt;code&gt;IDE&lt;/code&gt; 让他们的工作变得更轻松。当前比较流行的 &lt;code&gt;Python IDE&lt;/code&gt; 有 &lt;code&gt;PyCharm&lt;/code&gt;, &lt;code&gt;IDEA&lt;/code&gt;, &lt;code&gt;VS CODE&lt;/code&gt; 等。 &lt;code&gt;Emacs&lt;/code&gt; 作为一个可扩展的文本编辑器，处理各种文本数据是非常方便的。我们在 Emacs 里增加 &lt;code&gt;elisp&lt;/code&gt; 扩展，就可以模拟各种 &lt;code&gt;IDE&lt;/code&gt; 的环境，还能更好。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一个概率事件的启发</title>
+      <link>/post/probability_thingking/</link>
+      <pubDate>Mon, 10 Mar 2025 09:32:00 +0800</pubDate>
+      <guid>/post/probability_thingking/</guid>
+      <description>&lt;p&gt;我们从中学开始，就学了概率和统计，但是大多数人都被那些绕来绕去的数学题搞得头昏脑胀，完全不知道这些思想在现实中有什么用处。其实，日常生活中，大量的事情都是由概率和统计来支撑的。脑袋里如果没有这个思想，就很容易犯错误，甚至被骗。我用一个例子来说明一下。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一个奇妙的数学思维</title>
+      <link>/post/math_thingking/</link>
+      <pubDate>Fri, 07 Mar 2025 11:14:00 +0800</pubDate>
+      <guid>/post/math_thingking/</guid>
+      <description>&lt;p&gt;数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《一个村庄里的中国》-–— 改革，改变了什么</title>
+      <link>/post/china_in_village/</link>
+      <pubDate>Sun, 16 Feb 2025 21:28:00 +0800</pubDate>
+      <guid>/post/china_in_village/</guid>
+      <description>&lt;p&gt;这本书在我的书库里放了很久，都没有翻开来读。一是太厚重，二来也太沉重。但心里一直记挂着它，于是借这次来北京办事，路途和晚上，没有其他什么事，也就排除干扰，认真读完。果然如自己所料，读完之后，沉重的部分更加沉重，而当年迷茫之处，似乎也没有开悟多少。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello, 小树</title>
+      <link>/post/hello_tree/</link>
+      <pubDate>Fri, 06 Dec 2024 14:53:00 +0800</pubDate>
+      <guid>/post/hello_tree/</guid>
+      <description>&lt;p&gt;我曾经很长一段时间，没有方向。我不知道要做什么，但又对眼前的事情毫无兴趣。不论是在大学里当老师、做管理，还是离开之后创办企业，基本上都是被动地应付。我不知道什么是人生的意义，也不知道什么是工作的意义。我就这样，漫无目的地在人世间游荡着。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>什么是成功</title>
+      <link>/post/what-is-success/</link>
+      <pubDate>Sun, 01 Dec 2024 11:44:00 +0800</pubDate>
+      <guid>/post/what-is-success/</guid>
+      <description>&lt;p&gt;我戒了朋友圈，也不怎么看短视频。今早有人发了一个小视频给我看，原来是为《天龙八部》里的慕容复“翻案”的。说我们不能嘲笑慕容复，他只是没有成功而已。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>好友的故事 -–— 小宋</title>
+      <link>/post/song-xin-yan/</link>
+      <pubDate>Sat, 23 Nov 2024 12:27:00 +0800</pubDate>
+      <guid>/post/song-xin-yan/</guid>
+      <description>&lt;p&gt;小宋是我大学的同学，比我年长几岁。因为他复读了一年，高考的成绩也很好。我有次问他，为啥高考那么高成绩，还来这里读化学？他说，不知道啊，或许就是因为一个姑娘吧。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>好友的故事 -–— 陶</title>
+      <link>/post/chen-tao/</link>
+      <pubDate>Sat, 16 Nov 2024 12:13:00 +0800</pubDate>
+      <guid>/post/chen-tao/</guid>
+      <description>&lt;p&gt;少时好友，陶，来成都出差，约我见一面。自从博士毕业，已经二十多年没有见到他了，异常欣喜。除了稍微发胖外，陶几乎没有变化，连头发都是乌黑的。他开玩笑说，已经躺平 20 多年了，不动脑筋，自然不老。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《胡适文集》 -–— 温和的力量</title>
+      <link>/post/hushi/</link>
+      <pubDate>Tue, 12 Nov 2024 19:56:00 +0800</pubDate>
+      <guid>/post/hushi/</guid>
+      <description>&lt;p&gt;这段时间，心绪不宁，开车与他人的车相撞，读书也看不下去。每本书，拿起来翻两页，完全不知所云。合上，再打开一本，还是如此。直到翻开这本文集，突然感觉到了一种力量，不是铿锵有力的那种，反而是一种流水一样的温和。而这样的温和，却让自己能稍稍平静一些。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《理念的力量》</title>
+      <link>/post/idea_power/</link>
+      <pubDate>Sun, 15 Sep 2024 17:55:00 +0800</pubDate>
+      <guid>/post/idea_power/</guid>
+      <description>&lt;p&gt;我知道张维迎先生的名字，大概是 20 多年前，我在梳理中国的经济改革历程时，发现很多地方提到著名的“莫干山会议”。而张维迎作为一个年轻人，提出“双轨制”改革的理念。经过后来的起起落落，历经更多的是是非非争辩，中国的改革，大致走出了全面计划经济的桎梏。张维迎的作用，虽然很多人批评争功，但基本起了非常重要的正面作用。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《中国历代政治得失》读后</title>
+      <link>/post/politics_qs/</link>
+      <pubDate>Tue, 09 Jul 2024 13:52:00 +0800</pubDate>
+      <guid>/post/politics_qs/</guid>
+      <description>&lt;p&gt;钱穆先生的《中国历代政治得失》一书，断断续续看了两个多月，终于看完了。年轻时多次听说过钱穆的大名，但对于他的书，总提不起兴致，好像觉得是一位老古董，絮絮叨叨地把中国古代的事，翻来覆去地唠叨好几遍。十年前，高晓松极力推荐他的《晚学盲言》，我买来之后，翻了几页，也就束之高阁了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>大学的逻辑</title>
+      <link>/post/what-is-advanced-education/</link>
+      <pubDate>Sun, 07 Jul 2024 19:33:00 +0800</pubDate>
+      <guid>/post/what-is-advanced-education/</guid>
+      <description>&lt;p&gt;在高等教育的认识问题上，我经历了好几个阶段，现在的想法和最开始的认识，甚至可以用反转来形容。&lt;/p&gt;&#xA;&lt;p&gt;我自己在国内的一所虽不顶尖但还不错的大学接受了本科和博士研究生的教育，在国外学习的时候，导师也是一名美国的院士，曾经还在网上被评为应该获得诺贝尔奖但没有得的 70 位专家之一。因此，我在很长的一段时间内，都觉得高等教育，培养的是精英，我们应该教会学生的是“道”，而对于就业、工具等技能，我虽然没有表现出来嗤之以鼻，但内心里也是不置可否的。在我的教学生涯中，就很长一段时间不屑于给学生讲如何做题。因为我认为那些做题之类的知识太简单，学生自学就可以了。老师嘛，应该是来开阔学生思维、提高学生认识论的。平日里读书，也是喜欢看那些精英们写的文字。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>学习“分岔”的乐趣</title>
+      <link>/post/study-multiple/</link>
+      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
+      <guid>/post/study-multiple/</guid>
+      <description>&lt;p&gt;我学习的习惯非常不好，常常会在学习一个知识的时候，偏离主航道，花费很多时间在偏路上。等蓦然回头时，才发现时间已经被“浪费”了很多。&lt;/p&gt;&#xA;&lt;p&gt;比如，最近我正在研究 AI 里的大语言模型结合知识图谱的工作。本来，这已经需要我学习很多以前不懂的知识了。我还“乱上加乱”，因为我发现我需要记点笔记。然后，在记笔记的时候我觉得应该每学完一个知识就写一个读后感；接着，我发现读后感里要增加一个功能：每增加一个读后感，当然要自动计数，告诉自己，文档又多了一个哦。但是呢，这个自动计数肯定不能自己手动去数，必须让计算机自动完成，否则太愧对“程序员”的自我标榜了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>梅西“封王”，纪念一周年</title>
+      <link>/post/messi-jinian/</link>
+      <pubDate>Wed, 20 Dec 2023 11:11:00 +0800</pubDate>
+      <guid>/post/messi-jinian/</guid>
+      <description>&lt;p&gt;距离阿根廷世界杯夺冠，刚刚一年。网上阿根廷的粉丝、梅西的粉丝热闹起来，到处都是回忆和开心的帖子。连梅西自己也在 ins 上连发两条，十几张照片。可见梅西心里也是久久不能忘怀的。更有财力雄厚的粉丝，继续在上海外滩包下大屏，滚动播放夺冠的镜头。于是，去年世界杯的各种场景，尤其决赛的画面，又浮现在脑海里，仿佛没有过去一年，而是一天。很多人在感慨，去年，我们“阳”了，梅西也“羊”了。（梅西去年正式被国际足联称为“Greatest of All Times”，简称 GOAT。）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>“殉道者”有什么意义</title>
+      <link>/post/oppenheimer/</link>
+      <pubDate>Fri, 29 Sep 2023 07:35:00 +0800</pubDate>
+      <guid>/post/oppenheimer/</guid>
+      <description>&lt;p&gt;诺兰导演的《奥本海默》，在国内外的反响差别很大。在北美的票房超过 3 亿美元，但是在中国，很多人评价说故事沉闷乏味，没有情节的剧烈冲突，在电影院几乎睡着。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《芯片战争》读后感</title>
+      <link>/post/chipwar/</link>
+      <pubDate>Tue, 01 Aug 2023 13:47:00 +0800</pubDate>
+      <guid>/post/chipwar/</guid>
+      <description>&lt;p&gt;最近，我花了将近三个月的时间阅读了一本去年刚出的新书 《Chip War: The Fight for the World&amp;rsquo;s Most Critical Techonolgy》。这大概算是过去几年，耗费我最多时间的一本非专业书籍了。当然，部分原因是英文版的书，我读起来比中文版的要慢很多；部分原因是过去三个月头脑不是很清醒，读书速度大大变慢 😝&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>那些稀奇古怪的发音</title>
+      <link>/post/pronounce/</link>
+      <pubDate>Tue, 18 Jul 2023 11:33:00 +0800</pubDate>
+      <guid>/post/pronounce/</guid>
+      <description>&lt;p&gt;我有个癖好，喜欢对外文中那些稀奇古怪的词，研究它们的正确发音。大概是因为我有强迫症，所以我完全无法忍受一个词被错误地念来念去。如果是人名，念错了，我更要疯掉。我的名字就从小被人喊错，每次听到被喊“Feng Ying”的时候，我都不愿意答应 😤&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>13 年后的“重逢”</title>
+      <link>/post/luguhu/</link>
+      <pubDate>Sun, 02 Jul 2023 11:04:00 +0800</pubDate>
+      <guid>/post/luguhu/</guid>
+      <description>&lt;p&gt;女儿暑期要去深圳实习，于是闹着安排了一次西昌和泸沽湖的自驾游。上一次来泸沽湖是 2010 年 1 月，当时刚去西华大学，年终的时候学院有传统，大家自费集体出去玩一次。那次选的是泸沽湖，而我对出去旅游这件事毫无经验，连准备什么都不知道，因此冬季的泸沽湖气温是多少，都是到了之后才有感觉。结果就是&amp;mdash;-我不得不借同事的衣服来御寒 😅&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>  &#34;hjkl&#34;和鼠标的斗争
+  </title>
+      <link>/post/hjkl-vs-mouse/</link>
+      <pubDate>Sat, 27 May 2023 17:43:00 +0800</pubDate>
+      <guid>/post/hjkl-vs-mouse/</guid>
+      <description>&lt;p&gt;程序员的世界里，有两派截然不同的风格：一是老旧的“键盘侠”，喜欢手不离开键盘，操纵一切；与之相反的是“鼠标点点点”，所有的东西都尽量用图形界面，用鼠标来操控方向，指点江山。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>old fashion man</title>
+      <link>/post/old-fashion-man/</link>
+      <pubDate>Sun, 07 May 2023 18:45:00 +0800</pubDate>
+      <guid>/post/old-fashion-man/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/img/clock-desktop.jpg&#34; width=&#34;50%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;上面的截图是我此时此刻的计算机桌面，右下角的那个时钟有点突兀，其实和整体不怎么搭配，但这是我实在不忍放弃的小程序，因为这时常提醒我当年的日子。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Not Even Wrong</title>
+      <link>/post/not-even-wrong/</link>
+      <pubDate>Fri, 28 Apr 2023 19:58:00 +0800</pubDate>
+      <guid>/post/not-even-wrong/</guid>
+      <description>&lt;p&gt;《Not Even Wrong》是一本科普书，关于弦理论的来龙去脉，以及为什么这个高大上的理论会“失败”的调侃。我很喜欢这本书，一是它通过超弦这个理论的曲折发展历程，再次阐明了为什么物理学之所以是科学的道理；二是它还略带幽默和自嘲的文笔，特别是书名，来自于伟大的物理学家 Pauli 的名言：这连错误都算不上。(英文：It is not only not right, it is not even wrong. 德语原版：Das ist nicht nur nicht richtig, es ist nicht einmal falsch!)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用自己的话表达思想</title>
+      <link>/post/writing-own-words/</link>
+      <pubDate>Sun, 02 Apr 2023 09:58:00 +0800</pubDate>
+      <guid>/post/writing-own-words/</guid>
+      <description>&lt;p&gt;得到的联合创始人罗振宇写了一本书《阅读的方法》，本意是像劝导更多的人喜爱读书、发现读书的乐趣，甚至于找到知识的用途。他大力推崇陶渊明的读书心得：“好读书，不求甚解；每有会意，便欣然忘食。”万维钢也推荐了这本书，并补充了司马迁的读书见解：司马迁派读书人则像一个侵略者。他把学问视为地盘，不但要攻克其中的据点，而且要犁庭扫穴应收尽收，然后还要综合治理，还希望按照自己的风格改造这个地盘。他构建的不是一张网而是一张蓝图，如果这张蓝图中还有空白的地方或者任何矛盾、不合理之处，他会焦虑。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>文档中插入图形</title>
+      <link>/post/insert-figures-in-doc/</link>
+      <pubDate>Thu, 02 Feb 2023 11:35:00 +0800</pubDate>
+      <guid>/post/insert-figures-in-doc/</guid>
+      <description>&lt;h2 id=&#34;传统的文字-图形融合&#34;&gt;传统的文字-图形融合&lt;/h2&gt;&#xA;&lt;p&gt;一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 &lt;code&gt;xvgr&lt;/code&gt; 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &amp;hellip;&amp;hellip;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>读书的步骤</title>
+      <link>/post/reading-steps/</link>
+      <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
+      <guid>/post/reading-steps/</guid>
+      <description>&lt;p&gt;书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪费时间。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>价值</title>
+      <link>/post/human-value/</link>
+      <pubDate>Wed, 25 Jan 2023 12:18:00 +0800</pubDate>
+      <guid>/post/human-value/</guid>
+      <description>&lt;p&gt;人的价值体现为，这个世界由于你的存在 &lt;strong&gt;变得更好&lt;/strong&gt;, 而不是变得更差。&lt;/p&gt;&#xA;&lt;p&gt;大部分人的存在，其实对这个世界来说，都没有太大的意义。有也可，没有，影响也不大，因为他们只是为自己活着。还有些人，存在只是添乱，就更不必提了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>empathy vs. sympathy</title>
+      <link>/post/sympathy-vs-empathy/</link>
+      <pubDate>Thu, 19 Jan 2023 11:37:00 +0800</pubDate>
+      <guid>/post/sympathy-vs-empathy/</guid>
+      <description>&lt;dl&gt;&#xA;&lt;dt&gt;empathy&lt;/dt&gt;&#xA;&lt;dd&gt;同理心&lt;/dd&gt;&#xA;&lt;dt&gt;sympathy&lt;/dt&gt;&#xA;&lt;dd&gt;同情心&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;p&gt;简而言之，同情心表明你知道对方的感受，也表达了自己的情感；同理心却是主动站在对方的角度考虑遭遇。所以，同理心更能引起共鸣，并直达双方的心灵深处。在同情心的表达中，常常犯的一个错误是：你看，你遭遇了不幸，我也有过同样的不幸啊，所以，你不必难过了。这样的“安慰”只会让对方觉得，我难道是因为和你比较来感受幸福和痛苦吗？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
+      <link>/post/org-hugo-blog/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate>
+      <guid>/post/org-hugo-blog/</guid>
+      <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;&#xA;&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；&lt;/li&gt;&#xA;&lt;li&gt;使用 hugo 建立静态网页；&lt;/li&gt;&#xA;&lt;li&gt;将本地静态网页发布到互联网上。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;org-mode-写文档&#34;&gt;org-mode 写文档&lt;/h2&gt;&#xA;&lt;p&gt;org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 &lt;a href=&#34;https://orgmode.org&#34;&gt;org mode&lt;/a&gt; 网站，学习如何使用 org-mode 模式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>梅西，终于得偿所愿</title>
+      <link>/post/messi-de-chang-suo-yuan/</link>
+      <pubDate>Sat, 31 Dec 2022 09:21:00 +0800</pubDate>
+      <guid>/post/messi-de-chang-suo-yuan/</guid>
+      <description>&lt;p&gt;距离阿根廷世界杯夺冠，已经过去2个星期了。似乎还像梦幻一样，每天刷着足球论坛，回忆着决赛时领先、扳平、反超、再扳平，然后点球大战时的惊心动魄，最后胜利时梅西跪在草地上&amp;hellip;&amp;hellip;.。连举杯庆祝的镜头都反复看了很多遍，百看不厌。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《浪潮之巅》</title>
+      <link>/post/lang-chao-zhi-dian/</link>
+      <pubDate>Thu, 03 Nov 2022 15:31:00 +0800</pubDate>
+      <guid>/post/lang-chao-zhi-dian/</guid>
+      <description>&lt;p&gt;吴军的《浪潮之巅》第四版终于读完了，前前后后大概用了一个多月的时间。其实，在 2014 年底的时候，我就已经读过了这本书的第二版。记得当时读下来就热血沸腾，觉得自己也应该立即投身于创业的浪潮之中，才不负此生。可惜，又拖拖拉拉，5、6年后才真正面对内心的想法，走上一条不归路。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>罗大佑的线上演唱会</title>
+      <link>/post/luodayou-concert/</link>
+      <pubDate>Sat, 28 May 2022 10:12:00 +0800</pubDate>
+      <guid>/post/luodayou-concert/</guid>
+      <description>&lt;p&gt;68岁的罗大佑昨晚在线上开了一个演唱会。在我看来，罗大佑当之无愧为华人乐坛第一音乐教父。他写的歌，从爱情到友情，从政治到社会，很多精品。有一些歌，大概其他人都写不出来，也不敢写。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于辞去公职的缘由</title>
+      <link>/post/resign/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0800</pubDate>
+      <guid>/post/resign/</guid>
+      <description>&lt;p&gt;:ID:       5B2D9CCF-8974-4F0C-BD87-0FD0B0CB3276&lt;/p&gt;&#xA;&lt;p&gt;昨天中午，原单位同事一起小聚，同事小谭问我为何当初要辞职，有什么真正不开心的缘由吗？我给她认真回复了一封信，解释我辞去公职的原因。其实无他，当内心的理想与现实有较大出入时，我曾经选择妥协，但无法背离我内心的抗拒，最终选择不妥协。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>众人拾材火焰高</title>
+      <link>/post/zhongren-shichai-huoyangao/</link>
+      <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
+      <guid>/post/zhongren-shichai-huoyangao/</guid>
+      <description>&lt;p&gt;程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续下去。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>书非旧不能读也</title>
+      <link>/post/shu-feijiu-buneng-du/</link>
+      <pubDate>Thu, 07 Apr 2022 19:53:00 +0800</pubDate>
+      <guid>/post/shu-feijiu-buneng-du/</guid>
+      <description>&lt;p&gt;顾衡、吴军和包刚升先生在自己的书或者得到课程中，多次提到《联邦党人文集》，认为这是一本理解现代政治的好书之一。不禁想起我当年在川大读博士时，不知道怎么就对政治感了兴趣，或者仅仅是为了学习英语，就跑到图书馆借阅《The Federalist Papers》。在布满灰尘的8楼书架上，翻到这本书，然后在末尾看到借阅记录：上一次有人借这本书大概是91年，再上一次是88年。嗯，当时我去的时候是99年。有时候真是感叹，一些人当成宝珍藏的事物，在大多数人看来，其实就是灰尘而已。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《鱼翅与花椒》</title>
+      <link>/post/after-reading-yuchi-yu-huajiao/</link>
+      <pubDate>Sat, 12 Mar 2022 21:05:00 +0800</pubDate>
+      <guid>/post/after-reading-yuchi-yu-huajiao/</guid>
+      <description>&lt;p&gt;《鱼翅与花椒》是英国女孩扶霞的著作，其实就是一本讲四川美食的书。这本书不论是书名还是讲述的内容，似乎都很难引起大众的兴趣。也难怪顾衡在好书榜推荐时，虽然大力赞扬，我却没有动力找来看。直到昨天，我打开了这本书，结果一发不可收拾，已经放不下了。尤其白天写一天程序后，晚餐后灯下慢慢翻来，闲适无比。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>高观点下的教育</title>
+      <link>/post/education-from-advanced-view/</link>
+      <pubDate>Mon, 24 Jan 2022 12:51:00 +0800</pubDate>
+      <guid>/post/education-from-advanced-view/</guid>
+      <description>&lt;p&gt;陶哲轩大神继续给女儿他们上课，大家都非常激动。（当然，心里也是希望 Cladek 教授早日康复的。）&lt;/p&gt;&#xA;&lt;p&gt;其实啊，好的老师在哪里都是稀缺的。之所以期望大神来上课，并不是因为他们口才有多好，或者可以讲高深的内容。而是从高层次的观点下讲低层次的课程，才可以把知识真正讲透。正如一个大学毕业生虽然学过了高等数学，但是让他/她直接来讲授高等数学课是完全不行的。等学了更多的数学，明白了空间和流形的思想，再来给学生讲授高等数学，自然事半功倍，水到渠成。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>做正确的事</title>
+      <link>/post/do-right-thing/</link>
+      <pubDate>Mon, 17 Jan 2022 13:08:00 +0800</pubDate>
+      <guid>/post/do-right-thing/</guid>
+      <description>&lt;p&gt;人生大部分的痛苦，都来自于做的事是自己不认可，或者不擅长的。我曾经有一段时间，失眠严重，完全找不到前进的方向。怀疑过、痛苦过、彷徨过、迷茫过&amp;hellip;&amp;hellip;。不知道前方的路在哪里，何处是尽头，何时是解脱。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《中央帝国的财政密码》</title>
+      <link>/post/zhong-yang-di-guo-cai-zheng-mi-ma/</link>
+      <pubDate>Fri, 01 May 2020 21:39:00 +0800</pubDate>
+      <guid>/post/zhong-yang-di-guo-cai-zheng-mi-ma/</guid>
+      <description>&lt;p&gt;刚读完郭建龙先生的《中央帝国的财政密码》一书，很有启发。书名有些不太好，让人误以为是哗众取宠的地摊文学。但实际上，这是一本严肃的历史与经济学史结合的著作。作者查阅无数严谨的历史和财政金融资料，详细解读了中国近代以前的商业和金融发展历史，从财政角度分析了中国各朝各代的变迁原因。黑格尔曾说，古代中国没有历史，只有一而再再而三地反复。虽然有些偏颇，但亦指出了本质。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>四川联大往事</title>
+      <link>/post/scuu-memory/</link>
+      <pubDate>Wed, 20 Mar 2019 21:07:00 +0800</pubDate>
+      <guid>/post/scuu-memory/</guid>
+      <description>&lt;p&gt;母校在发校友卡，我急急忙忙地申请了一个。看着这个与母校仅存的一点联系，不禁勾起了当年的好多回忆。1992年高考，最拿手的数学考砸了，只好听从父母的建议回四川读书。当时，川大、电子科大、华西医大、成都科大在河南的收分一样。班主任说，川大毕业有可能要当中学老师哟（不知道他听谁说的）。老爸赶紧拒绝，不行不行，不当老师，放弃；电子科大以前有军校背景，有可能要到部队上去哟。老爸慌张，不行不行，咱家独生子，不能去当兵；华西医大？轮到我摇头了，从小就害怕医生啊，坚决不行坚决不去。于是，就来到了成都科大。现在想起来，一点单纯的想法，几多偶然的猜测，就决定了高考志愿，真好玩啊。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何与世界相处</title>
+      <link>/post/how-to-live-with-world/</link>
+      <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
+      <guid>/post/how-to-live-with-world/</guid>
+      <description>&lt;p&gt;:ID:       410ACF3E-4029-4197-B95D-97C8774363C9&lt;/p&gt;&#xA;&lt;h2 id=&#34;如何做一个靠谱的人&#34;&gt;如何做一个靠谱的人&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;事事有回音；凡事有交代；件件有着落。&lt;/li&gt;&#xA;&lt;li&gt;及时反馈，形成闭环。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;团队精神&#34;&gt;团队精神&lt;/h2&gt;&#xA;&lt;h3 id=&#34;思维决定位置&#34;&gt;思维决定位置&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;领导者：“这事我负责!”&lt;/li&gt;&#xA;&lt;li&gt;顶梁柱：“这事我搞定!”&lt;/li&gt;&#xA;&lt;li&gt;左右手：“这事我来做!”&lt;/li&gt;&#xA;&lt;li&gt;基层人：“这事我要学。”&lt;/li&gt;&#xA;&lt;li&gt;多余人：“这事找谁啊?”&lt;/li&gt;&#xA;&lt;li&gt;垃圾人：“这事不怪我。”&lt;/li&gt;&#xA;&lt;li&gt;落后者：“这事没人教。”&lt;/li&gt;&#xA;&lt;li&gt;寄生虫：“这事为什么我来做?”&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;如何做一个管理者&#34;&gt;如何做一个管理者&lt;/h2&gt;&#xA;&lt;h3 id=&#34;优秀领导者的特质&#34;&gt;优秀领导者的特质&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;有勾画蓝图的能力&lt;/li&gt;&#xA;&lt;li&gt;有让他人追随你的能力&lt;/li&gt;&#xA;&lt;li&gt;有实现理想与抱负的能力&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;案例-曹操&#34;&gt;案例：曹操&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;真心实意，以情感人；&lt;/li&gt;&#xA;&lt;li&gt;推心置腹，以诚待人；&lt;/li&gt;&#xA;&lt;li&gt;开诚布公，以理服人；&lt;/li&gt;&#xA;&lt;li&gt;言行一致，以信取人；&lt;/li&gt;&#xA;&lt;li&gt;令行禁止，以法制人；&lt;/li&gt;&#xA;&lt;li&gt;设身处地，以宽容人；&lt;/li&gt;&#xA;&lt;li&gt;扬人责己，以功归人；&lt;/li&gt;&#xA;&lt;li&gt;论功行赏，以奖励人。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>构建笔记系统</title>
+      <link>/post/create-notes/</link>
+      <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
+      <guid>/post/create-notes/</guid>
+      <description>&lt;p&gt;:ID:       328E7380-BF24-417E-B052-4BAD54BA7B04&lt;/p&gt;&#xA;&lt;p&gt;学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdquo;。笔记系统不仅可以帮助我们收集、整理、归纳所学的知识，还能够启发我们发现知识的联系。因此，做好一个笔记系统是非常必要的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>学习的途径</title>
+      <link>/post/study-road/</link>
+      <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
+      <guid>/post/study-road/</guid>
+      <description>&lt;p&gt;:ID:       D1CF20C0-7229-47D0-9FB8-9273D908C661&lt;/p&gt;&#xA;&lt;h2 id=&#34;唯一有效的四种方法&#34;&gt;唯一有效的四种方法&lt;/h2&gt;&#xA;&lt;p&gt;理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了，这是非常肤浅的。若想掌握某项知识，并能在今后的工作生活中灵活运用，正确的学习途径就必不可少：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>大学教育</title>
+      <link>/post/advanced-education/</link>
+      <pubDate>Mon, 25 Jul 2016 18:10:00 +0800</pubDate>
+      <guid>/post/advanced-education/</guid>
+      <description>&lt;p&gt;在高校读书工作直到现在，已经二十多年了。经常有人问起的一个问题是：高校教师究竟应该以教书为主还是做科研为主？刚开始我以为这样的问题是不用回答的，因为现代大学不论中外，都有三个职责：培养人才、科学研究、服务社会，而前两个工作也是广义的服务社会。既然有三个功能，又怎能只偏向其中一个呢？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>理论和计算</title>
+      <link>/post/theory-and-computing/</link>
+      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
+      <guid>/post/theory-and-computing/</guid>
+      <description>&lt;p&gt;终于完成了这个理论和程序，剩下的大量繁琐计算就交给计算集群吧。&lt;/p&gt;&#xA;&lt;p&gt;这是在美国的时候，Allen教授就和我讨论想要解决的问题：关于两个电子关联效应的二阶微扰极限。因为微扰不同于变分法，不是能量越低越好。但也不能就此认为微扰的判定没有准则。这个工作就是想告诉大家，双电子情况下，二阶微扰理论的下限在哪里。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>人生不如意事</title>
+      <link>/post/bu-ru-yi-shi/</link>
+      <pubDate>Sun, 05 Jul 2015 23:21:00 +0800</pubDate>
+      <guid>/post/bu-ru-yi-shi/</guid>
+      <description>&lt;p&gt;今天凌晨，爬起来看美洲杯决赛。虽然我很累很困，但因为有梅西，有阿根廷，仍然坚持，在黑暗中捧着iPad观看。&lt;/p&gt;&#xA;&lt;p&gt;从黑夜到曙光来临，经历了加时赛，阿根廷还是输了，倒在了 点球码上。当伊瓜因罚丢的时候，我注意到梅西转过了头，也许在感叹又一次的决赛失利。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>研究生招生</title>
+      <link>/post/grad-zhaoseng/</link>
+      <pubDate>Sun, 23 Mar 2014 23:31:00 +0800</pubDate>
+      <guid>/post/grad-zhaoseng/</guid>
+      <description>&lt;p&gt;又要到每年一度的研究生复试的时候了。在我们这样的学校，复试其实不是在选拔更优秀的学生，而大多是在调剂考别的学校分数不够或挑剩下的。因此，绝大多数考生对物理和化学的兴趣极低，只是为了读研究生而读，或者不想面对复杂的社会，不敢去找工作。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>素质教育</title>
+      <link>/post/suzhi-jiaoyu/</link>
+      <pubDate>Sun, 09 Mar 2014 23:32:00 +0800</pubDate>
+      <guid>/post/suzhi-jiaoyu/</guid>
+      <description>&lt;p&gt;什么是素质教育？素质教育的目的是什么？答案其实非常简单。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;培养健全的人格&lt;/li&gt;&#xA;&lt;li&gt;培养学习的能力&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;说的再通俗一点，就是培养适应社会、适应发展的能力。这个能力应该是每个大学生的基本能力，拥有这个能力的人才能叫大学生或者是本科生。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《漫谈二流大学》</title>
+      <link>/post/erliu-daxue/</link>
+      <pubDate>Sat, 08 Feb 2014 15:06:00 +0800</pubDate>
+      <guid>/post/erliu-daxue/</guid>
+      <description>&lt;p&gt;我一直觉得博客要自己写的才好，老转他人的文章不舒服。但今天看到李志文先生的这篇文章，很有感触，基本同意他的观点。链接在此，时而温习之。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.rocidea.com/one?id=26164&#34;&gt;漫谈二流大学&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;如果打不开链接，我将原文重新排版整理，放在下面：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《民国那些人》</title>
+      <link>/post/minguo-naxieren/</link>
+      <pubDate>Mon, 05 Nov 2012 23:34:00 +0800</pubDate>
+      <guid>/post/minguo-naxieren/</guid>
+      <description>&lt;p&gt;车上无事，继续 iPad 上的电子书。翻到徐百柯的《民国那些人》，不禁微微一笑。因为这方面的题材似乎成了近年的热点，也许是对现实的不满，让人更加怀念曾经不远的年代。家里的床头就好几本这样的书，例如《原来如此》、《西南联大回忆录》、《民国往事》等等。可是，看得多了，也觉得有点滥，过犹不及吧。像张发财写的《一个都不正经》，第一次看觉得新鲜，再看就觉得有点庸俗。历史，是可以这样一句话就概括的吗？那些鲜活的人与事，都能够简单地浓缩于一小段文字吗？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>舟子的苦与悲</title>
+      <link>/post/fangzhouzi-ku-yu-bei/</link>
+      <pubDate>Sat, 23 Jun 2012 23:36:00 +0800</pubDate>
+      <guid>/post/fangzhouzi-ku-yu-bei/</guid>
+      <description>&lt;p&gt;:ID:       D84ADEF0-ED53-4E21-A861-FDE10625CBAF&lt;/p&gt;&#xA;&lt;p&gt;从2000年左右就开始关注舟子的新语丝，当时还需要唐博士找文章给我看。只觉得阅读这样酣畅淋漓的文笔，这样丝丝入扣的逻辑分析，真是大呼过瘾。那时除了舟子之外，还有好些其他高人的文章，也非常好，甚至普及了很多知识给我。有时真是惭愧自己虽然有物理的博士学位，还需要舟子教我很多知识。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于我自己</title>
+      <link>/post/about/</link>
+      <pubDate>Fri, 22 Jun 2012 11:38:00 +0800</pubDate>
+      <guid>/post/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/img/avatar.jpg&#34; width=&#34;200px&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理，现在是一个自由打工者。教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/post/all-posts-25/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/all-posts-25/</guid>
+      <description>&lt;h2 id=&#34;wuti&#34;&gt;&lt;span class=&#34;org-todo done __DONE&#34;&gt;✔ DONE&lt;/span&gt; 无题 &lt;span class=&#34;tag&#34;&gt;&lt;span class=&#34;misc&#34;&gt;misc&lt;/span&gt;&lt;span class=&#34;___&#34;&gt;@感悟&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;/img/xiao_chong_shan.jpg&#34; width=&#34;50%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;世人对岳飞的认识，大多来自于他写的《满江红》，“三十功名尘与土，八千里路云和月”，何等荡气回肠，何等波澜壮阔。“待从头，收拾旧河山，朝天阙”，然后风波亭，莫须有，金戈铁马，戛然而止。无论是当时的人，还是后世的我，都唏嘘不已，无语凝噎。但不管如何，这等豪迈的英雄气概，是长留心间的。可对于上面的这首词，很多人就不知晓了，即使读到它，看到作者是岳飞时，都很惊讶，难以置信豪迈的岳飞，也有如此的细腻情感。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

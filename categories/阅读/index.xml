@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>阅读 on 点点马的蚂蚁窝</title>
+    <link>/categories/%E9%98%85%E8%AF%BB/</link>
+    <description>Recent content in 阅读 on 点点马的蚂蚁窝</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Aug 2023 13:47:00 +0800</lastBuildDate>
+    <atom:link href="/categories/%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《芯片战争》读后感</title>
+      <link>/post/chipwar/</link>
+      <pubDate>Tue, 01 Aug 2023 13:47:00 +0800</pubDate>
+      <guid>/post/chipwar/</guid>
+      <description>&lt;p&gt;最近，我花了将近三个月的时间阅读了一本去年刚出的新书 《Chip War: The Fight for the World&amp;rsquo;s Most Critical Techonolgy》。这大概算是过去几年，耗费我最多时间的一本非专业书籍了。当然，部分原因是英文版的书，我读起来比中文版的要慢很多；部分原因是过去三个月头脑不是很清醒，读书速度大大变慢 😝&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Not Even Wrong</title>
+      <link>/post/not-even-wrong/</link>
+      <pubDate>Fri, 28 Apr 2023 19:58:00 +0800</pubDate>
+      <guid>/post/not-even-wrong/</guid>
+      <description>&lt;p&gt;《Not Even Wrong》是一本科普书，关于弦理论的来龙去脉，以及为什么这个高大上的理论会“失败”的调侃。我很喜欢这本书，一是它通过超弦这个理论的曲折发展历程，再次阐明了为什么物理学之所以是科学的道理；二是它还略带幽默和自嘲的文笔，特别是书名，来自于伟大的物理学家 Pauli 的名言：这连错误都算不上。(英文：It is not only not right, it is not even wrong. 德语原版：Das ist nicht nur nicht richtig, es ist nicht einmal falsch!)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>一个奇妙的数学思维 - 点点马的蚂蚁窝</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="" /><meta name="description" content="数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。
+" /><meta name="keywords" content="rds, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.152.2 with theme even" />
+
+
+<link rel="canonical" href="/post/math_thingking/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.af7fd1da18d66c2b017df5b4cae508ef44cfcac3fb4c7c7a327fe4f4f9e28b08.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:url" content="/post/math_thingking/">
+  <meta property="og:site_name" content="点点马的蚂蚁窝">
+  <meta property="og:title" content="一个奇妙的数学思维">
+  <meta property="og:description" content="数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-03-07T11:14:00+08:00">
+    <meta property="article:modified_time" content="2025-03-07T11:14:00+08:00">
+    <meta property="article:tag" content="Thinking">
+
+  <meta itemprop="name" content="一个奇妙的数学思维">
+  <meta itemprop="description" content="数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。">
+  <meta itemprop="datePublished" content="2025-03-07T11:14:00+08:00">
+  <meta itemprop="dateModified" content="2025-03-07T11:14:00+08:00">
+  <meta itemprop="wordCount" content="870">
+  <meta itemprop="keywords" content="Thinking">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="一个奇妙的数学思维">
+  <meta name="twitter:description" content="数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。">
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">点点马的蚂蚁窝</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">点点马的蚂蚁窝</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">一个奇妙的数学思维</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2025-03-07 </span>
+        <div class="post-category">
+            <a href="/categories/%E6%80%9D%E7%BB%B4/"> 思维 </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#命题">命题</a></li>
+        <li><a href="#解释">解释</a></li>
+        <li><a href="#证明">证明</a></li>
+        <li><a href="#说明">说明</a></li>
+        <li><a href="#p-dot-s-dot">P.S.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。</p>
+<p>我们都知道，数学证明中有一种方法叫反证法，就是通过是否能找出一个反例，来证明一个命题的正确性。但是，这次说的是，我们找不到反例，但依然能够用反证法来证明一个命题。我简单地描述一下这个命题，然后用我自己理解的方式来讲述一下这个证明过程（如果证明错了，责任全在我，原来的数学思想应该是正确的 😉）</p>
+<h2 id="命题">命题</h2>
+<p>请判断并证明：一个无理数的无理数次幂，一定是无理数。</p>
+<h2 id="解释">解释</h2>
+<p>无理数就是无限不循环小数，比如 \(\pi\), \(e\), &hellip;&hellip;, 等等。由于无理数无法精确得到所有数值，所以一个无理数的无理数次幂，除了少数情况外，是无法准确得到所有数值的。比如，\(\pi^{\pi}\)，它的前 30 位数值是：36.4621596072079117709908260227。我们根本无法从中判断，最后的数值是否是一个有理数，还是仍然为无理数。</p>
+<h2 id="证明">证明</h2>
+<p>我们用反证法来证明此命题，即假设原命题是成立的。</p>
+<p>首先，我们构造一个无理数的无理数次幂： \(x = \sqrt{2}^{\sqrt{2}}\), 这个数值有两种情况：</p>
+<ol>
+<li>\(x\) 为有理数</li>
+<li>\(x\) 为无理数</li>
+</ol>
+<p>对于结果 1，那命题当然就错了，因为我们找到了一个无理数的无理数次幂为有理数。我们用反证法来判断情况 2，我们继续构造一个新的数： \(y = x^{\sqrt{2}}\), 运算可得：</p>
+<p>\(y = \sqrt{2}^{\sqrt{2}^{\sqrt{2}}} = \sqrt{2}^2 = 2 \)</p>
+<p>由于 \(x\) 为无理数，根据假设，\(y\) 也应该是无理数，但现在我们得到了一个有理数 \(2\)，所以假设不成立，结论应该是，无理数的无理数次幂，不一定是无理数。</p>
+<h2 id="说明">说明</h2>
+<p>这里，最奇妙的就是，我们虽然构造了一个无理数的无理数次幂：\(\sqrt{2}^{\sqrt{2} }\)，但是我们并没有实际求出来这个数，也完全没有证明，这个数到底是无理数还是有理数。也就是说，我们用了反证法，但是并没有实际找到一个反例，就证明了原来的命题不成立。</p>
+<p>啊，多么奇妙的数学思想啊。</p>
+<h2 id="p-dot-s-dot">P.S.</h2>
+<p>大家可能有点好奇，到底 \(\sqrt{2}^{\sqrt{2} }\) 是不是有理数啊。我用心爱的 Wolfram 计算了一下前 1000 位数值，你们猜，它到底是不是有理数？😜</p>
+<p>\(\sqrt{2}^{\sqrt{2}
+} = \)</p>
+<p>1.632526919438152844773495381024719602079108857053
+11411724778068438303520599861664224785550750662
+60414230011620076508762926586855535678286653743
+53276990370339509808349458727844365578417316013
+87397734571771945017640579176808540612696970706
+77170888211473865443716121182725324216022231689
+35434603655006804958808606092092531292648747441
+39100350665100223159724526414595020972636096696
+48057571699115982318026242029527507671359747631
+50951814992616526918951905735917879441942227750
+48361947119473707135051457034779869040074304850
+86049086756447969815057362491879184271662118777
+21616761344994650906881387122735130101636571052
+64559906025136865172262615799791196913108286037
+30870686736120983480646071979524565988415556211
+89979103761174458226636201867544028322841005469
+75220327810489296271028397543501936633946445408
+54828542034506598152799747777276307577783001254
+46163190919411727134856477923053227331124570871
+94322830350968985979373357020305196153528119081
+54595746674092743048895923198652644685232660662
+62013475716</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content"></span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2025-03-07
+        
+    </span>
+  </p>
+  
+  
+</div>
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/wechat.jpg">
+        <span>微信打赏</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/alipay.jpg">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/thinking/">thinking</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/probability_thingking/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">一个概率事件的启发</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/china_in_village/">
+            <span class="next-text nav-default">《一个村庄里的中国》-–— 改革，改变了什么</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:ddsteed@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/ddsteed" class="iconfont icon-github" title="github"></a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2012 - 
+    2025<span class="heart"><i class="iconfont icon-heart"></i></span><span></span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        tags: 'ams',
+        }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

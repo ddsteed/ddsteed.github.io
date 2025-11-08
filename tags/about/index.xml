@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on 点点马的蚂蚁窝</title>
+    <link>/tags/about/</link>
+    <description>Recent content in About on 点点马的蚂蚁窝</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 08 Apr 2023 11:38:00 +0800</lastBuildDate>
+    <atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于我自己</title>
+      <link>/about/index-zh/</link>
+      <pubDate>Sat, 08 Apr 2023 11:38:00 +0800</pubDate>
+      <guid>/about/index-zh/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/img/me.png&#34; width=&#34;200%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理工作，教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于我自己</title>
+      <link>/post/about/</link>
+      <pubDate>Fri, 22 Jun 2012 11:38:00 +0800</pubDate>
+      <guid>/post/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/img/avatar.jpg&#34; width=&#34;200px&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理，现在是一个自由打工者。教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thinking on 点点马的蚂蚁窝</title>
+    <link>/tags/thinking/</link>
+    <description>Recent content in Thinking on 点点马的蚂蚁窝</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 10 Mar 2025 09:32:00 +0800</lastBuildDate>
+    <atom:link href="/tags/thinking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一个概率事件的启发</title>
+      <link>/post/probability_thingking/</link>
+      <pubDate>Mon, 10 Mar 2025 09:32:00 +0800</pubDate>
+      <guid>/post/probability_thingking/</guid>
+      <description>&lt;p&gt;我们从中学开始，就学了概率和统计，但是大多数人都被那些绕来绕去的数学题搞得头昏脑胀，完全不知道这些思想在现实中有什么用处。其实，日常生活中，大量的事情都是由概率和统计来支撑的。脑袋里如果没有这个思想，就很容易犯错误，甚至被骗。我用一个例子来说明一下。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一个奇妙的数学思维</title>
+      <link>/post/math_thingking/</link>
+      <pubDate>Fri, 07 Mar 2025 11:14:00 +0800</pubDate>
+      <guid>/post/math_thingking/</guid>
+      <description>&lt;p&gt;数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
