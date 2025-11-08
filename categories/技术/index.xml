@@ -469,7 +469,8 @@
 &lt;p&gt;The idea behind the Language Server Protocol (LSP) is to standardize the protocol for how such servers and development tools communicate. This way, a single Language Server can be re-used in multiple development tools, which in turn can support multiple languages with minimal effort.&lt;/p&gt;
 &lt;p&gt;为一种编程语言添加自动补全，跳转到定义或悬停文档等功能需要很大的努力。在过去需要为每个开发工具重复这项工作，因为每个工具都提供不同的 API 来实现相同的功能。&lt;/p&gt;
 &lt;p&gt;语言服务器旨在提供特定语言的功能，并通过支持进程间通信的协议与开发工具进行通信。&lt;/p&gt;
-&lt;p&gt;语言服务协议（LSP）背后的想法是对此类服务器和开发工具如何通信的协议进行标准化。这样，单个语言服务器可以在多个开发工具中重复使用，从而可以以最小的努力支持多种语言。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;语言服务协议（LSP）背后的想法是对此类服务器和开发工具如何通信的协议进行标准化。这样，单个语言服务器可以在多个开发工具中重复使用，从而可以以最小的努力支持多种语言。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;这样，我们只需在 Emacs 里设置一个客户端，用来对接外部的 python 语言服务器程序，充分利用服务器的所有功能即可。&lt;/p&gt;
 &lt;h3 id=&#34;服务器&#34;&gt;服务器&lt;/h3&gt;
 &lt;p&gt;当前支持 python 最好的语法解析工具是微软开发的 &lt;code&gt;pyright&lt;/code&gt; ，以及它的分支

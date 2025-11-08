@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/post/deep_learning_hisitory.html</loc>
-    <lastmod>2025-10-14T10:28:00+08:00</lastmod>
+    <loc>/post/index.html</loc>
+    <lastmod>2025-11-08T19:11:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/index.html</loc>
+    <loc>/post/wuti.html</loc>
+    <lastmod>2025-11-08T19:11:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/deep_learning_hisitory.html</loc>
     <lastmod>2025-10-14T10:28:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
