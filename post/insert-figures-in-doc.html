@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage" data-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+    
+    文档中插入图形 - ddsteed&#39;s personal blog
+    </title>
+  
+
+  
+  
+  
+  <link rel="alternate" hreflang="en" href="/post/insert-figures-in-doc.html" />
+
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+
+
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta name="color-scheme" content="light dark" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<meta name="generator" content="Hugo 0.152.2" />
+
+
+<link rel="canonical" href="/post/insert-figures-in-doc.html" />
+
+
+
+
+<meta name="author" content="RDS" />
+<meta name="description" content="传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 xvgr 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &hellip;&hellip;。
+" />
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta name="keywords" content="tech" />
+
+
+<meta property="og:url" content="/post/insert-figures-in-doc.html">
+  <meta property="og:site_name" content="ddsteed&#39;s personal blog">
+  <meta property="og:title" content="文档中插入图形">
+  <meta property="og:description" content="传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 xvgr 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 ……。">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2023-02-02T11:35:00+08:00">
+    <meta property="article:modified_time" content="2023-02-02T11:35:00+08:00">
+    <meta property="article:tag" content="Tech">
+
+  <meta itemprop="name" content="文档中插入图形">
+  <meta itemprop="description" content="传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 xvgr 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 ……。">
+  <meta itemprop="datePublished" content="2023-02-02T11:35:00+08:00">
+  <meta itemprop="dateModified" content="2023-02-02T11:35:00+08:00">
+  <meta itemprop="wordCount" content="1626">
+  <meta itemprop="keywords" content="Tech">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="文档中插入图形">
+  <meta name="twitter:description" content="传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 xvgr 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 ……。">
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/style.min.a0ae63bb9404f735c1a2045deae9e97f06e10118e5ad7befa80df30c5cd7fabc.css" integrity="sha256-oK5ju5QE9zXBogRd6unpfwbhARjlrXvvqA3zDFzX&#43;rw=" media="screen"
+  crossorigin="anonymous">
+<style>
+  .wallpaper {
+    background-image: url('/static/img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+</style>
+
+
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+<script>
+  (function () {
+    var savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  })();
+</script>
+
+
+</head>
+
+<body>
+  <div id="back-to-top"></div>
+
+  <header class="site-header">
+    
+<div class="desktop-header">
+  <div class="desktop-header-logo">
+    <a href="/" class="logo">
+      
+      点点马的蚂蚁窝
+      
+    </a>
+  </div>
+
+  <nav class="desktop-navbar">
+    <ul id="menu" class="menu">
+      
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/index.html">首页</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/post/index.html">归档</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/about/index-zh.html">关于</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/tags/index.html">标签</a>
+        
+
+        
+
+      </li>
+      
+      <li class="menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/categories/index.html">分类</a>
+        
+
+        
+
+      </li>
+      
+
+      
+      
+
+      
+      <li class="menu-item">
+        <a class="menu-item-link" data-target="search-modal" onclick="toggleModal(event)" href="#">
+          
+<svg aria-hidden="true" class="lucide lucide-search hi-svg-inline icon--search" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </a>
+      </li>
+      
+
+      <li class="menu-item">
+        <a class="theme-toggle menu-item-link" href="javascript:void(0);">
+
+          
+<svg aria-hidden="true" class="lucide lucide-sun hi-svg-inline theme-icon-light" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+
+          
+<svg aria-hidden="true" class="lucide lucide-moon hi-svg-inline theme-icon-dark" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a class="menu-item-link" href="/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+          title="rss" target="_blank">
+          
+<svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        </a>
+        
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    
+
+<div class="mobile-header">
+  <div id="mobile-navbar" class="mobile-navbar">
+    <div id="mobile-navbar-icon" class="mobile-navbar-icon">
+      
+<svg aria-hidden="true" class="lucide lucide-menu hi-svg-inline icon--menu" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </div>
+    <div class="mobile-navbar-logo">
+      <a href="/" class="logo">点点马的蚂蚁窝</a>
+    </div>
+  </div>
+
+  <div id="mobile-menu-close-modal" class="mobile-menu-close-modal"></div>
+  <nav id="mobile-menu" class="mobile-menu">
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/index.html">首页</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/post/index.html">归档</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/about/index-zh.html">关于</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/tags/index.html">标签</a>
+        
+        
+      </li><li class="mobile-menu-item">
+        
+        
+        
+        <a class="menu-item-link" href="/categories/index.html">分类</a>
+        
+        
+      </li>
+      
+
+      
+      <li class="mobile-menu-item">
+        <a id="openSearchMobile" class="mobile-menu-item-link menu-item-search" href="#">
+          
+<svg aria-hidden="true" class="lucide lucide-search hi-svg-inline icon--search" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </a>
+      </li>
+      
+
+      <li class="mobile-menu-item">
+        <a class="theme-toggle menu-item-link" href="javascript:void(0);">
+
+          
+<svg aria-hidden="true" class="lucide lucide-sun hi-svg-inline theme-icon-light" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+
+          
+<svg aria-hidden="true" class="lucide lucide-moon hi-svg-inline theme-icon-dark" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+
+        </a>
+      </li>
+
+      <li class="mobile-menu-item">
+        <a class="menu-item-link" href="/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+          title="rss" target="_blank">
+          
+<svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline icon--rss" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        </a>
+        
+      </li>
+    </ul>
+  </nav>
+</div>
+
+  </header>
+
+  
+
+  
+    
+<div class="pico">
+  <dialog class="search-modal" id="search-modal">
+    
+    <article>
+      <header>
+        <button aria-label="Close" rel="prev" data-target="search-modal" onclick="toggleModal(event)"></button>
+        <p>Search</p>
+      </header>
+
+      <div class="modal-body">
+        <script>
+          (function () {
+            var cx = 'f3877591fadde42b6';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' :
+              'http:') +
+              '//cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <gcse:search></gcse:search>
+      </div>
+    </article>
+  </dialog>
+</div>
+
+  
+
+
+
+  <main id="main" class="main pico container">
+    <div class="content-wrapper">
+    <aside class="left-sidebar">
+      
+<nav class="toc" id="toc">
+    <div class="toc-title">Table of Contents</div>
+    <div class="toc-content custom-scrollbar">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#传统的文字-图形融合">传统的文字-图形融合</a></li>
+    <li><a href="#从程序的角度融合">从程序的角度融合</a></li>
+    <li><a href="#画图的程序语言选择">画图的程序语言选择</a></li>
+    <li><a href="#plantuml">plantuml</a>
+      <ul>
+        <li><a href="#范例">范例</a></li>
+        <li><a href="#文字和图片的融合">文字和图片的融合</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </nav>
+
+
+    </aside>
+
+    <div id="content" class="content">
+      <article class="post">
+        
+        <header class="post-header">
+          <h1 class="post-title">文档中插入图形</h1>
+          
+
+
+
+          <div class="post-meta-list">
+  <div class="post-meta-item post-meta-author">
+    
+<svg aria-hidden="true" class="lucide lucide-user-round-pen hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M2 21a8 8 0 0 1 10.821-7.487"/><path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/><circle cx="10" cy="8" r="5"/></svg>
+    <a href="/about">
+      <span class="post-meta-author-name">
+        RDS
+      </span>
+    </a>
+    
+  </div>
+
+  <div class="post-meta-item post-meta-time">
+    
+<svg aria-hidden="true" class="lucide lucide-calendar-days hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>
+    <time datetime=" 2023-02-02">
+      2023-02-02
+    </time>
+
+
+    
+
+  </div>
+
+
+  <div class="post-meta__right">
+    <span class="post-meta-more">
+      1626 words -
+      4 min read
+      
+      
+      - <a href="/post/insert-figures-in-doc.html#disqus_thread">Comments</a>
+      
+      - <span class="remark42__counter" data-url="/post/insert-figures-in-doc.html"></span> Comments
+      
+      </span>
+
+    <div class="post-meta-item post-meta-category">
+      
+        
+          
+        <a href="/categories/%E6%8A%80%E6%9C%AF.html">技术</a>
+    </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
+        </header>
+
+        
+        <div class="post-content">
+          <h2 id="传统的文字-图形融合">传统的文字-图形融合</h2>
+<p>一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 <code>xvgr</code> 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 &hellip;&hellip;。</p>
+<p>微软公司的 <code>word</code> 软件之所以那么流行，就是因为它可以在文档的编辑时，插入图片文件，而且让文字和图片融合起来。虽然每次调整图形的时候，鼠标把手指都要练废了，但效果也算差强人意。后来， <code>word</code> 还发展出了可以在字处理时，直接插入线条和几何形状，画出简单的图形。但这个图形和文字，还是可以看出，汤是汤，水是水，明显的两种类型。</p>
+<h2 id="从程序的角度融合">从程序的角度融合</h2>
+<p>从计算机和数学的角度来看，文字和图形其实都是编码的存储方式而已。文字也是算法生成和显示的，图形也是算法生成和显示的，为什么不能统一处理呢？D. Knuth 教授在发明 \(\TeX\) 软件时，就率先开发 <code>METAFONT</code> 来统一生成文字和图形，效果是相当的好。也难怪，人家 Knuth 大师本身就是数学家和算法大家，最年轻的图灵奖获得者，搞点这种算法，还不是雕虫小技 &hellip;&hellip;。</p>
+<p>借助 \(\TeX\) 标记型语言的思想，我们把文字的内容和排版分开，将排版的要求也用文字来描述，然后在后台用程序来识别对排版的要求，也就是说，排版其实是一种程序语言，不过人读起来很顺畅很简单。既然排版可以算作程序，那么，图形的制作为什么不能是程序设计呢？这样，我们在一个文档里，既写文字内容，又“写”图形的制作描述，还可以“写”数学公式，整个文档里只有 ASCII 码。方便编辑、复制、版本管理等。至于最后呈现给人阅读的样式，用后台程序来处理完成。</p>
+<h2 id="画图的程序语言选择">画图的程序语言选择</h2>
+<p>确定了用标记型语言来画图的思想后，操作上就有两个问题需要考虑：</p>
+<ol>
+<li>如何描述一个图形；</li>
+<li>画图的语言如何与文档无缝融合。</li>
+</ol>
+<p>从本质上来说，图形的描述也是基于数学的。所谓的图形，其实就是直线和曲线的组合。在线条的基础上，再生成三角形、四边形、多边形、圆形&hellip;&hellip;，然后在封闭的形状里，考虑是否填充进颜色。因此，一开始的画图语言，都是些数学函数的描述，比如 <code>gnuplot</code>, <code>metapost</code>, <code>tikz</code>, <code>Asymptote</code> 等。但就像造房子不能每次都从砌砖开始一样，可以生成一些作为积木的基本形状，然后用程序语言来组合。很多人潜意识地以为，那些好看的函数图形，肯定是数学公式生成的。但是随手涂鸦，就不好用数学公式描述了。其实不然，这个世界上什么东西不是数学的呢？:-) 只要你愿意，用数学公式来随手涂鸦，简直是一件乐趣。</p>
+<p>作图语言和文档的融合，倒不是大问题。但纯文本的 <code>txt</code> 文档，还是不太适合完成这样的工作。目前，最好的融合文字和其他语言的写作环境是 <code>org mode</code> 。它简直能识别几乎所有的作图语言，当然，它还能识别 <code>C/C++</code>, <code>java</code>, <code>shell</code>, <code>python</code>, &hellip;&hellip;.。所有的程序语言，在这里都被同等对待了。</p>
+<h2 id="plantuml">plantuml</h2>
+<p><a href="https://plantuml.com">plantuml官网</a></p>
+<p><code>plantuml</code> 是基于 <code>java</code> 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 <code>org mode</code> 里被 <code>org</code> 统一管理。我喜欢用它来画各种流程图，比开始我用 <code>draw.io</code> 生成 <code>png</code> 文件，再插入到文档中，要方便多了。</p>
+<h3 id="范例">范例</h3>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
+title AI Programming Flow
+start
+fork
+   :Training;
+   split
+     :Sample Data;
+   split again
+     #lightGreen:Expected Results;
+   end split
+   :Machine;
+   #red:Model;
+   stop
+fork again
+   :Prediction;
+   split
+     :New Data;
+   split again
+     #red:Model;
+   end split
+   :Machine;
+   :results;
+   end
+end fork
+@enduml</code></pre>
+</div>
+<h3 id="文字和图片的融合">文字和图片的融合</h3>
+<p>为什么说这里的图形和文档是融合的呢？实际上，在我的原始文档里，上述的内容是长这个样子的：</p>
+<div class="highlight-container">
+
+  <button class="copy-code-btn outline">Copy</button>
+
+  
+  <pre tabindex="0"><code class="language-nil" data-lang="nil"> ~plantuml~ 是基于 ~java~ 开发的画流程图等的语言，它可以单独运行，也可以嵌入到 ~org mode~
+里被 ~org~ 统一管理。我喜欢用它来画各种流程图，比开始我用 ~draw.io~ 生成 ~png~
+文件，再插入到文档中，要方便多了。
+
+  *** 范例
+  #+begin_src plantuml :file ../static/img/test.png
+    @startuml
+    title AI Programming Flow
+    start
+    fork
+       :Training;
+       split
+         :Sample Data;
+       split again
+         #lightGreen:Expected Results;
+       end split
+       :Machine;
+       #red:Model;
+       stop
+    fork again
+       :Prediction;
+       split
+         :New Data;
+       split again
+         #red:Model;
+       end split
+       :Machine;
+       :results;
+       end
+    end fork
+    @enduml
+  \+end_src</code></pre>
+</div>
+<p>这就是 Knuth 教授一再推崇的 &ldquo;literal programming&rdquo; 啊，整个世界大统一了。</p>
+
+        </div>
+
+        
+        
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">RDS</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+      2023-02-02
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+
+        
+        
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">Reward</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/wechat.jpg">
+        <span>Wechat</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/alipay.jpg">
+        <span>Alipay</span>
+      </label>
+  </div>
+</div>
+
+
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/tech.html">tech</a>
+                
+            </div>
+
+
+          
+          <nav class="post-nav">
+            
+              <a class="prev" href="/post/writing-own-words.html">
+                
+                <i class="iconfont">
+                  
+<svg aria-hidden="true" class="lucide lucide-chevron-left hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m15 18-6-6 6-6"/></svg>
+                </i>
+                <span class="prev-text nav-default">《阅读的方法》--–—用自己的话表达思想</span>
+                <span class="prev-text nav-mobile">Prev</span>
+              </a>
+            
+              <a class="next" href="/post/reading-steps.html">
+                <span class="next-text nav-default">读书的步骤</span>
+                <span class="prev-text nav-mobile">Next</span>
+                
+                <i class="iconfont">
+                  
+<svg aria-hidden="true" class="lucide lucide-chevron-right hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m9 18 6-6-6-6"/></svg>
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
+        
+      
+
+
+      
+      
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+
+    
+
+  
+
+  <div id="remark42"></div>
+
+
+    </div>
+
+    <aside class="right-sidebar">
+      
+    </aside>
+  </div>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <div class="social-icon-links">
+  
+
+
+<a href="mailto:ddsteed@gmail.com" rel="me noopener" class="social-icon-link" title="email" >
+  
+<svg aria-hidden="true" class="icon hi-svg-inline" fill="currentColor" height="1em" version="1.1" viewBox="0 0 1451 1024" width="1em" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+</a>
+<a href="https://github.com/ddsteed" rel="me noopener" class="social-icon-link" title="github"  target="_blank" >
+  
+<svg aria-hidden="true" class="icon hi-svg-inline" fill="currentColor" height="1em" version="1.1" viewBox="0 0 1024 1024" width="1em" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+</a>
+
+
+<a href="/index.xml" rel="noopener alternate" type="application/rss&#43;xml" class="social-icon-link" title="rss"
+  target="_blank">
+  
+<svg aria-hidden="true" class="lucide lucide-rss hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+    2012 -
+    2025
+    <span class="heart">
+      
+      <i class="iconfont">
+        
+<svg aria-hidden="true" class="lucide lucide-heart hi-svg-inline" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+      </i>
+    </span><span class="author">
+      RDS
+      
+    </span></span>
+
+  
+  
+
+  
+</div>
+
+  </footer>
+
+  
+
+
+
+
+<script type="text/javascript" src="/js/main.0ae4478d26110e1a39b7212e667f39e0d07fdea4ad17c6517c68bb0add488810.js" integrity="sha256-CuRHjSYRDho5tyEuZn854NB/3qStF8ZRfGi7Ct1IiBA=" crossorigin="anonymous"></script>
+
+
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css"
+    integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG"
+    crossorigin="anonymous">
+
+  
+  <script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.js"
+    integrity="sha384-JiKN5O8x9Hhs/UE5cT5AAJqieYlOZbGT3CHws/y97o3ty4R7/O5poG9F3JoiOYw1"
+    crossorigin="anonymous"></script>
+
+  
+  <script defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+    crossorigin="anonymous" onload="renderMathInElement(document.body);">
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        
+      });
+    });
+  </script>
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+
+
+
+<script>
+  var remark_config = {
+    host: 'https:\/\/remark42.example.com',
+    site_id: 'remark',
+    theme: document.documentElement.getAttribute('data-theme') || 'light',
+    components: [
+    'embed',
+    'counter',
+    ],
+  }
+  !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+</script>
+
+
+
+  <script>
+  
+
+
+  
+  const isOpenClass = "modal-is-open";
+  const openingClass = "modal-is-opening";
+  const closingClass = "modal-is-closing";
+  const scrollbarWidthCssVar = "--pico-scrollbar-width";
+  const animationDuration = 400; 
+  let visibleModal = null;
+
+  
+  const toggleModal = (event) => {
+    event.preventDefault();
+    const modal = document.getElementById(event.currentTarget.dataset.target);
+    if (!modal) return;
+    modal && (modal.open ? closeModal(modal) : openModal(modal));
+  };
+
+  
+  const openModal = (modal) => {
+    const { documentElement: html } = document;
+    const scrollbarWidth = getScrollbarWidth();
+    if (scrollbarWidth) {
+      html.style.setProperty(scrollbarWidthCssVar, `${scrollbarWidth}px`);
+    }
+    html.classList.add(isOpenClass, openingClass);
+    setTimeout(() => {
+      visibleModal = modal;
+      html.classList.remove(openingClass);
+    }, animationDuration);
+    modal.showModal();
+  };
+
+  
+  const closeModal = (modal) => {
+    visibleModal = null;
+    const { documentElement: html } = document;
+    html.classList.add(closingClass);
+    setTimeout(() => {
+      html.classList.remove(closingClass, isOpenClass);
+      html.style.removeProperty(scrollbarWidthCssVar);
+      modal.close();
+    }, animationDuration);
+  };
+
+  
+  document.addEventListener("click", (event) => {
+    if (visibleModal === null) return;
+    const modalContent = visibleModal.querySelector("article");
+    const isClickInside = modalContent.contains(event.target);
+    !isClickInside && closeModal(visibleModal);
+  });
+
+  
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && visibleModal) {
+      closeModal(visibleModal);
+    }
+  });
+
+  
+  const getScrollbarWidth = () => {
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    return scrollbarWidth;
+  };
+
+  
+  const isScrollbarVisible = () => {
+    return document.body.scrollHeight > screen.height;
+  };
+  </script>
+
+
+
+
+
+</body>
+
+</html>
