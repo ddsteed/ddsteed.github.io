@@ -20,8 +20,7 @@
       <author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/org-hugo-blog.html</guid>
       
-        <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;
-&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;
+        <description>&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；&lt;/li&gt;
 &lt;li&gt;使用 hugo 建立静态网页；&lt;/li&gt;
