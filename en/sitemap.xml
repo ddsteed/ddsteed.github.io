@@ -541,6 +541,13 @@
   </url>
   
   <url>
+    <loc>/post/about.html</loc>
+    <lastmod>2012-06-22T11:38:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/about/index-en.html</loc>
     <lastmod>2025-10-12T18:42:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
