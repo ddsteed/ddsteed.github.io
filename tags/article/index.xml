@@ -1,40 +1,437 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Article on 点点马的蚂蚁窝</title>
-    <link>/tags/article/</link>
-    <description>Recent content in Article on 点点马的蚂蚁窝</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
+    <title>Article on ddsteed&#39;s personal blog</title>
+    <link>/tags/article.html</link>
+    <description>Recent content in Article on ddsteed&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
     <lastBuildDate>Sun, 15 Jan 2023 21:19:00 +0800</lastBuildDate>
-    <atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>使用 Org-Mode&#43;ox-hugo&#43;github page 创建个人 Blog</title>
-      <link>/post/org-hugo-blog/</link>
-      <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate>
-      <guid>/post/org-hugo-blog/</guid>
-      <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;&#xA;&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；&lt;/li&gt;&#xA;&lt;li&gt;使用 hugo 建立静态网页；&lt;/li&gt;&#xA;&lt;li&gt;将本地静态网页发布到互联网上。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;org-mode-写文档&#34;&gt;org-mode 写文档&lt;/h2&gt;&#xA;&lt;p&gt;org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 &lt;a href=&#34;https://orgmode.org&#34;&gt;org mode&lt;/a&gt; 网站，学习如何使用 org-mode 模式。&lt;/p&gt;</description>
+      <link>/post/org-hugo-blog.html</link>
+      <pubDate>Sun, 15 Jan 2023 21:19:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/org-hugo-blog.html</guid>
+      
+        <description>&lt;p&gt;:ID:       7BD855BC-853C-4DA0-B85E-641ED741932E&lt;/p&gt;
+&lt;p&gt;这里有三个概念首先需要理清：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；&lt;/li&gt;
+&lt;li&gt;使用 hugo 建立静态网页；&lt;/li&gt;
+&lt;li&gt;将本地静态网页发布到互联网上。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;org-mode-写文档&#34;&gt;org-mode 写文档&lt;/h2&gt;
+&lt;p&gt;org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 &lt;a href=&#34;https://orgmode.org&#34;&gt;org mode&lt;/a&gt; 网站，学习如何使用 org-mode 模式。&lt;/p&gt;
+&lt;h2 id=&#34;hugo-制作网页&#34;&gt;hugo 制作网页&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;hugo&lt;/code&gt; 是一个静态网站生成器。所谓网站，就是有逻辑关系的各 html 网页组成的集合。html 本质上也是一种标记语言，呈现的样式用特殊的标记来指明。由于组成网站的每个 html 网页的样式基本是相同的，因此，对于网站来说，更好的方式是把样式统一在一起。这些样式说明文件以 css 语言最为流行。&lt;/p&gt;
+&lt;h3 id=&#34;快速建立网站&#34;&gt;快速建立网站&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quickstart&lt;/a&gt; 介绍了如何使用 hugo 快速建立一个网站，非常实用。这里我将模仿使用的命令记录如下：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-5&#34;&gt;5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-6&#34;&gt;6&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site quickstart
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;cd&lt;/span&gt; quickstart
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; config.toml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;进入建立好的 quickstart 目录，检查 hugo 大致的目录结构如下：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-1-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-1-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── archetypes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── assets
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── config.toml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── content
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── data
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── layouts
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── public
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── resources
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── static
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── themes&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;其中，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;config.toml 文件为基本设置文件，网站样式都可以在这里指定。&lt;/li&gt;
+&lt;li&gt;themes 下包含多种不同的样式模版，可以到网上寻找喜欢的模版并改造。&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;content/post 目录下是原始的文章内容，hugo 只认 markdwon 格式的。&lt;/li&gt;
+&lt;li&gt;public 目录下所有的内容可以打包发布出去。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;本地浏览网站&#34;&gt;本地浏览网站&lt;/h3&gt;
+&lt;p&gt;在 hugo 网站目录下执行：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-2-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-2-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;然后打开浏览器，输入网址：&lt;a href=&#34;http://127.0.0.1:1313&#34;&gt;http://127.0.0.1:1313&lt;/a&gt; 。则可以浏览网站所有内容。&lt;/p&gt;
+&lt;h3 id=&#34;发布网站内容&#34;&gt;发布网站内容&lt;/h3&gt;
+&lt;p&gt;在 hugo 网站目录下执行：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;则在 public 目录下会生成所有静态网站所需的全部文档，把这个目录下的所有内容拷贝到支持的域名中即可。&lt;/p&gt;
+&lt;h2 id=&#34;ox-hugo&#34;&gt;ox-hugo&lt;/h2&gt;
+&lt;p&gt;org-mode 写成的 &lt;code&gt;.org&lt;/code&gt; 文档，可以直接输出成 &lt;code&gt;.md&lt;/code&gt; 格式。然后拷贝到 hugo 网站的 content/post 目录下，用 hugo 进行管理，发布成静态网页。但这样的方式显得很“愚笨”，也不利于 org 的统一管理，尤其是想直接把 org-roam 建立的个人笔记系统中的文章发布在博客上。这时，我们可以采用 ox-hugo 宏包来方便处理。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在 emacs 的设置文件中加入：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-4-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-4-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#007020&#34;&gt;use-package&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;ox-hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;:ensure&lt;/span&gt; &lt;span style=&#34;color:#60add5&#34;&gt;t&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;:pin&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;melpa&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007020&#34;&gt;:after&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;ox&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 hugo 网站下建立目录&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-5-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-5-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir content-org&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在该目录下建立文件&amp;mdash; all-posts.org，其表头内容如下：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-6-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-6-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-6-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-6-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+hugo_base_dir: ../
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#+hugo_section: ./post/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;这里，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HUGO_BASE_DIR:&lt;/strong&gt; 这里是博客的根目录，因为我的 &lt;code&gt;org&lt;/code&gt; 文件放在博客根目录下的 content-org，所以这里博客的根目录就是 “../” ，也就是本目录的上一层目录&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HUGO_SECTION:&lt;/strong&gt; 生成的 &lt;code&gt;markdown&lt;/code&gt; 文件的位置，比如 &amp;ldquo;./post/&amp;rdquo; 就会将 &lt;code&gt;markdown&lt;/code&gt; 文件生成在博客根目录下的 &amp;ldquo;content/post/&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后在里面按照 org-mode 的格式添加博客文章，比如：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-7-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-7-5&#34;&gt;5&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;​*  DONE 使用 Org-Mode+ox-hugo+github page 创建个人 Blog       :tech:@技术:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  CLOSED: [2023-01-14 Sat 16:36] SCHEDULED: &amp;lt;2023-01-14 Sat&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :PROPERTIES:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :EXPORT_FILE_NAME: org-hugo-blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  :END:&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;即，每一篇博客文章都作为 all-posts.org 文件里的一级标题，且必须包含如下三行：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-8-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-8-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-8-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-8-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-8-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-8-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:PROPERTIES:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:EXPORT_FILE_NAME: filename
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:END:&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;状态为 DONE 的文章，才会被正式发布出去。如果是 TODO，则在本地预览时，也可看到。当然，还可以添加 tag 和 category。这样设置以后的文档出现在网站的不同分类中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;每当更新完一篇博客文章后，都在 all-posts.org 文件里执行：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;C-c&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;C-e&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;H&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;发布到-github-静态网站上&#34;&gt;发布到 github 静态网站上&lt;/h2&gt;
+&lt;p&gt;如果有域名，则可以将 public 目录下的所有内容拷贝上去即可。github 网站提供了一个免费的个人 blog 方法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 github 上建立 yourname.github.io 仓库。（注意：必须是你在 github 上的账号名作为 yourname。）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2。 在 public 目录下建立 git 仓库：&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-10-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-10-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-10-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-10-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add github git@github.com:yourname/yourname.github.io.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;以后每次博客更新后，都按照 git 的方式提交就好了。&lt;/p&gt;
+&lt;div class=&#34;highlight-container&#34;&gt;
+
+  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
+
+  
+  &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -f github master&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;github.io&lt;/code&gt; 经常被屏蔽，可以尝试在阿里云上申请个人域名，再用域名解析的方式将 &lt;code&gt;github.io&lt;/code&gt; 绑定。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;采用他人的主题，大多数只需要修改 &lt;code&gt;config.toml&lt;/code&gt; 文件即可。但若想完全改造成自己希望的样式，还是需要深入到目录内部。因此，一旦选定了某个 theme，好好地定制一下，不要随便更新。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>如何与世界相处</title>
-      <link>/post/how-to-live-with-world/</link>
+      <link>/post/how-to-live-with-world.html</link>
       <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
-      <guid>/post/how-to-live-with-world/</guid>
-      <description>&lt;p&gt;:ID:       410ACF3E-4029-4197-B95D-97C8774363C9&lt;/p&gt;&#xA;&lt;h2 id=&#34;如何做一个靠谱的人&#34;&gt;如何做一个靠谱的人&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;事事有回音；凡事有交代；件件有着落。&lt;/li&gt;&#xA;&lt;li&gt;及时反馈，形成闭环。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;团队精神&#34;&gt;团队精神&lt;/h2&gt;&#xA;&lt;h3 id=&#34;思维决定位置&#34;&gt;思维决定位置&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;领导者：“这事我负责!”&lt;/li&gt;&#xA;&lt;li&gt;顶梁柱：“这事我搞定!”&lt;/li&gt;&#xA;&lt;li&gt;左右手：“这事我来做!”&lt;/li&gt;&#xA;&lt;li&gt;基层人：“这事我要学。”&lt;/li&gt;&#xA;&lt;li&gt;多余人：“这事找谁啊?”&lt;/li&gt;&#xA;&lt;li&gt;垃圾人：“这事不怪我。”&lt;/li&gt;&#xA;&lt;li&gt;落后者：“这事没人教。”&lt;/li&gt;&#xA;&lt;li&gt;寄生虫：“这事为什么我来做?”&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;如何做一个管理者&#34;&gt;如何做一个管理者&lt;/h2&gt;&#xA;&lt;h3 id=&#34;优秀领导者的特质&#34;&gt;优秀领导者的特质&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;有勾画蓝图的能力&lt;/li&gt;&#xA;&lt;li&gt;有让他人追随你的能力&lt;/li&gt;&#xA;&lt;li&gt;有实现理想与抱负的能力&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;案例-曹操&#34;&gt;案例：曹操&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;真心实意，以情感人；&lt;/li&gt;&#xA;&lt;li&gt;推心置腹，以诚待人；&lt;/li&gt;&#xA;&lt;li&gt;开诚布公，以理服人；&lt;/li&gt;&#xA;&lt;li&gt;言行一致，以信取人；&lt;/li&gt;&#xA;&lt;li&gt;令行禁止，以法制人；&lt;/li&gt;&#xA;&lt;li&gt;设身处地，以宽容人；&lt;/li&gt;&#xA;&lt;li&gt;扬人责己，以功归人；&lt;/li&gt;&#xA;&lt;li&gt;论功行赏，以奖励人。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/how-to-live-with-world.html</guid>
+      
+        <description>&lt;p&gt;:ID:       410ACF3E-4029-4197-B95D-97C8774363C9&lt;/p&gt;
+&lt;h2 id=&#34;如何做一个靠谱的人&#34;&gt;如何做一个靠谱的人&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;事事有回音；凡事有交代；件件有着落。&lt;/li&gt;
+&lt;li&gt;及时反馈，形成闭环。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;团队精神&#34;&gt;团队精神&lt;/h2&gt;
+&lt;h3 id=&#34;思维决定位置&#34;&gt;思维决定位置&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;领导者：“这事我负责!”&lt;/li&gt;
+&lt;li&gt;顶梁柱：“这事我搞定!”&lt;/li&gt;
+&lt;li&gt;左右手：“这事我来做!”&lt;/li&gt;
+&lt;li&gt;基层人：“这事我要学。”&lt;/li&gt;
+&lt;li&gt;多余人：“这事找谁啊?”&lt;/li&gt;
+&lt;li&gt;垃圾人：“这事不怪我。”&lt;/li&gt;
+&lt;li&gt;落后者：“这事没人教。”&lt;/li&gt;
+&lt;li&gt;寄生虫：“这事为什么我来做?”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;如何做一个管理者&#34;&gt;如何做一个管理者&lt;/h2&gt;
+&lt;h3 id=&#34;优秀领导者的特质&#34;&gt;优秀领导者的特质&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;有勾画蓝图的能力&lt;/li&gt;
+&lt;li&gt;有让他人追随你的能力&lt;/li&gt;
+&lt;li&gt;有实现理想与抱负的能力&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;案例-曹操&#34;&gt;案例：曹操&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;真心实意，以情感人；&lt;/li&gt;
+&lt;li&gt;推心置腹，以诚待人；&lt;/li&gt;
+&lt;li&gt;开诚布公，以理服人；&lt;/li&gt;
+&lt;li&gt;言行一致，以信取人；&lt;/li&gt;
+&lt;li&gt;令行禁止，以法制人；&lt;/li&gt;
+&lt;li&gt;设身处地，以宽容人；&lt;/li&gt;
+&lt;li&gt;扬人责己，以功归人；&lt;/li&gt;
+&lt;li&gt;论功行赏，以奖励人。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>构建笔记系统</title>
-      <link>/post/create-notes/</link>
+      <link>/post/create-notes.html</link>
       <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
-      <guid>/post/create-notes/</guid>
-      <description>&lt;p&gt;:ID:       328E7380-BF24-417E-B052-4BAD54BA7B04&lt;/p&gt;&#xA;&lt;p&gt;学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdquo;。笔记系统不仅可以帮助我们收集、整理、归纳所学的知识，还能够启发我们发现知识的联系。因此，做好一个笔记系统是非常必要的。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/create-notes.html</guid>
+      
+        <description>&lt;p&gt;:ID:       328E7380-BF24-417E-B052-4BAD54BA7B04&lt;/p&gt;
+&lt;p&gt;学习、积累、融合、创新，这是我们创造知识的基本步骤。在这个过程中，笔记系统起着重要的作用。俗话说：&amp;ldquo;好记性不如烂笔头&amp;rdquo;。笔记系统不仅可以帮助我们收集、整理、归纳所学的知识，还能够启发我们发现知识的联系。因此，做好一个笔记系统是非常必要的。&lt;/p&gt;
+&lt;p&gt;理解笔记系统，我们要先明白一些原理。&lt;a href=&#34;https://www.zhihu.com/question/23427617/answer/1461195696&#34;&gt;如何构建自己的笔记系统&lt;/a&gt;一文，将原理阐述的比较清楚。&lt;a href=&#34;https://zhuanlan.zhihu.com/p/353521308&#34;&gt;实际操作篇&lt;/a&gt;也有助于做好一个有用的笔记系统。&lt;/p&gt;
+&lt;h2 id=&#34;记笔记的原则&#34;&gt;记笔记的原则&lt;/h2&gt;
+&lt;p&gt;具体写笔记时，要遵循一些重要的原则：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不能原文照抄&lt;/li&gt;
+&lt;li&gt;要用作者或者文中主人公的视角进行主要论点的叙述&lt;/li&gt;
+&lt;li&gt;尽量写下自己的思考和评述&lt;/li&gt;
+&lt;li&gt;尽可能地写下论点形成的逻辑过程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;笔记的作用&#34;&gt;笔记的作用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;整理知识点&lt;/li&gt;
+&lt;li&gt;梳理脉络，明晰结构&lt;/li&gt;
+&lt;li&gt;方便交叉检索&lt;/li&gt;
+&lt;li&gt;方便日后查询和回忆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;强力研读笔记&#34;&gt;强力研读笔记&lt;/h2&gt;
+&lt;p&gt;（摘自万维钢精英日课）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;清晰表现每一章的逻辑脉络&lt;/li&gt;
+&lt;li&gt;带走书中所有的亮点&lt;/li&gt;
+&lt;li&gt;大量自己的看法和心得&lt;/li&gt;
+&lt;li&gt;发现这本书和以前读过的其它书或文章的联系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;如何记笔记&#34;&gt;如何记笔记&lt;/h2&gt;
+&lt;p&gt;:ID:       0C0CF913-8F0D-442F-A127-DF120D32CD9D&lt;/p&gt;
+&lt;p&gt;笔记是学习过程中重要的工具。从一张随手记录的纸，到精心装扮的笔记本，甚而到今天各种花里胡哨的电子笔记本，都可以作为笔记的承载体。如何做好笔记，必须始终基于一个基本原则：笔记的内容是为了帮助大脑学习、理解、链接，最终固化为自己牢靠的知识体系。&lt;/p&gt;
+&lt;h3 id=&#34;笔记的基本形式&#34;&gt;笔记的基本形式&lt;/h3&gt;
+&lt;p&gt;按功能分，笔记有三种基本形式：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;随手记录的所思所想所悟；&lt;/li&gt;
+&lt;li&gt;逐步更新的学习记录；&lt;/li&gt;
+&lt;li&gt;基本定型的学习记录，可用于今后的索引。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;更多的形式，反而会阻碍笔记的记录。尽量简化形式，注重实际。&lt;/p&gt;
+&lt;h3 id=&#34;如何做笔记&#34;&gt;如何做笔记&lt;/h3&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>学习的途径</title>
-      <link>/post/study-road/</link>
+      <link>/post/study-road.html</link>
       <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
-      <guid>/post/study-road/</guid>
-      <description>&lt;p&gt;:ID:       D1CF20C0-7229-47D0-9FB8-9273D908C661&lt;/p&gt;&#xA;&lt;h2 id=&#34;唯一有效的四种方法&#34;&gt;唯一有效的四种方法&lt;/h2&gt;&#xA;&lt;p&gt;理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了，这是非常肤浅的。若想掌握某项知识，并能在今后的工作生活中灵活运用，正确的学习途径就必不可少：&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/study-road.html</guid>
+      
+        <description>&lt;p&gt;:ID:       D1CF20C0-7229-47D0-9FB8-9273D908C661&lt;/p&gt;
+&lt;h2 id=&#34;唯一有效的四种方法&#34;&gt;唯一有效的四种方法&lt;/h2&gt;
+&lt;p&gt;理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了，这是非常肤浅的。若想掌握某项知识，并能在今后的工作生活中灵活运用，正确的学习途径就必不可少：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;同时运用多种方式学习和记忆：包括视听结合、手写机打，总之就是尽可能调动一切接收信息的能力；&lt;/li&gt;
+&lt;li&gt;及时复习：遗忘曲线不可盲从，但必须得有间隔性地复习；&lt;/li&gt;
+&lt;li&gt;用自己的语言复述或者写作下来，切不可照抄；&lt;/li&gt;
+&lt;li&gt;将所学习的内容加入到自己已有的知识网状结构中，使之成为网络中的一个节点，与原有的知识形成关联。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

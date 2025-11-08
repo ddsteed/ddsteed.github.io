@@ -1,61 +1,288 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>读书 on 点点马的蚂蚁窝</title>
-    <link>/categories/%E8%AF%BB%E4%B9%A6/</link>
-    <description>Recent content in 读书 on 点点马的蚂蚁窝</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
+    <title>读书 on ddsteed&#39;s personal blog</title>
+    <link>/categories/%E8%AF%BB%E4%B9%A6.html</link>
+    <description>Recent content in 读书 on ddsteed&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
     <lastBuildDate>Tue, 14 Oct 2025 10:28:00 +0800</lastBuildDate>
-    <atom:link href="/categories/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="/categories/%E8%AF%BB%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>《深度学习革命》-–— 一部波澜壮阔的当代人工智能简史</title>
-      <link>/post/deep_learning_hisitory/</link>
+      <link>/post/deep_learning_hisitory.html</link>
       <pubDate>Tue, 14 Oct 2025 10:28:00 +0800</pubDate>
-      <guid>/post/deep_learning_hisitory/</guid>
-      <description>&lt;p&gt;断断续续，用了两个星期看完了这本关于当代人工智能简介的书。由于人工智能这几年的火爆，类似题材的书已经很多了，但大多数都翻了几页就放下，引不起兴趣。因为这些作者对于人工智能的发展，尤其是深度学习的起起落落，都是人云亦云，没有新意。仿佛深度学习 就是天上掉下来一样，突然就火了。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/deep_learning_hisitory.html</guid>
+      
+        <description>&lt;p&gt;断断续续，用了两个星期看完了这本关于当代人工智能简介的书。由于人工智能这几年的火爆，类似题材的书已经很多了，但大多数都翻了几页就放下，引不起兴趣。因为这些作者对于人工智能的发展，尤其是深度学习的起起落落，都是人云亦云，没有新意。仿佛深度学习 就是天上掉下来一样，突然就火了。&lt;/p&gt;
+&lt;p&gt;而被成为深度学习教父的杰弗里·辛顿，为什么突然获得了计算机的最高奖&amp;mdash;图灵奖，以及更重要的诺贝尔物理学奖，很多人都一头雾水。在本书里，详细讲述了这个坚持的老头，如 何影响深度学习领域，并影响谷歌这样大公司的 AI 发展。读完之后，就会明白，辛顿作为教父，当之无愧。&lt;/p&gt;
+&lt;p&gt;世人比较熟知辛顿的学生伊利亚，因为他是如日中天的 OpenAI 公司的创始 CTO。对于另一个学生，阿列克斯，就少有人知晓了。实际上，伊利亚以纯粹技术家闻名，阿列克斯就更是一个只关心技术的“宅男”了。当初深度学习再度被认可，就是师徒三人，打造了一个 Alex-Net，在李飞飞的 ImageNet 识别比赛中，一举夺魁。这里的 Alex，就是阿列克斯的名字。师徒三人创建了一个公司，什么产品都没有，只有三个人，就被谷歌公司以 4400 万美元收购了。不看重具体的产品，只是因为这三个人。&lt;/p&gt;
+&lt;p&gt;杨立昆在 Meta，约书奥在微软，都深刻影响了这些企业的人工智能发展。书里把脉络梳理得又清楚又有故事性。而哈萨比斯如何创立 DeepMind，并被谷歌收购之后发挥重要作用的内幕，也徐徐道来，读起来津津有味。&lt;/p&gt;
+&lt;p&gt;这本书中译本有两个缺点：一是人名的翻译实在是别扭，大概译者并不太了解深度学习领域；二是书名实在是不好。现在的名字让人一看就以为是本技术书，但原书名是：Genius Makers: The Mavericks Who Brought AI。这明显是传记类，重点是人啊。尤其这个 Mavericks，简直是神来之笔：标新立异的人，不合常规的人。&lt;/p&gt;
+&lt;p&gt;深度学习的领导者们，配得上这个称呼。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/deep_learning_history.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/deep_learning_history.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;很久没有读到这么好的技术传记类书了，好像只有 20 年前，读米歇尔·沃尔德洛普的《复杂：诞生于秩序与混沌边缘的科学》可以比拟。还记得读《复杂》时，心潮澎湃，极其渴望投身到复杂科学研究的队伍里。可惜那时没有胆量，不敢放弃熟悉的研究领域。今天，我很开心，看到了深度学习的前景，更投身进了这个领域。即使没有成功，也不会后悔。&lt;/p&gt;
+&lt;p&gt;以前在学校时，总觉得自己的研究与社会是脱节的，心里十分惶恐。而真正的研究，是应该要解决实际的问题。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>《一个村庄里的中国》-–— 改革，改变了什么</title>
-      <link>/post/china_in_village/</link>
+      <link>/post/china_in_village.html</link>
       <pubDate>Sun, 16 Feb 2025 21:28:00 +0800</pubDate>
-      <guid>/post/china_in_village/</guid>
-      <description>&lt;p&gt;这本书在我的书库里放了很久，都没有翻开来读。一是太厚重，二来也太沉重。但心里一直记挂着它，于是借这次来北京办事，路途和晚上，没有其他什么事，也就排除干扰，认真读完。果然如自己所料，读完之后，沉重的部分更加沉重，而当年迷茫之处，似乎也没有开悟多少。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/china_in_village.html</guid>
+      
+        <description>&lt;p&gt;这本书在我的书库里放了很久，都没有翻开来读。一是太厚重，二来也太沉重。但心里一直记挂着它，于是借这次来北京办事，路途和晚上，没有其他什么事，也就排除干扰，认真读完。果然如自己所料，读完之后，沉重的部分更加沉重，而当年迷茫之处，似乎也没有开悟多少。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/china_in_village.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/china_in_village.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;《一个村庄里的中国》以作者熊培云从小生活的小堡村为例，讲述了一个村庄近百年的变迁，进而引伸出国家的变化。中国几千年来都是一个农业国家，虽然近 30 年，随着世界潮流的进步，也大大加快了现代化的进程。但各种社会现象，以及出现的很多社会问题，本质上都与农村、农业和农民息息相关。我博士毕业的 2001 年前后，曾经社会上很热烈地讨论“三农”问题。当时，一个年轻的乡党委书记&amp;mdash;李昌平，给总理写了封信，大声呼吁：农民真苦、农村真穷、农业真危险！引起了社会极大的反响，高层也开始认真对待“三农”。我当时读了很多相关的书籍和文章，和志刚、唐博士都不止一次激烈争辩过类似话题，那就是，农民的问题，到底是个人因素多还是国家因素重？&lt;/p&gt;
+&lt;p&gt;封建帝王时代，自不必说，农民只是维系社会运转的零件而已。“草民”、“蚁民”、“贱民”等称呼，有自嘲的，有被强加的。但对于统治者来说，大约农民和一棵草、一只蚂蚁，真不会有多大区别。到了民国时代，从上层到社会中坚，很多人开始反思，如果农民不富足不开化，国家怎么称得上发达？国家又如何与列强抗衡？上个世纪二十年代开始的各种改革，有官方的，有自发的，有热血人士主动深入农村试验的&amp;hellip;&amp;hellip;，不一而足。但结果毫无例外，自然都是失败了。&lt;/p&gt;
+&lt;p&gt;因为土改，吸引了更多农村子弟参与革命。到了胜利，又回到农村。曾经的土地流转，最后又复归原点。底层的人民，似乎什么都没有拥有过，而有些人，却上下其手，城乡通吃，两面的利益都获取了。如今的乡村，青壮年流失严重，老少两极留守，诸多问题，基本是靠个体和家庭来消化。经济高速发展的时候，城市还可以带动农村。等到经济减缓或者停滞时，城市还需要农村来反哺。而克强总理曾经公开的数据 &amp;mdash;&amp;mdash; 6 亿人口，月收入低于千元 &amp;mdash;&amp;mdash; 如何平衡呢？&lt;/p&gt;
+&lt;p&gt;一个村庄的百年变迁，似乎也没有逃过多少轮回的命运。村庄里看出的国家，又有多少人的命运，在时代的潮流中反复轮回？&lt;/p&gt;
+&lt;p&gt;我虽然是油田出生的孩子，但从小钻井公司的大院围墙外，都是农村。我也喜欢一个人，经常翻出围墙，到田野里疯跑。经常跑累了，就静静地坐在田间地头，和农民聊天。或者，就抱膝席地而坐，看天上的白云散了又聚，聚了又散。父亲也经常给我讲小时候在农村的各种苦日子，家族曾经发达过，但在爷爷小时候，他的父亲早逝，于是家道中落，孤儿寡母，和大多人农人一样，苦苦维持着生计。父亲兄弟姊妹六人，也只有他读书考学离开了农村。于是，《一个村庄里的中国》里描述的小堡村，我读起来仿佛就很熟悉，很像父亲从小生活的地方，而里面的人，大约也像我的爷爷们。&lt;/p&gt;
+&lt;p&gt;还在本科时，我就读过教员写的《湖南农民运动考察报告》、《论十大关系》等文章。当时模模糊糊，并不真切地明白里面的很多含义。如今，自己感受过更多的社会百态，也有了一些感悟。可是，真实世界里的很多朋友，似乎在城里待久了，或者从未感触过农村的具体生活，常常觉得我在夸张。我想，大家如果都来读读《一个村庄里的中国》，感受一下真实的农村，同理心和社会心大概都会好很多。在这个世界里，大家的悲欢，并不相同。倘若能相通一些，也许能少许多争吵。&lt;/p&gt;
+&lt;p&gt;我总怀疑熊培云和我是一个年代的人，检索之后，果不其然。书斋里象牙塔中的知识分子啊，也要多写一些这样的文章才好，多读一些这样的文章才好。&lt;/p&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>《胡适文集》 -–— 温和的力量</title>
-      <link>/post/hushi/</link>
+      <link>/post/hushi.html</link>
       <pubDate>Tue, 12 Nov 2024 19:56:00 +0800</pubDate>
-      <guid>/post/hushi/</guid>
-      <description>&lt;p&gt;这段时间，心绪不宁，开车与他人的车相撞，读书也看不下去。每本书，拿起来翻两页，完全不知所云。合上，再打开一本，还是如此。直到翻开这本文集，突然感觉到了一种力量，不是铿锵有力的那种，反而是一种流水一样的温和。而这样的温和，却让自己能稍稍平静一些。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/hushi.html</guid>
+      
+        <description>&lt;p&gt;这段时间，心绪不宁，开车与他人的车相撞，读书也看不下去。每本书，拿起来翻两页，完全不知所云。合上，再打开一本，还是如此。直到翻开这本文集，突然感觉到了一种力量，不是铿锵有力的那种，反而是一种流水一样的温和。而这样的温和，却让自己能稍稍平静一些。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/hushi.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/hushi.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;民国时期文人的作品，我自小就很喜欢看。读大学的时候，第五教学楼后面，曾经有一个很小的岗亭。里面放一些图书馆里不大容易找到的书，花一角钱就可以借一本书三天。有段时间，我就几乎每周去一两次。最喜欢的就是各种民国大家的散文集。鲁迅的、周作人的、林语堂的、梁实秋的、朱自清的、郁达夫的、沈从文的、&amp;hellip;，知名的，不知名的，我读了几十种。但记忆中，胡适的散文集就没有读到。那时，官方的认定里，胡适似乎还属于“反动的资产阶级”文人之列。&lt;/p&gt;
+&lt;p&gt;我是很喜欢鲁迅的文章，读先生的文字，总是让人感到深深的孤寂。绝望，但又从不停歇的反抗。《野草》的题辞，读了太多遍，几乎都能背诵下来。而那被世人多次取笑的“在我的后园，可以看见墙外有两株树”的句子，我却心有戚戚焉，觉得这是世上最孤独的语言了。爱屋及乌，凡是和鲁迅相关的，我都喜欢。而鲁迅不喜欢的人或事，我也不由分说，打入另册。&lt;/p&gt;
+&lt;p&gt;胡适，恰恰就是那个一直站在鲁迅对立面的人。&lt;/p&gt;
+&lt;p&gt;这么说，也不太对。起始时，两人是相互欣赏的。不论是学术还是文字，俩人都彼此承认。即使到晚年，胡适也依然称鲁迅为“我们的同路人”。只是，现在很多人，常常将两人对立开来。明褒其一，暗贬另一方。我年少时，喜欢看快意恩仇的文字，读诗要读李白，看文要看鲁迅。觉得这些恣意挥洒的语言，直抒胸臆，甚是畅快。而对于杜甫、对于胡适，如同老僧坐定，温吞水般不解气。&lt;/p&gt;
+&lt;p&gt;如今老了，重新看胡适先生的文章，却生出了另一种感觉。这平和的文字读起来，有一种温暖，也有一份深沉。在《四十自述》，先生有一句话这样写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人心曲曲湾湾水&lt;/p&gt;
+&lt;p&gt;世事重重叠叠山&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;说尽世间百态，道破人情世故。年少时，看书写字，喜欢故作深沉，语不惊人死不休；如今年华老去，越发感到深沉的思想反而来自这平和的文字。我四十岁时，连续 11 天独自一人驾车，每天超过 900 公里。我写不出这样的文字，幸而能有同样的感慨。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;怕什么真理无穷,&lt;/p&gt;
+&lt;p&gt;进一寸有一寸的欢喜。&lt;/p&gt;
+&lt;p&gt;即使开了一辆老掉牙的破车,&lt;/p&gt;
+&lt;p&gt;只要在前行就好,&lt;/p&gt;
+&lt;p&gt;偶尔吹点小风,&lt;/p&gt;
+&lt;p&gt;这就是幸福。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;看着这个老人的旧照，我心里有一种温暖，更有一分敬意。原来不只大声呐喊是有力的，温润的语言，依然有力量。只要发自内心，一以贯之，即可。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/hushi1.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/hushi1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;我很喜欢胡适的这几篇日记，很喜欢。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1911 年 7 月 15 日：打牌&lt;/p&gt;
+&lt;p&gt;1911 年 7 月 16 日：胡适之啊胡适之！你怎么能如此堕落！先前定下的学习计划你都忘了吗？子曰：吾日三省吾身。不能再这样下去了！&lt;/p&gt;
+&lt;p&gt;1911 年 7 月 17 日：打牌&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>《理念的力量》</title>
-      <link>/post/idea_power/</link>
+      <link>/post/idea_power.html</link>
       <pubDate>Sun, 15 Sep 2024 17:55:00 +0800</pubDate>
-      <guid>/post/idea_power/</guid>
-      <description>&lt;p&gt;我知道张维迎先生的名字，大概是 20 多年前，我在梳理中国的经济改革历程时，发现很多地方提到著名的“莫干山会议”。而张维迎作为一个年轻人，提出“双轨制”改革的理念。经过后来的起起落落，历经更多的是是非非争辩，中国的改革，大致走出了全面计划经济的桎梏。张维迎的作用，虽然很多人批评争功，但基本起了非常重要的正面作用。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/idea_power.html</guid>
+      
+        <description>&lt;p&gt;我知道张维迎先生的名字，大概是 20 多年前，我在梳理中国的经济改革历程时，发现很多地方提到著名的“莫干山会议”。而张维迎作为一个年轻人，提出“双轨制”改革的理念。经过后来的起起落落，历经更多的是是非非争辩，中国的改革，大致走出了全面计划经济的桎梏。张维迎的作用，虽然很多人批评争功，但基本起了非常重要的正面作用。&lt;/p&gt;
+&lt;p&gt;2001 年前后，我对经济学非常感兴趣，在书店买曼昆、萨缪尔森等人的名著时，都看到张维迎写的推荐序言。于是，更关注这个名字，以及他彼时正在做的事。2003 年前后，张维迎在北大参与了一场轰动一时的改革。在时任学校书记闵维方的支持下，张维迎全面制定了高校改革的方案，并以校长助理的身份亲自冲到改革的第一线。结局我们现在早已知道&amp;mdash;&amp;mdash;高调而起，低调而败。我当时在川大工作，深刻体会到了高等学校的种种陋习，认识清了这非改不可的局面。于是，我尤其关注在北大进行的这场改革。我读了张维迎自己写的文章，也听到了大量北大知名学者的反对声音。诚然张维迎的改革措施有不完善的地方，也有操之过急的因素。但总体来说，我还是认可张维迎的理念和想法。至于最后的功败垂成，我归因于闵维方的胆怯懦弱，为了所谓的稳定，牺牲张维迎一人，而换取短暂的和谐稳定。20 年过后，各高校纷纷进行的变革措施，在我看来，不过是“张维迎方案”的各种翻版而已。思想没有超越 20 年前，措施则更为激进。所谓“时也命也”，张维迎生不逢时。&lt;/p&gt;
+&lt;p&gt;而张维迎和林毅夫关于“国企改革和产业政策”的争论，则更为世人熟知。这场持续了 20 多年的辩论，至今没有定论。他俩在北大国发院的现场辩论，我看了直播。觉得这真是难得的知识分子的辩论，一方风度翩翩，一方思想深邃。两人都逻辑清晰，言辞犀利，可谓酣畅淋漓的战斗。至于我，则更认同于张维迎的理念。我与好友志刚，分属于他俩不同的阵营，辩论过多次。虽然观点相左，争论经常面红脖子粗，到现在也没有相互认输，但毫不影响我俩之间的友谊和交情，也算是君子之辩了。&lt;/p&gt;
+&lt;p&gt;于是，我收集了张维迎的所有著作，《大学的逻辑》，我读了不下三遍。这次旅行的途中，我把《理念的力量》一书，认真读完。虽然里面的观念和道理，很多我早已知晓，但从张维迎的字里行间里，我仍然感受到了他的殷殷期望之情、拳拳赤子之心。这本书出版已经十年，书里的很多预测，很多已得到验证。不幸的是，大多都是反面的应证&amp;mdash;&amp;mdash;以负面的结果反衬张维迎的观念之对。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/zhangweiying.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/zhangweiying.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;我是有些精英意识的，历史和社会的发展，虽然普罗大众是主体，但引领者却需要超脱现实，至少在理念上要高于世俗。而历史的每一次重大转折，其实也是这样超前的理念在社会上普及、沉淀、发酵、爆发的结果。只是这提出理念的先行者们，大多早已逝去，看不到他们理念的成功。&lt;/p&gt;
+&lt;p&gt;张维迎，很少被当红的领导者列为“国师”。但看惯了那些所谓的“国师”们的表演，反而更欣赏这位西北汉子的直率和坦荡。我想，这样的人，才是真正的知识分子，才可以提出真正的观点，以及实施理念的力量。虽然，书里也能读到很多的无奈，让人不时掩卷长叹。&lt;/p&gt;
+&lt;p&gt;为之感叹。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/idea_power.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/idea_power.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>《中国历代政治得失》读后</title>
-      <link>/post/politics_qs/</link>
+      <link>/post/politics_qs.html</link>
       <pubDate>Tue, 09 Jul 2024 13:52:00 +0800</pubDate>
-      <guid>/post/politics_qs/</guid>
-      <description>&lt;p&gt;钱穆先生的《中国历代政治得失》一书，断断续续看了两个多月，终于看完了。年轻时多次听说过钱穆的大名，但对于他的书，总提不起兴致，好像觉得是一位老古董，絮絮叨叨地把中国古代的事，翻来覆去地唠叨好几遍。十年前，高晓松极力推荐他的《晚学盲言》，我买来之后，翻了几页，也就束之高阁了。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/politics_qs.html</guid>
+      
+        <description>&lt;p&gt;钱穆先生的《中国历代政治得失》一书，断断续续看了两个多月，终于看完了。年轻时多次听说过钱穆的大名，但对于他的书，总提不起兴致，好像觉得是一位老古董，絮絮叨叨地把中国古代的事，翻来覆去地唠叨好几遍。十年前，高晓松极力推荐他的《晚学盲言》，我买来之后，翻了几页，也就束之高阁了。&lt;/p&gt;
+&lt;p&gt;我从小喜欢历史，读了许多中国历史的书籍。思想也历经多次转变，从一开始为中国悠久的历史而自豪，读多了，觉得自秦汉起，中国历史充满了黑暗和专制。黑格尔在《法哲学原理》一书中说 &lt;code&gt;“中国的历史从本质上看是没有历史的，它只是君主覆灭的一再重复而已。任何进步都不可能从中产生。”&lt;/code&gt; 我当时深以为然，觉得中国古代的政治，无非是重复和权力斗争，无非是帝王将相愚弄百姓的各种手段施展的舞台而已。再到后来，觉得唐宋还好，明清不堪。有一阵子，发现乾隆和华盛顿竟然是一个年代的人物，更是让我耿耿于怀。&lt;/p&gt;
+&lt;p&gt;但我心里，一直有个困惑。我们这个民族，或者说生活在这片土地上的人民，几千年来，历经各种灾难困苦，承受无数侵略迫害，文明仍然健在，思想亦可追溯到商周先秦而不断。甚至我自己，常常脱口而出的，都是孔孟之言、魏晋风骨。这样强大的生命力，不能仅仅用幸运和“无进步”来简单概括的。有一段时间，我相信，乃是无论何种艰难，总有民族的脊梁出现。而大家认同这样的文化和思想，来自于对社会底层的人性关怀。从先秦诸子，到三国英豪，从唐宋大家，到晚清三杰，孔子、庄子、墨子、诸葛亮、张巡、苏轼、辛弃疾、岳飞、曾国藩、左宗棠&amp;hellip;&amp;hellip;，一个个鲜活的名字，一再提醒我们，无论外在如何变迁，总有人内心在坚守。&lt;/p&gt;
+&lt;p&gt;但是，这样的坚守，是如何扎根在广大人民心里的呢？除了文化，必然有政治、制度、历史沉积等多个原因。《得失》一书是一九五二年三、四月间，钱穆先生访台北，应邀作一系列演讲，以“中国历代政治得失”为题，分汉、唐、宋、明、清五代，略述各项制度的因革演变，并指陈其得失所在。最后整理付梓成书。用五个典型的中国皇朝治理，提要勾玄地依次讲述了政府组织、选举与考试、赋税制度、国防与兵制等方面，要言不繁，论述精僻。对于深入思考中国为什么是中国，有很重要的启迪。&lt;/p&gt;
+&lt;p&gt;书后有钱穆先生的生平简要，其中有一句： &lt;code&gt;“卅四岁妻殁、儿殇、兄亡连遭三丧”&lt;/code&gt; 。不禁掩卷长叹，要何等的人，才能承受如此大的变故而依然砥砺前行？钱穆先生活到了 96 岁，86 岁时患眼疾，“不能见字，不能读书”，只好口述，夫人记录，而后口诵耳听，一字一句修改订定，《晚学盲言》终稿时已 92 岁高龄。我想，钱穆先生本人，也是我称之为“民族脊梁”的一个代表了。《晚学盲言》一书，重新翻出来敬读。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/politics_qm.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/politics_qm.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;p.s. 我其实有很多钱穆先生的书，以下就是我的收藏。有时候读一本好书，胜过十本、百本一般的书籍。我慢慢学习先生的书吧。&lt;/p&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/qianmu_books.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/qianmu_books.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
     </item>
+    
     <item>
       <title>《浪潮之巅》</title>
-      <link>/post/lang-chao-zhi-dian/</link>
+      <link>/post/lang-chao-zhi-dian.html</link>
       <pubDate>Thu, 03 Nov 2022 15:31:00 +0800</pubDate>
-      <guid>/post/lang-chao-zhi-dian/</guid>
-      <description>&lt;p&gt;吴军的《浪潮之巅》第四版终于读完了，前前后后大概用了一个多月的时间。其实，在 2014 年底的时候，我就已经读过了这本书的第二版。记得当时读下来就热血沸腾，觉得自己也应该立即投身于创业的浪潮之中，才不负此生。可惜，又拖拖拉拉，5、6年后才真正面对内心的想法，走上一条不归路。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/lang-chao-zhi-dian.html</guid>
+      
+        <description>&lt;p&gt;吴军的《浪潮之巅》第四版终于读完了，前前后后大概用了一个多月的时间。其实，在 2014 年底的时候，我就已经读过了这本书的第二版。记得当时读下来就热血沸腾，觉得自己也应该立即投身于创业的浪潮之中，才不负此生。可惜，又拖拖拉拉，5、6年后才真正面对内心的想法，走上一条不归路。&lt;/p&gt;
+&lt;p&gt;科技公司的起起伏伏，在过去的 100 多年里，上演过很多次。尤其是上世纪八十年代以来，多少英雄公司出现，然后又被取代、沉沦。东山再起的公司，除了苹果等少数几家外，鲜有成功的。风起云涌的创新，波澜壮阔地展现在我们面前。&lt;/p&gt;
+&lt;p&gt;成功都是暂时的，但能成为一家伟大的企业，必须得遵循几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;真正地解决人类面临的问题，无论是提高生产率还是方便交流；&lt;/li&gt;
+&lt;li&gt;一定要有正常的经营模式，不能靠“花言巧语”来欺骗市场；&lt;/li&gt;
+&lt;li&gt;要站在时代的技术之巅，充分利用前人的成果；&lt;/li&gt;
+&lt;li&gt;最新的科学技术才是当今企业的立足之本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;能真正解决问题，是企业和个人，在社会生存的意义。抛弃表面的浮华，不为名利所诱惑，才能做出有意义的事情。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/wave-peak.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/wave-peak.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
     </item>
+    
     <item>
       <title>《中央帝国的财政密码》</title>
-      <link>/post/zhong-yang-di-guo-cai-zheng-mi-ma/</link>
+      <link>/post/zhong-yang-di-guo-cai-zheng-mi-ma.html</link>
       <pubDate>Fri, 01 May 2020 21:39:00 +0800</pubDate>
-      <guid>/post/zhong-yang-di-guo-cai-zheng-mi-ma/</guid>
-      <description>&lt;p&gt;刚读完郭建龙先生的《中央帝国的财政密码》一书，很有启发。书名有些不太好，让人误以为是哗众取宠的地摊文学。但实际上，这是一本严肃的历史与经济学史结合的著作。作者查阅无数严谨的历史和财政金融资料，详细解读了中国近代以前的商业和金融发展历史，从财政角度分析了中国各朝各代的变迁原因。黑格尔曾说，古代中国没有历史，只有一而再再而三地反复。虽然有些偏颇，但亦指出了本质。&lt;/p&gt;</description>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/zhong-yang-di-guo-cai-zheng-mi-ma.html</guid>
+      
+        <description>&lt;p&gt;刚读完郭建龙先生的《中央帝国的财政密码》一书，很有启发。书名有些不太好，让人误以为是哗众取宠的地摊文学。但实际上，这是一本严肃的历史与经济学史结合的著作。作者查阅无数严谨的历史和财政金融资料，详细解读了中国近代以前的商业和金融发展历史，从财政角度分析了中国各朝各代的变迁原因。黑格尔曾说，古代中国没有历史，只有一而再再而三地反复。虽然有些偏颇，但亦指出了本质。&lt;/p&gt;
+&lt;p&gt;很多人看历史，津津乐道于宫廷的八卦秘史，醉心于权力斗争。实际上，历史更重要的是普通大众的生活。帝国财政的合理运用，是老百姓幸福的关键之一。&lt;/p&gt;
+&lt;p&gt;吴晓波也写过系列的中国商业发展和财政变迁史，但似乎倾向于从特殊的个体（或者说成功的人）角度撰写，有失公允。关于商鞅、桑弘羊、王安石、张居正等等的思想以及变革结果，本书与吴晓波的观点有大不同。交叉来看，获益颇多。&lt;/p&gt;
+&lt;p&gt;为什么吴晓波和郭建龙两位对同一事件有如此大的区别。个人愚见，吴晓波先生是一名优秀的财经作家，但并不是一位学者。作家与学者有大不同。作家适合宣扬某一种观点，但并不擅长仔细地考证和研究。作家不对历史的真相负责，也不依据严格的逻辑分析和确切的数据处理。大胆假设得多，小心求证得少。故学者为了客观和真相，不得不舍弃一定的趣味性和易读性。作家则反之，为了观点的易于传播和流行，有意无意地会夸大或者隐瞒某些事实。&lt;/p&gt;
+&lt;p&gt;初读某一方向书籍，可看流行作家的书；深入理解某一观点，则严肃学者的文章，不得不看，不能不读。&lt;/p&gt;
+</description>
+      
     </item>
+    
   </channel>
 </rss>

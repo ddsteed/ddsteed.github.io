@@ -1,89 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 点点马的蚂蚁窝</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on 点点马的蚂蚁窝</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
+    <title>Tags on ddsteed&#39;s personal blog</title>
+    <link>/tags/index.html</link>
+    <description>Recent content in Tags on ddsteed&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
     <lastBuildDate>Sat, 08 Nov 2025 21:15:00 +0800</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Misc</title>
-      <link>/tags/misc/</link>
-      <pubDate>Sat, 08 Nov 2025 21:15:00 +0800</pubDate>
-      <guid>/tags/misc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reading</title>
-      <link>/tags/reading/</link>
-      <pubDate>Tue, 14 Oct 2025 10:28:00 +0800</pubDate>
-      <guid>/tags/reading/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>/tags/tech/</link>
-      <pubDate>Sun, 12 Oct 2025 09:10:00 +0800</pubDate>
-      <guid>/tags/tech/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Thinking</title>
-      <link>/tags/thinking/</link>
-      <pubDate>Mon, 10 Mar 2025 09:32:00 +0800</pubDate>
-      <guid>/tags/thinking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Startup</title>
-      <link>/tags/startup/</link>
-      <pubDate>Fri, 06 Dec 2024 14:53:00 +0800</pubDate>
-      <guid>/tags/startup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Education</title>
-      <link>/tags/education/</link>
-      <pubDate>Sun, 07 Jul 2024 19:33:00 +0800</pubDate>
-      <guid>/tags/education/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Study</title>
-      <link>/tags/study/</link>
-      <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
-      <guid>/tags/study/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>/tags/about/</link>
-      <pubDate>Sat, 08 Apr 2023 11:38:00 +0800</pubDate>
-      <guid>/tags/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Article</title>
-      <link>/tags/article/</link>
-      <pubDate>Sat, 14 Jan 2023 00:00:00 +0800</pubDate>
-      <guid>/tags/article/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Progress</title>
-      <link>/tags/progress/</link>
-      <pubDate>Wed, 29 Nov 2017 09:53:00 +0800</pubDate>
-      <guid>/tags/progress/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reference</title>
-      <link>/tags/reference/</link>
-      <pubDate>Sat, 08 Feb 2014 15:06:00 +0800</pubDate>
-      <guid>/tags/reference/</guid>
-      <description></description>
-    </item>
+    
+        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
