@@ -13,43 +13,6 @@
     
     
     <item>
-      <title>关于</title>
-      <link>/about.html</link>
-      <pubDate>Sun, 01 Jan 2012 21:38:52 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/about.html</guid>
-      
-        <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:200&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/avatar.jpg&#34; alt=&#34;Hao Feng: 点点马&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/avatar.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;
-          &lt;p&gt;Hao Feng: 点点马&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理，现在是一个自由打工者。教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;
-&lt;p&gt;但总觉日子虚度，内心惶恐，困惑自己做过的事都没有什么意义。于是，痛定思痛，毅然离开舒适的窝。希望走不动路的时候，回想起来，可以坦然此生没有虚度，足矣。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;每个人的生活都是一条通向自身的道路。每个人的真正职责只有一个：找到自我。然后在心中坚守一生，全心全意，永不停息。所有其他的路都是不完整的，是人的逃避方式，是对社会角色的懦弱伪装，是随波逐流，是对内心的恐惧。&lt;/p&gt;
-&lt;p&gt;–––– 阮一峰&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。&lt;/p&gt;
-&lt;p&gt;–––– 罗伯·舒乐&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-      
-    </item>
-    
-    <item>
       <title>无题</title>
       <link>/post/wuti.html</link>
       <pubDate>Sat, 08 Nov 2025 21:15:00 +0800</pubDate>
@@ -1500,6 +1463,37 @@
 &lt;p&gt;咦，乱七八糟的，扯哪去了？哦，对，Knuth 该怎么发音呢？Kn 这两个字母，如果出现在英文单词的词首里，k 是不发音的。比如，knife 这个词，就念：/nai:f/。但是，Knuth 教授虽然是美国人，自然要与众不同。他的 K，是要发音的，读 /kəˈnuːθ/。为了佐证，再讲一个小故事。Knuth 教授第一次访华前，跑去问姚期智，就是那个首位华人图灵奖得主，是不是有个中文名字会比较酷？姚夫人&amp;mdash;储枫女士，亲自给 Knuth 教授取了一个中文名：高德纳。给他夫人取名：高精兰，儿子取名高小强，女儿取名高小珍。好嘛，一家子高。你看，K 是不是发音了？&lt;/p&gt;
 &lt;h2 id=&#34;feynman&#34;&gt;Feynman&lt;/h2&gt;
 &lt;p&gt;好像写太长了，结尾就以我最最喜欢的物理学家 Feynman 来收尾吧。中文一般称他为费曼，大概以为 fey 直接发称 &lt;em&gt;fei&lt;/em&gt; 就可以了。可是呢，我当年亲耳听杨振宁先生是这么称呼 Fenyman 的：/fainmən/。杨先生是见过 Feynman 的，是和 Feynman 打过招呼，当面直呼其名的。所以啊，必须的，不能叫费曼，而应该把嘴巴张大，发义恩曼。我的偶像，千万不要念错名字哦 🥹&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>13 年后的“重逢”</title>
+      <link>/post/luguhu.html</link>
+      <pubDate>Sun, 02 Jul 2023 11:04:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/luguhu.html</guid>
+      
+        <description>&lt;p&gt;女儿暑期要去深圳实习，于是闹着安排了一次西昌和泸沽湖的自驾游。上一次来泸沽湖是 2010 年 1 月，当时刚去西华大学，年终的时候学院有传统，大家自费集体出去玩一次。那次选的是泸沽湖，而我对出去旅游这件事毫无经验，连准备什么都不知道，因此冬季的泸沽湖气温是多少，都是到了之后才有感觉。结果就是&amp;mdash;-我不得不借同事的衣服来御寒 😅&lt;/p&gt;
+&lt;p&gt;因为赶在端午节之后，和暑假之前，人很少。这是我喜欢的，或者说，尤其喜欢的。不管什么美景，只要人一多，我就头昏。而只要人少，即使在偏僻的小山村，我都能感受到宁静。这次沿泸沽湖一周，看水看天看云看花，异常的安宁，可以听到风的声音，可以闻到泥土的气息。在 13 年前照相的地方，又重新照了一张。看着这两张同人同地异时的照片，看到两鬓多了的白发，恍惚时光交错，这 13 年后的“重逢”，并没有想象中的那样伤感。&lt;/p&gt;
+&lt;p&gt;经常觉得时间是停滞的，十年、二十年，仿佛就是前两天发生的事一样。而我对自己在西华的经历，却并不认可。回想自己所做的事，失败远远大于成功，甚至如果要问我，在西华说一两件引以自豪的事，我大概都会语塞，半天回答不出来。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;落魄江湖载酒行，楚腰纤细掌中轻。&lt;/p&gt;
+&lt;p&gt;十年一觉西华梦，白首方晓万事新。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:50%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/luguhu.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/luguhu.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
 </description>
       
     </item>
