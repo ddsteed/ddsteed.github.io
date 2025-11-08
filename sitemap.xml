@@ -548,13 +548,6 @@
   </url>
   
   <url>
-    <loc>/post/about/</loc>
-    <lastmod>2012-06-22T11:38:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/about/index-en/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

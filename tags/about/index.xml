@@ -15,12 +15,5 @@
       <guid>/about/index-zh/</guid>
       <description>&lt;figure&gt;&lt;img src=&#34;/img/me.png&#34; width=&#34;200%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理工作，教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>关于我自己</title>
-      <link>/post/about/</link>
-      <pubDate>Fri, 22 Jun 2012 11:38:00 +0800</pubDate>
-      <guid>/post/about/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;/img/avatar.jpg&#34; width=&#34;200px&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;我曾经是一名高校教师，从事教学、科学研究和管理，现在是一个自由打工者。教授过《普通物理》、《量子力学》、《计算方法》等课，发表过150余篇SCI论文，承担过一些国家级、省部级科研项目。&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
