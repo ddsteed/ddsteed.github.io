@@ -74,7 +74,7 @@
   <meta itemprop="description" content="传统的文字-图形融合 一般文档主要是进行字处理，而文字的书写、编辑、排版和画图是截然不同的两种模式。虽然在计算机里最后都是处理成二进制代码，但不管在哪种操作系统中，画图软件和字处理软件都是分属于不同的类别。早期的文档如果想同时包含文字和图形，只能把文字先打印出来，留出空白，再用画图软件做好图，把图形打印出来，用胶水粘贴上去。话说这么麻烦的方法，我当年是干过的，读研究生的时候，为了给一个会议期刊投稿，用 xvgr 画好了图，然后用胶水粘在文字稿的空白处。这种“精巧的活”我干起来非常吃力，看着文稿上黑乎乎的手指印，欲哭无泪，重复了好多次 ……。">
   <meta itemprop="datePublished" content="2023-02-02T11:35:00+08:00">
   <meta itemprop="dateModified" content="2023-02-02T11:35:00+08:00">
-  <meta itemprop="wordCount" content="1626">
+  <meta itemprop="wordCount" content="1588">
   <meta itemprop="keywords" content="Tech">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="文档中插入图形">
@@ -428,7 +428,7 @@
 
   <div class="post-meta__right">
     <span class="post-meta-more">
-      1626 words -
+      1588 words -
       4 min read
       
       
@@ -491,37 +491,18 @@
 </div>
 
 <hr>
-<div class="highlight-container">
 
-  <button class="copy-code-btn outline">Copy</button>
 
-  
-  <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-title AI Programming Flow
-start
-fork
-   :Training;
-   split
-     :Sample Data;
-   split again
-     #lightGreen:Expected Results;
-   end split
-   :Machine;
-   #red:Model;
-   stop
-fork again
-   :Prediction;
-   split
-     :New Data;
-   split again
-     #red:Model;
-   end split
-   :Machine;
-   :results;
-   end
-end fork
-@enduml</code></pre>
+<div class="box">
+<figure  itemprop="associatedMedia"
+  itemscope itemtype="http://schema.org/ImageObject" >
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/plantuml-AI-program-flow.png" />
+    </div>
+    <a href="/img/plantuml-AI-program-flow.png" itemprop="contentUrl"></a>
+  </figure>
 </div>
+
 <h3 id="文字和图片的融合">文字和图片的融合</h3>
 <p>为什么说这里的图形和文档是融合的呢？实际上，在我的原始文档里，上述的内容是长这个样子的：</p>
 <div class="highlight-container">

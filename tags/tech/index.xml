@@ -729,37 +729,18 @@
 &lt;/div&gt;
 
 &lt;hr&gt;
-&lt;div class=&#34;highlight-container&#34;&gt;
 
-  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;
 
-  
-  &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-plantuml&#34; data-lang=&#34;plantuml&#34;&gt;@startuml
-title AI Programming Flow
-start
-fork
-   :Training;
-   split
-     :Sample Data;
-   split again
-     #lightGreen:Expected Results;
-   end split
-   :Machine;
-   #red:Model;
-   stop
-fork again
-   :Prediction;
-   split
-     :New Data;
-   split again
-     #red:Model;
-   end split
-   :Machine;
-   :results;
-   end
-end fork
-@enduml&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/plantuml-AI-program-flow.png&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/plantuml-AI-program-flow.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
 &lt;/div&gt;
+
 &lt;h3 id=&#34;文字和图片的融合&#34;&gt;文字和图片的融合&lt;/h3&gt;
 &lt;p&gt;为什么说这里的图形和文档是融合的呢？实际上，在我的原始文档里，上述的内容是长这个样子的：&lt;/p&gt;
 &lt;div class=&#34;highlight-container&#34;&gt;
