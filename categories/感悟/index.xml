@@ -15,6 +15,31 @@
     
     <item>
       <title>夜来幽梦</title>
+      <link>/post/jiang_cheng_zi_xiao_li.html</link>
+      <pubDate>Mon, 08 Dec 2025 11:34:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/jiang_cheng_zi_xiao_li.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/jiang_cheng_zi_xiao_li.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/jiang_cheng_zi_xiao_li.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>夜来幽梦</title>
       <link>/post/shi-ke-ji-fudaoyuan-baogao.html</link>
       <pubDate>Mon, 08 Dec 2025 11:34:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
