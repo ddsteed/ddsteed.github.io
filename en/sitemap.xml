@@ -3,28 +3,42 @@
   
   <url>
     <loc>/categories/index.html</loc>
-    <lastmod>2025-12-08T11:34:00+08:00</lastmod>
+    <lastmod>2025-12-13T14:31:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/misc.html</loc>
-    <lastmod>2025-12-08T11:34:00+08:00</lastmod>
+    <lastmod>2025-12-13T14:31:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/index.html</loc>
-    <lastmod>2025-12-08T11:34:00+08:00</lastmod>
+    <lastmod>2025-12-13T14:31:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/index.html</loc>
-    <lastmod>2025-12-08T11:34:00+08:00</lastmod>
+    <lastmod>2025-12-13T14:31:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/li-shuai.html</loc>
+    <lastmod>2025-12-13T14:31:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%9D%82%E8%B0%88.html</loc>
+    <lastmod>2025-12-13T14:31:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -178,13 +192,6 @@
   
   <url>
     <loc>/post/song-xin-yan.html</loc>
-    <lastmod>2024-11-23T12:27:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E6%9D%82%E8%B0%88.html</loc>
     <lastmod>2024-11-23T12:27:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
