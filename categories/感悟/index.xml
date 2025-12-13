@@ -8,35 +8,10 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Mon, 08 Dec 2025 11:34:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 17:19:00 +0800</lastBuildDate>
     
         <atom:link href="/categories/%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>夜来幽梦</title>
-      <link>/post/jiang_cheng_zi_xiao_li.html</link>
-      <pubDate>Mon, 08 Dec 2025 11:34:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/jiang_cheng_zi_xiao_li.html</guid>
-      
-        <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/jiang_cheng_zi_xiao_li.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/jiang_cheng_zi_xiao_li.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-</description>
-      
-    </item>
     
     <item>
       <title>一程</title>
@@ -648,6 +623,31 @@
 &lt;p&gt;这两天南方系的文章和一大批知道真相不知道真相的人的围攻，让我为舟子感到难过。这样的苦和误解谩骂，若是放在我的身上，不知道能不能抗得住。也许，舟子就是一个悲情的人，在这黑暗里独行。曾经有人编过鲁迅先生的文集，取名《绝望的反抗》，这也是我唯一从大学就保留到现在的书。舟子，也许就是在绝望的反抗。这样的苦与悲，落在这样孤傲的人身上，难为了舟子。&lt;/p&gt;
 &lt;p&gt;无所帮助，在自己的博客里写下上述的文字，虽然没有人看，但也是自己内心的祝福。方先生，节日快乐，感谢你！&lt;/p&gt;
 &lt;p&gt;2012年端午节&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>夜来幽梦</title>
+      <link>/post/jiang_cheng_zi_xiao_li.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/jiang_cheng_zi_xiao_li.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/jiang_cheng_zi_xiao_li.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/jiang_cheng_zi_xiao_li.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
 </description>
       
     </item>
