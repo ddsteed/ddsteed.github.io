@@ -8,10 +8,35 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Sat, 13 Dec 2025 14:31:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 15:30:00 +0800</lastBuildDate>
     
         <atom:link href="/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>夜来幽梦</title>
+      <link>/post/ye_lai_you_meng.html</link>
+      <pubDate>Wed, 24 Dec 2025 15:30:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/ye_lai_you_meng.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/wang_jin_tian_ya_lu.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/wang_jin_tian_ya_lu.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>好友的故事-–—竹子</title>
@@ -791,23 +816,6 @@
 &lt;p&gt;其实，1979 年国际学术年会的时候， &lt;em&gt;R&lt;/em&gt;-matrix 法结果还远远比不上另外两个，但到了今天，我看 &lt;em&gt;R&lt;/em&gt;-matrix 法快一统江湖了。虽然原因很多，但我觉得其中主要的一个原因是：Burke 等人把自己开发的 &lt;em&gt;R&lt;/em&gt;-matrix 程序包公开在网上，所有人都可以自由索取，并继续开发。 &lt;strong&gt;众人拾材火焰高&lt;/strong&gt; ， &lt;em&gt;R&lt;/em&gt;-matirx 法发展得越来越好。而另外两个方法，程序包只在自己的课题组内部流传，外人就算搞懂了理论，也由于没有程序可以实践，完全无法实用。&lt;/p&gt;
 &lt;p&gt;到现在，Complex Kohn 法除了 McCurdy 自己和学生在用外，其他人几乎没有用这个方法做出好的工作；多通道 Schwinger 法大概传到了巴西，Bettega 课题组大量用这个方法发文章。不过我写信去请教他们，没有任何回音。而反观 &lt;em&gt;R&lt;/em&gt;-matrix 法，我从网上下载了所有的源代码，再仔细研读 Burke、Tennyson 等人的文章，竟然也可以用 &lt;em&gt;R&lt;/em&gt;-matrix 方法计算实用的体系，并发表了 SCI 论文。&lt;/p&gt;
 &lt;p&gt;所以啊，一定不要“小心眼”，觉得程序公开了，别人就会“剽窃”自己的成果。其实，没有了大家的合作，不管再好的方法，最后都会束之高阁。想起当年读研究生时，看到过其他课题组有些教授不知道从哪拷了程序，连学生都不给看源码。现在，也只是尘世间的一粒灰尘而已。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>做正确的事</title>
-      <link>/post/do-right-thing.html</link>
-      <pubDate>Mon, 17 Jan 2022 13:08:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/do-right-thing.html</guid>
-      
-        <description>&lt;p&gt;人生大部分的痛苦，都来自于做的事是自己不认可，或者不擅长的。我曾经有一段时间，失眠严重，完全找不到前进的方向。怀疑过、痛苦过、彷徨过、迷茫过&amp;hellip;&amp;hellip;。不知道前方的路在哪里，何处是尽头，何时是解脱。&lt;/p&gt;
-&lt;p&gt;所幸当时我做了正确的决定，及时地止损。我坚决地离开当时的环境，即使付出了很大的代价&amp;mdash;离开体制，失去了保障，放弃了很多人羡慕的升迁。回首这一段往事，我自查痛苦的源头，就是当时我所从事的工作，所追求的所谓“事业”，是别人看中的，而严重背离我内心的理想。因此，做不好，得不到他人的认可，我痛苦；做成功了，得不到我内心的认可，我更痛苦。&lt;/p&gt;
-&lt;p&gt;高校的科研要不要提升，该如何提升。我内心其实是有答案的。但是，在原单位，领导们热衷于排名的上升，满足于数字的改变。为了把科研指标提上去，不惜弄虚作假。比如，科研经费本只是具有中国特色的科研指标之一，领导们为了显示学校的科研经费充足，明里暗里假经费的入账。一百万的经费，上个星期打入，这个星期就支出。枉费了科技处和财务处的工作人员做账、登记、存档，浪费了大量的人力物力，结果只是成就了少数人玩弄数据的工具。&lt;/p&gt;
-&lt;p&gt;我从来不认可这样的提升科研的方式。对于教学与科研的关系，对于科研的重要性，我有自己的判断标准。可是，当我处于某一级的阶梯时，我要不要屈从于这些压力而去做违心的事情呢？我试过，内心极其痛苦。我放弃了，内心得到解脱。&lt;/p&gt;
-&lt;p&gt;顾衡讲，中国人推崇体面。所谓体面，一方面是严于待己，宽于待人，这称之为知羞；另一方面是要过得了内心的自省关，所谓知罪。无论外面的评价如何，如果自己内心都不认可，夜深人静的时候，是过不了心灵这一关的。&lt;/p&gt;
-&lt;p&gt;至于不擅长，倒还好解决，努力学习就好了。如果学不好，就换一种方向学。做正确的事，才是唯一恪守的准则。&lt;/p&gt;
 </description>
       
     </item>

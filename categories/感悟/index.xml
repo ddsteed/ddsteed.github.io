@@ -8,10 +8,35 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Thu, 04 Dec 2025 17:19:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 15:30:00 +0800</lastBuildDate>
     
         <atom:link href="/categories/%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>夜来幽梦</title>
+      <link>/post/ye_lai_you_meng.html</link>
+      <pubDate>Wed, 24 Dec 2025 15:30:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/ye_lai_you_meng.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
+  style=&#34;max-width:60%&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/wang_jin_tian_ya_lu.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/wang_jin_tian_ya_lu.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>一程</title>
@@ -628,7 +653,7 @@
     </item>
     
     <item>
-      <title>夜来幽梦</title>
+      <title>夜来幽梦 1</title>
       <link>/post/jiang_cheng_zi_xiao_li.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
