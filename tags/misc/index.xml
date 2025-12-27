@@ -8,10 +8,40 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Wed, 24 Dec 2025 15:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 17:05:00 +0800</lastBuildDate>
     
         <atom:link href="/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一个人的电影场</title>
+      <link>/post/one_person_movie.html</link>
+      <pubDate>Sat, 27 Dec 2025 17:05:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/one_person_movie.html</guid>
+      
+        <description>&lt;p&gt;这段时间，睡眠很不好。要么入睡不了，要么中途会醒很多次。所有的书都看不下去，经常一本书拿在手里，半个小时过去了，一页也没有翻过。那些字啊，每个都认识，但完全不知道作者在说什么。于是，干脆今天买了一张电影票，想在电影院里睡一会儿。&lt;/p&gt;
+&lt;p&gt;中午场，偌大的剧院里，空荡荡的竟然只有我一个人。放映机轻轻转动的声音，我都可以听到。恍惚间，我竟不知身在何处。电影已经演完，我还一个人默默地看着演职员表，看着这些不认识的名字，想象着他们在幕后给我们创作的故事。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img src=&#34;/img/one_person_movie_3.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;img src=&#34;/img/one_person_movie_4.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;上一次进电影院，是看《哪咤 2》吧，我甚至记得当时的每一个场景。电影院的人很多，我的进进出出，大概也惹得并不高兴。而《zootopia 1》的上映，竟然是差不多十年前了。十年里的记忆，就很模糊了。甚至三年的疫情，都变得很遥远。上次看完《zootopia》，就开始无止境的被调查。其中，师长、朋友、同事的不同表现，让对人性本来就报悲观色彩的我，更觉人世间的荒诞。也是从那时开始，我就下定了决心，离开那片土壤，无论未来有多难，我都会走下去。&lt;/p&gt;
+&lt;p&gt;冬至的时候，果果给我说，好羡慕家里的那条狗狗&amp;ndash;嘟嘟哦，因为它可以不用做作业、没有压力，想吃就吃、想睡就睡，还随时有人摸它。我轻轻叹了口气，给果果说，我也很羡慕一只叫柠檬的猫呢。&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>夜来幽梦</title>
@@ -809,27 +839,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;所以，我选择辞去所有公职，离去。&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>众人拾材火焰高</title>
-      <link>/post/zhongren-shichai-huoyangao.html</link>
-      <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/zhongren-shichai-huoyangao.html</guid>
-      
-        <description>&lt;p&gt;程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续下去。&lt;/p&gt;
-&lt;p&gt;想起一个切身体会的例子。目前用变分法处理电子与分子散射的方法和程序主要有三种：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;V. McKoy 等人创建的多通道 Schwinger 法；&lt;/li&gt;
-&lt;li&gt;P. Burke 等人创建的 &lt;em&gt;R&lt;/em&gt;-matrix (&lt;em&gt;R&lt;/em&gt; 矩阵)法；&lt;/li&gt;
-&lt;li&gt;我的导师在美国的导师 C. McCurdy 等人创建的 Complex Kohn (复科恩)法。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;其实，1979 年国际学术年会的时候， &lt;em&gt;R&lt;/em&gt;-matrix 法结果还远远比不上另外两个，但到了今天，我看 &lt;em&gt;R&lt;/em&gt;-matrix 法快一统江湖了。虽然原因很多，但我觉得其中主要的一个原因是：Burke 等人把自己开发的 &lt;em&gt;R&lt;/em&gt;-matrix 程序包公开在网上，所有人都可以自由索取，并继续开发。 &lt;strong&gt;众人拾材火焰高&lt;/strong&gt; ， &lt;em&gt;R&lt;/em&gt;-matirx 法发展得越来越好。而另外两个方法，程序包只在自己的课题组内部流传，外人就算搞懂了理论，也由于没有程序可以实践，完全无法实用。&lt;/p&gt;
-&lt;p&gt;到现在，Complex Kohn 法除了 McCurdy 自己和学生在用外，其他人几乎没有用这个方法做出好的工作；多通道 Schwinger 法大概传到了巴西，Bettega 课题组大量用这个方法发文章。不过我写信去请教他们，没有任何回音。而反观 &lt;em&gt;R&lt;/em&gt;-matrix 法，我从网上下载了所有的源代码，再仔细研读 Burke、Tennyson 等人的文章，竟然也可以用 &lt;em&gt;R&lt;/em&gt;-matrix 方法计算实用的体系，并发表了 SCI 论文。&lt;/p&gt;
-&lt;p&gt;所以啊，一定不要“小心眼”，觉得程序公开了，别人就会“剽窃”自己的成果。其实，没有了大家的合作，不管再好的方法，最后都会束之高阁。想起当年读研究生时，看到过其他课题组有些教授不知道从哪拷了程序，连学生都不给看源码。现在，也只是尘世间的一粒灰尘而已。&lt;/p&gt;
 </description>
       
     </item>
