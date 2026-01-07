@@ -599,4 +599,10 @@
     <priority>0.5</priority>
   </url>
   
+  <url>
+    <loc>/post/ordinary_people_study.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
