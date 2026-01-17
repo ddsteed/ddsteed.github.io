@@ -628,6 +628,12 @@
   </url>
   
   <url>
+    <loc>/post/daxue_jiaoyu.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post/bo_qin_xian.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
