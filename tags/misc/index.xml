@@ -8,10 +8,34 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Thu, 22 Jan 2026 09:53:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 16:08:00 +0800</lastBuildDate>
     
         <atom:link href="/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>无题（二）</title>
+      <link>/post/yan_shu_wuti.html</link>
+      <pubDate>Fri, 23 Jan 2026 16:08:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/yan_shu_wuti.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/yan_shu_wanxisha.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/yan_shu_wanxisha.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>好友的故事-–—竹子（二）</title>
@@ -732,65 +756,6 @@
 &lt;/div&gt;
 
 &lt;hr&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>  &#34;hjkl&#34;和鼠标的斗争
-  </title>
-      <link>/post/hjkl-vs-mouse.html</link>
-      <pubDate>Sat, 27 May 2023 17:43:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/hjkl-vs-mouse.html</guid>
-      
-        <description>&lt;p&gt;程序员的世界里，有两派截然不同的风格：一是老旧的“键盘侠”，喜欢手不离开键盘，操纵一切；与之相反的是“鼠标点点点”，所有的东西都尽量用图形界面，用鼠标来操控方向，指点江山。&lt;/p&gt;
-&lt;p&gt;在苹果公司“窃取” Xerox 公司的图形操作系统之前，大家都是面对黑乎乎的屏幕，处理文档，或者编写代码。Windows 95 在中国普及之前，大家也是习惯于 DOS 那个简陋的字符界面。在这种情况下输入字符和修改，就产生了一个非常具体的问题：我们怎么把光标快速移动到想修改或者输入的地方？最开始的 ex 编辑器，只能一行一行地编辑，然后提交。如果发现提交过的字符需要修改，就要发“请求”把那一行撤回来，然户用键盘上的光标移动键，左右移动那里，进行删除/增加/修改。我当年初学计算机的时候，是经历了这种炼狱般的折磨的。回想那时用这样的编辑器书写 FORTRNAN 代码，调试，发现错了再修改，真是不堪回首啊 &amp;hellip;&amp;hellip;。&lt;/p&gt;
-&lt;p&gt;Unix 世界里的精英们，是不会容许这样笨拙的操作来控制人类的。于是，vi 这个全屏编辑器就应运而生。在这个编辑器里，整篇文档都全部呈现出来，然后用光标键移动光标到指定的地方，进行编辑。但是啊，程序员是如此地“懒”，他们发现键盘的布局里，要移动光标键，需要手掌离开原来的位置。这怎么行？于是，hjkl&amp;hellip;这样的操作就出现了：我们把编辑文档分为两个状态，一个是编辑状态，直接敲字符，屏幕上就会显示那个字符；另一个是命令状态，我们按下字符键的时候，只会操作光标移动，而不是真正地输入这个字符。这两者的切换是用 ESC 键来完成的。为什么用 hjkl 呢？因为那是右手的手指放在键盘上的默认位置&amp;mdash;当你不输入任何字符的时候，右手的食指会被要求放在 j 键，中指放在 k 键上。啊哈，这个设置是如此地方便，等于是，我们的手掌不要任何地移动，就可以完成文档/代码的全屏编辑、修改、提交&amp;hellip;..。当我 1995 年开始学习 Linux 的时候，就迷上了这样的操作方式，以至于后来我换用了 Emacs 编辑器后，仍然装上了 vim-like 的键盘操作，就像下面的演示里一样，每天 hjkl &amp;hellip; 地工作着。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-emacs.gif&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/ijk-emacs.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;p&gt;“鼠标点点点”派在我这里就没有了市场，更有甚者，我习惯了 hjkl 之后，不仅编辑文档手不想离开键盘，连看浏览器都不愿意用鼠标来移动页面了。macos 下的 Safari 浏览器和 Google Chrome 浏览器都有限地支持了键盘的操作，比如，用空格键下翻一页，Shift-space 键上翻一页；Shift-] 键变换到下一个标签页 &amp;hellip;&amp;hellip;。可是，对于我来说，这远远不够。我们看网页或者文档时，眼睛的焦点都喜欢集中在屏幕的正中，上下移动的行数最好不要超过三行。空格键一按，就是翻了半页，这就要求我们看 7、8 行，这时眼睛的焦点已经在屏幕的底部了，翻页之后然后再把眼睛移动到屏幕的上方。啊，对于我这样的懒人来说，这是不可接受的。&lt;/p&gt;
-&lt;p&gt;难道不能像 vi 一样，一次只移动一行吗？而且要做到每次移动了之后，那一行仍然处于屏幕的正中。你要相信，只要你有需求，这个世界上就有人帮你做好了这个工作。Safari 浏览器有个 vimari 插件、Chrome 浏览器有个 vimium 插件，它们就是来完成这个工作的。然后，就像下面的演示一样，我一行一行地阅读网页，手仍然在 hjkl 上，j 下移一行，k 上移一行。&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-chrome.gif&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/ijk-chrome.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;p&gt;我的要求越来越高，已经不满足于浏览器了，我需要所有的 application 都应该有这个功能，尤其是 pdf 阅读器。我已经习惯了眼睛焦点不离开屏幕的阅读方式，pdf 怎么能例外？极客们是不会让我失望的，有一个程序&amp;mdash;karabiner，它可以重新定义任何程序的键盘操作。因此，Preview 这个苹果下的 pdf 阅读器，也纳入了我的 hjkl 阵营。&lt;/p&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/ijk-pdf.gif&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/ijk-pdf.gif&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;p&gt;上次我说我是一个 old fashion man，那是真的。我连键盘处理方式，都完全是一个老派人士。所以，我对现在的即时通工具，微信、QQ、&amp;hellip;，都是深恶痛绝。曾经我觉得能够随时联系是多酷的一件事，可是，当我发现我的计算机/手机上那些显示未读的红色提醒时，强迫症会让我坐立难安。而发微信的人，由于太方便了，会忍不住随时随地脱口而出。因此，除了工作外，我不喜欢看快餐式的文字。我关掉了微信上的朋友圈、视频号，甚至，基本停用了微信。我喜欢信件这样老派的方式，虽然 email 比起手写的信，少了点温度，但这已经是我现在感觉最舒心的联系工具了。&lt;/p&gt;
-&lt;p&gt;hjkl，嗯，好土的方式，却是我最爱的方式。&lt;/p&gt;
 </description>
       
     </item>
