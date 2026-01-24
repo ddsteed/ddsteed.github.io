@@ -751,20 +751,6 @@
 &lt;/div&gt;
 
 &lt;hr&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/wang_jin_tian_ya_lu.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/wang_jin_tian_ya_lu.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
 </description>
       
     </item>
@@ -1005,7 +991,7 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:30%&#34; &gt;
+  style=&#34;max-width:40%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/diguozhengjiewangshi.jpg&#34; /&gt;
     &lt;/div&gt;
@@ -1066,7 +1052,7 @@
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:50%&#34; &gt;
+  style=&#34;max-width:40%&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
       &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/deep_learning_history.jpg&#34; /&gt;
     &lt;/div&gt;
