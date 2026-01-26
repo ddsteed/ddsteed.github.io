@@ -15,10 +15,10 @@
     
     <item>
       <title>普通人的生活和学习</title>
-      <link>/post/ordinary_people_study.html</link>
+      <link>/post/20260107-ordinary_people_study.html</link>
       <pubDate>Wed, 07 Jan 2026 20:54:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/ordinary_people_study.html</guid>
+      <guid>/post/20260107-ordinary_people_study.html</guid>
       
         <description>&lt;p&gt;地铁门合上的那一下，像把清晨又按紧了一格。&lt;/p&gt;
 &lt;p&gt;七点多的车厢里，按理该是上班族：背着电脑包，盯着手机屏，脸上挂着昨晚没睡够的灰。可我今天一路看见的，却是成排的书包——中学生、小学生，甚至还有一个幼儿园的小姑娘。&lt;/p&gt;
@@ -80,10 +80,10 @@
     
     <item>
       <title>学习“分岔”的乐趣</title>
-      <link>/post/study-multiple.html</link>
+      <link>/post/20240414-study-multiple.html</link>
       <pubDate>Sun, 14 Apr 2024 16:03:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/study-multiple.html</guid>
+      <guid>/post/20240414-study-multiple.html</guid>
       
         <description>&lt;p&gt;我学习的习惯非常不好，常常会在学习一个知识的时候，偏离主航道，花费很多时间在偏路上。等蓦然回头时，才发现时间已经被“浪费”了很多。&lt;/p&gt;
 &lt;p&gt;比如，最近我正在研究 AI 里的大语言模型结合知识图谱的工作。本来，这已经需要我学习很多以前不懂的知识了。我还“乱上加乱”，因为我发现我需要记点笔记。然后，在记笔记的时候我觉得应该每学完一个知识就写一个读后感；接着，我发现读后感里要增加一个功能：每增加一个读后感，当然要自动计数，告诉自己，文档又多了一个哦。但是呢，这个自动计数肯定不能自己手动去数，必须让计算机自动完成，否则太愧对“程序员”的自我标榜了。&lt;/p&gt;
@@ -145,10 +145,10 @@
     
     <item>
       <title>读书的步骤</title>
-      <link>/post/reading-steps.html</link>
+      <link>/post/20230127-reading-steps.html</link>
       <pubDate>Fri, 27 Jan 2023 10:38:00 +0800</pubDate>
       <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/reading-steps.html</guid>
+      <guid>/post/20230127-reading-steps.html</guid>
       
         <description>&lt;p&gt;书有两种，一是“文艺”书，一是“学术”书。当然，还有一类“书”不在上述二者之列，我称之为“废书”，读也可，不读亦可，没有好处，只有坏处：👉浪费时间。&lt;/p&gt;
 &lt;p&gt;文艺书，是抓起来就可以读的，甚至从哪读起都不重要。初中时，第一次读四卷本的《倚天屠龙记》，就是从第三卷开始。发现主人公叫张无忌，然后知道《倚天》是《神雕》的后续。那么，在《神雕》结尾提到一个少年叫张君宝。这俩人啥关系呢？脑补之后，自认为张君宝长大，改了名字叫张无忌。纵横四海，所向无敌。哪里晓得，张君宝长大了之后叫张三丰，张三丰收了个徒弟叫张翠山，张翠山娶了个“妖女”老婆殷素素，生了个儿子才是张无忌&amp;hellip;..，完全差辈了。不过，丝毫不影响我当时读《倚天》的快乐。&lt;/p&gt;
@@ -164,6 +164,25 @@
 &lt;li&gt;🚩 合上书，整理脉络&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;这其中，花一点点时间，先看看书的目录，是极其重要的一环。清楚书的脉络和走向，读的时候才能明白什么时候该详读，什么时候该略读。实在读不下去的时候，也可以快速跳跃。切记，学术书是让人增长知识、提升思想的。糊里糊涂，看了几句“知识点”就放弃，可不是最终的目的。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>学习的途径</title>
+      <link>/post/20170722-study-road.html</link>
+      <pubDate>Sat, 22 Jul 2017 10:01:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/20170722-study-road.html</guid>
+      
+        <description>&lt;h2 id=&#34;唯一有效的四种方法&#34;&gt;唯一有效的四种方法&lt;/h2&gt;
+&lt;p&gt;理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了，这是非常肤浅的。若想掌握某项知识，并能在今后的工作生活中灵活运用，正确的学习途径就必不可少：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;同时运用多种方式学习和记忆：包括视听结合、手写机打，总之就是尽可能调动一切接收信息的能力；&lt;/li&gt;
+&lt;li&gt;及时复习：遗忘曲线不可盲从，但必须得有间隔性地复习；&lt;/li&gt;
+&lt;li&gt;用自己的语言复述或者写作下来，切不可照抄；&lt;/li&gt;
+&lt;li&gt;将所学习的内容加入到自己已有的知识网状结构中，使之成为网络中的一个节点，与原有的知识形成关联。&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
