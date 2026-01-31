@@ -8,10 +8,34 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Thu, 29 Jan 2026 08:03:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 09:35:00 +0800</lastBuildDate>
     
         <atom:link href="/categories/%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>固执</title>
+      <link>/post/20260131-guzhi.html</link>
+      <pubDate>Sat, 31 Jan 2026 09:35:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/20260131-guzhi.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/bai_ma_xiao_xi_feng.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/bai_ma_xiao_xi_feng.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>习惯</title>
@@ -806,40 +830,6 @@
 &lt;li&gt;扬人责己，以功归人；&lt;/li&gt;
 &lt;li&gt;论功行赏，以奖励人。&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>人生不如意事</title>
-      <link>/post/20150705-bu-ru-yi-shi.html</link>
-      <pubDate>Sun, 05 Jul 2015 23:21:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/20150705-bu-ru-yi-shi.html</guid>
-      
-        <description>&lt;p&gt;今天凌晨，爬起来看美洲杯决赛。虽然我很累很困，但因为有梅西，有阿根廷，仍然坚持，在黑暗中捧着 iPad 观看。&lt;/p&gt;
-&lt;p&gt;从黑夜到曙光来临，经历了加时赛，阿根廷还是输了，倒在了 点球码上。当伊瓜因罚丢的时候，我注意到梅西转过了头，也许在感叹又一次的决赛失利。&lt;/p&gt;
-&lt;p&gt;梅西今年已经拿了三冠王，大家都在评论他是不是新一代的球王。可是，我们都知道，他一直梦想为阿根廷拿一座大赛冠军。去年世界杯，他失败了；今年美洲杯，他还是没有成功。放眼未来，也不知道成败几何。&lt;/p&gt;
-&lt;p&gt;每天都上网浏览虎扑的，今天起，也不敢看了。知道上面一定是扑天盖地的批评、嘲讽。梅西，是不是球王有什么关系呢？也许，失败的英雄，更让我牵挂和喜爱吧。&lt;/p&gt;
-&lt;p&gt;人生事，不如意十之八九。强如梅西，也未必比常人更快乐一些。那萧索的背影，更让我魂牵梦萦。&lt;/p&gt;
-&lt;p&gt;以下是 2014 年世界杯决赛后的感悟，可见，悲伤依旧还是悲伤。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;12 年前，我孤独地为德国队祈祷，但最后，是巴西捧起了大力神杯。今天，我仍是独自地为阿根廷队祷告，还是没有成功。&lt;/p&gt;
-&lt;p&gt;很多人问我，最喜欢的球队是哪个？我会毫不犹豫地说：阿根廷。其次是荷兰，再次是德国。所以，这届的世界杯我纠结了两次，一次喜忧参半，一次黯然神伤。记忆中，那个长发飘飘的阿根廷队，有肯佩斯，有卡尼吉亚，有雷东多，有巴蒂斯图塔&amp;hellip;&amp;hellip;。现在的阿根廷，有我喜欢的梅西。低调，不张扬，才华横溢。也许，悲情英雄，永远都是我的最爱。&lt;/p&gt;
-&lt;p&gt;94 年的巴乔、02 年的卡恩，现在，14 年的梅西。&lt;/p&gt;
-&lt;p&gt;祝福你，梅西。&lt;/p&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/messi-2014.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/messi-2014.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
 </description>
       
     </item>
