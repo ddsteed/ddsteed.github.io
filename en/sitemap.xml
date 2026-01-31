@@ -656,4 +656,10 @@
     <priority>0.5</priority>
   </url>
   
+  <url>
+    <loc>/post/20260131-guzhi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
