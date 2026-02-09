@@ -8,10 +8,34 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Sat, 31 Jan 2026 09:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 16:39:00 +0800</lastBuildDate>
     
         <atom:link href="/categories/%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>怀旧</title>
+      <link>/post/20260209-huaijiu.html</link>
+      <pubDate>Mon, 09 Feb 2026 16:39:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/20260209-huaijiu.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/huai_jiu_fan_zhong_yan.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/huai_jiu_fan_zhong_yan.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>固执</title>
@@ -797,52 +821,6 @@
   &lt;/figure&gt;
 &lt;/div&gt;
 
-</description>
-      
-    </item>
-    
-    <item>
-      <title>如何与世界相处</title>
-      <link>/post/20180301-how-to-live-with-world.html</link>
-      <pubDate>Thu, 01 Mar 2018 09:40:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/20180301-how-to-live-with-world.html</guid>
-      
-        <description>&lt;h2 id=&#34;如何做一个靠谱的人&#34;&gt;如何做一个靠谱的人&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;事事有回音；凡事有交代；件件有着落。&lt;/li&gt;
-&lt;li&gt;及时反馈，形成闭环。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;团队精神&#34;&gt;团队精神&lt;/h2&gt;
-&lt;h3 id=&#34;思维决定位置&#34;&gt;思维决定位置&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;领导者：“这事我负责!”&lt;/li&gt;
-&lt;li&gt;顶梁柱：“这事我搞定!”&lt;/li&gt;
-&lt;li&gt;左右手：“这事我来做!”&lt;/li&gt;
-&lt;li&gt;基层人：“这事我要学。”&lt;/li&gt;
-&lt;li&gt;多余人：“这事找谁啊?”&lt;/li&gt;
-&lt;li&gt;垃圾人：“这事不怪我。”&lt;/li&gt;
-&lt;li&gt;落后者：“这事没人教。”&lt;/li&gt;
-&lt;li&gt;寄生虫：“这事为什么我来做?”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;如何做一个管理者&#34;&gt;如何做一个管理者&lt;/h2&gt;
-&lt;h3 id=&#34;优秀领导者的特质&#34;&gt;优秀领导者的特质&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;有勾画蓝图的能力&lt;/li&gt;
-&lt;li&gt;有让他人追随你的能力&lt;/li&gt;
-&lt;li&gt;有实现理想与抱负的能力&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;案例-曹操&#34;&gt;案例：曹操&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;真心实意，以情感人；&lt;/li&gt;
-&lt;li&gt;推心置腹，以诚待人；&lt;/li&gt;
-&lt;li&gt;开诚布公，以理服人；&lt;/li&gt;
-&lt;li&gt;言行一致，以信取人；&lt;/li&gt;
-&lt;li&gt;令行禁止，以法制人；&lt;/li&gt;
-&lt;li&gt;设身处地，以宽容人；&lt;/li&gt;
-&lt;li&gt;扬人责己，以功归人；&lt;/li&gt;
-&lt;li&gt;论功行赏，以奖励人。&lt;/li&gt;
-&lt;/ul&gt;
 </description>
       
     </item>
