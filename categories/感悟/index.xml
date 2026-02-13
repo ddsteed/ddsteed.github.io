@@ -25,7 +25,7 @@
 &lt;p&gt;傍晚的空气有一点凉。我把阳台的窗户推开，潮湿的风涌进来，带着泥土和树叶的味道。对面楼的灯一盏盏亮起，像有人在远处慢慢点灯。城市的声音并没有因为谁的离开而稀薄，楼下便利店的自动门照样“叮”地一声开合，汽车从巷口驶过，尾灯拖出一道红色的线。&lt;/p&gt;
 &lt;p&gt;生活确实稳稳当当地往前走。&lt;/p&gt;
 &lt;p&gt;记得有一次在湖边，绕着湖走了大半圈。晚风把她的长发掀起来，又落下去。她说话的时候语气很轻，像在陈述一个常识。而这样的话，已经好几次都说起过了。&lt;/p&gt;
-&lt;p&gt;大意是，人总能适应的，日子不会因为谁离开而停摆。&lt;/p&gt;
+&lt;p&gt;“人总能适应的，日子不会因为谁离开而停摆。”&lt;/p&gt;
 &lt;p&gt;河面泛着细碎的光，像什么都没发生。&lt;/p&gt;
 &lt;p&gt;我想了一会儿，才开口。我说，是的，人当然可以过。&lt;/p&gt;
 &lt;p&gt;我停了一下，才接着说，只是从此，人就会变得不一样了。&lt;/p&gt;
@@ -62,10 +62,35 @@
 &lt;p&gt;那种简洁像把旧家具全部换成统一的白色。整齐，明亮，却少了一点木头的味道。有人觉得清爽，我却很怀念那些不那么完美的纹路。&lt;/p&gt;
 &lt;p&gt;我知道自己大概属于旧式的那一类人。这并不是沉溺，更像是一种尊重。&lt;/p&gt;
 &lt;p&gt;尊重曾经的认真，尊重当时的心意，也尊重那个在雨中看车窗被模糊了却不愿打开雨刮器的自己。&lt;/p&gt;
-&lt;p&gt;窗外的雨又落下来，敲在窗台上，声音不大。我关上窗，屋里恢复安静。桌上的玻璃杯在灯下泛着微光，那道细小的裂纹几乎看不见。&lt;/p&gt;
+&lt;p&gt;夕阳又从窗台映照，像琴声穿透进来，声音不大，屋里反而显得安静。桌上的青花瓷杯在阳光下泛着微光，那道细小的裂纹几乎看不见。蓝牙音箱，侧着身子，微笑地看着我，似乎在轻轻地说，你不一样了吗？&lt;/p&gt;
 &lt;p&gt;生活仍在继续。
 人当然可以过。&lt;/p&gt;
 &lt;p&gt;只是我会不时地轻轻摸一摸那道裂纹，确认它还在。&lt;/p&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/xinchuan_xiyang.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/xinchuan_xiyang.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/qinghuaci_cup.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/qinghuaci_cup.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
 </description>
       
     </item>
