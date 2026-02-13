@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>/index.html</loc>
-    <lastmod>2026-02-13T19:01:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/misc.html</loc>
     <lastmod>2026-02-13T19:01:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -450,6 +443,27 @@
   </url>
   
   <url>
+    <loc>/tags/about.html</loc>
+    <lastmod>2025-10-12T18:42:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/about/index.html</loc>
+    <lastmod>2025-10-12T18:42:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/about/index-zh.html</loc>
+    <lastmod>2025-10-12T18:42:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post/20230402-writing-own-words.html</loc>
     <lastmod>2023-04-02T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -641,6 +655,38 @@
   <url>
     <loc>/post/20120623-fangzhouzi-ku-yu-bei.html</loc>
     <lastmod>2012-06-23T23:36:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/about/index-en.html</loc>
+    <lastmod>2025-10-12T18:42:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/search/placeholder.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/index.html</loc>
+    <lastmod>2024-12-06T16:20:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/archive.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/search/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
