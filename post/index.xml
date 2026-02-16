@@ -20,7 +20,7 @@
       <author>ddsteed@gmail.com (RDS)</author>
       <guid>/post/20260216-miss.html</guid>
       
-        <description>&lt;video controls preload=&#34;metadata&#34; playsinline style=&#34;width:80%; max-width:800px;&#34;&gt;
+        <description>&lt;video controls preload=&#34;metadata&#34; playsinline style=&#34;width:100%; max-width:800px;aspect-ratio:16/9;&#34;&gt;
   &lt;source src=&#34;/img/miss_you.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 </description>
