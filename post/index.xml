@@ -8,10 +8,24 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Mon, 16 Feb 2026 10:27:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 22:03:00 +0800</lastBuildDate>
     
         <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>夜来幽梦</title>
+      <link>/post/20260216-miss.html</link>
+      <pubDate>Mon, 16 Feb 2026 22:03:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/20260216-miss.html</guid>
+      
+        <description>&lt;video controls preload=&#34;metadata&#34; playsinline style=&#34;width:100%; max-width:800px;&#34;&gt;
+  &lt;source src=&#34;/img/miss_you.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>学会说话</title>
@@ -737,31 +751,6 @@ AI 不是洪水猛兽，也不是灵丹妙药。
 &lt;p&gt;我把围巾往上拉了拉，忽然想到果果前两天跟我说的话。她说好羡慕家里的狗狗嘟嘟：不用写作业、没有压力，想吃就吃、想睡就睡，还随时有人摸摸它。&lt;/p&gt;
 &lt;p&gt;我叹了口气，没立刻回答。过了几秒才说：&lt;/p&gt;
 &lt;p&gt;“我也很羡慕一只叫柠檬的猫呢。”&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>夜来幽梦</title>
-      <link>/post/20251224-ye_lai_you_meng.html</link>
-      <pubDate>Wed, 24 Dec 2025 15:30:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/20251224-ye_lai_you_meng.html</guid>
-      
-        <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; 
-  style=&#34;max-width:60%&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/xiang_jian_shi_nan.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/xiang_jian_shi_nan.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
 </description>
       
     </item>
