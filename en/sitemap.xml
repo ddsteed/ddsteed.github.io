@@ -2,28 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/post/20260222-our-position.html</loc>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories/index.html</loc>
-    <lastmod>2026-02-19T14:29:00+08:00</lastmod>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/education.html</loc>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/index.html</loc>
-    <lastmod>2026-02-19T14:29:00+08:00</lastmod>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/reading.html</loc>
-    <lastmod>2026-02-19T14:29:00+08:00</lastmod>
+    <loc>/tags/startup.html</loc>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/index.html</loc>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%88%9B%E4%B8%9A.html</loc>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%95%99%E8%82%B2.html</loc>
+    <lastmod>2026-02-22T09:58:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reading.html</loc>
     <lastmod>2026-02-19T14:29:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -65,35 +100,7 @@
   </url>
   
   <url>
-    <loc>/tags/education.html</loc>
-    <lastmod>2026-02-16T10:27:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/startup.html</loc>
-    <lastmod>2026-02-16T10:27:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E5%88%9B%E4%B8%9A.html</loc>
-    <lastmod>2026-02-16T10:27:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/20260216-how-to-speak.html</loc>
-    <lastmod>2026-02-16T10:27:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E6%95%99%E8%82%B2.html</loc>
     <lastmod>2026-02-16T10:27:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
