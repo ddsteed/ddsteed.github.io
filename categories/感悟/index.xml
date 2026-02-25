@@ -8,10 +8,46 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Mon, 16 Feb 2026 22:03:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 17:29:00 +0800</lastBuildDate>
     
         <atom:link href="/categories/%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>当时只道是寻常</title>
+      <link>/post/20260225-xunchang.html</link>
+      <pubDate>Wed, 25 Feb 2026 17:29:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/20260225-xunchang.html</guid>
+      
+        <description>
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/dang_shi_zhi_dao_shi_xun_chang.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/dang_shi_zhi_dao_shi_xun_chang.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+
+&lt;div class=&#34;box&#34;&gt;
+&lt;figure  itemprop=&#34;associatedMedia&#34;
+  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/fengxianghu_xiyang.jpg&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;/img/fengxianghu_xiyang.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+</description>
+      
+    </item>
     
     <item>
       <title>夜来幽梦</title>
@@ -848,27 +884,6 @@
 &lt;p&gt;人有终极的自由，那就是 ––– 选择的自由。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;所以，我选择辞去所有公职，离去。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>众人拾材火焰高</title>
-      <link>/post/20220409-zhongren-shichai-huoyangao.html</link>
-      <pubDate>Sat, 09 Apr 2022 10:14:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/20220409-zhongren-shichai-huoyangao.html</guid>
-      
-        <description>&lt;p&gt;程序尽量要开源，这样才能更快进步。很多科研工作者好容易写了一个计算程序，掖着藏着，生怕别人偷去了。最后的结果是，无论工作多好，都无法正确继续下去。&lt;/p&gt;
-&lt;p&gt;想起一个切身体会的例子。目前用变分法处理电子与分子散射的方法和程序主要有三种：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;V. McKoy 等人创建的多通道 Schwinger 法；&lt;/li&gt;
-&lt;li&gt;P. Burke 等人创建的 &lt;em&gt;R&lt;/em&gt;-matrix (&lt;em&gt;R&lt;/em&gt; 矩阵)法；&lt;/li&gt;
-&lt;li&gt;我的导师在美国的导师 C. McCurdy 等人创建的 Complex Kohn (复科恩)法。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;其实，1979 年国际学术年会的时候， &lt;em&gt;R&lt;/em&gt;-matrix 法结果还远远比不上另外两个，但到了今天，我看 &lt;em&gt;R&lt;/em&gt;-matrix 法快一统江湖了。虽然原因很多，但我觉得其中主要的一个原因是：Burke 等人把自己开发的 &lt;em&gt;R&lt;/em&gt;-matrix 程序包公开在网上，所有人都可以自由索取，并继续开发。 &lt;strong&gt;众人拾材火焰高&lt;/strong&gt; ， &lt;em&gt;R&lt;/em&gt;-matirx 法发展得越来越好。而另外两个方法，程序包只在自己的课题组内部流传，外人就算搞懂了理论，也由于没有程序可以实践，完全无法实用。&lt;/p&gt;
-&lt;p&gt;到现在，Complex Kohn 法除了 McCurdy 自己和学生在用外，其他人几乎没有用这个方法做出好的工作；多通道 Schwinger 法大概传到了巴西，Bettega 课题组大量用这个方法发文章。不过我写信去请教他们，没有任何回音。而反观 &lt;em&gt;R&lt;/em&gt;-matrix 法，我从网上下载了所有的源代码，再仔细研读 Burke、Tennyson 等人的文章，竟然也可以用 &lt;em&gt;R&lt;/em&gt;-matrix 方法计算实用的体系，并发表了 SCI 论文。&lt;/p&gt;
-&lt;p&gt;所以啊，一定不要“小心眼”，觉得程序公开了，别人就会“剽窃”自己的成果。其实，没有了大家的合作，不管再好的方法，最后都会束之高阁。想起当年读研究生时，看到过其他课题组有些教授不知道从哪拷了程序，连学生都不给看源码。现在，也只是尘世间的一粒灰尘而已。&lt;/p&gt;
 </description>
       
     </item>
