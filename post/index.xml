@@ -8,10 +8,31 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Wed, 11 Mar 2026 15:53:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 22:56:00 +0800</lastBuildDate>
     
         <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AI 什么都能做之后，人还剩下什么？</title>
+      <link>/post/20260314-left-for-human.html</link>
+      <pubDate>Sat, 14 Mar 2026 22:56:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/20260314-left-for-human.html</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;公众号&lt;/strong&gt; ：F-Ai 工作室&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/IVkJsWN9RsB3KmN56cJTJg&#34;&gt;AI什么都能做之后，人还剩下什么？&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;这不是一篇反对 AI 的文章。&lt;/p&gt;
+&lt;p&gt;恰恰相反，我承认它强大，也承认它会越来越重要。&lt;br /&gt;
+只是当越来越多事情都可以被更高效地完成时，我反而更想认真想一想：一个人真正不可替代的部分，到底是什么。&lt;/p&gt;
+&lt;p&gt;也许不是速度，不是答案，不是产出。&lt;br /&gt;
+而是一个人如何在时间里活过，如何在关系里成长，如何在有限的一生里，仍然愿意认真地感受、理解、承担和去爱。&lt;/p&gt;
+&lt;p&gt;我一直在想：&lt;br /&gt;
+人这一生，终究不是拿来答题的。&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>别了，城研院</title>
@@ -821,43 +842,6 @@ AI 不是洪水猛兽，也不是灵丹妙药。&lt;br /&gt;
 它是一把刀。&lt;/p&gt;
 &lt;p&gt;我读了一份关于 AI 教育的权威报告。越读越觉得，真正要守住的，不是分数，而是孩子独立思考的能力。&lt;/p&gt;
 &lt;p&gt;我是一名老师。在这个变化太快的时代里，我只想慢一点、认真一点，帮他们把刀握在手柄上。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>无题（二）</title>
-      <link>/post/20260123-yan_shu_wuti.html</link>
-      <pubDate>Fri, 23 Jan 2026 16:08:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/20260123-yan_shu_wuti.html</guid>
-      
-        <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/yan_shu_wanxisha.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/yan_shu_wanxisha.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/zhao_yun_1.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/zhao_yun_1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
 </description>
       
     </item>
