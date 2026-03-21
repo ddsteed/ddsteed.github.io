@@ -8,10 +8,28 @@
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Sat, 21 Mar 2026 09:46:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 19:34:00 +0800</lastBuildDate>
     
         <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AI 越聪明，孩子越该学什么？</title>
+      <link>/post/20260321-what-to-study.html</link>
+      <pubDate>Sat, 21 Mar 2026 19:34:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (RDS)</author>
+      <guid>/post/20260321-what-to-study.html</guid>
+      
+        <description>&lt;p&gt;&lt;strong&gt;公众号&lt;/strong&gt; ：F-Ai 工作室&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/t3A2cBowVju8YgX4myz_Vw&#34;&gt;AI越聪明，孩子越该学什么？&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;AI 越聪明，我越觉得，教育这件事急不得。&lt;/p&gt;
+&lt;p&gt;我们这一代父母，常常一边被技术推着往前走，一边又隐隐不安：未来变得这样快，孩子到底该学什么，才不至于在时代里失去位置？可写完这篇文章，我反而更愿意相信，真正重要的，未必是更早学会某一种工具，而是一个孩子是否能慢慢长成这样的人：会提问，会判断，会体谅他人，也能在不确定里稳稳地往前走。&lt;/p&gt;
+&lt;p&gt;这篇文章写 AI，也写教育；写未来，也写今天的家庭。写那些看似宏大的变化，最后落到的，其实仍是书桌前的孩子，灯下的父母，和一个人怎样在喧闹世界里，守住清醒、温柔与分寸。&lt;/p&gt;
+&lt;p&gt;愿我们在更新迅疾的时代里，依然知道：什么可以追赶，什么值得等待。&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>人生若只如初见</title>
@@ -797,43 +815,6 @@
 &lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/j2Aj9q18AOtIdpYj2yq0KQ&#34;&gt;大学最该教的，不是知识点：是你面对未知的那口气&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;这大概是我近三十年来对大学教育的领悟，可惜公众号不能写太长。我其实有很多话想说，但是现在没有条件在大学里讲了，我就把文章写成普通人看的小文吧。&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>固执</title>
-      <link>/post/20260131-guzhi.html</link>
-      <pubDate>Sat, 31 Jan 2026 09:35:00 +0800</pubDate>
-      <author>ddsteed@gmail.com (RDS)</author>
-      <guid>/post/20260131-guzhi.html</guid>
-      
-        <description>
-&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/bai_ma_xiao_xi_feng.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/bai_ma_xiao_xi_feng.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
-
-
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/img/xing_ye_si_jun.jpg&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;/img/xing_ye_si_jun.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;hr&gt;
 </description>
       
     </item>
