@@ -4,13 +4,10 @@
     <title>Categories on 点点马的逍遥港</title>
     <link>/zh-cn/categories/index.html</link>
     <description>Recent content in Categories on 点点马的逍遥港</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    
-        <atom:link href="/zh-cn/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/zh-cn/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
