@@ -1,17 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on ddsteed&#39;s personal blog</title>
-    <link>/categories/index.html</link>
-    <description>Recent content in Categories on ddsteed&#39;s personal blog</description>
+    <title>分类 on 点点马的逍遥港</title>
+    <link>/categories/</link>
+    <description>Recent content in 分类 on 点点马的逍遥港</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
-    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
-    <lastBuildDate>Sat, 21 Mar 2026 19:34:00 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <managingEditor>ddsteed@gmail.com (Old Fashion Man --- 老古董)</managingEditor>
+    <webMaster>ddsteed@gmail.com (Old Fashion Man --- 老古董)</webMaster>
+    <copyright>© 2026 Old Fashion Man --- 老古董</copyright>
+    <lastBuildDate>Sat, 21 Mar 2026 19:34:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
-        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>创业</title>
+      <link>/categories/%E5%88%9B%E4%B8%9A/</link>
+      <pubDate>Sat, 21 Mar 2026 19:34:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E5%88%9B%E4%B8%9A/</guid>
+      <description></description>
+      
+    </item>
     
+    <item>
+      <title>教育</title>
+      <link>/categories/%E6%95%99%E8%82%B2/</link>
+      <pubDate>Sat, 21 Mar 2026 19:34:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E6%95%99%E8%82%B2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>感悟</title>
+      <link>/categories/%E6%84%9F%E6%82%9F/</link>
+      <pubDate>Sat, 21 Mar 2026 09:46:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E6%84%9F%E6%82%9F/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>杂谈</title>
+      <link>/categories/%E6%9D%82%E8%B0%88/</link>
+      <pubDate>Sat, 07 Mar 2026 20:35:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E6%9D%82%E8%B0%88/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>读书</title>
+      <link>/categories/%E8%AF%BB%E4%B9%A6/</link>
+      <pubDate>Thu, 19 Feb 2026 14:29:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E8%AF%BB%E4%B9%A6/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>学习</title>
+      <link>/categories/%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 07 Jan 2026 20:54:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>技术</title>
+      <link>/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sun, 12 Oct 2025 09:10:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>思维</title>
+      <link>/categories/%E6%80%9D%E7%BB%B4/</link>
+      <pubDate>Mon, 10 Mar 2025 09:32:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E6%80%9D%E7%BB%B4/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>研究</title>
+      <link>/categories/%E7%A0%94%E7%A9%B6/</link>
+      <pubDate>Sun, 24 Jul 2016 19:51:00 +0800</pubDate>
+      <author>ddsteed@gmail.com (Old Fashion Man --- 老古董)</author>
+      <guid>/categories/%E7%A0%94%E7%A9%B6/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
