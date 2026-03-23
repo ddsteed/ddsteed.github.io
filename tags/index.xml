@@ -1,70 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ddsteed&#39;s personal blog</title>
     <link>/tags/index.html</link>
     <description>Recent content in Tags on ddsteed&#39;s personal blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
     <webMaster>ddsteed@gmail.com (RDS)</webMaster>
     <lastBuildDate>Sat, 21 Mar 2026 19:34:00 +0800</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Education</title>
-      <link>/tags/education.html</link>
-      <pubDate>Sat, 21 Mar 2026 19:34:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/education.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Startup</title>
-      <link>/tags/startup.html</link>
-      <pubDate>Sat, 21 Mar 2026 19:34:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/startup.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Misc</title>
-      <link>/tags/misc.html</link>
-      <pubDate>Sat, 21 Mar 2026 09:46:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/misc.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reading</title>
-      <link>/tags/reading.html</link>
-      <pubDate>Thu, 19 Feb 2026 14:29:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/reading.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Study</title>
-      <link>/tags/study.html</link>
-      <pubDate>Wed, 07 Jan 2026 20:54:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/study.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>/tags/tech.html</link>
-      <pubDate>Sun, 12 Oct 2025 09:10:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/tech.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Thinking</title>
-      <link>/tags/thinking.html</link>
-      <pubDate>Mon, 10 Mar 2025 09:32:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/thinking.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>/tags/about.html</link>
-      <pubDate>Sat, 08 Apr 2023 11:38:00 +0800</pubDate><author>ddsteed@gmail.com (RDS)</author>
-      <guid>/tags/about.html</guid>
-      <description></description>
-    </item>
+    
+        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
