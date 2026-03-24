@@ -285,6 +285,13 @@ main .article-list--compact .article-summary:blank {
 }
 
  
+.site-description {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.833em;  
+    line-height: 1.44;  
+}
+
+ 
 .widget-toc .widget-header {
     display: flex;
     justify-content: space-between;
@@ -422,15 +429,17 @@ document.addEventListener('DOMContentLoaded', function() {
                         loading="lazy"
                         alt="Avatar">
                 </a>
-                
-                    <span class="emoji">🦊</span>
-                
+                <img src="/img/avatar.jpg" class="emoji" alt="avatar">
             </figure>
         
-        
+
         <div class="site-meta">
             <h1 class="site-name"><a href="/">点点马的逍遥港</a></h1>
-            <h2 class="site-description">无所事事的创业者 | 技术生活的观察者</h2>
+            <h2 class="site-description">
+                🎯 无所事事的创业者<br>
+                📝 技术生活的观察者<br>
+                🔭 AI 呀，我明白了
+            </h2>
         </div>
     </header><ol class="menu" id="main-menu">
         
@@ -475,6 +484,14 @@ document.addEventListener('DOMContentLoaded', function() {
             </a>
         </li>
         
+        
+        <li >
+            <a href="/page/search/" >
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
         <li class="menu-bottom-section">
             <ol class="menu">
 
@@ -508,7 +525,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="not-found-card">
         <h1 class="article-title"></h1>
         <h2 class="article-subtitle"></h2>
-    </div><form action="/search/" class="search-form widget" >
+    </div><form action="/page/search/" class="search-form widget" data-json="/page/search/index.json">
             <p>
                 <label></label>
                 <input id="searchInput" name="keyword" required placeholder="" />
