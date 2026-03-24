@@ -70,7 +70,121 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="/post/20251012-emacs_as_python_ide/">
+</script><style>
+ 
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+   
+  .nav #menu,
+  header .nav #menu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+    z-index: 100;
+    margin-top: 0.5rem;
+  }
+
+   
+  .nav #menu.active,
+  header .nav #menu.active {
+    display: flex !important;
+  }
+
+   
+  .nav #menu li,
+  header .nav #menu li {
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav #menu li:last-child,
+  header .nav #menu li:last-child {
+    border-bottom: none;
+  }
+
+  .nav #menu li a,
+  header .nav #menu li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+   
+  .menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+   
+  .menu-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .menu-toggle.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+   
+  .nav {
+    position: relative;
+  }
+
+  .logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+ 
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  .nav #menu,
+  header .nav #menu {
+    display: flex !important;
+    position: static !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+</style>
+<meta property="og:url" content="/post/20251012-emacs_as_python_ide/">
   <meta property="og:site_name" content="点点马的逍遥港">
   <meta property="og:title" content="把 Emacs 打造为 Python IDE">
   <meta property="og:description" content="集成开发环境（IDE）是一种帮助程序员高效开发软件代码的软件应用程序。它通过将软件编辑、构建、测试和打包等功能结合到一个易于使用的应用程序中，提高了开发人员的工作效率。就像作家使用文本编辑器，会计师使用电子表格一样，软件开发人员使用 IDE 让他们的工作变得更轻松。当前比较流行的 Python IDE 有 PyCharm, IDEA, VS CODE 等。 Emacs 作为一个可扩展的文本编辑器，处理各种文本数据是非常方便的。我们在 Emacs 里增加 elisp 扩展，就可以模拟各种 IDE 的环境，还能更好。">

@@ -71,7 +71,121 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="/post/20240414-study-multiple/">
+</script><style>
+ 
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+   
+  .nav #menu,
+  header .nav #menu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+    z-index: 100;
+    margin-top: 0.5rem;
+  }
+
+   
+  .nav #menu.active,
+  header .nav #menu.active {
+    display: flex !important;
+  }
+
+   
+  .nav #menu li,
+  header .nav #menu li {
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav #menu li:last-child,
+  header .nav #menu li:last-child {
+    border-bottom: none;
+  }
+
+  .nav #menu li a,
+  header .nav #menu li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+   
+  .menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+   
+  .menu-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .menu-toggle.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+   
+  .nav {
+    position: relative;
+  }
+
+  .logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+ 
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  .nav #menu,
+  header .nav #menu {
+    display: flex !important;
+    position: static !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+</style>
+<meta property="og:url" content="/post/20240414-study-multiple/">
   <meta property="og:site_name" content="点点马的逍遥港">
   <meta property="og:title" content="学习“分岔”的乐趣">
   <meta property="og:description" content="我学习的习惯非常不好，常常会在学习一个知识的时候，偏离主航道，花费很多时间在偏路上。等蓦然回头时，才发现时间已经被“浪费”了很多。

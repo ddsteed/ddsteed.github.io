@@ -70,7 +70,121 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="/post/20121105-minguo-naxieren/">
+</script><style>
+ 
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+   
+  .nav #menu,
+  header .nav #menu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+    z-index: 100;
+    margin-top: 0.5rem;
+  }
+
+   
+  .nav #menu.active,
+  header .nav #menu.active {
+    display: flex !important;
+  }
+
+   
+  .nav #menu li,
+  header .nav #menu li {
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav #menu li:last-child,
+  header .nav #menu li:last-child {
+    border-bottom: none;
+  }
+
+  .nav #menu li a,
+  header .nav #menu li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+   
+  .menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+   
+  .menu-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .menu-toggle.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+   
+  .nav {
+    position: relative;
+  }
+
+  .logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+ 
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  .nav #menu,
+  header .nav #menu {
+    display: flex !important;
+    position: static !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+</style>
+<meta property="og:url" content="/post/20121105-minguo-naxieren/">
   <meta property="og:site_name" content="点点马的逍遥港">
   <meta property="og:title" content="《民国那些人》">
   <meta property="og:description" content="车上无事，继续 iPad 上的电子书。翻到徐百柯的《民国那些人》，不禁微微一笑。因为这方面的题材似乎成了近年的热点，也许是对现实的不满，让人更加怀念曾经不远的年代。家里的床头就好几本这样的书，例如《原来如此》、《西南联大回忆录》、《民国往事》等等。可是，看得多了，也觉得有点滥，过犹不及吧。像张发财写的《一个都不正经》，第一次看觉得新鲜，再看就觉得有点庸俗。历史，是可以这样一句话就概括的吗？那些鲜活的人与事，都能够简单地浓缩于一小段文字吗？">

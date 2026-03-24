@@ -70,7 +70,121 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="/post/20230702-luguhu/">
+</script><style>
+ 
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+   
+  .nav #menu,
+  header .nav #menu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+    z-index: 100;
+    margin-top: 0.5rem;
+  }
+
+   
+  .nav #menu.active,
+  header .nav #menu.active {
+    display: flex !important;
+  }
+
+   
+  .nav #menu li,
+  header .nav #menu li {
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav #menu li:last-child,
+  header .nav #menu li:last-child {
+    border-bottom: none;
+  }
+
+  .nav #menu li a,
+  header .nav #menu li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+   
+  .menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+   
+  .menu-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .menu-toggle.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+   
+  .nav {
+    position: relative;
+  }
+
+  .logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+ 
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  .nav #menu,
+  header .nav #menu {
+    display: flex !important;
+    position: static !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+</style>
+<meta property="og:url" content="/post/20230702-luguhu/">
   <meta property="og:site_name" content="点点马的逍遥港">
   <meta property="og:title" content="13 年后的“重逢”">
   <meta property="og:description" content="女儿暑期要去深圳实习，于是闹着安排了一次西昌和泸沽湖的自驾游。上一次来泸沽湖是 2010 年 1 月，当时刚去 XHU，年终的时候学院有传统，大家自费集体出去玩一次。那次选的是泸沽湖，而我对出去旅游这件事毫无经验，连准备什么都不知道，因此冬季的泸沽湖气温是多少，都是到了之后才有感觉。结果就是—-我不得不借同事的衣服来御寒 😅">

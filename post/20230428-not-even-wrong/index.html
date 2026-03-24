@@ -70,7 +70,121 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="/post/20230428-not-even-wrong/">
+</script><style>
+ 
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+   
+  .nav #menu,
+  header .nav #menu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+    z-index: 100;
+    margin-top: 0.5rem;
+  }
+
+   
+  .nav #menu.active,
+  header .nav #menu.active {
+    display: flex !important;
+  }
+
+   
+  .nav #menu li,
+  header .nav #menu li {
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav #menu li:last-child,
+  header .nav #menu li:last-child {
+    border-bottom: none;
+  }
+
+  .nav #menu li a,
+  header .nav #menu li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+   
+  .menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+   
+  .menu-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .menu-toggle.active .hamburger:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+   
+  .nav {
+    position: relative;
+  }
+
+  .logo-switches {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+ 
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  .nav #menu,
+  header .nav #menu {
+    display: flex !important;
+    position: static !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+}
+</style>
+<meta property="og:url" content="/post/20230428-not-even-wrong/">
   <meta property="og:site_name" content="点点马的逍遥港">
   <meta property="og:title" content="《Not Even Wrong》">
   <meta property="og:description" content="《Not Even Wrong》是一本科普书，关于弦理论的来龙去脉，以及为什么这个高大上的理论会“失败”的调侃。我很喜欢这本书，一是它通过超弦这个理论的曲折发展历程，再次阐明了为什么物理学之所以是科学的道理；二是它还略带幽默和自嘲的文笔，特别是书名，来自于伟大的物理学家 Pauli 的名言：这连错误都算不上。(英文：It is not only not right, it is not even wrong. 德语原版：Das ist nicht nur nicht richtig, es ist nicht einmal falsch!)">
