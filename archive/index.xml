@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>文章归档 on 点点马的逍遥港</title>
+    <link>/archive/</link>
+    <description>Recent content in 文章归档 on 点点马的逍遥港</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
+    <webMaster>ddsteed@gmail.com (RDS)</webMaster>
+    <atom:link href="/archive/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
