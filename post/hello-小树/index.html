@@ -365,6 +365,102 @@ main .article-list--compact .article-summary:blank {
 .toc-nav .toc-list > li {
     font-weight: 600;
 }
+
+ 
+.article-reward {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    background: var(--card-background);
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.reward-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--accent-color);
+    background: transparent;
+    border: 2px solid var(--accent-color);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reward-toggle:hover {
+    background: var(--accent-color);
+    color: var(--card-background);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.reward-icon {
+    font-size: 1.2rem;
+}
+
+.reward-content {
+    margin-top: 1.5rem;
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.article-reward .section-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--card-text-color-main);
+}
+
+.reward-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.reward-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reward-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s ease;
+}
+
+.reward-item img:hover {
+    transform: scale(1.05);
+}
+
+.reward-item span {
+    font-size: 0.9rem;
+    color: var(--card-text-color-secondary);
+}
+
+.reward-text {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--card-text-color-secondary);
+}
 </style>
 
 <script>
@@ -384,6 +480,22 @@ document.addEventListener('DOMContentLoaded', function() {
     if (tocToggle && tocContent) {
         tocToggle.addEventListener('click', function() {
             tocContent.classList.toggle('collapsed');
+        });
+    }
+
+    
+    var rewardToggle = document.getElementById('reward-toggle');
+    var rewardContent = document.getElementById('reward-content');
+
+    if (rewardToggle && rewardContent) {
+        rewardToggle.addEventListener('click', function() {
+            if (rewardContent.style.display === 'none') {
+                rewardContent.style.display = 'block';
+                rewardToggle.querySelector('span:last-child').textContent = '收起';
+            } else {
+                rewardContent.style.display = 'none';
+                rewardToggle.querySelector('span:last-child').textContent = '打赏';
+            }
         });
     }
 });
@@ -663,6 +775,30 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
     
 </article>
+
+
+
+<aside class="article-reward">
+    <button class="reward-toggle" id="reward-toggle">
+        <span class="reward-icon">🎁</span>
+        <span>打赏</span>
+    </button>
+    <div class="reward-content" id="reward-content" style="display: none;">
+        <h2 class="section-title">如果你喜欢这篇文章，请给我买杯咖啡☕</h2>
+        <div class="reward-container">
+            <div class="reward-item">
+                <img src="/img/wechat.jpg" alt="微信赞赏" loading="lazy" />
+                <span>微信赞赏</span>
+            </div>
+            <div class="reward-item">
+                <img src="/img/alipay.jpg" alt="支付宝赞赏" loading="lazy" />
+                <span>支付宝赞赏</span>
+            </div>
+        </div>
+    </div>
+</aside>
+
+
 
     
 
