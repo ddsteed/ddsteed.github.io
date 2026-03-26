@@ -4,7 +4,5 @@
         <link>/archive/</link>
         <description>Recent content in 文章归档 on 点点马的逍遥港</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <managingEditor>ddsteed@gmail.com (RDS)</managingEditor>
-        <webMaster>ddsteed@gmail.com (RDS)</webMaster><atom:link href="/archive/index.xml" rel="self" type="application/rss+xml" /></channel>
+        <language>zh-cn</language><atom:link href="/archive/index.xml" rel="self" type="application/rss+xml" /></channel>
 </rss>
