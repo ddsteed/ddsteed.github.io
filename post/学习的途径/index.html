@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
 
-<link rel="stylesheet" href="/scss/style.min.8a9a8bcc70d690648fc18d3117283364443f0565a692b84f34afa183d74cbf81.css"><meta property='og:title' content="学习的途径">
+<link rel="stylesheet" href="/scss/style.min.abedba26b0395d2b3e55dbf395980329e434830e60910689ac70c04037b8f503.css"><meta property='og:title' content="学习的途径">
 <meta property='og:description' content="唯一有效的四种方法 理解和真正掌握某种知识，是极其重要的。现实中，我们常常收藏了某个知识，或者暂时记忆背诵了某个内容，就自以为明白和掌握了，这是非常肤浅的。若想掌握某项知识，并能在今后的工作生活中灵活运用，正确的学习途径就必不可少：\n">
 <meta property='og:url' content='/post/%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%80%94%E5%BE%84/'>
 <meta property='og:site_name' content='点点马的逍遥港'>
@@ -510,6 +510,44 @@
         
     </div>
 </aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
 
 
 

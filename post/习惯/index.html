@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
 
-<link rel="stylesheet" href="/scss/style.min.8a9a8bcc70d690648fc18d3117283364443f0565a692b84f34afa183d74cbf81.css"><meta property='og:title' content="习惯">
+<link rel="stylesheet" href="/scss/style.min.abedba26b0395d2b3e55dbf395980329e434830e60910689ac70c04037b8f503.css"><meta property='og:title' content="习惯">
 <meta property='og:description' content="我是一个老古董。\n一旦习惯了一种方式，就很难再改变。\n每天早上做 16 个单杠卷腹；睡前读 30 分钟的书；每天写一封信；出门时抬头看看天，心里默默地说一句话&hellip;&hellip;。这些事情，久而久之，不再需要提醒，像呼吸一样自然。它们并不是刻意坚持下来的，而是慢慢嵌进了生活里，变成了身体的一部分。\n">
 <meta property='og:url' content='/post/%E4%B9%A0%E6%83%AF/'>
 <meta property='og:site_name' content='点点马的逍遥港'>
@@ -475,6 +475,44 @@
         
     </div>
 </aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
 
 
 

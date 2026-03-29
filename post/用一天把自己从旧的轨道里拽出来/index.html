@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
 
-<link rel="stylesheet" href="/scss/style.min.8a9a8bcc70d690648fc18d3117283364443f0565a692b84f34afa183d74cbf81.css"><meta property='og:title' content="用一天，把自己从旧的轨道里拽出来">
+<link rel="stylesheet" href="/scss/style.min.abedba26b0395d2b3e55dbf395980329e434830e60910689ac70c04037b8f503.css"><meta property='og:title' content="用一天，把自己从旧的轨道里拽出来">
 <meta property='og:description' content="公众号 ：F-Ai 工作室\n用一天，把自己从旧的轨道里拽出来\nDan Koe 在最近写了一篇文章&ndash;《How to fix your entire life in 1 day》。这篇文章发布一周后，浏览量已经来到了 1.5 亿。马斯克悬赏 100 万美金，给 X 平台上最值得的文章。大家都认为，奖赏已经可以授予 Dan Koe 了。\n">
 <meta property='og:url' content='/post/%E7%94%A8%E4%B8%80%E5%A4%A9%E6%8A%8A%E8%87%AA%E5%B7%B1%E4%BB%8E%E6%97%A7%E7%9A%84%E8%BD%A8%E9%81%93%E9%87%8C%E6%8B%BD%E5%87%BA%E6%9D%A5/'>
 <meta property='og:site_name' content='点点马的逍遥港'>
@@ -469,6 +469,44 @@
         
     </div>
 </aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
 
 
 

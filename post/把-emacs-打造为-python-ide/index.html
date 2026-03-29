@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
 
-<link rel="stylesheet" href="/scss/style.min.8a9a8bcc70d690648fc18d3117283364443f0565a692b84f34afa183d74cbf81.css"><meta property='og:title' content="把 Emacs 打造为 Python IDE">
+<link rel="stylesheet" href="/scss/style.min.abedba26b0395d2b3e55dbf395980329e434830e60910689ac70c04037b8f503.css"><meta property='og:title' content="把 Emacs 打造为 Python IDE">
 <meta property='og:description' content="集成开发环境（IDE）是一种帮助程序员高效开发软件代码的软件应用程序。它通过将软件编辑、构建、测试和打包等功能结合到一个易于使用的应用程序中，提高了开发人员的工作效率。就像作家使用文本编辑器，会计师使用电子表格一样，软件开发人员使用 IDE 让他们的工作变得更轻松。当前比较流行的 Python IDE 有 PyCharm, IDEA, VS CODE 等。 Emacs 作为一个可扩展的文本编辑器，处理各种文本数据是非常方便的。我们在 Emacs 里增加 elisp 扩展，就可以模拟各种 IDE 的环境，还能更好。\n">
 <meta property='og:url' content='/post/%E6%8A%8A-emacs-%E6%89%93%E9%80%A0%E4%B8%BA-python-ide/'>
 <meta property='og:site_name' content='点点马的逍遥港'>
@@ -867,6 +867,44 @@
         
     </div>
 </aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
 
 
 

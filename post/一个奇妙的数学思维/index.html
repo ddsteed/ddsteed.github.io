@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
 
-<link rel="stylesheet" href="/scss/style.min.8a9a8bcc70d690648fc18d3117283364443f0565a692b84f34afa183d74cbf81.css"><meta property='og:title' content="一个奇妙的数学思维">
+<link rel="stylesheet" href="/scss/style.min.abedba26b0395d2b3e55dbf395980329e434830e60910689ac70c04037b8f503.css"><meta property='og:title' content="一个奇妙的数学思维">
 <meta property='og:description' content="数学真是一个奇怪的东西，我们早就知道了各种美妙的数学思想，以及抽象美带来的震撼。前两天，我看到一个关于数学命题证明的小故事，再一次地刷新了我对于数学思想的认识。\n">
 <meta property='og:url' content='/post/%E4%B8%80%E4%B8%AA%E5%A5%87%E5%A6%99%E7%9A%84%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/'>
 <meta property='og:site_name' content='点点马的逍遥港'>
@@ -556,6 +556,44 @@
         
     </div>
 </aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
 
 
 
