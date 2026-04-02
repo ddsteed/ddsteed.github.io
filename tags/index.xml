@@ -12,12 +12,6 @@
             <guid>/tags/education/</guid>
             <description></description>
         </item><item>
-            <title>Startup</title>
-            <link>/tags/startup/</link>
-            <pubDate>Thu, 02 Apr 2026 16:21:00 +0800</pubDate>
-            <guid>/tags/startup/</guid>
-            <description></description>
-        </item><item>
             <title>Misc</title>
             <link>/tags/misc/</link>
             <pubDate>Tue, 31 Mar 2026 09:48:00 +0800</pubDate>
@@ -28,6 +22,12 @@
             <link>/tags/reading/</link>
             <pubDate>Thu, 19 Feb 2026 14:29:00 +0800</pubDate>
             <guid>/tags/reading/</guid>
+            <description></description>
+        </item><item>
+            <title>Startup</title>
+            <link>/tags/startup/</link>
+            <pubDate>Fri, 16 Jan 2026 10:23:00 +0800</pubDate>
+            <guid>/tags/startup/</guid>
             <description></description>
         </item><item>
             <title>Study</title>
