@@ -123,12 +123,48 @@
 
  
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg-primary: var(--dark-bg-primary);
-    --bg-secondary: var(--dark-bg-secondary);
-    --text-primary: var(--dark-text-primary);
-    --text-secondary: var(--dark-text-secondary);
-    --border-color: var(--dark-border-color);
+  :root,
+  html[data-scheme="light"],
+  html[data-scheme="dark"] {
+     
+    --body-background: #1a1e2e !important;
+    --card-background: #242838 !important;
+    --card-background-selected: rgba(255, 255, 255, 0.16) !important;
+
+     
+    --card-text-color-main: #7aa2f7 !important;
+    --card-text-color-secondary: rgba(255, 255, 255, 0.75) !important;
+    --card-text-color-tertiary: rgba(255, 255, 255, 0.6) !important;
+
+    --body-text-color: rgba(255, 255, 255, 0.7) !important;
+
+     
+    --accent-color: #ecf0f1 !important;
+    --accent-color-darker: #bdc3c7 !important;
+    --accent-color-text: #000 !important;
+
+     
+    --card-separator-color: rgba(255, 255, 255, 0.12) !important;
+
+     
+    --code-background-color: #272822 !important;
+    --code-text-color: rgba(255, 255, 255, 0.9) !important;
+    --pre-text-color: #f8f8f2 !important;
+    --pre-background-color: #272822 !important;
+
+     
+    --table-border-color: #717171 !important;
+    --tr-even-background-color: #2d3142 !important;
+
+     
+    --blockquote-background-color: #262a3a !important;
+
+     
+    --bg-primary: var(--dark-bg-primary) !important;
+    --bg-secondary: var(--dark-bg-secondary) !important;
+    --text-primary: var(--dark-text-primary) !important;
+    --text-secondary: var(--dark-text-secondary) !important;
+    --border-color: var(--dark-border-color) !important;
   }
 }
 
@@ -143,26 +179,73 @@
 
  
 html[data-scheme="dark"] {
-   
-  --card-background: #242838 !important;
-   
   --body-background: #1a1e2e !important;
-   
-  --tr-even-background-color: #2d3142 !important;
-   
-  --blockquote-background-color: #262a3a !important;
+  --card-background: #242838 !important;
 
    
+  --card-text-color-main: #7aa2f7 !important;
+  --card-text-color-secondary: rgba(255, 255, 255, 0.75) !important;
+  --card-text-color-tertiary: rgba(255, 255, 255, 0.6) !important;
+
+   
+  --accent-color: #ecf0f1 !important;
+  --accent-color-darker: #bdc3c7 !important;
+  --accent-color-text: #000 !important;
+
+  --tr-even-background-color: #2d3142 !important;
+  --blockquote-background-color: #262a3a !important;
+
   .sidebar .site-name a {
-    color: #e2e8f0 !important;   
+    color: #e2e8f0 !important;
   }
   .sidebar .site-description {
-    color: #9aa5ce !important;   
+    color: #9aa5ce !important;
   }
 }
 
  
-html[data-scheme="dark"] .article-title,
+@media (prefers-color-scheme: dark) {
+  .article-title a:hover {
+    color: #5d87e5 !important;
+  }
+
+   
+  .article-content {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  .sidebar .site-name a {
+    color: #e2e8f0 !important;
+  }
+  .sidebar .site-description {
+    color: #9aa5ce !important;
+  }
+
+  .article-content h1,
+  .article-content h2,
+  .article-content h3,
+  .article-content h4,
+  .article-content h5,
+  .article-content h6 {
+    color: #f8fafc !important;
+  }
+
+   
+  .tagCloud-tags a,
+  .archives-year a span.year {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+}
+
+html[data-scheme="dark"] .article-title a:hover {
+  color: #5d87e5 !important;
+}
+
+ 
+html[data-scheme="dark"] .article-content {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
 html[data-scheme="dark"] .article-content h1,
 html[data-scheme="dark"] .article-content h2,
 html[data-scheme="dark"] .article-content h3,
@@ -173,6 +256,11 @@ html[data-scheme="dark"] .article-content h6 {
 }
 
  
+html[data-scheme="dark"] .tagCloud-tags a,
+html[data-scheme="dark"] .archives-year a span.year {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
 .sidebar {
   padding: var(--spacing-lg) !important;
   box-sizing: border-box !important;
