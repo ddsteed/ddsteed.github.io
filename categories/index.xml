@@ -5,7 +5,13 @@
         <description>Recent content in 分类 on 点点马的逍遥港</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 07 Apr 2026 17:09:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Apr 2026 21:08:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>感悟</title>
+            <link>/categories/%E6%84%9F%E6%82%9F/</link>
+            <pubDate>Wed, 08 Apr 2026 21:08:00 +0800</pubDate>
+            <guid>/categories/%E6%84%9F%E6%82%9F/</guid>
+            <description></description>
+        </item><item>
             <title>教育</title>
             <link>/categories/%E6%95%99%E8%82%B2/</link>
             <pubDate>Tue, 07 Apr 2026 17:09:00 +0800</pubDate>
@@ -16,12 +22,6 @@
             <link>/categories/%E6%9D%82%E8%B0%88/</link>
             <pubDate>Tue, 31 Mar 2026 09:48:00 +0800</pubDate>
             <guid>/categories/%E6%9D%82%E8%B0%88/</guid>
-            <description></description>
-        </item><item>
-            <title>感悟</title>
-            <link>/categories/%E6%84%9F%E6%82%9F/</link>
-            <pubDate>Sat, 21 Mar 2026 09:46:00 +0800</pubDate>
-            <guid>/categories/%E6%84%9F%E6%82%9F/</guid>
             <description></description>
         </item><item>
             <title>读书</title>
