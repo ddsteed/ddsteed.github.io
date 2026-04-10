@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="这里有三个概念首先需要理清：\n用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网上。 org-mode 写文档 org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 org mode 网站，学习如何使用 org-mode 模式。\n">
+<title>如何创建个人 Blog</title>
+
+
+<link rel="canonical" href="/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA-blog/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/scss/style.min.d07e5680759a4010f8d14ba99892c836993194120e4feec38da56719f99c120c.css"><meta property='og:title' content="如何创建个人 Blog">
+<meta property='og:description' content="这里有三个概念首先需要理清：\n用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网上。 org-mode 写文档 org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 org mode 网站，学习如何使用 org-mode 模式。\n">
+<meta property='og:url' content='/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA-blog/'>
+<meta property='og:site_name' content='点点马的逍遥港'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='tech' /><meta property='article:published_time' content='2023-01-15T21:19:00&#43;08:00'/><meta property='article:modified_time' content='2023-01-15T21:19:00&#43;08:00'/>
+<meta name="twitter:title" content="如何创建个人 Blog">
+<meta name="twitter:description" content="这里有三个概念首先需要理清：\n用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别； 使用 hugo 建立静态网页； 将本地静态网页发布到互联网上。 org-mode 写文档 org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 org mode 网站，学习如何使用 org-mode 模式。\n">
+
+
+
+
+
+
+
+
+<style>
+ 
+:root,
+html[data-scheme="light"],
+html[data-scheme="dark"] {
+   
+  --body-background: #1a1e2e !important;
+  --card-background: #242838 !important;
+  --card-background-selected: rgba(255, 255, 255, 0.16) !important;
+
+   
+  --card-text-color-main: #7aa2f7 !important;
+  --card-text-color-secondary: rgba(255, 255, 255, 0.75) !important;
+  --card-text-color-tertiary: rgba(255, 255, 255, 0.6) !important;
+
+  --body-text-color: rgba(255, 255, 255, 0.7) !important;
+
+   
+  --accent-color: #ecf0f1 !important;
+  --accent-color-darker: #bdc3c7 !important;
+  --accent-color-text: #000 !important;
+
+   
+  --card-separator-color: rgba(255, 255, 255, 0.12) !important;
+
+   
+  --code-background-color: #272822 !important;
+  --code-text-color: rgba(255, 255, 255, 0.9) !important;
+  --pre-text-color: #f8f8f2 !important;
+  --pre-background-color: #272822 !important;
+
+   
+  --table-border-color: #717171 !important;
+  --tr-even-background-color: #2d3142 !important;
+
+   
+  --blockquote-background-color: #262a3a !important;
+
+   
+  --dark-bg-primary: #0f172a;
+  --dark-bg-secondary: #1e293b;
+  --dark-bg-tertiary: #334155;
+  --dark-text-primary: #e2e8f0;
+  --dark-text-secondary: #cbd5e1;
+  --dark-text-muted: #94a3b8;
+  --dark-border-color: #334155;
+
+   
+  --bg-primary: var(--dark-bg-primary) !important;
+  --bg-secondary: var(--dark-bg-secondary) !important;
+  --text-primary: var(--dark-text-primary) !important;
+  --text-secondary: var(--dark-text-secondary) !important;
+  --border-color: var(--dark-border-color) !important;
+
+   
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-light: #93c5fd;
+
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --error-color: #ef4444;
+  --info-color: #06b6d4;
+
+   
+  --font-family-base: ZgotmplZ;
+  --font-family-heading: ZgotmplZ;
+  --font-family-mono: ZgotmplZ;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: ZgotmplZ;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+
+   
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+   
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+   
+  --shadow-sm: ZgotmplZ;
+  --shadow-md: ZgotmplZ;
+  --shadow-lg: ZgotmplZ;
+  --shadow-xl: ZgotmplZ;
+
+   
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+
+   
+  --sidebar-width: 320px;
+  --header-height: 64px;
+  --article-max-width: 720px;
+
+  --sidebar-avatar-size: 160px;
+  --article-title-size: 1.4rem;
+  --article-body-size: 1.1rem;
+
+  --card-image-height: 200px;
+  --card-hover-offset: -4px;
+}
+
+ 
+
+ 
+.article-title a {
+  color: #7aa2f7 !important;
+}
+
+ 
+.article-title a:hover {
+  color: #5d87e5 !important;
+}
+
+ 
+.article-title {
+  color: #7aa2f7 !important;
+}
+
+ 
+.article-content {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+ 
+.sidebar .site-name a {
+  color: #e2e8f0 !important;
+}
+.sidebar .site-description {
+  color: #9aa5ce !important;
+}
+
+ 
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  color: #f8fafc !important;
+}
+
+ 
+.tagCloud-tags a,
+.archives-year a span.year {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+ 
+.sidebar {
+  padding: var(--spacing-lg) !important;
+  box-sizing: border-box !important;
+}
+
+ 
+
+ 
+.article-content img,
+figure img {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  border-radius: 12px !important;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.3),
+    0 10px 20px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(255, 255, 255, 0.05) inset !important;
+  transform: translateZ(0) translateY(0) !important;
+  will-change: transform, box-shadow !important;
+}
+
+ 
+.article-content img:hover,
+figure img:hover {
+  transform: translateZ(0) translateY(-8px) scale(1.02) !important;
+  box-shadow:
+    0 8px 12px rgba(0, 0, 0, 0.4),
+    0 20px 40px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+    0 0 20px rgba(122, 162, 247, 0.15) !important;
+}
+
+ 
+.article-content figure {
+  margin: 2rem 0 !important;
+}
+
+ 
+.article-content figcaption {
+  margin-top: 0.75rem !important;
+  font-size: 0.9rem !important;
+  color: var(--dark-text-secondary) !important;
+  text-align: center !important;
+  font-style: italic !important;
+}
+
+ 
+.article-list--featured .article-image img {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  border-radius: 12px !important;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.3),
+    0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.article-list--featured .article-image:hover img {
+  transform: scale(1.05) translateY(-4px) !important;
+  box-shadow:
+    0 8px 12px rgba(0, 0, 0, 0.4),
+    0 20px 40px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(122, 162, 247, 0.2) !important;
+}
+
+ 
+.sidebar .site-avatar img {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.3),
+    0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.sidebar .site-avatar:hover img {
+  transform: translateY(-6px) scale(1.05) !important;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.4),
+    0 16px 40px rgba(0, 0, 0, 0.3),
+    0 0 25px rgba(122, 162, 247, 0.2) !important;
+}
+
+ 
+@media (max-width: 768px) {
+  .article-content img:hover,
+  figure img:hover {
+    transform: translateZ(0) translateY(-4px) scale(1.01) !important;
+  }
+}
+
+ 
+
+ 
+.toc-nav ol,
+.widget--toc ol {
+  list-style-type: none !important;
+  counter-reset: none !important;
+}
+
+.toc-nav ol li a:first-of-type::before,
+.widget--toc ol li a:first-of-type::before {
+  content: "" !important;
+  counter-increment: none !important;
+  margin-right: 0 !important;
+}
+
+ 
+.toc-nav {
+  font-size: 0.95rem !important;
+}
+
+.toc-nav ul,
+.toc-nav ol {
+  padding-left: 0 !important;
+}
+
+ 
+.toc-nav > ul > li,
+.toc-nav > ol > li {
+  margin: 0.5rem 0 !important;
+  padding-left: 0 !important;
+}
+
+ 
+.toc-nav > ul > li > ul > li,
+.toc-nav > ol > li > ol > li {
+  margin: 0.4rem 0 !important;
+  padding-left: 1.2rem !important;
+}
+
+ 
+.toc-nav > ul > li > ul > li > ul > li,
+.toc-nav > ol > li > ol > li > ol > li {
+  margin: 0.3rem 0 !important;
+  padding-left: 2.2rem !important;
+}
+
+ 
+.toc-nav > ul > li > ul > li > ul > li > ul > li,
+.toc-nav > ol > li > ol > li > ol > li > ol > li {
+  margin: 0.3rem 0 !important;
+  padding-left: 3.2rem !important;
+}
+
+.toc-nav > ul > li > ul > li > ul > li > ul > li > ul > li,
+.toc-nav > ol > li > ol > li > ol > li > ol > li > ol > li {
+  margin: 0.3rem 0 !important;
+  padding-left: 4.2rem !important;
+}
+
+ 
+.toc-nav a {
+  color: var(--card-text-color-secondary) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+  display: inline-block !important;
+  padding: 2px 0 !important;
+}
+
+.toc-nav a:hover {
+  color: var(--accent-color) !important;
+}
+
+ 
+.toc-nav li.active-class > a {
+  color: var(--accent-color) !important;
+  font-weight: 500 !important;
+  border-left: 2px solid var(--accent-color) !important;
+  padding-left: 0.5rem !important;
+  margin-left: calc(-0.5rem - 2px) !important;
+}
+
+ 
+@media (max-width: 768px) {
+  .toc-nav {
+    font-size: 0.9rem !important;
+  }
+
+  .toc-nav > ul > li > ul > li,
+  .toc-nav > ol > li > ol > li {
+    padding-left: 1rem !important;
+  }
+
+  .toc-nav > ul > li > ul > li > ul > li,
+  .toc-nav > ol > li > ol > li > ol > li {
+    padding-left: 1.8rem !important;
+  }
+}
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">点点马的逍遥港</a></h1>
+            <h2 class="site-description">Old Fashion Man</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archive/' >
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/tags/' >
+                
+                <span>标签</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/' >
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ol>
+    <li><a href="#org-mode-写文档">org-mode 写文档</a></li>
+    <li><a href="#hugo-制作网页">hugo 制作网页</a>
+      <ol>
+        <li><a href="#快速建立网站">快速建立网站</a></li>
+        <li><a href="#本地浏览网站">本地浏览网站</a></li>
+        <li><a href="#发布网站内容">发布网站内容</a></li>
+      </ol>
+    </li>
+    <li><a href="#ox-hugo">ox-hugo</a></li>
+    <li><a href="#发布到-github-静态网站上">发布到 github 静态网站上</a></li>
+  </ol>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="category-link">
+                <span class="category-icon">📁</span>
+                技术
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA-blog/">如何创建个人 Blog</a>
+        </h2>
+
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2023-01-15T21:19:00&#43;08:00'>Sunday, January 15, 2023</time>
+                
+
+                
+                    <span class="meta-separator">·</span>
+                
+
+                
+                    <span class="article-word-count">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="14" height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 9m0 0a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3" />
+                            <path d="M5 15m0 0a3 3 0 0 0 3 3h8a3 3 0 0 0 3 -3" />
+                            <path d="M3.5 9h17" />
+                            <path d="M3.5 15h17" />
+                        </svg>
+                        <span>1434 字</span>
+                    </span>
+                
+
+                
+                    <span class="meta-separator">·</span>
+                    <span class="article-time--reading">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                        <time>3 分钟</time>
+                    </span>
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
+</div>
+
+</header>
+
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span></span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ol>
+    <li><a href="#org-mode-写文档">org-mode 写文档</a></li>
+    <li><a href="#hugo-制作网页">hugo 制作网页</a>
+      <ol>
+        <li><a href="#快速建立网站">快速建立网站</a></li>
+        <li><a href="#本地浏览网站">本地浏览网站</a></li>
+        <li><a href="#发布网站内容">发布网站内容</a></li>
+      </ol>
+    </li>
+    <li><a href="#ox-hugo">ox-hugo</a></li>
+    <li><a href="#发布到-github-静态网站上">发布到 github 静态网站上</a></li>
+  </ol>
+
+            </nav>
+        </details>
+    </aside>
+    
+
+    <section class="article-content">
+    
+    
+    <p>这里有三个概念首先需要理清：</p>
+<ol>
+<li>用 org-mode 模式写文章，并将 org 格式的文章转换为 markdown 格式，以便 hugo 可以识别；</li>
+<li>使用 hugo 建立静态网页；</li>
+<li>将本地静态网页发布到互联网上。</li>
+</ol>
+<h2 id="org-mode-写文档">org-mode 写文档
+</h2><p>org-mode 是一种标记模式，把文档的内容和格式分开，这样所有的文档都是文本模式。org-mode 模式已经被很多编辑器支持了，但还是 Emacs 支持得最好。因此，请参考 <a class="link" href="https://orgmode.org"  target="_blank" rel="noopener"
+    >org mode</a> 网站，学习如何使用 org-mode 模式。</p>
+<h2 id="hugo-制作网页">hugo 制作网页
+</h2><p><code>hugo</code> 是一个静态网站生成器。所谓网站，就是有逻辑关系的各 html 网页组成的集合。html 本质上也是一种标记语言，呈现的样式用特殊的标记来指明。由于组成网站的每个 html 网页的样式基本是相同的，因此，对于网站来说，更好的方式是把样式统一在一起。这些样式说明文件以 css 语言最为流行。</p>
+<h3 id="快速建立网站">快速建立网站
+</h3><p><a class="link" href="https://gohugo.io/getting-started/quick-start/"  target="_blank" rel="noopener"
+    >hugo quickstart</a> 介绍了如何使用 hugo 快速建立一个网站，非常实用。这里我将模仿使用的命令记录如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new site quickstart
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> quickstart
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;theme = &#39;ananke&#39;&#34;</span> &gt;&gt; config.toml
+</span></span><span class="line"><span class="cl">hugo server
+</span></span></code></pre></div><p>进入建立好的 quickstart 目录，检查 hugo 大致的目录结构如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">├── archetypes
+</span></span><span class="line"><span class="cl">├── assets
+</span></span><span class="line"><span class="cl">├── config.toml
+</span></span><span class="line"><span class="cl">├── content
+</span></span><span class="line"><span class="cl">├── data
+</span></span><span class="line"><span class="cl">├── layouts
+</span></span><span class="line"><span class="cl">├── public
+</span></span><span class="line"><span class="cl">├── resources
+</span></span><span class="line"><span class="cl">├── static
+</span></span><span class="line"><span class="cl">└── themes
+</span></span></code></pre></div><p>其中，</p>
+<ul>
+<li>config.toml 文件为基本设置文件，网站样式都可以在这里指定。</li>
+<li>themes 下包含多种不同的样式模版，可以到网上寻找喜欢的模版并改造。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li>content/post 目录下是原始的文章内容，hugo 只认 markdwon 格式的。</li>
+<li>public 目录下所有的内容可以打包发布出去。</li>
+</ul>
+<h3 id="本地浏览网站">本地浏览网站
+</h3><p>在 hugo 网站目录下执行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo server -D
+</span></span></code></pre></div><p>然后打开浏览器，输入网址：<a class="link" href="http://127.0.0.1:1313"  target="_blank" rel="noopener"
+    >http://127.0.0.1:1313</a> 。则可以浏览网站所有内容。</p>
+<h3 id="发布网站内容">发布网站内容
+</h3><p>在 hugo 网站目录下执行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo
+</span></span></code></pre></div><p>则在 public 目录下会生成所有静态网站所需的全部文档，把这个目录下的所有内容拷贝到支持的域名中即可。</p>
+<h2 id="ox-hugo">ox-hugo
+</h2><p>org-mode 写成的 <code>.org</code> 文档，可以直接输出成 <code>.md</code> 格式。然后拷贝到 hugo 网站的 content/post 目录下，用 hugo 进行管理，发布成静态网页。但这样的方式显得很“愚笨”，也不利于 org 的统一管理，尤其是想直接把 org-roam 建立的个人笔记系统中的文章发布在博客上。这时，我们可以采用 ox-hugo 宏包来方便处理。</p>
+<ol>
+<li>
+<p>在 emacs 的设置文件中加入：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">ox-hugo</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">:ensure</span> <span class="no">t</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">:pin</span> <span class="nv">melpa</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">:after</span> <span class="nv">ox</span><span class="p">)</span>
+</span></span></code></pre></div></li>
+<li>
+<p>在 hugo 网站下建立目录</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">mkdir content-org
+</span></span></code></pre></div></li>
+<li>
+<p>在该目录下建立文件&mdash; all-posts.org，其表头内容如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">#+hugo_base_dir: ../
+</span></span><span class="line"><span class="cl">#+hugo_section: ./post/
+</span></span></code></pre></div><p>这里，</p>
+<ul>
+<li><strong>HUGO_BASE_DIR:</strong> 这里是博客的根目录，因为我的 <code>org</code> 文件放在博客根目录下的 content-org，所以这里博客的根目录就是 “../” ，也就是本目录的上一层目录</li>
+<li><strong>HUGO_SECTION:</strong> 生成的 <code>markdown</code> 文件的位置，比如 &ldquo;./post/&rdquo; 就会将 <code>markdown</code> 文件生成在博客根目录下的 &ldquo;content/post/&rdquo;</li>
+</ul>
+<p>然后在里面按照 org-mode 的格式添加博客文章，比如：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">​*  DONE 使用 Org-Mode+ox-hugo+github page 创建个人 Blog       :tech:@技术:
+</span></span><span class="line"><span class="cl">  CLOSED: [2023-01-14 Sat 16:36] SCHEDULED: &lt;2023-01-14 Sat&gt;
+</span></span><span class="line"><span class="cl">  :PROPERTIES:
+</span></span><span class="line"><span class="cl">  :EXPORT_FILE_NAME: org-hugo-blog
+</span></span><span class="line"><span class="cl">  :END:
+</span></span></code></pre></div><p>即，每一篇博客文章都作为 all-posts.org 文件里的一级标题，且必须包含如下三行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">:PROPERTIES:
+</span></span><span class="line"><span class="cl">:EXPORT_FILE_NAME: filename
+</span></span><span class="line"><span class="cl">:END:
+</span></span></code></pre></div><p>状态为 DONE 的文章，才会被正式发布出去。如果是 TODO，则在本地预览时，也可看到。当然，还可以添加 tag 和 category。这样设置以后的文档出现在网站的不同分类中。</p>
+</li>
+<li>
+<p>每当更新完一篇博客文章后，都在 all-posts.org 文件里执行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="nv">C-c</span> <span class="nv">C-e</span>
+</span></span><span class="line"><span class="cl"><span class="nv">H</span>
+</span></span><span class="line"><span class="cl"><span class="nv">A</span>
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="发布到-github-静态网站上">发布到 github 静态网站上
+</h2><p>如果有域名，则可以将 public 目录下的所有内容拷贝上去即可。github 网站提供了一个免费的个人 blog 方法。</p>
+<ol>
+<li>在 github 上建立 yourname.github.io 仓库。（注意：必须是你在 github 上的账号名作为 yourname。）</li>
+</ol>
+<p>2。 在 public 目录下建立 git 仓库：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git remote add github git@github.com:yourname/yourname.github.io.git
+</span></span></code></pre></div><p>以后每次博客更新后，都按照 git 的方式提交就好了。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;test&#34;</span>
+</span></span><span class="line"><span class="cl">git push -f github master
+</span></span></code></pre></div><p><code>github.io</code> 经常被屏蔽，可以尝试在阿里云上申请个人域名，再用域名解析的方式将 <code>github.io</code> 绑定。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>采用他人的主题，大多数只需要修改 <code>config.toml</code> 文件即可。但若想完全改造成自己希望的样式，还是需要深入到目录内部。因此，一旦选定了某个 theme，好好地定制一下，不要随便更新。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/tech/" class="tag-link">
+                <span class="tag-icon">🏷️</span>
+                Tech
+            </a>
+        
+    </section>
+
+
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const elementsToRender = [".main-article", ".widget--toc"];
+
+        elementsToRender.forEach(selector => {
+            const element = document.querySelector(selector);
+            if (element) {
+                renderMathInElement(element, {
+                    delimiters: [
+                        { left: "$$", right: "$$", display: true },
+                        { left: "$", right: "$", display: false },
+                        { left: "\\(", right: "\\)", display: false },
+                        { left: "\\[", right: "\\]", display: true }
+                    ],
+                    ignoredClasses: ["gist"]
+                });
+            }
+        });
+    });
+</script>
+    
+</article>
+
+    
+
+    
+    
+
+
+
+
+
+<aside class="article-navigation">
+    <div class="nav-container">
+        
+        <div class="nav-item nav-prev">
+            <span class="nav-label">上一篇</span>
+            <a href="/post/%E6%A2%85%E8%A5%BF%E7%BB%88%E4%BA%8E%E5%BE%97%E5%81%BF%E6%89%80%E6%84%BF/" class="nav-link">梅西，终于得偿所愿</a>
+        </div>
+        
+
+        
+        <div class="nav-item nav-next">
+            <span class="nav-label">下一篇</span>
+            <a href="/post/empathy-vs.-sympathy/" class="nav-link">empathy vs. sympathy</a>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
+
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2012 - 
+        
+        2026 点点马的逍遥港
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>
