@@ -200,186 +200,6 @@ html[data-scheme="dark"] {
   padding: var(--spacing-lg) !important;
   box-sizing: border-box !important;
 }
-
- 
-
- 
-.article-content img,
-figure img {
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-  border-radius: 12px !important;
-  box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.3),
-    0 10px 20px rgba(0, 0, 0, 0.2),
-    0 0 0 1px rgba(255, 255, 255, 0.05) inset !important;
-  transform: translateZ(0) translateY(0) !important;
-  will-change: transform, box-shadow !important;
-}
-
- 
-.article-content img:hover,
-figure img:hover {
-  transform: translateZ(0) translateY(-8px) scale(1.02) !important;
-  box-shadow:
-    0 8px 12px rgba(0, 0, 0, 0.4),
-    0 20px 40px rgba(0, 0, 0, 0.3),
-    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
-    0 0 20px rgba(122, 162, 247, 0.15) !important;
-}
-
- 
-.article-content figure {
-  margin: 2rem 0 !important;
-}
-
- 
-.article-content figcaption {
-  margin-top: 0.75rem !important;
-  font-size: 0.9rem !important;
-  color: var(--dark-text-secondary) !important;
-  text-align: center !important;
-  font-style: italic !important;
-}
-
- 
-.article-list--featured .article-image img {
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-  border-radius: 12px !important;
-  box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.3),
-    0 10px 20px rgba(0, 0, 0, 0.2) !important;
-}
-
-.article-list--featured .article-image:hover img {
-  transform: scale(1.05) translateY(-4px) !important;
-  box-shadow:
-    0 8px 12px rgba(0, 0, 0, 0.4),
-    0 20px 40px rgba(0, 0, 0, 0.3),
-    0 0 20px rgba(122, 162, 247, 0.2) !important;
-}
-
- 
-.sidebar .site-avatar img {
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-  box-shadow:
-    0 4px 12px rgba(0, 0, 0, 0.3),
-    0 8px 24px rgba(0, 0, 0, 0.2) !important;
-}
-
-.sidebar .site-avatar:hover img {
-  transform: translateY(-6px) scale(1.05) !important;
-  box-shadow:
-    0 8px 20px rgba(0, 0, 0, 0.4),
-    0 16px 40px rgba(0, 0, 0, 0.3),
-    0 0 25px rgba(122, 162, 247, 0.2) !important;
-}
-
- 
-@media (max-width: 768px) {
-  .article-content img:hover,
-  figure img:hover {
-    transform: translateZ(0) translateY(-4px) scale(1.01) !important;
-  }
-}
-
- 
-
- 
-.toc-nav ol,
-.widget--toc ol {
-  list-style-type: none !important;
-  counter-reset: none !important;
-}
-
-.toc-nav ol li a:first-of-type::before,
-.widget--toc ol li a:first-of-type::before {
-  content: "" !important;
-  counter-increment: none !important;
-  margin-right: 0 !important;
-}
-
- 
-.toc-nav {
-  font-size: 0.95rem !important;
-}
-
-.toc-nav ul,
-.toc-nav ol {
-  padding-left: 0 !important;
-}
-
- 
-.toc-nav > ul > li,
-.toc-nav > ol > li {
-  margin: 0.5rem 0 !important;
-  padding-left: 0 !important;
-}
-
- 
-.toc-nav > ul > li > ul > li,
-.toc-nav > ol > li > ol > li {
-  margin: 0.4rem 0 !important;
-  padding-left: 1.2rem !important;
-}
-
- 
-.toc-nav > ul > li > ul > li > ul > li,
-.toc-nav > ol > li > ol > li > ol > li {
-  margin: 0.3rem 0 !important;
-  padding-left: 2.2rem !important;
-}
-
- 
-.toc-nav > ul > li > ul > li > ul > li > ul > li,
-.toc-nav > ol > li > ol > li > ol > li > ol > li {
-  margin: 0.3rem 0 !important;
-  padding-left: 3.2rem !important;
-}
-
-.toc-nav > ul > li > ul > li > ul > li > ul > li > ul > li,
-.toc-nav > ol > li > ol > li > ol > li > ol > li > ol > li {
-  margin: 0.3rem 0 !important;
-  padding-left: 4.2rem !important;
-}
-
- 
-.toc-nav a {
-  color: var(--card-text-color-secondary) !important;
-  text-decoration: none !important;
-  transition: color 0.2s ease !important;
-  display: inline-block !important;
-  padding: 2px 0 !important;
-}
-
-.toc-nav a:hover {
-  color: var(--accent-color) !important;
-}
-
- 
-.toc-nav li.active-class > a {
-  color: var(--accent-color) !important;
-  font-weight: 500 !important;
-  border-left: 2px solid var(--accent-color) !important;
-  padding-left: 0.5rem !important;
-  margin-left: calc(-0.5rem - 2px) !important;
-}
-
- 
-@media (max-width: 768px) {
-  .toc-nav {
-    font-size: 0.9rem !important;
-  }
-
-  .toc-nav > ul > li > ul > li,
-  .toc-nav > ol > li > ol > li {
-    padding-left: 1rem !important;
-  }
-
-  .toc-nav > ul > li > ul > li > ul > li,
-  .toc-nav > ol > li > ol > li > ol > li {
-    padding-left: 1.8rem !important;
-  }
-}
 </style>
 
     </head>
@@ -518,20 +338,8 @@ figure img:hover {
             
                 
     <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
+        <h2 class="widget-title section-title">目录导航</h2>
 
-
-
-        </div>
-        <h2 class="widget-title section-title"></h2>
-        
         <div class="widget--toc">
             <nav class="toc-nav" id="TableOfContents">
                 
@@ -547,6 +355,7 @@ figure img:hover {
             </nav>
         </div>
     </section>
+
 
             
         
