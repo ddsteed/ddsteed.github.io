@@ -5,7 +5,13 @@
         <description>Recent content in 分类 on 点点马的逍遥港</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 10 Apr 2026 18:10:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 25 Apr 2026 09:35:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>思维</title>
+            <link>/categories/%E6%80%9D%E7%BB%B4/</link>
+            <pubDate>Sat, 25 Apr 2026 09:35:00 +0800</pubDate>
+            <guid>/categories/%E6%80%9D%E7%BB%B4/</guid>
+            <description></description>
+        </item><item>
             <title>教育</title>
             <link>/categories/%E6%95%99%E8%82%B2/</link>
             <pubDate>Fri, 10 Apr 2026 18:10:00 +0800</pubDate>
@@ -46,12 +52,6 @@
             <link>/categories/%E6%8A%80%E6%9C%AF/</link>
             <pubDate>Sun, 12 Oct 2025 09:10:00 +0800</pubDate>
             <guid>/categories/%E6%8A%80%E6%9C%AF/</guid>
-            <description></description>
-        </item><item>
-            <title>思维</title>
-            <link>/categories/%E6%80%9D%E7%BB%B4/</link>
-            <pubDate>Mon, 10 Mar 2025 09:32:00 +0800</pubDate>
-            <guid>/categories/%E6%80%9D%E7%BB%B4/</guid>
             <description></description>
         </item><item>
             <title>研究</title>
