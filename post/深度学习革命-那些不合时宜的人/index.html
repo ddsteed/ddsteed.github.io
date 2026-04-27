@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="断断续续，用了两个星期，读完了这本关于当代人工智能的书。\n这几年，人工智能太热了。热到什么程度呢？几乎每隔一段时间，就会有一本新书出来，讲大模型，讲深度学习，讲人类未来，讲职业替代，讲某个不可逆转的新纪元。书名一个比一个响，封面一个比一个急。翻开以后，却常常读不下去。许多作者写人工智能，像是在复述几篇新闻稿；写深度学习，像是在讲一个突然从天上掉下来的神迹。仿佛某一天，世界还在按旧规则运转，第二天，神经网络一觉醒来，便成了时代的主人。\n">
+<title>《深度学习革命》–— 那些不合时宜的人</title>
+
+
+<link rel="canonical" href="/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E9%9D%A9%E5%91%BD-%E9%82%A3%E4%BA%9B%E4%B8%8D%E5%90%88%E6%97%B6%E5%AE%9C%E7%9A%84%E4%BA%BA/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/scss/style.min.5562b5d7b6900a8253d90b7ada6c39cd72e5b065c0286efa5b6d40c7cb76837f.css"><meta property='og:title' content="《深度学习革命》–— 那些不合时宜的人">
+<meta property='og:description' content="断断续续，用了两个星期，读完了这本关于当代人工智能的书。\n这几年，人工智能太热了。热到什么程度呢？几乎每隔一段时间，就会有一本新书出来，讲大模型，讲深度学习，讲人类未来，讲职业替代，讲某个不可逆转的新纪元。书名一个比一个响，封面一个比一个急。翻开以后，却常常读不下去。许多作者写人工智能，像是在复述几篇新闻稿；写深度学习，像是在讲一个突然从天上掉下来的神迹。仿佛某一天，世界还在按旧规则运转，第二天，神经网络一觉醒来，便成了时代的主人。\n">
+<meta property='og:url' content='/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E9%9D%A9%E5%91%BD-%E9%82%A3%E4%BA%9B%E4%B8%8D%E5%90%88%E6%97%B6%E5%AE%9C%E7%9A%84%E4%BA%BA/'>
+<meta property='og:site_name' content='点点马的逍遥港'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='reading' /><meta property='article:published_time' content='2025-10-14T10:28:00&#43;08:00'/><meta property='article:modified_time' content='2025-10-14T10:28:00&#43;08:00'/>
+<meta name="twitter:title" content="《深度学习革命》–— 那些不合时宜的人">
+<meta name="twitter:description" content="断断续续，用了两个星期，读完了这本关于当代人工智能的书。\n这几年，人工智能太热了。热到什么程度呢？几乎每隔一段时间，就会有一本新书出来，讲大模型，讲深度学习，讲人类未来，讲职业替代，讲某个不可逆转的新纪元。书名一个比一个响，封面一个比一个急。翻开以后，却常常读不下去。许多作者写人工智能，像是在复述几篇新闻稿；写深度学习，像是在讲一个突然从天上掉下来的神迹。仿佛某一天，世界还在按旧规则运转，第二天，神经网络一觉醒来，便成了时代的主人。\n">
+
+
+
+
+
+
+
+
+<style>
+ 
+:root,
+html[data-scheme="light"],
+html[data-scheme="dark"] {
+   
+  --body-background: #1a1e2e !important;
+  --card-background: #242838 !important;
+  --card-background-selected: rgba(255, 255, 255, 0.16) !important;
+
+   
+  --card-text-color-main: #7aa2f7 !important;
+  --card-text-color-secondary: rgba(255, 255, 255, 0.75) !important;
+  --card-text-color-tertiary: rgba(255, 255, 255, 0.6) !important;
+
+  --body-text-color: rgba(255, 255, 255, 0.7) !important;
+
+   
+  --accent-color: #ecf0f1 !important;
+  --accent-color-darker: #bdc3c7 !important;
+  --accent-color-text: #000 !important;
+
+   
+  --card-separator-color: rgba(255, 255, 255, 0.12) !important;
+
+   
+  --code-background-color: #272822 !important;
+  --code-text-color: rgba(255, 255, 255, 0.9) !important;
+  --pre-text-color: #f8f8f2 !important;
+  --pre-background-color: #272822 !important;
+
+   
+  --table-border-color: #717171 !important;
+  --tr-even-background-color: #2d3142 !important;
+
+   
+  --blockquote-background-color: #262a3a !important;
+
+   
+  --dark-bg-primary: #0f172a;
+  --dark-bg-secondary: #1e293b;
+  --dark-bg-tertiary: #334155;
+  --dark-text-primary: #e2e8f0;
+  --dark-text-secondary: #cbd5e1;
+  --dark-text-muted: #94a3b8;
+  --dark-border-color: #334155;
+
+   
+  --bg-primary: var(--dark-bg-primary) !important;
+  --bg-secondary: var(--dark-bg-secondary) !important;
+  --text-primary: var(--dark-text-primary) !important;
+  --text-secondary: var(--dark-text-secondary) !important;
+  --border-color: var(--dark-border-color) !important;
+
+   
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-light: #93c5fd;
+
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --error-color: #ef4444;
+  --info-color: #06b6d4;
+
+   
+  --font-family-base: ZgotmplZ;
+  --font-family-heading: ZgotmplZ;
+  --font-family-mono: ZgotmplZ;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: ZgotmplZ;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+
+   
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+   
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+   
+  --shadow-sm: ZgotmplZ;
+  --shadow-md: ZgotmplZ;
+  --shadow-lg: ZgotmplZ;
+  --shadow-xl: ZgotmplZ;
+
+   
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+
+   
+  --sidebar-width: 320px;
+  --header-height: 64px;
+  --article-max-width: 720px;
+
+  --sidebar-avatar-size: 160px;
+  --article-title-size: 1.4rem;
+  --article-body-size: 1.1rem;
+
+  --card-image-height: 200px;
+  --card-hover-offset: -4px;
+}
+
+ 
+
+ 
+.article-title a {
+  color: #7aa2f7 !important;
+}
+
+ 
+.article-title a:hover {
+  color: #5d87e5 !important;
+}
+
+ 
+.article-title {
+  color: #7aa2f7 !important;
+}
+
+ 
+.article-content {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+ 
+.sidebar .site-name a {
+  color: #e2e8f0 !important;
+}
+.sidebar .site-description {
+  color: #9aa5ce !important;
+}
+
+ 
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  color: #f8fafc !important;
+}
+
+ 
+.tagCloud-tags a,
+.archives-year a span.year {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+ 
+.sidebar {
+  padding: var(--spacing-lg) !important;
+  box-sizing: border-box !important;
+}
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">点点马的逍遥港</a></h1>
+            <h2 class="site-description">Old Fashion Man</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archive/' >
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/tags/' >
+                
+                <span>标签</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/' >
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E8%AF%BB%E4%B9%A6/" class="category-link">
+                <span class="category-icon">📁</span>
+                读书
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E9%9D%A9%E5%91%BD-%E9%82%A3%E4%BA%9B%E4%B8%8D%E5%90%88%E6%97%B6%E5%AE%9C%E7%9A%84%E4%BA%BA/">《深度学习革命》–— 那些不合时宜的人</a>
+        </h2>
+
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2025-10-14T10:28:00&#43;08:00'>Tuesday, October 14, 2025</time>
+                
+
+                
+                    <span class="meta-separator">·</span>
+                
+
+                
+                    <span class="article-word-count">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="14" height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 9m0 0a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3" />
+                            <path d="M5 15m0 0a3 3 0 0 0 3 3h8a3 3 0 0 0 3 -3" />
+                            <path d="M3.5 9h17" />
+                            <path d="M3.5 15h17" />
+                        </svg>
+                        <span>4588 字</span>
+                    </span>
+                
+
+                
+                    <span class="meta-separator">·</span>
+                    <span class="article-time--reading">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                        <time>10 分钟</time>
+                    </span>
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
+</div>
+
+</header>
+
+    
+
+    <section class="article-content">
+    
+    
+    <p>断断续续，用了两个星期，读完了这本关于当代人工智能的书。</p>
+<hr>
+<figure><img src="/img/deep_learning_history.jpg" width="40%">
+</figure>
+
+<hr>
+<p>这几年，人工智能太热了。热到什么程度呢？几乎每隔一段时间，就会有一本新书出来，讲大模型，讲深度学习，讲人类未来，讲职业替代，讲某个不可逆转的新纪元。书名一个比一个响，封面一个比一个急。翻开以后，却常常读不下去。许多作者写人工智能，像是在复述几篇新闻稿；写深度学习，像是在讲一个突然从天上掉下来的神迹。仿佛某一天，世界还在按旧规则运转，第二天，神经网络一觉醒来，便成了时代的主人。</p>
+<p>事情当然不是这样。</p>
+<p>真正的技术革命，从来不是突然发生的。它只是到了某个时刻，终于被众人看见。在此之前，总有人在黑暗里走了很久，走得很慢，也走得很孤独。灯还没有亮，掌声还没有来，同行甚至未必承认那是一条路。若没有这样的前史，后来的热闹就显得轻了。</p>
+<p>这本书好看的地方，正在这里。</p>
+<p>它没有只写深度学习如何成功，也没有急着把人工智能包装成一个注定胜利的故事。它写那些人，写那些长期不被看好的研究，写一个领域怎样几次沉下去，又怎样在少数人的坚持中慢慢浮上来。读到后来，会觉得这不只是一部技术史，也是一部关于信念、固执、误解、机会和时代回报的故事。</p>
+<p>杰弗里·辛顿这个名字，如今已经很响了。</p>
+<p>图灵奖，诺贝尔物理学奖，深度学习教父。几个称号放在一起，足以让后来者仰头观看。可是若只看这些结果，很容易误会，以为他一路都站在风口中央，以为世界从一开始就承认他的判断。事实上，神经网络在相当长的时间里，并不受主流人工智能界待见。那时更流行的是符号主义，是规则，是逻辑，是专家系统。人们相信，智能大概应当被清清楚楚地写成规则，像数学证明一样，一步一步推出结论。</p>
+<p>这种想法有它的诱人之处。</p>
+<p>一个受过科学训练的人，很容易喜欢清楚的规则。输入是什么，条件是什么，推理过程是什么，输出又是什么，一切都能解释，一切都能追踪。神经网络则不同。它看上去有点黑箱，有点笨，有点不优雅。把大量数据喂进去，调很多参数，让它自己慢慢学。这样的东西，在许多人眼里，既不像严格的科学，也不像真正的智能。</p>
+<p>可是辛顿偏偏相信它。</p>
+<p>这种相信并不容易。年轻人相信一个新方向，尚可说是血气；一个人多年相信一个不被看好的方向，就已经不只是激情了。那里面有判断，也有性情。有时甚至还要有一点近乎不合时宜的固执。别人都换了题目，换了话语，换了阵营，他仍在那里，像守着一小块还没有被证明有矿的土地。</p>
+<p>我读到这里时，心里是有些感慨的。</p>
+<p>做研究的人，大概都知道这种处境。一个问题，你觉得它重要，可别人未必觉得；一个方法，你觉得它有前途，可论文不好发，经费不好拿，学生也未必愿意跟。时间一长，人很容易动摇。不是每个人都能在冷清里守住十年、二十年。我们常说热爱，其实热爱若没有制度回报、同行认可和现实支持，很快就会变得很薄。能留下来的，常常不是最会说话的人，而是心里真有一团火的人。</p>
+<p>辛顿身边后来聚起了学生。</p>
+<p>伊利亚，如今很多人都知道了。OpenAI 的创始 CTO，技术气质很重，甚至有一点传说中的神秘。他的名字常常与大模型的崛起连在一起。可另一个学生阿列克斯，普通读者知道得少些。事实上，AlexNet 这个名字里的 Alex，便来自他。这个有些宅、有些纯技术气质的年轻人，和辛顿、伊利亚一起，做出了后来被反复提及的那个转折点。</p>
+<p>ImageNet 比赛，是深度学习重新站到舞台中央的一次标志性事件。</p>
+<p>李飞飞推动 ImageNet，本来是想给计算机视觉一个足够大的数据集。没有大规模数据，许多算法优劣其实很难真正比较。过去小数据集上看起来不错的模型，一旦面对更复杂的真实世界，常常就露出局限。AlexNet 在比赛中一举夺魁，不只是多赢了几个百分点，而是让许多人忽然意识到：原来这条路真的能走通。</p>
+<p>那一刻，像一扇门被推开了。</p>
+<p>后来谷歌花四千四百万美元收购辛顿师徒三人的公司。那家公司几乎没有产品，甚至很难说有完整的商业模式。值钱的就是这三个人，或者更准确地说，是这三个人背后的判断力和技术前景。今天回头看，四千四百万美元当然不算贵。可在当时，这仍然是一种极其敏锐的押注。大公司有时笨重，有时迟缓，可一旦它看见了真正的拐点，也会毫不犹豫地伸手。</p>
+<p>这让我想起许多技术史上的旧事。</p>
+<p>当年晶体管刚出现时，也并不是所有人都立刻明白它会改变世界。Unix、C 语言、互联网、个人计算机，最初都多少带着一点边缘气。真正改变世界的东西，常常不是一开始就被铺上红毯迎接。它先是在某个实验室里、某个车库里、某个不起眼的论文里，以一种并不体面的方式出现。许多人看见了，却没有放在心上。只有少数人觉得，这里有东西。</p>
+<p>杨立昆、约书奥、哈萨比斯，也都是这样的人。</p>
+<p>他们当然性格不同，路径不同，所处的机构也不同。杨立昆后来在 Meta，约书奥在学术界和产业界之间影响深远，哈萨比斯创立 DeepMind，又把强化学习、神经网络和游戏结合起来，做出 AlphaGo 那样震动世界的东西。可是这些人身上，有一点相通：他们都不太像循规蹈矩的人。</p>
+<p>原书名里的 Mavericks，用得真好。</p>
+<p>中文里很难找到一个完全贴切的词。说“天才”，太亮；说“异类”，又太冷；说“不合常规的人”，意思到了，气息却弱了些。Maverick 里有一种不肯完全归队的劲儿，有一点冒险，也有一点孤独。这样的人，不一定好相处，也未必总是正确。可一个领域若没有这种人，就很难真正向前。</p>
+<p>科学史上，许多重要人物都有这种气质。</p>
+<p>费曼不喜欢端着，讲课像聊天，却能把最深的物理讲得清澈；泡利毒舌到近乎伤人，却守着物理学极高的标准；图灵孤独地想着机器能否思考，后来整个人生都让人叹息；钱学森、冯·诺依曼、维纳这些人，也都不是普通意义上的“合格员工”。他们身上有一种东西，不容易被管理，也不容易被格式化。可许多真正的新路，恰恰是这样的人走出来的。</p>
+<p>这本书的中译本，我有两点不太满意。</p>
+<p>第一是人名翻译有些别扭。技术领域的人名，若译者不熟悉，常常会译得隔了一层。读者明明知道说的是谁，却总觉得口感不对，像鞋里进了一粒小沙子。第二是书名实在可惜。现在这个名字，容易让人误以为是一本技术书，好像要讲反向传播、卷积网络、梯度下降和模型训练。其实它最动人的地方，不在技术细节，而在人。</p>
+<p>原书写的不是公式如何推导，而是人如何相信。</p>
+<p>这两件事当然有关。没有技术细节，信念就容易变成空话；可若只看技术细节，又会错过历史真正的纹理。深度学习的兴起，不只是算法进步，也不只是算力增强、数据变多。它还是一批人长期坚持某种判断，等来了时代条件的成熟。GPU、大数据、互联网公司、开源框架、学术竞赛、资本投入，这些因素一层一层叠起来，才终于把过去看似笨拙的神经网络，推到了世界中央。</p>
+<p>读这样的书，会让人对“成功”这件事稍微多一点耐心。</p>
+<p>我们总喜欢把成功讲成几条经验：选择正确方向，坚持长期主义，抓住时代机遇。话都对，却也都太干净。真实的过程往往没有这么整齐。许多人在坚持时，并不知道自己将来会被证明正确。辛顿他们当年做神经网络时，也不可能预先知道某一年会出现 ImageNet，某一年会有足够便宜的 GPU，某一年大公司会开始疯狂争抢 AI 人才。人在历史中行走时，只能看见眼前一小段路。所谓远见，很多时候不是看见全部未来，而是在别人不信的时候，还愿意沿着自己相信的方向多走几步。</p>
+<p>这一点，对我尤其有触动。</p>
+<p>很多年前，我读米歇尔·沃尔德洛普的《复杂：诞生于秩序与混沌边缘的科学》时，也有过类似的激动。那本书写圣塔菲研究所，写复杂系统，写一群不同学科的人怎样试图理解秩序如何从混沌边缘生长出来。那时我读得心潮澎湃，几乎想立刻转向复杂科学。可是最后没有。原因说起来也简单：胆量不够，路径依赖太强，熟悉的研究方向已经铺在那里，真要完全转身，并不容易。</p>
+<p>一个人年轻时，总以为自己很勇敢。</p>
+<p>后来才知道，真正的勇敢不是在嘴上说喜欢新东西，而是在需要付出代价时，还能不能真的往前一步。转方向很难。你过去积累的论文、方法、人脉、评价体系，都在原来的地方。新领域则什么都没有，甚至连自己能不能入门都不知道。于是，许多人会像我当年一样，站在门口看很久，心里很向往，却没有进去。</p>
+<p>今天回头看，当然有遗憾。</p>
+<p>可人生若总用遗憾来丈量，也未免太不厚道。每个人都有自己的局限，也都有自己的迟到。有些门，年轻时没有进去，中年以后才重新推开，也不能说完全太晚。至少今天，我还能看到深度学习的前景，还能重新学习，还能在一个快速变化的领域里，笨拙地寻找自己的位置。对我这样一个年纪已经不轻的人来说，这已经是一件值得庆幸的事。</p>
+<p>以前在学校时，我常常觉得自己的研究与社会有些脱节。</p>
+<p>做理论，做计算，当然也有它的价值。一个问题若足够清楚，哪怕很小，也值得认真做下去。可是心里总有一点惶恐：这些推导、这些积分、这些程序，究竟能在多大程度上碰到真实世界？当然，科学不能只以直接应用来衡量。许多最深的理论，最初都没有用处，后来却改变了世界。可即便如此，一个研究者若长期完全不面对现实问题，心里难免会虚。</p>
+<p>人工智能给了我另一种感觉。</p>
+<p>它很新，也很乱；它有泡沫，也有真东西；它被资本和媒体推着跑，也确实在改变许多行业。它不是书斋里的纯粹游戏，而是正在进入医疗、教育、科研、制造、办公、写作、编程和日常生活。它的问题复杂，边界模糊，伦理、制度、技术、商业纠缠在一起。可正因为如此，它让人觉得，自己所学的东西还有机会与现实重新接上。</p>
+<p>我喜欢这种感觉。</p>
+<p>不是因为它一定会带来成功。到了这个年纪，对成功二字，已经不敢看得太重。年轻时总觉得，做一件事，最好能有结果，有名声，有认可。后来慢慢知道，许多事真正留给人的，并不是结果，而是自己有没有认真走过那一段路。若能在一个值得投入的方向上，重新学习，重新犯错，重新感到自己无知，又重新被某个问题吸引，这本身已经有一种久违的生气。</p>
+<p>深度学习的故事，也让我再次相信一件事：真正的研究，终究要解决问题。</p>
+<p>这个“问题”未必立刻实用，也未必马上变成产品。但它必须真实。它要么解释世界，要么改变方法，要么打开一条别人没有走通的路。若只是围着概念打转，只是在既有体系里写一些安全的文字，久了便会疲。人心里知道，自己是不是在真正往前走。</p>
+<p>辛顿、杨立昆、约书奥、哈萨比斯这些人，让人羡慕的，不只是他们站到了时代中央。</p>
+<p>更让人羡慕的，是他们曾经在尚未被时代认可时，就已经把自己交给了问题。那时没有今日的荣誉，没有媒体采访，没有大公司的职位和天价收购。他们面对的只是一个尚不清楚的方向，一堆不稳定的实验，一些不友好的同行意见，还有漫长的等待。若没有那段时间，后来的荣耀便没有根。</p>
+<p>读完这本书，我把书合上，心里反而安静了一些。</p>
+<p>人工智能的浪潮当然还会继续往前。它会带来兴奋，也会带来混乱；会成就一些人，也会淘汰一些旧方法；会有真正的突破，也会有许多泡沫在风里散掉。我们不知道十年之后，它会走到哪里。就像当年的辛顿，也未必知道神经网络后来会走到今天。</p>
+<p>可是，有些事情仍然可以确定。</p>
+<p>一个人若还愿意学习，愿意承认自己不知道，愿意从头读论文、写代码、做实验、看错误信息，愿意在一个陌生领域里慢慢摸索，他就还没有完全被时代甩下。也许走得慢，也许追不上最年轻的人，也许最后做不出惊天动地的成果，但至少还能在路上。</p>
+<p>这已经很好。</p>
+<p>很多年前，我读《复杂》时，曾经站在一扇门前，没有进去。今天读《深度学习革命》，像是又看见了一扇门。门后当然仍有雾气，也有许多我不懂的东西。可这一次，我愿意再往前走一走。</p>
+<p>哪怕走得慢一点。 <br />
+哪怕最后没有成功。 <br />
+也不后悔。</p>
+
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/reading/" class="tag-link">
+                <span class="tag-icon">🏷️</span>
+                Reading
+            </a>
+        
+    </section>
+
+
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const elementsToRender = [".main-article", ".widget--toc"];
+
+        elementsToRender.forEach(selector => {
+            const element = document.querySelector(selector);
+            if (element) {
+                renderMathInElement(element, {
+                    delimiters: [
+                        { left: "$$", right: "$$", display: true },
+                        { left: "$", right: "$", display: false },
+                        { left: "\\(", right: "\\)", display: false },
+                        { left: "\\[", right: "\\]", display: true }
+                    ],
+                    ignoredClasses: ["gist"]
+                });
+            }
+        });
+    });
+</script>
+    
+</article>
+
+    
+
+    
+    
+
+
+
+
+
+<aside class="article-navigation">
+    <div class="nav-container">
+        
+        <div class="nav-item nav-prev">
+            <span class="nav-label">上一篇</span>
+            <a href="/post/%E6%8A%8A-emacs-%E6%89%93%E9%80%A0%E4%B8%BA-python-ide/" class="nav-link">把 Emacs 打造为 Python IDE</a>
+        </div>
+        
+
+        
+        <div class="nav-item nav-next">
+            <span class="nav-label">下一篇</span>
+            <a href="/post/%E6%97%A0%E9%A2%98/" class="nav-link">无题</a>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
+
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2012 - 
+        
+        2026 点点马的逍遥港
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>
