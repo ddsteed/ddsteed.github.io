@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="程序员的世界里，似乎一直有两种人。\n一种人喜欢键盘。手指放在原处，眼睛看着屏幕，命令从指尖出去，光标、窗口、文件、程序，像一队熟悉的旧兵，听见很轻的口令便开始行动。另一种人喜欢鼠标。窗口要点开，菜单要展开，按钮要确认，拖动、选择、点击，一切都在图形界面里完成。两种方式都能做事，也都各有道理。只是用久了以后，人和工具之间，会生出一点脾气。\n">
+<title>  &#34;hjkl&#34;和鼠标的斗争 –— 指尖还在原处
+  </title>
+
+
+<link rel="canonical" href="/post/hjkl%E5%92%8C%E9%BC%A0%E6%A0%87%E7%9A%84%E6%96%97%E4%BA%89-%E6%8C%87%E5%B0%96%E8%BF%98%E5%9C%A8%E5%8E%9F%E5%A4%84/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+
+
+<link rel="stylesheet" href="/scss/style.min.5562b5d7b6900a8253d90b7ada6c39cd72e5b065c0286efa5b6d40c7cb76837f.css"><meta property='og:title' content="  \"hjkl\"和鼠标的斗争 –— 指尖还在原处\n  ">
+<meta property='og:description' content="程序员的世界里，似乎一直有两种人。\n一种人喜欢键盘。手指放在原处，眼睛看着屏幕，命令从指尖出去，光标、窗口、文件、程序，像一队熟悉的旧兵，听见很轻的口令便开始行动。另一种人喜欢鼠标。窗口要点开，菜单要展开，按钮要确认，拖动、选择、点击，一切都在图形界面里完成。两种方式都能做事，也都各有道理。只是用久了以后，人和工具之间，会生出一点脾气。\n">
+<meta property='og:url' content='/post/hjkl%E5%92%8C%E9%BC%A0%E6%A0%87%E7%9A%84%E6%96%97%E4%BA%89-%E6%8C%87%E5%B0%96%E8%BF%98%E5%9C%A8%E5%8E%9F%E5%A4%84/'>
+<meta property='og:site_name' content='点点马的逍遥港'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='misc' /><meta property='article:published_time' content='2023-05-27T17:43:00&#43;08:00'/><meta property='article:modified_time' content='2023-05-27T17:43:00&#43;08:00'/>
+<meta name="twitter:title" content="  \"hjkl\"和鼠标的斗争 –— 指尖还在原处\n  ">
+<meta name="twitter:description" content="程序员的世界里，似乎一直有两种人。\n一种人喜欢键盘。手指放在原处，眼睛看着屏幕，命令从指尖出去，光标、窗口、文件、程序，像一队熟悉的旧兵，听见很轻的口令便开始行动。另一种人喜欢鼠标。窗口要点开，菜单要展开，按钮要确认，拖动、选择、点击，一切都在图形界面里完成。两种方式都能做事，也都各有道理。只是用久了以后，人和工具之间，会生出一点脾气。\n">
+
+
+
+
+
+
+
+
+<style>
+ 
+:root,
+html[data-scheme="light"],
+html[data-scheme="dark"] {
+   
+  --body-background: #1a1e2e !important;
+  --card-background: #242838 !important;
+  --card-background-selected: rgba(255, 255, 255, 0.16) !important;
+
+   
+  --card-text-color-main: #7aa2f7 !important;
+  --card-text-color-secondary: rgba(255, 255, 255, 0.75) !important;
+  --card-text-color-tertiary: rgba(255, 255, 255, 0.6) !important;
+
+  --body-text-color: rgba(255, 255, 255, 0.7) !important;
+
+   
+  --accent-color: #ecf0f1 !important;
+  --accent-color-darker: #bdc3c7 !important;
+  --accent-color-text: #000 !important;
+
+   
+  --card-separator-color: rgba(255, 255, 255, 0.12) !important;
+
+   
+  --code-background-color: #272822 !important;
+  --code-text-color: rgba(255, 255, 255, 0.9) !important;
+  --pre-text-color: #f8f8f2 !important;
+  --pre-background-color: #272822 !important;
+
+   
+  --table-border-color: #717171 !important;
+  --tr-even-background-color: #2d3142 !important;
+
+   
+  --blockquote-background-color: #262a3a !important;
+
+   
+  --dark-bg-primary: #0f172a;
+  --dark-bg-secondary: #1e293b;
+  --dark-bg-tertiary: #334155;
+  --dark-text-primary: #e2e8f0;
+  --dark-text-secondary: #cbd5e1;
+  --dark-text-muted: #94a3b8;
+  --dark-border-color: #334155;
+
+   
+  --bg-primary: var(--dark-bg-primary) !important;
+  --bg-secondary: var(--dark-bg-secondary) !important;
+  --text-primary: var(--dark-text-primary) !important;
+  --text-secondary: var(--dark-text-secondary) !important;
+  --border-color: var(--dark-border-color) !important;
+
+   
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+  --primary-light: #93c5fd;
+
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --error-color: #ef4444;
+  --info-color: #06b6d4;
+
+   
+  --font-family-base: ZgotmplZ;
+  --font-family-heading: ZgotmplZ;
+  --font-family-mono: ZgotmplZ;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: ZgotmplZ;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+
+   
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+   
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+   
+  --shadow-sm: ZgotmplZ;
+  --shadow-md: ZgotmplZ;
+  --shadow-lg: ZgotmplZ;
+  --shadow-xl: ZgotmplZ;
+
+   
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+
+   
+  --sidebar-width: 320px;
+  --header-height: 64px;
+  --article-max-width: 720px;
+
+  --sidebar-avatar-size: 160px;
+  --article-title-size: 1.4rem;
+  --article-body-size: 1.1rem;
+
+  --card-image-height: 200px;
+  --card-hover-offset: -4px;
+}
+
+ 
+
+ 
+.article-title a {
+  color: #7aa2f7 !important;
+}
+
+ 
+.article-title a:hover {
+  color: #5d87e5 !important;
+}
+
+ 
+.article-title {
+  color: #7aa2f7 !important;
+}
+
+ 
+.article-content {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+ 
+.sidebar .site-name a {
+  color: #e2e8f0 !important;
+}
+.sidebar .site-description {
+  color: #9aa5ce !important;
+}
+
+ 
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  color: #f8fafc !important;
+}
+
+ 
+.tagCloud-tags a,
+.archives-year a span.year {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+ 
+.sidebar {
+  padding: var(--spacing-lg) !important;
+  box-sizing: border-box !important;
+}
+</style>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="" 
+                        width=""
+                        height=""
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">点点马的逍遥港</a></h1>
+            <h2 class="site-description">Old Fashion Man</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archive/' >
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/tags/' >
+                
+                <span>标签</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/' >
+                
+                <span>分类</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E6%9D%82%E8%B0%88/" class="category-link">
+                <span class="category-icon">📁</span>
+                杂谈
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/hjkl%E5%92%8C%E9%BC%A0%E6%A0%87%E7%9A%84%E6%96%97%E4%BA%89-%E6%8C%87%E5%B0%96%E8%BF%98%E5%9C%A8%E5%8E%9F%E5%A4%84/">  &#34;hjkl&#34;和鼠标的斗争 –— 指尖还在原处
+  </a>
+        </h2>
+
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2023-05-27T17:43:00&#43;08:00'>Saturday, May 27, 2023</time>
+                
+
+                
+                    <span class="meta-separator">·</span>
+                
+
+                
+                    <span class="article-word-count">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="14" height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 9m0 0a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3" />
+                            <path d="M5 15m0 0a3 3 0 0 0 3 3h8a3 3 0 0 0 3 -3" />
+                            <path d="M3.5 9h17" />
+                            <path d="M3.5 15h17" />
+                        </svg>
+                        <span>4411 字</span>
+                    </span>
+                
+
+                
+                    <span class="meta-separator">·</span>
+                    <span class="article-time--reading">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                        <time>9 分钟</time>
+                    </span>
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
+</div>
+
+</header>
+
+    
+
+    <section class="article-content">
+    
+    
+    <p>程序员的世界里，似乎一直有两种人。</p>
+<p>一种人喜欢键盘。手指放在原处，眼睛看着屏幕，命令从指尖出去，光标、窗口、文件、程序，像一队熟悉的旧兵，听见很轻的口令便开始行动。另一种人喜欢鼠标。窗口要点开，菜单要展开，按钮要确认，拖动、选择、点击，一切都在图形界面里完成。两种方式都能做事，也都各有道理。只是用久了以后，人和工具之间，会生出一点脾气。</p>
+<p>我大约属于前一种，而且是很顽固的前一种。</p>
+<p>现在的年轻人也许很难想象，计算机最初并不是这样温顺地摊开在我们面前。没有圆角窗口，没有漂亮图标，也没有一只鼠标在屏幕上悠闲地滑来滑去。屏幕黑着，字是绿的，或者白的，一行一行排在那里。你要它做什么，就得敲命令。敲错一个字符，它不会替你猜，也不会温柔地提示“您是不是想要……”。它只冷冷地报错，像一个脾气很硬的老教师。</p>
+<p>在苹果把图形界面带到大众面前之前，在 Windows 95 真正在中国普及之前，许多人都是这样面对计算机的。DOS 那个黑乎乎的世界，简陋，却也清楚。它不讨好你，也不遮掩自己。你知道自己在和一台机器打交道，所以也不好意思太懒惰。</p>
+<p>可是，哪怕在字符界面里，写文档、写程序也有一个很实际的问题：光标怎样快速移动到该去的地方？</p>
+<p>今天看起来，这简直不是问题。鼠标一点，光标就在那里。可在早年的编辑器里，这件事并不轻松。最早的 ex 编辑器，只能一行一行编辑。你输入一行，提交；发现前面哪里错了，还得把那一行调回来，再小心修改。那种感觉，很像在很窄的纸条上写字，写完一条就被卷进机器里。等你发现前面一个字错了，只能请求机器把那一截纸重新吐出来。</p>
+<p>我年轻时写 FORTRAN 程序，确实经历过这样的折磨。一个变量名写错，一个括号漏掉，一处格式不合规范，都可能把人折腾很久。程序错了，编译器不笑你，但也不帮你。它只是把错误放在那里，等你自己回去找。那时修改代码，远不像今天这样舒适。一次小小的移动，都要费一点周折。现在回想起来，心里仍有一点暗暗的怕。</p>
+<p>后来有了 vi。</p>
+<p>这对 Unix 世界的人来说，真是一件大事。整篇文档铺在屏幕上，你终于可以看见上下文，可以在字句之间来回移动。那种感觉，像从一条逼仄的巷子里走出来，忽然看见一整个院落。光标不再只是被你一行一行地召唤，而是可以在屏幕上游走。</p>
+<p>但程序员是很“懒”的。</p>
+<p>这里的懒，不是散漫，也不是敷衍。它更像一种对重复劳动的本能厌恶。凡是机器可以替人省下的动作，人就不该一次次傻做。右手本来放在键盘主区，食指在 j 上，中指在 k 上，若每次移动光标都要把手挪到方向键那里，再挪回来，时间长了，便觉得不对劲。不是因为那一点距离真的很远，而是因为节奏被打断了。</p>
+<p>于是，hjkl 出现了。</p>
+<p>h 向左，j 向下，k 向上，l 向右。四个键就在手指下面。编辑文档时，vi 把人的动作分成两种状态：插入状态里，你敲字，它就写字；命令状态里，你敲字，它不写字，而是执行动作。ESC 一按，世界切换。再按 i，世界又切回来。初学时，这当然别扭。许多人第一次用 vi，连怎么退出都不知道，只能在屏幕前惊慌失措。可一旦习惯了，就会觉得这套设计有一种近乎古怪的优雅。</p>
+<p>它像某种武功。</p>
+<hr>
+<figure><img src="/img/ijk-emacs.gif" width="50%">
+</figure>
+
+<hr>
+<p>开始时觉得姿势奇怪，脚步也别扭，师父偏要你一遍遍站桩。等练久了，才知道每一个姿势都不是随便来的。手不必离开原位，眼睛不必离开文字，命令和编辑在两种状态之间来回切换。删一行，复制一段，跳到页首，搜索某个词，回到上一次位置，所有动作都变成短促、干净、几乎没有声音的指令。</p>
+<p>一九九五年，我开始学习 Linux。</p>
+<p>那时我对这个系统迷得厉害。Slackware，X Window，olwm，还有那些看起来朴素得有些寒酸的小工具，都让我觉得新鲜。实验室的夜很深，机器的风扇声并不大，屏幕亮着，命令行安静地等在那里。人年轻时，常常有一种近乎奢侈的热情：不知道这些东西以后有什么用，也不问能不能换来什么，只是觉得它好玩，漂亮，值得弄明白。</p>
+<p>我就是在那样的年月里，喜欢上了 hjkl。</p>
+<p>那种喜欢并不轰烈。它不像喜欢一首歌、一支球队、一个人，有很明确的情绪。它更像一种身体记忆。手指放上去，心里就稳了。j 往下，k 往上，h 往左，l 往右。文字在屏幕上移动，光标在行间穿行，一切都很低调，却顺手。后来我换过编辑器，用过 Emacs，也试过许多现代工具，可总要想办法把 vim-like 的操作装回来。否则，心里像缺了一块小小的木榫，桌子还在，却不够稳。</p>
+<p>鼠标当然也好。</p>
+<p>它让计算机靠近普通人。没有鼠标，图形界面不会这样普及，许多原本被命令行挡在门外的人，也不会轻易走进来。拖动一个文件，点开一个网页，选择一张图片，调整一个窗口，这些动作直观，友好，也很符合人的日常经验。我们不能因为自己喜欢键盘，便轻看鼠标。工具本无贵贱，重要的是它怎样安放人的注意力。</p>
+<p>可对我来说，鼠标的问题恰恰在这里。</p>
+<p>它总要我离开原来的地方。手离开键盘，眼睛去找指针，再把指针挪到某个按钮或滚动条上，轻轻一点。动作本身不复杂，但注意力已经散了一下。写代码时如此，写文章时如此，读网页时也如此。人到中年，越来越知道注意力这东西并不充裕。它像一盏小灯，亮着的时候要珍惜，不能总拿去照一些无关紧要的角落。</p>
+<p>所以，我后来连浏览网页也不愿意用鼠标。</p>
+<p>Safari 和 Chrome 本来已经有一些键盘操作。空格向下翻页，Shift-space 向上翻页，Shift-] 切换到下一个标签页。对大多数人来说，这已经够了。可我仍觉得不够。空格一按，页面跳下去半屏。眼睛原本停在屏幕中间，下一瞬间就要重新在上方寻找刚才断开的地方。几次下来，读书的气息便被打散了。</p>
+<p>我希望它像 vi 一样。</p>
+<p>最好 j 只向下移动一行，k 只向上移动一行。更好的是，移动以后，眼睛看的那一行仍然大致停在屏幕中间。这样读网页，便像一行一行读纸书。眼睛不用大幅度跳跃，手也不必离开键盘。世界上总有一些人，和你有同样古怪的要求，而且比你更早、更认真地把它做了出来。于是有了 vimari，有了 vimium。装上以后，网页也被纳入了 hjkl 的秩序。</p>
+<hr>
+<figure><img src="/img/ijk-chrome.gif" width="50%">
+</figure>
+
+<hr>
+<p>后来连 PDF 也不能幸免。</p>
+<p>我读论文，常常要在一段证明、一幅图、一个公式之间来回看。若用鼠标滚动，页面常常多走几行，或者少走几行。明明只想往下一点点，它偏偏滑得很远；明明想停在某处，它又轻轻过了头。这种不精确，让我很不安。于是我又找到了 Karabiner，把 Preview 的键盘操作重新定义。这样一来，连苹果自带的 PDF 阅读器，也终于可以接受 hjkl 的管辖。</p>
+<hr>
+<figure><img src="/img/ijk-pdf.gif" width="50%">
+</figure>
+
+<hr>
+<p>说起来好笑。</p>
+<p>一个人为了少移动几次手，竟然可以花那么多时间折腾插件、配置文件、键位映射。旁人看见，大概会觉得这不是懒，而是另一种勤奋。可我知道，那里面有一种近乎固执的舒适。折腾完成以后，手指留在原处，页面听话地一行一行移动。那一刻的满足，很小，却很真。</p>
+<p>这也许就是我所谓的 old fashion。</p>
+<p>我并不是反对新东西。恰恰相反，年轻时迷上 Linux，迷上 X Window，迷上各种命令和工具，都是因为它们在当时足够新，足够自由，也足够好玩。只是人一旦在某个年代里形成了自己的节奏，后来的许多新工具，未必都能让他心服。它们更漂亮，更顺滑，更会照顾普通人的感受，却有时也更打扰人。</p>
+<p>现在的软件太喜欢提醒我们。</p>
+<p>消息来了，要红点；有人点赞，要红点；系统更新，要红点；群里说了两句无关痛痒的话，也要红点。屏幕像一条热闹的街，处处有人招手。微信、QQ、各种即时通讯工具，原本是为了让联系更方便，可方便到一定程度，就会反过来占用人的生活。别人想到一句话，马上就发来；你看见红点，又不能完全不理。人被这种即时性牵着走，心里很难安静。</p>
+<p>我曾经也觉得随时联系是一件很酷的事。</p>
+<p>那时手机还没有如今这样聪明，互联网也还没有这样密。能在任何地方收到消息，仿佛世界忽然离自己近了。后来才慢慢发现，世界太近，也不全是好事。它贴得太紧，人反而没有地方转身。未读消息像一排小小的钩子，挂在心上。哪怕你不点开，也知道它在那里。</p>
+<p>所以我关掉了朋友圈，关掉了视频号，甚至基本停用了微信。</p>
+<p>这并不是清高，也不是与时代作对。只是我知道自己的性情承受不了那么多碎片。碎片多了，完整的时间就少了；短促的刺激多了，长一点的思考就变困难。人若总在各种提醒之间跳来跳去，久而久之，很难再坐下来读一篇长文，推一段公式，写一封像样的信，或者认真想一个并不急着给答案的问题。</p>
+<p>我喜欢 email。</p>
+<p>它当然不如手写信有温度。手写信有纸的纹路，有笔迹的轻重，有一个人停顿、犹豫、重写时留下的痕迹。email 只是电子文字，干净得有些冷。可它仍然比即时通讯更像一种有分寸的往来。你写完，发出；对方看见，在合适的时候回复。它不要求人立刻放下手里的事，也不把沉默当作怠慢。它给人留了一点缓冲，也给思想留了一点整齐。</p>
+<p>这与 hjkl，其实有同一种气质。</p>
+<p>都不热闹，都不讨巧，都有一点旧。它们看起来慢，实际上是在保护一种连续性。手不离开键盘，是保护工作的连续性；页面一行一行移动，是保护阅读的连续性；不用即时通讯打碎时间，是保护生活的连续性。人到后来才知道，许多看似细小的习惯，背后连着的，其实是一个人如何安放自己的心神。</p>
+<p>当然，我也知道，世界不会因为我喜欢 hjkl 就停在原处。</p>
+<p>新的界面会继续出现，新的交互方式会继续替代旧工具。也许再过些年，键盘本身都会显得老派。人们对着空气说话，机器替你整理文字、安排窗口、移动光标，甚至在你还没说出口之前，便猜出你想做什么。那样的世界也许更高效，更聪明，也更像科幻小说里预言过的未来。</p>
+<p>可我大概仍会怀念手指放在 j 和 k 上的感觉。</p>
+<p>那不是效率本身，而是一种人与机器之间清楚的关系。我发出命令，它执行；我写下字符，它显示；我犯了错，它提醒，却不替我遮掩。那种关系朴素，甚至有些冷，但很可靠。它不像今天许多软件，总试图猜测我、引导我、纠正我、吸引我。旧工具少一点体贴，也少一点诱惑。</p>
+<p>有时夜里写东西，屏幕上只有一页文字。</p>
+<p>手指在键盘上轻轻移动，j，k，h，l，页面细微地挪动。窗外没有什么声音，桌上的杯子也安静。这样的时刻，我会想起一九九五年前后的实验室，想起 Slackware 的安装软盘，想起黑黢黢的字符界面，想起自己第一次把一个小工具调出来时那种幼稚而真实的快乐。</p>
+<p>快三十年过去了。</p>
+<p>我当然回不去那个年龄。许多热情已经被生活磨过，许多好奇也不如当年那样不计成本。可是，有些东西似乎还在。比如看见一个简洁工具时的欢喜；比如为了一个顺手的配置折腾半夜的耐心；比如面对新知识时，心里仍愿意说一句：这个东西有意思，我想弄明白。</p>
+<p>hjkl 是很土。</p>
+<p>土得像一件穿了许多年的旧衣服，袖口已经磨软，却正好合身。别人未必觉得好看，我也不必替它辩解。它只是陪我走过了许多年，从 Linux 的字符界面，到 X Window 的小工具，到今天 macOS 里的浏览器和 PDF 阅读器。工具换了一代又一代，桌面越来越漂亮，屏幕越来越细腻，消息越来越拥挤，而我的手指，仍愿意停在原来的位置。</p>
+<p>这大概就是一个 old fashion man 能保留下来的一点小小固执。</p>
+<p>不是为了反对鼠标，也不是为了证明键盘更高贵。只是我心里知道，世界再怎么快，总要给自己留一小块安静的地方。那里没有红点，没有推送，没有急促的提醒。只有一页文字，一点光，和四个旧键。</p>
+<p>h，j，k，l。</p>
+<p>轻轻一按，页面慢慢往前走。</p>
+
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/misc/" class="tag-link">
+                <span class="tag-icon">🏷️</span>
+                Misc
+            </a>
+        
+    </section>
+
+
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const elementsToRender = [".main-article", ".widget--toc"];
+
+        elementsToRender.forEach(selector => {
+            const element = document.querySelector(selector);
+            if (element) {
+                renderMathInElement(element, {
+                    delimiters: [
+                        { left: "$$", right: "$$", display: true },
+                        { left: "$", right: "$", display: false },
+                        { left: "\\(", right: "\\)", display: false },
+                        { left: "\\[", right: "\\]", display: true }
+                    ],
+                    ignoredClasses: ["gist"]
+                });
+            }
+        });
+    });
+</script>
+    
+</article>
+
+    
+
+    
+    
+
+
+
+
+
+<aside class="article-navigation">
+    <div class="nav-container">
+        
+        <div class="nav-item nav-prev">
+            <span class="nav-label">上一篇</span>
+            <a href="/post/old-fashion-man/" class="nav-link">Old Fashion Man</a>
+        </div>
+        
+
+        
+        <div class="nav-item nav-next">
+            <span class="nav-label">下一篇</span>
+            <a href="/post/%E9%82%A3%E4%BA%9B%E7%A8%80%E5%A5%87%E5%8F%A4%E6%80%AA%E7%9A%84%E5%8F%91%E9%9F%B3/" class="nav-link">那些稀奇古怪的发音</a>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+    
+    
+
+
+
+
+
+
+<aside class="article-tip">
+    <div class="tip-header" onclick="toggleTipQrCodes(this)">
+        <span class="tip-icon">☕</span>
+        <span class="tip-title">赞赏</span>
+        <span class="tip-arrow">▼</span>
+    </div>
+    <div class="tip-qr-codes">
+        <p class="tip-description">If you like it, buy me a coffee</p>
+        <div class="tip-qr-item">
+            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
+            <span class="tip-label">WeChat Pay</span>
+        </div>
+        <div class="tip-qr-item">
+            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
+            <span class="tip-label">Alipay</span>
+        </div>
+    </div>
+</aside>
+
+<script>
+function toggleTipQrCodes(header) {
+    const qrCodes = header.nextElementSibling;
+    const arrow = header.querySelector('.tip-arrow');
+    qrCodes.classList.toggle('show');
+    arrow.classList.toggle('open');
+}
+</script>
+
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2012 - 
+        
+        2026 点点马的逍遥港
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+
+    </body>
+</html>
