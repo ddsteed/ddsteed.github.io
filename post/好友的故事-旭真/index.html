@@ -1,377 +1,931 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="有些学生，会把时间带回来。\n不是把从前原样还给你。那是不可能的。人一旦走过几年，连自己也不再是旧日的自己。只是某个名字忽然出现，某一句话从很远处折回来，原先已经放到记忆底下的东西，便轻轻动了一下。像旧柜子里一张夹在书中的票根，颜色淡了，边角毛了，拿起来时，仍能看出当年的日期。\n">
-<title>好友的故事 –— 旭真</title>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>好友的故事 –— 旭真 | 点点马的逍遥港</title>
+<meta name="description" content="">
+<link rel="icon" href="/favicon.ico">
 
 
-<link rel="canonical" href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%AD%E7%9C%9F/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 
-<link rel="stylesheet" href="/scss/style.min.15fca975a92c900ee7566149fd2b48bbe85b4254d988e9d5ba98044a055a4209.css"><meta property='og:title' content="好友的故事 –— 旭真">
-<meta property='og:description' content="有些学生，会把时间带回来。\n不是把从前原样还给你。那是不可能的。人一旦走过几年，连自己也不再是旧日的自己。只是某个名字忽然出现，某一句话从很远处折回来，原先已经放到记忆底下的东西，便轻轻动了一下。像旧柜子里一张夹在书中的票根，颜色淡了，边角毛了，拿起来时，仍能看出当年的日期。\n">
-<meta property='og:url' content='/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%AD%E7%9C%9F/'>
-<meta property='og:site_name' content='点点马的逍遥港'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='misc' /><meta property='article:published_time' content='2026-03-07T20:35:00&#43;08:00'/><meta property='article:modified_time' content='2026-03-07T20:35:00&#43;08:00'/>
-<meta name="twitter:title" content="好友的故事 –— 旭真">
-<meta name="twitter:description" content="有些学生，会把时间带回来。\n不是把从前原样还给你。那是不可能的。人一旦走过几年，连自己也不再是旧日的自己。只是某个名字忽然出现，某一句话从很远处折回来，原先已经放到记忆底下的东西，便轻轻动了一下。像旧柜子里一张夹在书中的票根，颜色淡了，边角毛了，拿起来时，仍能看出当年的日期。\n">
-
-
-
-
-
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
 
 
 <style>
+ 
+
+ 
 :root {
    
-  --primary-color: #0f1b3d;
-  --primary-hover: #1a2b5e;
-  --primary-light: #3d5a9e;
-
-  --accent-color: #0f1b3d;
-  --accent-hover: #1a2b5e;
-
-  --success-color: #10b981;
-  --warning-color: #f59e0b;
-  --error-color: #ef4444;
-  --info-color: #06b6d4;
-
-  --bg-primary: #ffffff;
-  --bg-secondary: #f4f7fe;
-  --bg-tertiary: #eef2fa;
-
-  --text-primary: #0f1b3d;
-  --text-secondary: #4a5a7a;
-  --text-muted: #8a95a8;
-
-  --border-color: #d8e0f0;
-  --divider-color: #c8d2e8;
+  --bg-primary: #FAF9F6;
+  --bg-secondary: #F5F3EF;
+  --text-primary: #2C2C2C;
+  --text-secondary: #5A5A5A;
+  --text-muted: #8A8A8A;
+  --accent: #B85C38;
+  --accent-hover: #9A4A2E;
+  --border: #E8E4DD;
+  --code-bg: #2D5A4A;
 
    
-  --font-family-base: ZgotmplZ;
-  --font-family-heading: ZgotmplZ;
-  --font-family-mono: ZgotmplZ;
-
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
-  --font-size-base: ZgotmplZ;
-  --font-size-lg: 1.125rem;
-  --font-size-xl: 1.25rem;
-  --font-size-2xl: 1.5rem;
-  --font-size-3xl: 1.875rem;
-  --font-size-4xl: 2.25rem;
-
-  --line-height-tight: 1.25;
-  --line-height-normal: 1.6;
-  --line-height-relaxed: 1.8;
+  --font-heading: 'Crimson Pro', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
    
   --spacing-xs: 0.5rem;
-  --spacing-sm: 0.75rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 1.5rem;
-  --spacing-xl: 2rem;
-  --spacing-2xl: 3rem;
-  --spacing-3xl: 4rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
 
    
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --radius-xl: 16px;
-  --radius-full: 9999px;
+  --max-width: 680px;
+  --nav-height: 60px;
 
    
-  --shadow-sm: ZgotmplZ;
-  --shadow-md: ZgotmplZ;
-  --shadow-lg: ZgotmplZ;
-  --shadow-xl: ZgotmplZ;
-
-   
-  --transition-fast: 150ms ease;
-  --transition-base: 250ms ease;
-  --transition-slow: 350ms ease;
-
-   
-  --sidebar-width: 320px;
-  --header-height: 64px;
-  --article-max-width: 720px;
-
-  --sidebar-avatar-size: 160px;
-  --article-title-size: 1.4rem;
-  --article-body-size: 1.1rem;
-
-  --card-image-height: 200px;
-  --card-hover-offset: -4px;
-
-   
-  --dark-bg-primary: #0f172a;
-  --dark-bg-secondary: #1e293b;
-  --dark-bg-tertiary: #334155;
-  --dark-text-primary: #e2e8f0;
-  --dark-text-secondary: #cbd5e1;
-  --dark-text-muted: #94a3b8;
-  --dark-border-color: #334155;
+  --transition-fast: 0.2s ease;
+  --transition-slow: 0.8s ease;
 }
 
  
 @media (prefers-color-scheme: dark) {
-  :root,
-  html[data-scheme="light"],
-  html[data-scheme="dark"] {
-    --bg-primary: var(--dark-bg-primary);
-    --bg-secondary: var(--dark-bg-secondary);
-    --text-primary: var(--dark-text-primary);
-    --text-secondary: var(--dark-text-secondary);
-    --border-color: var(--dark-border-color);
+  :root {
+    --bg-primary: #2B2A27;
+    --bg-secondary: #363530;
+    --text-primary: #F2F0ED;
+    --text-secondary: #C0BEB9;
+    --text-muted: #7A7873;
+    --accent: #D47854;
+    --accent-hover: #E89270;
+    --border: #454340;
+    --code-bg: #1F201D;
   }
 }
 
  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
 
  
-.sidebar {
-  padding: var(--spacing-lg);
-  box-sizing: border-box;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: var(--spacing-md);
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+ 
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+  transition: transform var(--transition-fast);
+}
+
+.site-nav.nav-hidden {
+  transform: translateY(-100%);
+}
+
+.site-nav.nav-hidden .nav-menu {
+  transform: translateY(-100%) !important;
+}
+
+.nav-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background-color: var(--text-primary);
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.nav-menu {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.nav-menu a {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.nav-menu a:hover {
+  color: var(--accent);
+}
+
+ 
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border);
+    padding: var(--spacing-sm);
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform var(--transition-fast), opacity var(--transition-fast);
+  }
+
+  .nav-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-menu a {
+    padding: var(--spacing-sm);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+ 
+.main-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: calc(var(--nav-height) + var(--spacing-xl)) var(--spacing-md) var(--spacing-2xl);
+  min-height: 100vh;
+}
+
+ 
+.home-container {
+  animation: fadeIn var(--transition-slow);
+}
+
+.home-hero {
+  text-align: center;
+  padding: var(--spacing-2xl) 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--spacing-xl);
+}
+
+.hero-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: var(--spacing-md);
+}
+
+.hero-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--text-primary);
+}
+
+ 
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.post-preview {
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.post-link {
+  display: block;
+}
+
+.post-title {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--text-primary);
+}
+
+.post-date {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+ 
+.archive-link {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+}
+
+.archive-link a {
+  color: var(--accent);
+  font-size: 0.9375rem;
+}
+
+ 
+.article {
+  animation: fadeIn var(--transition-slow);
+}
+
+.article-header {
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.article-title {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.article-meta {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.article-reading-time,
+.article-wordcount {
+  color: var(--text-muted);
+}
+
+.article-reading-time::before {
+  content: "· ";
+  margin-right: var(--spacing-xs);
+}
+
+.article-wordcount::before {
+  content: "· ";
+  margin-right: var(--spacing-xs);
+}
+
+.article-tags,
+.article-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.tag,
+.category {
+  display: inline-block;
+  padding: 2px 10px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--accent);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.tag:hover,
+.category:hover {
+  background-color: var(--accent);
+  color: var(--bg-primary);
+  border-color: var(--accent);
+}
+
+.article-content {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.article-content h2 {
+  margin-top: var(--spacing-xl);
+}
+
+.article-content h3 {
+  margin-top: var(--spacing-lg);
+}
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: var(--spacing-md);
+  padding-left: var(--spacing-lg);
+}
+
+.article-content li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.article-content blockquote {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-md);
+  border-left: 3px solid var(--accent);
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.article-content pre {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: var(--spacing-md);
+}
+
+ 
+.chroma {
+  color: #f8f8f2;
+  background-color: #272822;
+}
+.chroma .err { color: #960050; background-color: #1e0010 }
+.chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+.chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+.chroma .hl { background-color: #3c3d38 }
+.chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em; color: #7f7f7f }
+.chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em; color: #7f7f7f }
+.chroma .line { display: flex; }
+.chroma .k { color: #66d9ef }  
+.chroma .kc { color: #66d9ef }  
+.chroma .kd { color: #66d9ef }  
+.chroma .kn { color: #f92672 }  
+.chroma .kp { color: #66d9ef }  
+.chroma .kr { color: #66d9ef }  
+.chroma .kt { color: #66d9ef }  
+.chroma .na { color: #a6e22e }  
+.chroma .nc { color: #a6e22e }  
+.chroma .no { color: #66d9ef }  
+.chroma .nd { color: #a6e22e }  
+.chroma .ne { color: #a6e22e }  
+.chroma .nx { color: #a6e22e }  
+.chroma .nt { color: #f92672 }  
+.chroma .nf { color: #a6e22e }  
+.chroma .fm { color: #a6e22e }  
+.chroma .l { color: #ae81ff }  
+.chroma .ld { color: #e6db74 }  
+.chroma .s { color: #e6db74 }  
+.chroma .sa { color: #e6db74 }  
+.chroma .sb { color: #e6db74 }  
+.chroma .sc { color: #e6db74 }  
+.chroma .dl { color: #e6db74 }  
+.chroma .sd { color: #e6db74 }  
+.chroma .s2 { color: #e6db74 }  
+.chroma .se { color: #ae81ff }  
+.chroma .sh { color: #e6db74 }  
+.chroma .si { color: #e6db74 }  
+.chroma .sx { color: #e6db74 }  
+.chroma .sr { color: #e6db74 }  
+.chroma .s1 { color: #e6db74 }  
+.chroma .ss { color: #e6db74 }  
+.chroma .m { color: #ae81ff }  
+.chroma .mb { color: #ae81ff }  
+.chroma .mf { color: #ae81ff }  
+.chroma .mh { color: #ae81ff }  
+.chroma .mi { color: #ae81ff }  
+.chroma .il { color: #ae81ff }  
+.chroma .mo { color: #ae81ff }  
+.chroma .o { color: #f92672 }  
+.chroma .ow { color: #f92672 }  
+.chroma .c { color: #75715e }  
+.chroma .ch { color: #75715e }  
+.chroma .cm { color: #75715e }  
+.chroma .c1 { color: #75715e }  
+.chroma .cs { color: #75715e }  
+.chroma .cp { color: #75715e }  
+.chroma .cpf { color: #75715e }  
+.chroma .gd { color: #f92672 }  
+.chroma .ge { font-style: italic }  
+.chroma .gi { color: #a6e22e }  
+.chroma .gs { font-weight: bold }  
+.chroma .gu { color: #75715e }  
+
+.article-content code {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+}
+
+.article-content :not(pre) > code {
+  background-color: var(--bg-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+ 
+.article-layout {
+  display: flex;
+  max-width: calc(var(--max-width) + 280px);
+  margin: 0 auto;
+  gap: var(--spacing-lg);
+  position: relative;
+}
+
+.article {
+  width: var(--max-width);
+  flex-shrink: 0;
+}
+
+.article-toc {
+  position: sticky;
+  top: calc(var(--nav-height) + var(--spacing-lg));
+  width: 200px;
+  flex-shrink: 0;
+  max-height: calc(100vh - var(--nav-height) - var(--spacing-xl));
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.toc-toggle {
+  position: absolute;
+  top: 0;
+  right: -36px;
+  width: 32px;
+  height: 32px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  z-index: 10;
+}
+
+.toc-toggle:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-primary);
+}
+
+.toc-icon {
+  font-size: 1.125rem;
+  transition: transform var(--transition-fast);
+}
+
+.toc-toggle.collapsed .toc-icon {
+  transform: rotate(90deg);
+}
+
+.toc-content {
+  padding: var(--spacing-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: opacity var(--transition-fast), visibility var(--transition-fast);
+}
+
+.toc-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.toc-title {
+  font-family: var(--font-heading);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+}
+
+.article-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.article-toc li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.article-toc a {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  transition: color var(--transition-fast);
+  display: block;
+  padding: 2px 0;
+}
+
+.article-toc a:hover {
+  color: var(--accent);
+}
+
+.article-toc ul ul {
+  padding-left: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+}
+
+ 
+@media (max-width: 1200px) {
+  .article-layout {
+    max-width: var(--max-width);
+  }
+
+   
+  .toc-content {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    position: fixed;
+    bottom: calc(var(--spacing-lg) + 48px);
+    right: var(--spacing-lg);
+    width: auto;
+    max-width: 280px;
+    max-height: 70vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+   
+  .toc-content:not(.hidden) {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  .toc-toggle {
+    position: fixed !important;
+    bottom: var(--spacing-lg);
+    right: var(--spacing-lg);
+    top: auto !important;
+    left: auto !important;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .article-toc {
+    position: static;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+}
+
+.article-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: var(--spacing-xl) 0;
+}
+
+ 
+.article-tip {
+  text-align: center;
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--border);
+}
+
+.tip-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.tip-toggle:hover {
+  background-color: var(--bg-primary);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.tip-icon {
+  font-size: 1.125rem;
+}
+
+.tip-qr-codes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+  animation: fadeIn var(--transition-fast);
+}
+
+.tip-caption {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.tip-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+ 
+.article-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--border);
+}
+
+.article-nav a {
+  flex: 1;
+  padding: var(--spacing-md);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: border-color var(--transition-fast);
+}
+
+.article-nav a:hover {
+  border-color: var(--accent);
+}
+
+.nav-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: var(--spacing-xs);
+}
+
+.nav-title {
+  display: block;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+}
+
+.nav-prev {
+  text-align: left;
+  margin-right: var(--spacing-sm);
+}
+
+.nav-next {
+  text-align: right;
+  margin-left: var(--spacing-sm);
+}
+
+ 
+.list-page {
+  animation: fadeIn var(--transition-slow);
+}
+
+.list-header {
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.taxonomy-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.taxonomy-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: border-color var(--transition-fast);
+}
+
+.taxonomy-link:hover {
+  border-color: var(--accent);
+}
+
+.taxonomy-title {
+  font-size: 1.125rem;
+  color: var(--text-primary);
+}
+
+.taxonomy-count {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+ 
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  border-top: 1px solid var(--border);
+}
+
+ 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ 
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xl);
+}
+
+.pagination a,
+.pagination span {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.pagination .current {
+  background-color: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+ 
+.katex-display {
+  margin: var(--spacing-md) 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.katex {
+  font-size: 1.1em;
+}
+
+.katex-display > .katex {
+  text-align: left;
 }
 </style>
 
-    </head>
-    <body class="
-    article-page
-    ">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
-
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
-
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-
-    <header>
-        <figure class="site-avatar">
-                <a href="/">
-                    <img src="" 
-                        width=""
-                        height=""
-                        class="site-logo"
-                        loading="lazy"
-                        alt="Avatar">
-                </a>
-                
-            </figure>
-        
-        
-        <div class="site-meta">
-            <h1 class="site-name"><a href="/">点点马的逍遥港</a></h1>
-            <h2 class="site-description">Old Fashion Man</h2>
+</head>
+<body class="">
+    
+    <nav class="site-nav">
+        <div class="nav-container">
+            <a href="/" class="site-title">点点马的逍遥港</a>
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </header><ol class="menu" id="main-menu">
-        
-        
-        
-        <li >
-            <a href='/' >
-                
-                <span>首页</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/about/' >
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/archive/' >
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/tags/' >
-                
-                <span>标签</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/categories/' >
-                
-                <span>分类</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/page/search/' >
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        <li class="menu-bottom-section">
-            <ol class="menu">
-
-                
-                    <li id="dark-mode-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <span></span>
-                    </li>
-                
-            </ol>
-        </li>
-    </ol>
-</aside>
+        <div class="nav-menu" id="nav-menu">
+            
+            <a href="/">首页</a>
+            
+            <a href="/about/">关于</a>
+            
+            <a href="/archive/">归档</a>
+            
+            <a href="/tags/">标签</a>
+            
+            <a href="/categories/">分类</a>
+            
+            <a href="/page/search/">搜索</a>
+            
+        </div>
+    </nav>
 
     
-
-            <main class="main full-width">
-    <article class="main-article">
-    <header class="article-header">
-
-    <div class="article-details">
-    
-    <header class="article-category">
+    <main class="main-content">
         
-            <a href="/categories/%E6%9D%82%E8%B0%88/" class="category-link">
-                <span class="category-icon">📁</span>
-                杂谈
-            </a>
-        
-    </header>
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%AD%E7%9C%9F/">好友的故事 –— 旭真</a>
-        </h2>
-
-        
-    </div>
-
-    
-    
-    
-    
-    
-    
-
-    
-    <footer class="article-meta">
-        
-            <div class="inline-meta">
+<div class="article-layout">
+    <article class="article">
+        <header class="article-header">
+            <h1 class="article-title">好友的故事 –— 旭真</h1>
+            <div class="article-meta">
+                <time datetime="2026-03-07">
+                    2026年3月7日
+                </time>
                 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                    <time class="article-time--published" datetime='2026-03-07T20:35:00&#43;08:00'>Saturday, March 7, 2026</time>
+                <span class="article-reading-time">11 分钟阅读</span>
                 
-
                 
-                    <span class="meta-separator">·</span>
+                <span class="article-wordcount">5115 字</span>
                 
-
                 
-                    <span class="article-word-count">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="14" height="14" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M5 9m0 0a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3" />
-                            <path d="M5 15m0 0a3 3 0 0 0 3 3h8a3 3 0 0 0 3 -3" />
-                            <path d="M3.5 9h17" />
-                            <path d="M3.5 15h17" />
-                        </svg>
-                        <span>5115 字</span>
-                    </span>
-                
-
-                
-                    <span class="meta-separator">·</span>
-                    <span class="article-time--reading">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                        <time>11 分钟</time>
-                    </span>
+                <div class="article-categories">
+                    
+                    <span class="category">杂谈</span>
+                    
+                </div>
                 
             </div>
-        
+        </header>
 
-        
-
-        
-    </footer>
-    
-</div>
-
-</header>
-
-    
-
-    <section class="article-content">
-    
-    
-    <p>有些学生，会把时间带回来。</p>
+        <div class="article-content">
+            <p>有些学生，会把时间带回来。</p>
 <p>不是把从前原样还给你。那是不可能的。人一旦走过几年，连自己也不再是旧日的自己。只是某个名字忽然出现，某一句话从很远处折回来，原先已经放到记忆底下的东西，便轻轻动了一下。像旧柜子里一张夹在书中的票根，颜色淡了，边角毛了，拿起来时，仍能看出当年的日期。</p>
 <p>旭真是我教书第二年遇见的学生。</p>
 <p>那时候，我还不太会做老师。</p>
@@ -481,183 +1035,158 @@
 教室里人声渐远。 <br />
 他还有一个问题。</p>
 
-</section>
+        </div>
 
-
-    <footer class="article-meta article-footer">
-    
-    <section class="article-tags">
         
-            <a href="/tags/misc/" class="tag-link">
-                <span class="tag-icon">🏷️</span>
-                Misc
+        <div class="article-tip">
+            <button class="tip-toggle" id="tip-toggle">
+                <span class="tip-icon">☕</span>
+                <span class="tip-text">赞赏</span>
+            </button>
+            <div class="tip-qr-codes" id="tip-qr-codes" style="display: none;">
+                <p class="tip-caption">If you like it, buy me a coffee</p>
+                <img src="/img/wechat.jpg" alt="WeChat" class="tip-image">
+                <img src="/img/alipay.jpg" alt="Alipay" class="tip-image">
+            </div>
+        </div>
+        
+
+        <nav class="article-nav">
+            
+            <a class="nav-prev" href="/post/%E4%BB%8E%E5%85%B1%E4%BA%AB%E5%BF%83%E6%99%BA%E5%88%B0%E5%85%B1%E4%BA%AB%E8%A1%8C%E4%B8%BA/">
+                <span class="nav-label">上一篇</span>
+                <span class="nav-title">从共享心智到共享行为</span>
             </a>
+            
+            
+            <a class="nav-next" href="/post/%E5%88%AB%E4%BA%86%E5%9F%8E%E7%A0%94%E9%99%A2/">
+                <span class="nav-label">下一篇</span>
+                <span class="nav-title">别了，城研院</span>
+            </a>
+            
+        </nav>
+    </article>
+
+    
+    
+</div>
+
+    </main>
+
+    
+    <footer class="site-footer">
+        <p>&copy; 2026 点点马的逍遥港</p>
         
-    </section>
-
-
-
     </footer>
 
-
     
-        <link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
-            ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
-                defer
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
-                defer
-                >
-            </script><script>
-    window.addEventListener("DOMContentLoaded", () => {
-        const elementsToRender = [".main-article", ".widget--toc"];
-
-        elementsToRender.forEach(selector => {
-            const element = document.querySelector(selector);
-            if (element) {
-                renderMathInElement(element, {
-                    delimiters: [
-                        { left: "$$", right: "$$", display: true },
-                        { left: "$", right: "$", display: false },
-                        { left: "\\(", right: "\\)", display: false },
-                        { left: "\\[", right: "\\]", display: true }
-                    ],
-                    ignoredClasses: ["gist"]
-                });
-            }
-        });
-    });
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '\\[', right: '\\]', display: true},
+      {left: '$', right: '$', display: false},
+      {left: '\\(', right: '\\)', display: false}
+    ],
+    throwOnError: false
+  });
+});
 </script>
-    
-</article>
 
-    
-
-    
-    
-
-
-
-
-
-<aside class="article-navigation">
-    <div class="nav-container">
-        
-        <div class="nav-item nav-prev">
-            <span class="nav-label">上一篇</span>
-            <a href="/post/%E4%BB%8E%E5%85%B1%E4%BA%AB%E5%BF%83%E6%99%BA%E5%88%B0%E5%85%B1%E4%BA%AB%E8%A1%8C%E4%B8%BA/" class="nav-link">从共享心智到共享行为</a>
-        </div>
-        
-
-        
-        <div class="nav-item nav-next">
-            <span class="nav-label">下一篇</span>
-            <a href="/post/%E5%88%AB%E4%BA%86%E5%9F%8E%E7%A0%94%E9%99%A2/" class="nav-link">别了，城研院</a>
-        </div>
-        
-    </div>
-</aside>
-
-
-
-    
-    
-
-
-
-
-
-
-<aside class="article-tip">
-    <div class="tip-header" onclick="toggleTipQrCodes(this)">
-        <span class="tip-icon">☕</span>
-        <span class="tip-title">赞赏</span>
-        <span class="tip-arrow">▼</span>
-    </div>
-    <div class="tip-qr-codes">
-        <p class="tip-description">If you like it, buy me a coffee</p>
-        <div class="tip-qr-item">
-            <img src="/img/wechat.jpg" alt="WeChat Pay" loading="lazy" />
-            <span class="tip-label">WeChat Pay</span>
-        </div>
-        <div class="tip-qr-item">
-            <img src="/img/alipay.jpg" alt="Alipay" loading="lazy" />
-            <span class="tip-label">Alipay</span>
-        </div>
-    </div>
-</aside>
 
 <script>
-function toggleTipQrCodes(header) {
-    const qrCodes = header.nextElementSibling;
-    const arrow = header.querySelector('.tip-arrow');
-    qrCodes.classList.toggle('show');
-    arrow.classList.toggle('open');
-}
-</script>
+(function() {
+  const hamburger = document.getElementById('hamburger-btn');
+  const menu = document.getElementById('nav-menu');
 
-
-
-    
-        
-    
-
-    <footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-            2012 - 
-        
-        2026 点点马的逍遥港
-    </section>
-    
-    <section class="powerby">
-         <br />
-        
-    </section>
-</footer>
-
+  if (hamburger && menu) {
+    hamburger.addEventListener('click', function() {
+      hamburger.classList.toggle('active');
+      menu.classList.toggle('active');
+    });
 
     
+    document.addEventListener('click', function(e) {
+      if (!hamburger.contains(e.target) && !menu.contains(e.target)) {
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+      }
+    });
 
-
-
-<script type="module">
-    import gallery from '\/ts\/gallery.js';
-
-    const articleContent = document.querySelector('.article-content');
-    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
     
-    if (shouldLoad) {
-        gallery(articleContent);
+    menu.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+      });
+    });
+  }
 
-        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
-        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+  
+  const tipToggle = document.getElementById('tip-toggle');
+  const tipQrCodes = document.getElementById('tip-qr-codes');
 
-        const styleTag = document.createElement('link');
-        styleTag.rel = 'stylesheet';
-        styleTag.href = styleHref;
-        document.head.appendChild(styleTag);
+  if (tipToggle && tipQrCodes) {
+    tipToggle.addEventListener('click', function() {
+      const isHidden = tipQrCodes.style.display === 'none';
+      tipQrCodes.style.display = isHidden ? 'flex' : 'none';
+      tipToggle.querySelector('.tip-text').textContent = isHidden ? '收起' : '赞赏';
+    });
+  }
 
-        const lightbox = new PhotoSwipeLightbox({
-            gallerySelector: '.article-content',
-            childSelector: 'figure a.image-link',
-            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
-        });
-        lightbox.init();
+  
+  const tocToggle = document.getElementById('toc-toggle');
+  const tocContent = document.getElementById('toc-content');
+
+  if (tocToggle && tocContent) {
+    
+    if (window.innerWidth <= 1200) {
+      tocToggle.classList.add('collapsed');
+      tocContent.classList.add('hidden');
     }
-</script>
+
+    tocToggle.addEventListener('click', function() {
+      tocToggle.classList.toggle('collapsed');
+      tocContent.classList.toggle('hidden');
+    });
+
     
-
-            </main>
-        </div>
+    window.addEventListener('resize', function() {
+      if (window.innerWidth <= 1200 && !tocToggle.classList.contains('collapsed')) {
         
-<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+        tocToggle.classList.add('collapsed');
+        tocContent.classList.add('hidden');
+      } else if (window.innerWidth > 1200 && tocToggle.classList.contains('collapsed')) {
+        
+        tocToggle.classList.remove('collapsed');
+        tocContent.classList.remove('hidden');
+      }
+    });
+  }
 
+  
+  let lastScrollTop = 0;
+  const siteNav = document.querySelector('.site-nav');
+  const navHeight = 60; 
 
-    </body>
+  if (siteNav) {
+    window.addEventListener('scroll', function() {
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScrollTop > lastScrollTop && currentScrollTop > navHeight) {
+        
+        siteNav.classList.add('nav-hidden');
+      } else {
+        
+        siteNav.classList.remove('nav-hidden');
+      }
+
+      lastScrollTop = currentScrollTop;
+    }, { passive: true });
+  }
+})();
+</script>
+
+</body>
 </html>

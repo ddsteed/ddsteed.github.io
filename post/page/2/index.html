@@ -1,653 +1,1851 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Old Fashion Man">
-<title>Page 2 - Posts</title>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Posts | 点点马的逍遥港</title>
+<meta name="description" content="">
+<link rel="icon" href="/favicon.ico">
 
 
-<link rel="canonical" href="/post/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 
-<link rel="stylesheet" href="/scss/style.min.15fca975a92c900ee7566149fd2b48bbe85b4254d988e9d5ba98044a055a4209.css"><meta property='og:title' content="Posts">
-<meta property='og:description' content="Old Fashion Man">
-<meta property='og:url' content='/post/'>
-<meta property='og:site_name' content='点点马的逍遥港'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2026-04-28T12:09:00&#43;08:00 '/>
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Old Fashion Man"><link rel="alternate" type="application/rss&#43;xml" href="/post/index.xml">
-
-
-
-
-
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
 
 
 <style>
+ 
+
+ 
 :root {
    
-  --primary-color: #0f1b3d;
-  --primary-hover: #1a2b5e;
-  --primary-light: #3d5a9e;
-
-  --accent-color: #0f1b3d;
-  --accent-hover: #1a2b5e;
-
-  --success-color: #10b981;
-  --warning-color: #f59e0b;
-  --error-color: #ef4444;
-  --info-color: #06b6d4;
-
-  --bg-primary: #ffffff;
-  --bg-secondary: #f4f7fe;
-  --bg-tertiary: #eef2fa;
-
-  --text-primary: #0f1b3d;
-  --text-secondary: #4a5a7a;
-  --text-muted: #8a95a8;
-
-  --border-color: #d8e0f0;
-  --divider-color: #c8d2e8;
+  --bg-primary: #FAF9F6;
+  --bg-secondary: #F5F3EF;
+  --text-primary: #2C2C2C;
+  --text-secondary: #5A5A5A;
+  --text-muted: #8A8A8A;
+  --accent: #B85C38;
+  --accent-hover: #9A4A2E;
+  --border: #E8E4DD;
+  --code-bg: #2D5A4A;
 
    
-  --font-family-base: ZgotmplZ;
-  --font-family-heading: ZgotmplZ;
-  --font-family-mono: ZgotmplZ;
-
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
-  --font-size-base: ZgotmplZ;
-  --font-size-lg: 1.125rem;
-  --font-size-xl: 1.25rem;
-  --font-size-2xl: 1.5rem;
-  --font-size-3xl: 1.875rem;
-  --font-size-4xl: 2.25rem;
-
-  --line-height-tight: 1.25;
-  --line-height-normal: 1.6;
-  --line-height-relaxed: 1.8;
+  --font-heading: 'Crimson Pro', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
    
   --spacing-xs: 0.5rem;
-  --spacing-sm: 0.75rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 1.5rem;
-  --spacing-xl: 2rem;
-  --spacing-2xl: 3rem;
-  --spacing-3xl: 4rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
 
    
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --radius-xl: 16px;
-  --radius-full: 9999px;
+  --max-width: 680px;
+  --nav-height: 60px;
 
    
-  --shadow-sm: ZgotmplZ;
-  --shadow-md: ZgotmplZ;
-  --shadow-lg: ZgotmplZ;
-  --shadow-xl: ZgotmplZ;
-
-   
-  --transition-fast: 150ms ease;
-  --transition-base: 250ms ease;
-  --transition-slow: 350ms ease;
-
-   
-  --sidebar-width: 320px;
-  --header-height: 64px;
-  --article-max-width: 720px;
-
-  --sidebar-avatar-size: 160px;
-  --article-title-size: 1.4rem;
-  --article-body-size: 1.1rem;
-
-  --card-image-height: 200px;
-  --card-hover-offset: -4px;
-
-   
-  --dark-bg-primary: #0f172a;
-  --dark-bg-secondary: #1e293b;
-  --dark-bg-tertiary: #334155;
-  --dark-text-primary: #e2e8f0;
-  --dark-text-secondary: #cbd5e1;
-  --dark-text-muted: #94a3b8;
-  --dark-border-color: #334155;
+  --transition-fast: 0.2s ease;
+  --transition-slow: 0.8s ease;
 }
 
  
 @media (prefers-color-scheme: dark) {
-  :root,
-  html[data-scheme="light"],
-  html[data-scheme="dark"] {
-    --bg-primary: var(--dark-bg-primary);
-    --bg-secondary: var(--dark-bg-secondary);
-    --text-primary: var(--dark-text-primary);
-    --text-secondary: var(--dark-text-secondary);
-    --border-color: var(--dark-border-color);
+  :root {
+    --bg-primary: #2B2A27;
+    --bg-secondary: #363530;
+    --text-primary: #F2F0ED;
+    --text-secondary: #C0BEB9;
+    --text-muted: #7A7873;
+    --accent: #D47854;
+    --accent-hover: #E89270;
+    --border: #454340;
+    --code-bg: #1F201D;
   }
 }
 
  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
 
  
-.sidebar {
-  padding: var(--spacing-lg);
-  box-sizing: border-box;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: var(--spacing-md);
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+ 
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+  transition: transform var(--transition-fast);
+}
+
+.site-nav.nav-hidden {
+  transform: translateY(-100%);
+}
+
+.site-nav.nav-hidden .nav-menu {
+  transform: translateY(-100%) !important;
+}
+
+.nav-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background-color: var(--text-primary);
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.nav-menu {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.nav-menu a {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}
+
+.nav-menu a:hover {
+  color: var(--accent);
+}
+
+ 
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border);
+    padding: var(--spacing-sm);
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform var(--transition-fast), opacity var(--transition-fast);
+  }
+
+  .nav-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-menu a {
+    padding: var(--spacing-sm);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+ 
+.main-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: calc(var(--nav-height) + var(--spacing-xl)) var(--spacing-md) var(--spacing-2xl);
+  min-height: 100vh;
+}
+
+ 
+.home-container {
+  animation: fadeIn var(--transition-slow);
+}
+
+.home-hero {
+  text-align: center;
+  padding: var(--spacing-2xl) 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--spacing-xl);
+}
+
+.hero-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: var(--spacing-md);
+}
+
+.hero-subtitle {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  font-style: italic;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--text-primary);
+}
+
+ 
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.post-preview {
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.post-link {
+  display: block;
+}
+
+.post-title {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--text-primary);
+}
+
+.post-date {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+ 
+.archive-link {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+}
+
+.archive-link a {
+  color: var(--accent);
+  font-size: 0.9375rem;
+}
+
+ 
+.article {
+  animation: fadeIn var(--transition-slow);
+}
+
+.article-header {
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.article-title {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.article-meta {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.article-reading-time,
+.article-wordcount {
+  color: var(--text-muted);
+}
+
+.article-reading-time::before {
+  content: "· ";
+  margin-right: var(--spacing-xs);
+}
+
+.article-wordcount::before {
+  content: "· ";
+  margin-right: var(--spacing-xs);
+}
+
+.article-tags,
+.article-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.tag,
+.category {
+  display: inline-block;
+  padding: 2px 10px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--accent);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.tag:hover,
+.category:hover {
+  background-color: var(--accent);
+  color: var(--bg-primary);
+  border-color: var(--accent);
+}
+
+.article-content {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.article-content h2 {
+  margin-top: var(--spacing-xl);
+}
+
+.article-content h3 {
+  margin-top: var(--spacing-lg);
+}
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: var(--spacing-md);
+  padding-left: var(--spacing-lg);
+}
+
+.article-content li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.article-content blockquote {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-md);
+  border-left: 3px solid var(--accent);
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.article-content pre {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: var(--spacing-md);
+}
+
+ 
+.chroma {
+  color: #f8f8f2;
+  background-color: #272822;
+}
+.chroma .err { color: #960050; background-color: #1e0010 }
+.chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+.chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+.chroma .hl { background-color: #3c3d38 }
+.chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em; color: #7f7f7f }
+.chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em; color: #7f7f7f }
+.chroma .line { display: flex; }
+.chroma .k { color: #66d9ef }  
+.chroma .kc { color: #66d9ef }  
+.chroma .kd { color: #66d9ef }  
+.chroma .kn { color: #f92672 }  
+.chroma .kp { color: #66d9ef }  
+.chroma .kr { color: #66d9ef }  
+.chroma .kt { color: #66d9ef }  
+.chroma .na { color: #a6e22e }  
+.chroma .nc { color: #a6e22e }  
+.chroma .no { color: #66d9ef }  
+.chroma .nd { color: #a6e22e }  
+.chroma .ne { color: #a6e22e }  
+.chroma .nx { color: #a6e22e }  
+.chroma .nt { color: #f92672 }  
+.chroma .nf { color: #a6e22e }  
+.chroma .fm { color: #a6e22e }  
+.chroma .l { color: #ae81ff }  
+.chroma .ld { color: #e6db74 }  
+.chroma .s { color: #e6db74 }  
+.chroma .sa { color: #e6db74 }  
+.chroma .sb { color: #e6db74 }  
+.chroma .sc { color: #e6db74 }  
+.chroma .dl { color: #e6db74 }  
+.chroma .sd { color: #e6db74 }  
+.chroma .s2 { color: #e6db74 }  
+.chroma .se { color: #ae81ff }  
+.chroma .sh { color: #e6db74 }  
+.chroma .si { color: #e6db74 }  
+.chroma .sx { color: #e6db74 }  
+.chroma .sr { color: #e6db74 }  
+.chroma .s1 { color: #e6db74 }  
+.chroma .ss { color: #e6db74 }  
+.chroma .m { color: #ae81ff }  
+.chroma .mb { color: #ae81ff }  
+.chroma .mf { color: #ae81ff }  
+.chroma .mh { color: #ae81ff }  
+.chroma .mi { color: #ae81ff }  
+.chroma .il { color: #ae81ff }  
+.chroma .mo { color: #ae81ff }  
+.chroma .o { color: #f92672 }  
+.chroma .ow { color: #f92672 }  
+.chroma .c { color: #75715e }  
+.chroma .ch { color: #75715e }  
+.chroma .cm { color: #75715e }  
+.chroma .c1 { color: #75715e }  
+.chroma .cs { color: #75715e }  
+.chroma .cp { color: #75715e }  
+.chroma .cpf { color: #75715e }  
+.chroma .gd { color: #f92672 }  
+.chroma .ge { font-style: italic }  
+.chroma .gi { color: #a6e22e }  
+.chroma .gs { font-weight: bold }  
+.chroma .gu { color: #75715e }  
+
+.article-content code {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+}
+
+.article-content :not(pre) > code {
+  background-color: var(--bg-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+ 
+.article-layout {
+  display: flex;
+  max-width: calc(var(--max-width) + 280px);
+  margin: 0 auto;
+  gap: var(--spacing-lg);
+  position: relative;
+}
+
+.article {
+  width: var(--max-width);
+  flex-shrink: 0;
+}
+
+.article-toc {
+  position: sticky;
+  top: calc(var(--nav-height) + var(--spacing-lg));
+  width: 200px;
+  flex-shrink: 0;
+  max-height: calc(100vh - var(--nav-height) - var(--spacing-xl));
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.toc-toggle {
+  position: absolute;
+  top: 0;
+  right: -36px;
+  width: 32px;
+  height: 32px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  z-index: 10;
+}
+
+.toc-toggle:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-primary);
+}
+
+.toc-icon {
+  font-size: 1.125rem;
+  transition: transform var(--transition-fast);
+}
+
+.toc-toggle.collapsed .toc-icon {
+  transform: rotate(90deg);
+}
+
+.toc-content {
+  padding: var(--spacing-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: opacity var(--transition-fast), visibility var(--transition-fast);
+}
+
+.toc-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.toc-title {
+  font-family: var(--font-heading);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+}
+
+.article-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.article-toc li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.article-toc a {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  transition: color var(--transition-fast);
+  display: block;
+  padding: 2px 0;
+}
+
+.article-toc a:hover {
+  color: var(--accent);
+}
+
+.article-toc ul ul {
+  padding-left: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+}
+
+ 
+@media (max-width: 1200px) {
+  .article-layout {
+    max-width: var(--max-width);
+  }
+
+   
+  .toc-content {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    position: fixed;
+    bottom: calc(var(--spacing-lg) + 48px);
+    right: var(--spacing-lg);
+    width: auto;
+    max-width: 280px;
+    max-height: 70vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+   
+  .toc-content:not(.hidden) {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  .toc-toggle {
+    position: fixed !important;
+    bottom: var(--spacing-lg);
+    right: var(--spacing-lg);
+    top: auto !important;
+    left: auto !important;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .article-toc {
+    position: static;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+}
+
+.article-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: var(--spacing-xl) 0;
+}
+
+ 
+.article-tip {
+  text-align: center;
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--border);
+}
+
+.tip-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.tip-toggle:hover {
+  background-color: var(--bg-primary);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.tip-icon {
+  font-size: 1.125rem;
+}
+
+.tip-qr-codes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+  animation: fadeIn var(--transition-fast);
+}
+
+.tip-caption {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.tip-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+ 
+.article-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid var(--border);
+}
+
+.article-nav a {
+  flex: 1;
+  padding: var(--spacing-md);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: border-color var(--transition-fast);
+}
+
+.article-nav a:hover {
+  border-color: var(--accent);
+}
+
+.nav-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: var(--spacing-xs);
+}
+
+.nav-title {
+  display: block;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+}
+
+.nav-prev {
+  text-align: left;
+  margin-right: var(--spacing-sm);
+}
+
+.nav-next {
+  text-align: right;
+  margin-left: var(--spacing-sm);
+}
+
+ 
+.list-page {
+  animation: fadeIn var(--transition-slow);
+}
+
+.list-header {
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 1px solid var(--border);
+}
+
+.taxonomy-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.taxonomy-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: border-color var(--transition-fast);
+}
+
+.taxonomy-link:hover {
+  border-color: var(--accent);
+}
+
+.taxonomy-title {
+  font-size: 1.125rem;
+  color: var(--text-primary);
+}
+
+.taxonomy-count {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+ 
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-md);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  border-top: 1px solid var(--border);
+}
+
+ 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ 
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xl);
+}
+
+.pagination a,
+.pagination span {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.pagination .current {
+  background-color: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+ 
+.katex-display {
+  margin: var(--spacing-md) 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.katex {
+  font-size: 1.1em;
+}
+
+.katex-display > .katex {
+  text-align: left;
 }
 </style>
 
-    </head>
-    <body class="">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
-
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
-
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-
-    <header>
-        <figure class="site-avatar">
-                <a href="/">
-                    <img src="" 
-                        width=""
-                        height=""
-                        class="site-logo"
-                        loading="lazy"
-                        alt="Avatar">
-                </a>
-                
-            </figure>
-        
-        
-        <div class="site-meta">
-            <h1 class="site-name"><a href="/">点点马的逍遥港</a></h1>
-            <h2 class="site-description">Old Fashion Man</h2>
-        </div>
-    </header><ol class="menu" id="main-menu">
-        
-        
-        
-        <li >
-            <a href='/' >
-                
-                <span>首页</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/about/' >
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/archive/' >
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/tags/' >
-                
-                <span>标签</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/categories/' >
-                
-                <span>分类</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/page/search/' >
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        <li class="menu-bottom-section">
-            <ol class="menu">
-
-                
-                    <li id="dark-mode-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <span></span>
-                    </li>
-                
-            </ol>
-        </li>
-    </ol>
-</aside>
-
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                <form action="/page/search/" class="search-form widget" >
-        <p>
-            <label></label>
-            <input name="keyword" required placeholder="" />
-        
-            <button title="">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
+</head>
+<body class="">
+    
+    <nav class="site-nav">
+        <div class="nav-container">
+            <a href="/" class="site-title">点点马的逍遥港</a>
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
-        </p>
-    </form>
-            
-        
-            
-                <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-</svg>
-
-
-
         </div>
-        <h2 class="widget-title section-title">
-            <a href="/archive/">
-                
-            </a>
-        </h2>
-
-        
-        
-
-        <div class="widget-archive--list">
-            <div class="archives-year">
-                    <a href="/archive/#2026">
-                        <span class="year">2026</span>
-                        <span class="count">31</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2025">
-                        <span class="year">2025</span>
-                        <span class="count">12</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2024">
-                        <span class="year">2024</span>
-                        <span class="count">8</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2023">
-                        <span class="year">2023</span>
-                        <span class="count">13</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2022">
-                        <span class="year">2022</span>
-                        <span class="count">9</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2020">
-                        <span class="year">2020</span>
-                        <span class="count">1</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2019">
-                        <span class="year">2019</span>
-                        <span class="count">1</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2018">
-                        <span class="year">2018</span>
-                        <span class="count">1</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2017">
-                        <span class="year">2017</span>
-                        <span class="count">1</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2016">
-                        <span class="year">2016</span>
-                        <span class="count">2</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2015">
-                        <span class="year">2015</span>
-                        <span class="count">1</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2014">
-                        <span class="year">2014</span>
-                        <span class="count">3</span>
-                    </a>
-                </div>
-            <div class="archives-year">
-                    <a href="/archive/#2012">
-                        <span class="year">2012</span>
-                        <span class="count">2</span>
-                    </a>
-                </div>
+        <div class="nav-menu" id="nav-menu">
+            
+            <a href="/">首页</a>
+            
+            <a href="/about/">关于</a>
+            
+            <a href="/archive/">归档</a>
+            
+            <a href="/tags/">标签</a>
+            
+            <a href="/categories/">分类</a>
+            
+            <a href="/page/search/">搜索</a>
             
         </div>
-    </section>
-            
-        
-            
-                
-<section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
+    </nav>
 
-
-
-    </div>
-    <h2 class="widget-title section-title">
+    
+    <main class="main-content">
         
-            <a href="/categories/">
-                
-            </a>
+<div class="list-page">
+    <header class="list-header">
+        <h1 class="section-title">Posts</h1>
         
-    </h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/categories/%E6%95%99%E8%82%B2/">
-                教育
-            </a>
-        
-            <a href="/categories/%E6%84%9F%E6%82%9F/">
-                感悟
-            </a>
-        
-            <a href="/categories/%E8%AF%BB%E4%B9%A6/">
-                读书
-            </a>
-        
-            <a href="/categories/%E6%9D%82%E8%B0%88/">
-                杂谈
-            </a>
-        
-            <a href="/categories/%E5%AD%A6%E4%B9%A0/">
-                学习
-            </a>
-        
-            <a href="/categories/%E6%80%9D%E7%BB%B4/">
-                思维
-            </a>
-        
-            <a href="/categories/%E5%88%9B%E4%B8%9A/">
-                创业
-            </a>
-        
-            <a href="/categories/%E6%8A%80%E6%9C%AF/">
-                技术
-            </a>
-        
-            <a href="/categories/%E7%A0%94%E7%A9%B6/">
-                研究
-            </a>
-        
-    </div>
-</section>
-
-            
-        
-            
-                
-<section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">
-        
-            <a href="/tags/">
-                
-            </a>
-        
-    </h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/tags/misc/">
-                Misc
-            </a>
-        
-            <a href="/tags/education/">
-                Education
-            </a>
-        
-            <a href="/tags/reading/">
-                Reading
-            </a>
-        
-            <a href="/tags/study/">
-                Study
-            </a>
-        
-            <a href="/tags/thinking/">
-                Thinking
-            </a>
-        
-            <a href="/tags/startup/">
-                Startup
-            </a>
-        
-            <a href="/tags/tech/">
-                Tech
-            </a>
-        
-            <a href="/tags/about/">
-                About
-            </a>
-        
-    </div>
-</section>
-
-            
-        
-    </aside>
-
-
-            <main class="main full-width">
-    <header>
-        <h3 class="section-title">
-            
-                
-            
-        </h3>
-
-        <div class="section-card">
-            <div class="section-details">
-                <h3 class="section-count"></h3>
-                <h1 class="section-term">Posts</h1>
-                
-            </div>
-        </div>
     </header>
+
     
     
-        <section class="article-list--compact">
-            
-                <article>
-    <a href="/post/%E4%BC%9A%E5%81%9A%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%9C%9F%E6%87%82/">
-        <div class="article-details">
-            <h2 class="article-title">会做，不等于真懂</h2>
-                <footer class="article-meta"><time datetime="2026-04-07T17:09:00&#43;08:00">Tuesday, April 7, 2026</time>
-                </footer></div>
-    </a>
-</article>
-            
-                <article>
-    <a href="/post/%E4%BC%9A%E9%97%AEai-%E6%89%8D%E4%BC%9A%E7%AD%94/">
-        <div class="article-details">
-            <h2 class="article-title">会问，AI 才会答</h2>
-                <footer class="article-meta"><time datetime="2026-04-04T12:18:00&#43;08:00">Saturday, April 4, 2026</time>
-                </footer></div>
-    </a>
-</article>
-            
-                <article>
-    <a href="/post/%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E7%9C%9F%E6%AD%A3%E5%8F%91%E7%94%9F/">
-        <div class="article-details">
-            <h2 class="article-title">学习如何真正发生</h2>
-                <footer class="article-meta"><time datetime="2026-04-02T16:21:00&#43;08:00">Thursday, April 2, 2026</time>
-                </footer></div>
-    </a>
-</article>
-            
-                <article>
-    <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E5%94%90%E5%8D%9A%E5%A3%AB/">
-        <div class="article-details">
-            <h2 class="article-title">好友的故事 –— 唐博士</h2>
-                <footer class="article-meta"><time datetime="2026-03-31T09:48:00&#43;08:00">Tuesday, March 31, 2026</time>
-                </footer></div>
-    </a>
-</article>
-            
-                <article>
-    <a href="/post/ai-%E8%B6%8A%E8%81%AA%E6%98%8E%E5%AD%A9%E5%AD%90%E8%B6%8A%E8%AF%A5%E5%AD%A6%E4%BB%80%E4%B9%88/">
-        <div class="article-details">
-            <h2 class="article-title">AI 越聪明，孩子越该学什么？</h2>
-                <footer class="article-meta"><time datetime="2026-03-21T19:34:00&#43;08:00">Saturday, March 21, 2026</time>
-                </footer></div>
-    </a>
-</article>
-            
-                <article>
-    <a href="/post/%E4%B8%BA%E4%BB%80%E4%B9%88-ai-%E8%B6%8A%E5%B8%AE%E5%BF%99%E4%BA%BA%E5%8F%8D%E8%80%8C%E8%B6%8A%E7%B4%AF/">
-        <div class="article-details">
-            <h2 class="article-title">为什么 AI 越帮忙，人反而越累</h2>
-                <footer class="article-meta"><time datetime="2026-03-17T18:05:00&#43;08:00">Tuesday, March 17, 2026</time>
-                </footer></div>
-    </a>
-</article>
-            
-        </section>
-    <nav class="pagination" role="navigation" aria-label="pagination"><a class="page-link "href="/post/"aria-label="Previous page">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
-    </a><a class="page-link " aria-label="Page 1"href="/post/">
-        1
-    </a><a class="page-link current"aria-current="page"href="/post/page/2/"
-                aria-label="Page 2">
-                2
-            </a><a class="page-link "href="/post/page/3/"
-                aria-label="Page 3">
-                3
-            </a><a class="page-link "href="/post/page/4/"
-                aria-label="Page 4">
-                4
-            </a><a class="page-link "href="/post/page/5/"
-                aria-label="Page 5">
-                5
-            </a><a class="page-link "href="/post/page/6/"
-                aria-label="Page 6">
-                6
-            </a><span class="page-link pagination-link">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-dots"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
-    </span><a class="page-link "href="/post/page/15/"aria-label="Page 15">
-        15
-    </a><a class="page-link "href="/post/page/3/"aria-label="Next page">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
-    </a>
-</nav><footer class="site-footer">
-    <section class="copyright">
-        &copy; 
+    <div class="posts-list">
         
-            2012 - 
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E8%80%81%E5%B8%88%E5%BF%83%E9%87%8C%E8%A6%81%E6%9C%89%E4%B8%80%E5%BA%A7%E5%B1%B1/" class="post-link">
+                <h2 class="post-title">好老师心里，要有一座山</h2>
+                <time class="post-date" datetime="2026-04-28">
+                    2026年4月28日
+                </time>
+            </a>
+        </article>
         
-        2026 点点马的逍遥港
-    </section>
+        <article class="post-preview">
+            <a href="/post/%E8%AF%BB%E4%B9%A6%E4%B9%8B%E5%89%8D%E5%85%88%E5%9C%A8%E5%BF%83%E9%87%8C%E7%82%B9%E4%B8%80%E7%9B%8F%E7%81%AF/" class="post-link">
+                <h2 class="post-title">读书之前，先在心里点一盏灯</h2>
+                <time class="post-date" datetime="2026-04-27">
+                    2026年4月27日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%A4%E9%81%93%E9%80%BB%E8%BE%91%E6%80%9D%E7%BB%B4%E9%A2%98/" class="post-link">
+                <h2 class="post-title">两道逻辑思维题</h2>
+                <time class="post-date" datetime="2026-04-25">
+                    2026年4月25日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A6%82%E4%BD%95%E7%BB%99-ai%E8%AF%B4%E6%98%8E%E7%99%BD/" class="post-link">
+                <h2 class="post-title">如何给 AI“说明白”</h2>
+                <time class="post-date" datetime="2026-04-10">
+                    2026年4月10日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A6%82%E4%BD%95%E7%9C%9F%E6%AD%A3%E8%AF%B4%E6%98%8E%E7%99%BD/" class="post-link">
+                <h2 class="post-title">如何真正“说明白”</h2>
+                <time class="post-date" datetime="2026-04-09">
+                    2026年4月9日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%80%E8%93%91%E7%83%9F%E9%9B%A8%E4%BB%BB%E5%B9%B3%E7%94%9F/" class="post-link">
+                <h2 class="post-title">一蓑烟雨任平生</h2>
+                <time class="post-date" datetime="2026-04-08">
+                    2026年4月8日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%BC%9A%E5%81%9A%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%9C%9F%E6%87%82/" class="post-link">
+                <h2 class="post-title">会做，不等于真懂</h2>
+                <time class="post-date" datetime="2026-04-07">
+                    2026年4月7日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%BC%9A%E9%97%AEai-%E6%89%8D%E4%BC%9A%E7%AD%94/" class="post-link">
+                <h2 class="post-title">会问，AI 才会答</h2>
+                <time class="post-date" datetime="2026-04-04">
+                    2026年4月4日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%AD%A6%E4%B9%A0%E5%A6%82%E4%BD%95%E7%9C%9F%E6%AD%A3%E5%8F%91%E7%94%9F/" class="post-link">
+                <h2 class="post-title">学习如何真正发生</h2>
+                <time class="post-date" datetime="2026-04-02">
+                    2026年4月2日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E5%94%90%E5%8D%9A%E5%A3%AB/" class="post-link">
+                <h2 class="post-title">好友的故事 –— 唐博士</h2>
+                <time class="post-date" datetime="2026-03-31">
+                    2026年3月31日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/ai-%E8%B6%8A%E8%81%AA%E6%98%8E%E5%AD%A9%E5%AD%90%E8%B6%8A%E8%AF%A5%E5%AD%A6%E4%BB%80%E4%B9%88/" class="post-link">
+                <h2 class="post-title">AI 越聪明，孩子越该学什么？</h2>
+                <time class="post-date" datetime="2026-03-21">
+                    2026年3月21日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%BA%E4%BB%80%E4%B9%88-ai-%E8%B6%8A%E5%B8%AE%E5%BF%99%E4%BA%BA%E5%8F%8D%E8%80%8C%E8%B6%8A%E7%B4%AF/" class="post-link">
+                <h2 class="post-title">为什么 AI 越帮忙，人反而越累</h2>
+                <time class="post-date" datetime="2026-03-17">
+                    2026年3月17日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/ai-%E4%BB%80%E4%B9%88%E9%83%BD%E8%83%BD%E5%81%9A%E4%B9%8B%E5%90%8E%E4%BA%BA%E8%BF%98%E5%89%A9%E4%B8%8B%E4%BB%80%E4%B9%88/" class="post-link">
+                <h2 class="post-title">AI 什么都能做之后，人还剩下什么？</h2>
+                <time class="post-date" datetime="2026-03-14">
+                    2026年3月14日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%88%AB%E4%BA%86%E5%9F%8E%E7%A0%94%E9%99%A2/" class="post-link">
+                <h2 class="post-title">别了，城研院</h2>
+                <time class="post-date" datetime="2026-03-11">
+                    2026年3月11日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E6%97%AD%E7%9C%9F/" class="post-link">
+                <h2 class="post-title">好友的故事 –— 旭真</h2>
+                <time class="post-date" datetime="2026-03-07">
+                    2026年3月7日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%BB%8E%E5%85%B1%E4%BA%AB%E5%BF%83%E6%99%BA%E5%88%B0%E5%85%B1%E4%BA%AB%E8%A1%8C%E4%B8%BA/" class="post-link">
+                <h2 class="post-title">从共享心智到共享行为</h2>
+                <time class="post-date" datetime="2026-03-01">
+                    2026年3月1日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%BD%93%E6%97%B6%E5%8F%AA%E9%81%93%E6%98%AF%E5%AF%BB%E5%B8%B8/" class="post-link">
+                <h2 class="post-title">当时只道是寻常</h2>
+                <time class="post-date" datetime="2026-02-25">
+                    2026年2月25日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E7%90%86%E8%A7%A3%E6%98%AF%E4%B8%80%E5%9C%BA%E7%BC%93%E6%85%A2%E7%9A%84%E9%87%8D%E5%BB%BA/" class="post-link">
+                <h2 class="post-title">理解，是一场缓慢的重建</h2>
+                <time class="post-date" datetime="2026-02-24">
+                    2026年2月24日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/ai-%E6%97%B6%E4%BB%A3%E6%88%91%E4%BB%AC%E7%9A%84%E4%BD%8D%E7%BD%AE/" class="post-link">
+                <h2 class="post-title">AI 时代，我们的位置</h2>
+                <time class="post-date" datetime="2026-02-22">
+                    2026年2月22日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%93%80%E8%80%8C%E4%B8%8D%E4%BC%A4%E5%9C%A8the-newsrom%E9%87%8C%E7%BC%9D%E8%A1%A5%E7%A0%B4%E7%A2%8E%E7%9A%84%E6%97%A5%E5%B8%B8/" class="post-link">
+                <h2 class="post-title">哀而不伤：在《The NewsRom》里缝补破碎的日常</h2>
+                <time class="post-date" datetime="2026-02-19">
+                    2026年2月19日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%AD%A6%E4%BC%9A%E8%AF%B4%E8%AF%9D/" class="post-link">
+                <h2 class="post-title">学会说话</h2>
+                <time class="post-date" datetime="2026-02-16">
+                    2026年2月16日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E7%94%A8%E4%B8%80%E5%A4%A9%E6%8A%8A%E8%87%AA%E5%B7%B1%E4%BB%8E%E6%97%A7%E7%9A%84%E8%BD%A8%E9%81%93%E9%87%8C%E6%8B%BD%E5%87%BA%E6%9D%A5/" class="post-link">
+                <h2 class="post-title">用一天，把自己从旧的轨道里拽出来</h2>
+                <time class="post-date" datetime="2026-02-14">
+                    2026年2月14日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%BB%80%E4%B9%88%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E4%B8%93%E6%B3%A8/" class="post-link">
+                <h2 class="post-title">什么才是真正的专注</h2>
+                <time class="post-date" datetime="2026-02-08">
+                    2026年2月8日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A4%A7%E5%AD%A6%E6%9C%80%E8%AF%A5%E6%95%99%E7%9A%84%E4%BA%8B/" class="post-link">
+                <h2 class="post-title">大学最该教的事</h2>
+                <time class="post-date" datetime="2026-02-01">
+                    2026年2月1日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/ai-%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E6%9D%A0%E6%9D%86%E8%BF%98%E6%98%AF%E6%8B%90%E6%9D%96/" class="post-link">
+                <h2 class="post-title">AI 是孩子的杠杆，还是拐杖？</h2>
+                <time class="post-date" datetime="2026-01-26">
+                    2026年1月26日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%8B%A8%E7%90%B4%E5%BC%A6%E7%9A%84%E4%BA%BA/" class="post-link">
+                <h2 class="post-title">拨琴弦的人</h2>
+                <time class="post-date" datetime="2026-01-23">
+                    2026年1月23日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E7%AB%B9%E5%AD%90%E4%BA%8C/" class="post-link">
+                <h2 class="post-title">好友的故事 –— 竹子（二）</h2>
+                <time class="post-date" datetime="2026-01-22">
+                    2026年1月22日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B9%A6%E6%9E%B6%E4%B8%8A%E7%9A%84%E7%81%B0/" class="post-link">
+                <h2 class="post-title">书架上的灰</h2>
+                <time class="post-date" datetime="2026-01-17">
+                    2026年1月17日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%9C%A8%E8%BF%99%E4%B8%AA%E6%97%B6%E4%BB%A3%E6%85%A2%E6%85%A2%E6%8A%8A-ai-%E7%94%A8%E5%AF%B9/" class="post-link">
+                <h2 class="post-title">在这个时代，慢慢把 AI 用对</h2>
+                <time class="post-date" datetime="2026-01-16">
+                    2026年1月16日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E5%BF%97%E5%88%9A/" class="post-link">
+                <h2 class="post-title">好友的故事 –— 志刚</h2>
+                <time class="post-date" datetime="2026-01-08">
+                    2026年1月8日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%9C%B0%E9%93%81%E9%97%A8%E5%90%88%E4%B8%8A%E4%BB%A5%E5%90%8E/" class="post-link">
+                <h2 class="post-title">地铁门合上以后</h2>
+                <time class="post-date" datetime="2026-01-07">
+                    2026年1月7日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E5%8F%88%E4%B8%80%E4%BD%93%E9%AA%8C/" class="post-link">
+                <h2 class="post-title">人生的又一体验</h2>
+                <time class="post-date" datetime="2025-12-28">
+                    2025年12月28日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E7%94%B5%E5%BD%B1%E5%9C%BA/" class="post-link">
+                <h2 class="post-title">一个人的电影场</h2>
+                <time class="post-date" datetime="2025-12-27">
+                    2025年12月27日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E7%AB%B9%E5%AD%90/" class="post-link">
+                <h2 class="post-title">好友的故事 –— 竹子</h2>
+                <time class="post-date" datetime="2025-12-13">
+                    2025年12月13日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%80%E7%A8%8B/" class="post-link">
+                <h2 class="post-title">一程</h2>
+                <time class="post-date" datetime="2025-12-04">
+                    2025年12月4日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/an-old-man-but-firm-and-tenacious/" class="post-link">
+                <h2 class="post-title">An old man but firm and tenacious</h2>
+                <time class="post-date" datetime="2025-11-15">
+                    2025年11月15日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%82%A3%E4%B8%80%E5%A4%9C%E7%9A%84%E8%AF%BA%E5%9D%8E%E6%99%AE/" class="post-link">
+                <h2 class="post-title">那一夜的诺坎普</h2>
+                <time class="post-date" datetime="2025-11-12">
+                    2025年11月12日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A4%9C%E9%87%8C%E7%9A%84%E6%B0%B4%E5%A3%B0/" class="post-link">
+                <h2 class="post-title">夜里的水声</h2>
+                <time class="post-date" datetime="2025-11-10">
+                    2025年11月10日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E9%9D%A9%E5%91%BD-%E9%82%A3%E4%BA%9B%E4%B8%8D%E5%90%88%E6%97%B6%E5%AE%9C%E7%9A%84%E4%BA%BA/" class="post-link">
+                <h2 class="post-title">《深度学习革命》–— 那些不合时宜的人</h2>
+                <time class="post-date" datetime="2025-10-14">
+                    2025年10月14日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%8A%8A-emacs-%E6%89%93%E9%80%A0%E4%B8%BA-python-ide/" class="post-link">
+                <h2 class="post-title">把 Emacs 打造为 Python IDE</h2>
+                <time class="post-date" datetime="2025-10-12">
+                    2025年10月12日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%80%E4%B8%AA%E6%A6%82%E7%8E%87%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%90%AF%E5%8F%91/" class="post-link">
+                <h2 class="post-title">一个概率事件的启发</h2>
+                <time class="post-date" datetime="2025-03-10">
+                    2025年3月10日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%80%E4%B8%AA%E5%A5%87%E5%A6%99%E7%9A%84%E6%95%B0%E5%AD%A6%E6%80%9D%E7%BB%B4/" class="post-link">
+                <h2 class="post-title">一个奇妙的数学思维</h2>
+                <time class="post-date" datetime="2025-03-07">
+                    2025年3月7日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%80%E4%B8%AA%E6%9D%91%E5%BA%84%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD-%E6%94%B9%E9%9D%A9%E6%94%B9%E5%8F%98%E4%BA%86%E4%BB%80%E4%B9%88/" class="post-link">
+                <h2 class="post-title">《一个村庄里的中国》–— 改革，改变了什么</h2>
+                <time class="post-date" datetime="2025-02-16">
+                    2025年2月16日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%B0%8F%E9%85%92%E9%A6%86%E9%87%8C%E7%9A%84%E9%82%A3%E6%9D%AF%E9%85%92/" class="post-link">
+                <h2 class="post-title">小酒馆里的那杯酒</h2>
+                <time class="post-date" datetime="2024-12-01">
+                    2024年12月1日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E5%B0%8F%E5%AE%8B/" class="post-link">
+                <h2 class="post-title">好友的故事 –— 小宋</h2>
+                <time class="post-date" datetime="2024-11-23">
+                    2024年11月23日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E9%99%B6/" class="post-link">
+                <h2 class="post-title">好友的故事 –— 陶</h2>
+                <time class="post-date" datetime="2024-11-16">
+                    2024年11月16日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E8%83%A1%E9%80%82%E6%96%87%E9%9B%86-%E6%B8%A9%E5%92%8C%E7%9A%84%E5%8A%9B%E9%87%8F/" class="post-link">
+                <h2 class="post-title">《胡适文集》–— 温和的力量</h2>
+                <time class="post-date" datetime="2024-11-12">
+                    2024年11月12日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E7%90%86%E5%BF%B5%E7%9A%84%E5%8A%9B%E9%87%8F-%E6%8E%A9%E5%8D%B7%E6%97%B6%E7%9A%84%E4%B8%80%E5%A3%B0%E5%8F%B9%E6%81%AF/" class="post-link">
+                <h2 class="post-title">《理念的力量》 –— 掩卷时的一声叹息</h2>
+                <time class="post-date" datetime="2024-09-15">
+                    2024年9月15日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%AD%E5%9B%BD%E5%8E%86%E4%BB%A3%E6%94%BF%E6%B2%BB%E5%BE%97%E5%A4%B1-%E4%B9%A6%E9%A1%B5%E9%87%8C%E7%9A%84%E5%88%B6%E5%BA%A6%E4%B8%8E%E4%BA%BA%E5%BF%83/" class="post-link">
+                <h2 class="post-title">《中国历代政治得失》 –— 书页里的制度与人心</h2>
+                <time class="post-date" datetime="2024-07-09">
+                    2024年7月9日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%87%8D%E6%96%B0%E7%9C%8B%E8%A7%81%E5%A4%A7%E5%AD%A6/" class="post-link">
+                <h2 class="post-title">重新看见大学</h2>
+                <time class="post-date" datetime="2024-07-07">
+                    2024年7月7日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%88%86%E5%B2%94%E5%A4%84%E7%9A%84%E5%BE%AE%E5%85%89/" class="post-link">
+                <h2 class="post-title">分岔处的微光</h2>
+                <time class="post-date" datetime="2024-04-14">
+                    2024年4月14日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%82%A3%E4%B8%80%E5%B9%B4%E4%BB%A5%E5%90%8E/" class="post-link">
+                <h2 class="post-title">那一年以后</h2>
+                <time class="post-date" datetime="2023-12-20">
+                    2023年12月20日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%AE%89%E9%81%93%E8%80%85%E6%9C%89%E4%BB%80%E4%B9%88%E6%84%8F%E4%B9%89/" class="post-link">
+                <h2 class="post-title">“殉道者”有什么意义</h2>
+                <time class="post-date" datetime="2023-09-29">
+                    2023年9月29日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E8%8A%AF%E7%89%87%E6%88%98%E4%BA%89/" class="post-link">
+                <h2 class="post-title">《芯片战争》</h2>
+                <time class="post-date" datetime="2023-08-01">
+                    2023年8月1日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%90%8D%E5%AD%97%E9%87%8C%E7%9A%84%E9%82%A3%E4%B8%80%E7%82%B9%E8%BE%83%E7%9C%9F/" class="post-link">
+                <h2 class="post-title">名字里的那一点较真</h2>
+                <time class="post-date" datetime="2023-07-18">
+                    2023年7月18日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/13-%E5%B9%B4%E5%90%8E%E7%9A%84%E9%87%8D%E9%80%A2-%E6%B9%96%E8%BE%B9%E6%97%A7%E5%BD%B1/" class="post-link">
+                <h2 class="post-title">13 年后的“重逢” –— 湖边旧影</h2>
+                <time class="post-date" datetime="2023-07-02">
+                    2023年7月2日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/hjkl%E5%92%8C%E9%BC%A0%E6%A0%87%E7%9A%84%E6%96%97%E4%BA%89-%E6%8C%87%E5%B0%96%E8%BF%98%E5%9C%A8%E5%8E%9F%E5%A4%84/" class="post-link">
+                <h2 class="post-title">  &#34;hjkl&#34;和鼠标的斗争 –— 指尖还在原处
+  </h2>
+                <time class="post-date" datetime="2023-05-27">
+                    2023年5月27日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/old-fashion-man/" class="post-link">
+                <h2 class="post-title">Old Fashion Man</h2>
+                <time class="post-date" datetime="2023-05-07">
+                    2023年5月7日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/not-even-wrong/" class="post-link">
+                <h2 class="post-title">《Not Even Wrong》</h2>
+                <time class="post-date" datetime="2023-04-28">
+                    2023年4月28日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%98%85%E8%AF%BB%E7%9A%84%E6%96%B9%E6%B3%95-%E5%A4%B9%E5%9C%A8%E4%B9%A6%E9%A1%B5%E9%87%8C%E7%9A%84%E5%A3%B0%E9%9F%B3/" class="post-link">
+                <h2 class="post-title">《阅读的方法》–— 夹在书页里的声音</h2>
+                <time class="post-date" datetime="2023-04-02">
+                    2023年4月2日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E8%AF%BB%E4%B9%A6%E7%9A%84%E6%AD%A5%E9%AA%A4/" class="post-link">
+                <h2 class="post-title">读书的步骤</h2>
+                <time class="post-date" datetime="2023-01-27">
+                    2023年1月27日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%9C%89%E7%94%A8%E4%B9%8B%E7%89%A9/" class="post-link">
+                <h2 class="post-title">有用之物</h2>
+                <time class="post-date" datetime="2023-01-25">
+                    2023年1月25日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E7%AB%99%E5%88%B0%E5%AF%B9%E6%96%B9%E9%82%A3%E9%87%8C/" class="post-link">
+                <h2 class="post-title">站到对方那里</h2>
+                <time class="post-date" datetime="2023-01-19">
+                    2023年1月19日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA-blog/" class="post-link">
+                <h2 class="post-title">如何创建个人 Blog</h2>
+                <time class="post-date" datetime="2023-01-15">
+                    2023年1月15日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E8%8D%89%E5%9C%B0%E4%B8%8A%E7%9A%84%E9%82%A3%E4%B8%80%E7%AC%91/" class="post-link">
+                <h2 class="post-title">草地上的那一笑</h2>
+                <time class="post-date" datetime="2022-12-31">
+                    2022年12月31日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%B5%AA%E6%BD%AE%E4%B9%8B%E5%B7%85/" class="post-link">
+                <h2 class="post-title">《浪潮之巅》</h2>
+                <time class="post-date" datetime="2022-11-03">
+                    2022年11月3日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%94%B6%E9%9F%B3%E6%9C%BA%E9%87%8C%E7%9A%84%E7%AB%A5%E5%B9%B4/" class="post-link">
+                <h2 class="post-title">收音机里的《童年》</h2>
+                <time class="post-date" datetime="2022-05-28">
+                    2022年5月28日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%85%B3%E4%BA%8E%E8%BE%9E%E5%8E%BB%E5%85%AC%E8%81%8C%E7%9A%84%E7%BC%98%E7%94%B1/" class="post-link">
+                <h2 class="post-title">关于辞去公职的缘由</h2>
+                <time class="post-date" datetime="2022-04-16">
+                    2022年4月16日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E7%A8%8B%E5%BA%8F%E5%85%AC%E5%BC%80%E4%BB%A5%E5%90%8E/" class="post-link">
+                <h2 class="post-title">程序公开以后</h2>
+                <time class="post-date" datetime="2022-04-09">
+                    2022年4月9日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%97%A7%E4%B9%A6%E6%9E%B6%E4%B8%8A%E7%9A%84%E7%81%B0/" class="post-link">
+                <h2 class="post-title">旧书架上的灰</h2>
+                <time class="post-date" datetime="2022-04-07">
+                    2022年4月7日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%B1%BC%E7%BF%85%E4%B8%8E%E8%8A%B1%E6%A4%92/" class="post-link">
+                <h2 class="post-title">《鱼翅与花椒》</h2>
+                <time class="post-date" datetime="2022-03-12">
+                    2022年3月12日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%AB%98%E5%A4%84%E7%9C%8B%E8%A7%81%E4%BD%8E%E5%A4%84/" class="post-link">
+                <h2 class="post-title">高处看见低处</h2>
+                <time class="post-date" datetime="2022-01-24">
+                    2022年1月24日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%A4%9C%E9%87%8C%E7%9A%84%E9%82%A3%E9%81%93%E5%85%B3/" class="post-link">
+                <h2 class="post-title">夜里的那道关</h2>
+                <time class="post-date" datetime="2022-01-17">
+                    2022年1月17日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%AD%E5%A4%AE%E5%B8%9D%E5%9B%BD%E7%9A%84%E8%B4%A2%E6%94%BF%E5%AF%86%E7%A0%81/" class="post-link">
+                <h2 class="post-title">《中央帝国的财政密码》</h2>
+                <time class="post-date" datetime="2020-05-01">
+                    2020年5月1日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%82%A3%E5%BC%A0%E6%A0%A1%E5%8F%8B%E5%8D%A1/" class="post-link">
+                <h2 class="post-title">那张校友卡</h2>
+                <time class="post-date" datetime="2019-03-20">
+                    2019年3月20日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%9C%89%E5%9B%9E%E9%9F%B3%E7%9A%84%E4%BA%BA/" class="post-link">
+                <h2 class="post-title">有回音的人</h2>
+                <time class="post-date" datetime="2018-03-01">
+                    2018年3月1日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%87%A0%E6%9D%A1%E6%97%A7%E8%B7%AF/" class="post-link">
+                <h2 class="post-title">学习的几条旧路</h2>
+                <time class="post-date" datetime="2017-07-22">
+                    2017年7月22日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%B8%80%E5%BC%A0%E6%A0%A1%E5%9B%AD%E7%85%A7%E7%89%87/" class="post-link">
+                <h2 class="post-title">一张校园照片</h2>
+                <time class="post-date" datetime="2016-07-25">
+                    2016年7月25日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E9%9B%86%E7%BE%A4%E5%BC%80%E5%A7%8B%E8%AE%A1%E7%AE%97%E4%BB%A5%E5%90%8E/" class="post-link">
+                <h2 class="post-title">集群开始计算以后</h2>
+                <time class="post-date" datetime="2016-07-24">
+                    2016年7月24日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E4%BA%BA%E7%94%9F%E4%B8%8D%E5%A6%82%E6%84%8F%E4%BA%8B/" class="post-link">
+                <h2 class="post-title">人生不如意事</h2>
+                <time class="post-date" datetime="2015-07-05">
+                    2015年7月5日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F/" class="post-link">
+                <h2 class="post-title">研究生招生</h2>
+                <time class="post-date" datetime="2014-03-23">
+                    2014年3月23日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E5%90%9B%E5%AD%90%E4%B8%8D%E5%99%A8/" class="post-link">
+                <h2 class="post-title">君子不器</h2>
+                <time class="post-date" datetime="2014-03-09">
+                    2014年3月9日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%BC%AB%E8%B0%88%E4%BA%8C%E6%B5%81%E5%A4%A7%E5%AD%A6/" class="post-link">
+                <h2 class="post-title">《漫谈二流大学》</h2>
+                <time class="post-date" datetime="2014-02-08">
+                    2014年2月8日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E6%B0%91%E5%9B%BD%E9%82%A3%E4%BA%9B%E4%BA%BA/" class="post-link">
+                <h2 class="post-title">《民国那些人》</h2>
+                <time class="post-date" datetime="2012-11-05">
+                    2012年11月5日
+                </time>
+            </a>
+        </article>
+        
+        <article class="post-preview">
+            <a href="/post/%E8%88%9F%E5%AD%90%E7%9A%84%E8%8B%A6%E4%B8%8E%E6%82%B2/" class="post-link">
+                <h2 class="post-title">舟子的苦与悲</h2>
+                <time class="post-date" datetime="2012-06-23">
+                    2012年6月23日
+                </time>
+            </a>
+        </article>
+        
+    </div>
+
     
-    <section class="powerby">
-         <br />
+    <div class="pagination">
         
-    </section>
-</footer>
-
-
-            </main>
-        </div>
+        <a href="/post/" class="pagination-prev">← 上一页</a>
         
-<script type="text/javascript" src="/ts/main.acaf849f2b273f6a8368a58b001f336738d0c948d92e79b116467d0c7515f932.js" defer></script>
+
+        
+        
+        <a href="/post/" class="pagination-link">1</a>
+        
+        
+        
+        <a href="/post/page/2/" class="pagination-link">2</a>
+        
+        
+        
+        <a href="/post/page/3/" class="pagination-link">3</a>
+        
+        
+        
+        <a href="/post/page/4/" class="pagination-link">4</a>
+        
+        
+        
+        <a href="/post/page/5/" class="pagination-link">5</a>
+        
+        
+        
+        <a href="/post/page/6/" class="pagination-link">6</a>
+        
+        
+        
+        <a href="/post/page/7/" class="pagination-link">7</a>
+        
+        
+        
+        <a href="/post/page/8/" class="pagination-link">8</a>
+        
+        
+        
+        <a href="/post/page/9/" class="pagination-link">9</a>
+        
+        
+
+        
+        <a href="/post/page/3/" class="pagination-next">下一页 →</a>
+        
+    </div>
+    
+    
+</div>
+
+    </main>
+
+    
+    <footer class="site-footer">
+        <p>&copy; 2026 点点马的逍遥港</p>
+        
+    </footer>
+
+    
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '\\[', right: '\\]', display: true},
+      {left: '$', right: '$', display: false},
+      {left: '\\(', right: '\\)', display: false}
+    ],
+    throwOnError: false
+  });
+});
+</script>
 
 
-    </body>
+<script>
+(function() {
+  const hamburger = document.getElementById('hamburger-btn');
+  const menu = document.getElementById('nav-menu');
+
+  if (hamburger && menu) {
+    hamburger.addEventListener('click', function() {
+      hamburger.classList.toggle('active');
+      menu.classList.toggle('active');
+    });
+
+    
+    document.addEventListener('click', function(e) {
+      if (!hamburger.contains(e.target) && !menu.contains(e.target)) {
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+      }
+    });
+
+    
+    menu.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+      });
+    });
+  }
+
+  
+  const tipToggle = document.getElementById('tip-toggle');
+  const tipQrCodes = document.getElementById('tip-qr-codes');
+
+  if (tipToggle && tipQrCodes) {
+    tipToggle.addEventListener('click', function() {
+      const isHidden = tipQrCodes.style.display === 'none';
+      tipQrCodes.style.display = isHidden ? 'flex' : 'none';
+      tipToggle.querySelector('.tip-text').textContent = isHidden ? '收起' : '赞赏';
+    });
+  }
+
+  
+  const tocToggle = document.getElementById('toc-toggle');
+  const tocContent = document.getElementById('toc-content');
+
+  if (tocToggle && tocContent) {
+    
+    if (window.innerWidth <= 1200) {
+      tocToggle.classList.add('collapsed');
+      tocContent.classList.add('hidden');
+    }
+
+    tocToggle.addEventListener('click', function() {
+      tocToggle.classList.toggle('collapsed');
+      tocContent.classList.toggle('hidden');
+    });
+
+    
+    window.addEventListener('resize', function() {
+      if (window.innerWidth <= 1200 && !tocToggle.classList.contains('collapsed')) {
+        
+        tocToggle.classList.add('collapsed');
+        tocContent.classList.add('hidden');
+      } else if (window.innerWidth > 1200 && tocToggle.classList.contains('collapsed')) {
+        
+        tocToggle.classList.remove('collapsed');
+        tocContent.classList.remove('hidden');
+      }
+    });
+  }
+
+  
+  let lastScrollTop = 0;
+  const siteNav = document.querySelector('.site-nav');
+  const navHeight = 60; 
+
+  if (siteNav) {
+    window.addEventListener('scroll', function() {
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScrollTop > lastScrollTop && currentScrollTop > navHeight) {
+        
+        siteNav.classList.add('nav-hidden');
+      } else {
+        
+        siteNav.classList.remove('nav-hidden');
+      }
+
+      lastScrollTop = currentScrollTop;
+    }, { passive: true });
+  }
+})();
+</script>
+
+</body>
 </html>
