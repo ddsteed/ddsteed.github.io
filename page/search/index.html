@@ -87,6 +87,47 @@
 
 <script>
     window.searchResultTitleTemplate = "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"
+
+    
+    window.createElement = function(tag, props, ...children) {
+        const element = document.createElement(tag);
+
+        if (props) {
+            if (props.className) element.className = props.className;
+            if (props.class) element.className = props.class;
+            if (props.href) element.href = props.href;
+            if (props.src) element.src = props.src;
+            if (props.loading) element.loading = props.loading;
+            if (props.dangerouslySetInnerHTML && props.dangerouslySetInnerHTML.__html) {
+                element.innerHTML = props.dangerouslySetInnerHTML.__html;
+            }
+            for (const key in props) {
+                if (!['className', 'class', 'href', 'src', 'loading', 'dangerouslySetInnerHTML'].includes(key)) {
+                    element.setAttribute(key, props[key]);
+                }
+            }
+        }
+
+        children.forEach(child => {
+            if (child == null) return;
+            if (typeof child === 'string' || typeof child === 'number') {
+                element.appendChild(document.createTextNode(child));
+            } else if (child instanceof Element) {
+                element.appendChild(child);
+            } else if (Array.isArray(child)) {
+                child.forEach(c => {
+                    if (c == null) return;
+                    if (typeof c === 'string' || typeof c === 'number') {
+                        element.appendChild(document.createTextNode(c));
+                    } else if (c instanceof Element) {
+                        element.appendChild(c);
+                    }
+                });
+            }
+        });
+
+        return element;
+    };
 </script><script type="text/javascript" src="/ts/search.js" defer></script>
 
 <footer class="site-footer">
