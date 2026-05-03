@@ -193,11 +193,11 @@ a:hover {
 @media (max-width: 768px) {
    
   html {
-    font-size: 93.75%;  
+    font-size: 100%;  
   }
 
   body {
-    font-size: 15px;  
+    font-size: 16px;  
   }
 
    
@@ -208,18 +208,29 @@ a:hover {
 
    
   .article-title {
-    font-size: 1.35rem !important;
+    font-size: 1.5rem !important;
   }
 
    
   .article-content {
-    font-size: 0.95rem !important;
+    font-size: 1rem !important;
     line-height: 1.75;
   }
 
    
   .article-meta {
     font-size: 0.8125rem !important;
+  }
+
+   
+  .article-layout {
+    max-width: 100%;
+    padding: 0 var(--spacing-sm);
+  }
+
+  .article {
+    width: 100%;
+    max-width: 100%;
   }
 
    
@@ -278,6 +289,11 @@ a:hover {
   }
   .hamburger.active span:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
+  }
+
+   
+  .article-toc {
+    display: none;
   }
 }
 
@@ -667,6 +683,8 @@ a:hover {
 @media (max-width: 1200px) {
   .article-layout {
     max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0;
   }
 
    
