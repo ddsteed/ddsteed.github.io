@@ -4,10 +4,12 @@
         <link>/page/</link>
         <description>Recent content in Pages on 点点马的逍遥港</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language>
+        <managingEditor>ddsteed@gmail.com (Hao Feng)</managingEditor>
+        <webMaster>ddsteed@gmail.com (Hao Feng)</webMaster><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>搜索</title>
             <link>/page/search/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>ddsteed@gmail.com (Hao Feng)</author>
             <guid>/page/search/</guid>
             <description></description>
         </item></channel>
