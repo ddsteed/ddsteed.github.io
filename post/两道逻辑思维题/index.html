@@ -783,10 +783,23 @@ a:hover {
   margin: 0;
 }
 
+.tip-qr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
 .tip-image {
   width: 180px;
   height: 180px;
   object-fit: cover;
+}
+
+.tip-label {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
  
@@ -1061,8 +1074,14 @@ B 听见了 A 的回答，也看得见 C 的帽子。若 C 戴蓝帽子，B 就�
             </button>
             <div class="tip-qr-codes" id="tip-qr-codes" style="display: none;">
                 <p class="tip-caption">If you like it, buy me a coffee</p>
-                <img src="/img/wechat.jpg" alt="WeChat" class="tip-image">
-                <img src="/img/alipay.jpg" alt="Alipay" class="tip-image">
+                <div class="tip-qr-item">
+                    <img src="/img/wechat.jpg" alt="WeChat" class="tip-image">
+                    <span class="tip-label">微信</span>
+                </div>
+                <div class="tip-qr-item">
+                    <img src="/img/alipay.jpg" alt="Alipay" class="tip-image">
+                    <span class="tip-label">支付宝</span>
+                </div>
             </div>
         </div>
         
