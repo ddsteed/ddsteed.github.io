@@ -18,7 +18,7 @@
 
 
 
-<link rel="stylesheet" href="/css/main.min.9b1d71294f2243d76917af18af1da5bfbff105bcf4843294960437ab89a4ce19.css">
+<link rel="stylesheet" href="/css/main.min.1a8d731a2b34b211a71eae7eb321163fca72bb1354b87e0cdce6999380478e63.css">
 
 
 
@@ -62,21 +62,115 @@
     
     <main class="main-content">
         
-<form action="/page/search/" class="search-form"data-json="/page/search/index.json">
+<style>
+.hidden {
+  display: none !important;
+}
+
+.search-form {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  align-items: center;
+}
+
+.search-form p {
+  flex: 1;
+  margin: 0;
+}
+
+.search-form label {
+  display: none;
+}
+
+.search-form input {
+  width: 100%;
+  padding: var(--spacing-sm);
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: border-color var(--transition-fast);
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.search-form button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--accent);
+  color: var(--bg-primary);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.search-form button:hover {
+  background-color: var(--accent-hover);
+}
+
+.search-result {
+  margin-top: var(--spacing-lg);
+}
+
+.search-result--title {
+  margin-bottom: var(--spacing-md);
+}
+
+.article-list--compact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.article-details {
+  display: block;
+  text-decoration: none;
+}
+
+.article-title {
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+  transition: color var(--transition-fast);
+}
+
+.article-details:hover .article-title {
+  color: var(--accent);
+}
+
+.article-preview {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.article-preview mark {
+  background-color: var(--accent);
+  color: var(--bg-primary);
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+</style>
+
+<header class="list-header">
+    <h1 class="section-title">搜索</h1>
+</header>
+
+<form action="/page/search/" class="search-form" data-json="/page/search/index.json" onsubmit="return false;">
     <p>
-        <label></label>
-        <input name="keyword" placeholder="" />
+        <label>搜索</label>
+        <input name="keyword" placeholder="输入关键词..." autocomplete="off" />
     </p>
-
-    <button title="">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
+    <button type="submit" title="搜索">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+        </svg>
     </button>
 </form>
 
@@ -86,24 +180,314 @@
 </div>
 
 <script>
-    window.searchResultTitleTemplate = ""
-</script><script type="text/javascript" src="/ts/search.js" defer></script>
+(function() {
+    window.searchResultTitleTemplate = "#PAGES_COUNT 个结果（用时 #TIME_SECONDS 秒）";
 
-<footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-            2012 - 
-        
-        2026 点点马的逍遥港
-    </section>
+    class SearchEngine {
+        constructor({form, input, list, resultTitle, resultTitleTemplate}) {
+            this.form = form;
+            this.input = input;
+            this.list = list;
+            this.resultTitle = resultTitle;
+            this.resultTitleTemplate = resultTitleTemplate;
+            this.container = list.parentElement;
+            this.data = null;
+
+            
+            this.init();
+        }
+
+        async init() {
+            
+            const urlParams = new URLSearchParams(window.location.search);
+            const keyword = urlParams.get('keyword');
+
+            if (keyword) {
+                this.input.value = keyword;
+                await this.doSearch(keyword.split(/\s+/));
+            } else {
+                this.handleQueryString();
+            }
+
+            this.bindEvents();
+        }
+
+        async getData() {
+            if (!this.data) {
+                const jsonUrl = this.form.dataset.json;
+                const response = await fetch(jsonUrl);
+                this.data = await response.json();
+
+                
+                const parser = new DOMParser();
+                this.data = this.data.map(item => ({
+                    ...item,
+                    content: parser.parseFromString(item.content, 'text/html').body.innerText
+                }));
+            }
+            return this.data;
+        }
+
+        escapeRegex(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        processMatches(text, matches, truncate = true, maxLength = 140, contextChars = 20) {
+            if (matches.length === 0) return text.substring(0, maxLength);
+
+            matches.sort((a, b) => a.start - b.start);
+
+            let result = [];
+            let lastEnd = 0;
+            let totalLength = 0;
+
+            for (const match of matches) {
+                if (truncate && match.start - lastEnd > contextChars) {
+                    result.push(this.escapeHtml(text.substring(lastEnd, lastEnd + contextChars)));
+                    result.push(' ... ');
+                    result.push(this.escapeHtml(text.substring(match.start - contextChars, match.start)));
+                    totalLength += contextChars * 2;
+                } else {
+                    result.push(this.escapeHtml(text.substring(lastEnd, match.start)));
+                    totalLength += match.start - lastEnd;
+                }
+
+                
+                let matchEnd = match.end;
+                let i = matches.indexOf(match) + 1;
+                while (i < matches.length && matches[i].start <= matchEnd) {
+                    matchEnd = Math.max(matchEnd, matches[i].end);
+                    i++;
+                }
+
+                result.push(`<mark>${this.escapeHtml(text.substring(match.start, matchEnd))}</mark>`);
+                totalLength += matchEnd - match.start;
+                lastEnd = matchEnd;
+
+                if (truncate && totalLength > maxLength) break;
+            }
+
+            if (lastEnd < text.length) {
+                let end = text.length;
+                if (truncate) end = Math.min(end, lastEnd + maxLength);
+                result.push(this.escapeHtml(text.substring(lastEnd, end)));
+                if (truncate && end !== text.length) result.push(' ...');
+            }
+
+            return result.join('');
+        }
+
+        escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        async searchKeywords(keywords) {
+            const data = await this.getData();
+            const results = [];
+            const pattern = new RegExp(
+                keywords.filter(k => k.trim() !== '').map(k => this.escapeRegex(k)).join('|'),
+                'gi'
+            );
+
+            for (const item of data) {
+                const titleMatches = [];
+                const contentMatches = [];
+
+                
+                for (const match of item.title.matchAll(pattern)) {
+                    titleMatches.push({
+                        start: match.index,
+                        end: match.index + match[0].length
+                    });
+                }
+
+                
+                for (const match of item.content.matchAll(pattern)) {
+                    contentMatches.push({
+                        start: match.index,
+                        end: match.index + match[0].length
+                    });
+                }
+
+                if (titleMatches.length > 0 || contentMatches.length > 0) {
+                    const resultItem = {...item};
+
+                    if (titleMatches.length > 0) {
+                        resultItem.title = this.processMatches(resultItem.title, titleMatches, false);
+                    }
+
+                    if (contentMatches.length > 0) {
+                        resultItem.preview = this.processMatches(resultItem.content, contentMatches);
+                    } else {
+                        resultItem.preview = this.escapeHtml(resultItem.content.substring(0, 140));
+                    }
+
+                    resultItem.matchCount = titleMatches.length + contentMatches.length;
+                    results.push(resultItem);
+                }
+            }
+
+            return results.sort((a, b) => b.matchCount - a.matchCount);
+        }
+
+        async doSearch(keywords) {
+            const startTime = performance.now();
+            const results = await this.searchKeywords(keywords);
+
+            this.clear();
+
+            for (const result of results) {
+                this.list.appendChild(this.renderResult(result));
+            }
+
+            const endTime = performance.now();
+            this.resultTitle.textContent = this.generateResultTitle(
+                results.length,
+                ((endTime - startTime) / 1000).toFixed(2)
+            );
+
+            this.container?.classList.remove('hidden');
+        }
+
+        generateResultTitle(count, time) {
+            return this.resultTitleTemplate
+                .replace('#PAGES_COUNT', count.toString())
+                .replace('#TIME_SECONDS', time);
+        }
+
+        clear() {
+            this.list.innerHTML = '';
+            this.resultTitle.textContent = '';
+            this.container.classList.add('hidden');
+        }
+
+        renderResult(item) {
+            const article = document.createElement('article');
+            article.className = 'article-details';
+
+            const link = document.createElement('a');
+            link.href = item.permalink;
+
+            const title = document.createElement('h2');
+            title.className = 'article-title';
+            title.innerHTML = item.title;
+
+            const preview = document.createElement('div');
+            preview.className = 'article-preview';
+            preview.innerHTML = item.preview;
+
+            link.appendChild(title);
+            link.appendChild(preview);
+            article.appendChild(link);
+
+            return article;
+        }
+
+        bindEvents() {
+            let lastKeyword = '';
+            let searchTimeout;
+
+            const handleSearch = (e) => {
+                if (e && e.type === 'submit') {
+                    e.preventDefault();
+                }
+
+                const keyword = this.input.value.trim();
+
+                
+                this.updateQueryString(keyword);
+
+                if (keyword === '') {
+                    lastKeyword = '';
+                    this.clear();
+                    return;
+                }
+
+                if (keyword !== lastKeyword) {
+                    lastKeyword = keyword;
+                    this.doSearch(keyword.split(/\s+/));
+                }
+            };
+
+            
+            this.input.addEventListener('input', () => {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(() => handleSearch(), 300);
+            });
+
+            
+            this.input.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    handleSearch();
+                }
+            });
+
+            
+            this.form.addEventListener('submit', handleSearch);
+
+            
+            window.addEventListener('popstate', () => {
+                this.handleQueryString();
+            });
+        }
+
+        handleQueryString() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const keyword = urlParams.get('keyword') || '';
+            this.input.value = keyword;
+
+            if (keyword) {
+                this.doSearch(keyword.split(/\s+/));
+            } else {
+                this.clear();
+            }
+        }
+
+        updateQueryString(keyword) {
+            const url = new URL(window.location.toString());
+
+            if (keyword === '') {
+                url.searchParams.delete('keyword');
+            } else {
+                url.searchParams.set('keyword', keyword);
+            }
+
+            window.history.replaceState({}, '', url.toString());
+        }
+    }
+
     
-    <section class="powerby">
-         <br />
-        
-    </section>
-</footer>
+    function initSearch() {
+        const form = document.querySelector('.search-form');
+        const input = form?.querySelector('input');
+        const list = document.querySelector('.search-result--list');
+        const resultTitle = document.querySelector('.search-result--title');
 
+        if (!form || !input || !list || !resultTitle) {
+            console.error('搜索功能初始化失败：找不到必要的元素');
+            return;
+        }
+
+        new SearchEngine({
+            form,
+            input,
+            list,
+            resultTitle,
+            resultTitleTemplate: window.searchResultTitleTemplate
+        });
+    }
+
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initSearch);
+    } else {
+        initSearch();
+    }
+})();
+</script>
 
     </main>
 
