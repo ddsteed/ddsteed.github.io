@@ -118,9 +118,11 @@
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span></code></pre></div><p>有时候 Emacs 升级了之后， <code>tree-sitter</code> 版本不匹配，可以手动编译 <code>tree-sitter-langs</code> ，然后把编译好的 <code>dylib</code> 文件拷贝到 <code>~/.emacs.d/tree-sitter</code> 目录下，取名为 <code>libtree-sitter-python.dylib</code></p>
 <p>设置好了之后，语法高亮就比较漂亮了。</p>
-<figure><img src="/img/tree-sitter.jpg" width="60%">
+<hr>
+<figure><img src="/img/tree-sitter.jpg" width="80%">
 </figure>
 
+<hr>
 <h2 id="文档说明">文档说明
 </h2><p>编程需要时时地查找某个函数的说明、用法等。我们采用 <code>eldoc</code> 宏包处理。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">eldoc</span>
@@ -133,7 +135,8 @@
 </span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-x c d&#34;</span><span class="p">)</span> <span class="ss">&#39;eldoc-doc-buffer</span><span class="p">)</span>
 </span></span></code></pre></div><p>当光标放在某个函数/变量上时，用快捷键 <code>C-x c d</code> 或者 <code>M-x eldoc</code> 就可以显示它的资料
 说明&mdash;一般就是把函数定义里的说明信息显示出来。 比如，</p>
-<figure><img src="/img/eldoc.jpg" width="60%">
+<hr>
+<figure><img src="/img/eldoc.jpg" width="80%">
 </figure>
 
 <hr>
@@ -146,7 +149,8 @@
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span></code></pre></div><p>当按下快捷键 <code>C-c C-d</code> 或者 <code>M-x elpy-doc</code> 时，就可以在 <code>elpy</code> 的 buffer 里显示文档。
 比如，</p>
-<figure><img src="/img/elpy-doc.jpg" width="60%">
+<hr>
+<figure><img src="/img/elpy-doc.jpg" width="80%">
 </figure>
 
 <hr>
