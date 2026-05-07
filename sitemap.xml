@@ -14,7 +14,7 @@
     <loc>/categories/</loc>
     <lastmod>2026-05-06T21:49:00+08:00</lastmod>
   </url><url>
-    <loc>/categories/%E6%84%9F%E6%82%9F/</loc>
+    <loc>/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2026-05-06T21:49:00+08:00</lastmod>
   </url><url>
     <loc>/post/%E7%BA%B8%E7%9F%AD%E6%83%85%E9%95%BF-%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6/</loc>
@@ -59,6 +59,9 @@
     <loc>/post/%E5%A6%82%E4%BD%95%E7%9C%9F%E6%AD%A3%E8%AF%B4%E6%98%8E%E7%99%BD/</loc>
     <lastmod>2026-04-09T16:34:00+08:00</lastmod>
   </url><url>
+    <loc>/categories/%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2026-04-08T21:08:00+08:00</lastmod>
+  </url><url>
     <loc>/post/%E4%B8%80%E8%93%91%E7%83%9F%E9%9B%A8%E4%BB%BB%E5%B9%B3%E7%94%9F/</loc>
     <lastmod>2026-04-08T21:08:00+08:00</lastmod>
   </url><url>
@@ -72,9 +75,6 @@
     <lastmod>2026-04-02T16:21:00+08:00</lastmod>
   </url><url>
     <loc>/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E5%94%90%E5%8D%9A%E5%A3%AB/</loc>
-    <lastmod>2026-03-31T09:48:00+08:00</lastmod>
-  </url><url>
-    <loc>/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2026-03-31T09:48:00+08:00</lastmod>
   </url><url>
     <loc>/post/ai-%E8%B6%8A%E8%81%AA%E6%98%8E%E5%AD%A9%E5%AD%90%E8%B6%8A%E8%AF%A5%E5%AD%A6%E4%BB%80%E4%B9%88/</loc>
@@ -155,7 +155,7 @@
     <loc>/post/%E4%BA%BA%E7%94%9F%E7%9A%84%E5%8F%88%E4%B8%80%E4%BD%93%E9%AA%8C/</loc>
     <lastmod>2025-12-28T18:35:00+08:00</lastmod>
   </url><url>
-    <loc>/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E7%94%B5%E5%BD%B1%E5%9C%BA/</loc>
+    <loc>/post/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E7%94%B5%E5%BD%B1%E5%9C%BA-zootopia-2/</loc>
     <lastmod>2025-12-27T17:05:00+08:00</lastmod>
   </url><url>
     <loc>/post/%E5%A5%BD%E5%8F%8B%E7%9A%84%E6%95%85%E4%BA%8B-%E7%AB%B9%E5%AD%90/</loc>
