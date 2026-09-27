@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/post/</loc>
-    <lastmod>2026-09-23T21:00:00+08:00</lastmod>
+    <loc>/tags/misc/</loc>
+    <lastmod>2026-09-27T22:45:00+08:00</lastmod>
   </url><url>
-    <loc>/tags/thinking/</loc>
-    <lastmod>2026-09-23T21:00:00+08:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2026-09-27T22:45:00+08:00</lastmod>
+  </url><url>
+    <loc>/post/%E7%99%BD%E9%A9%AC%E5%95%B8%E8%A5%BF%E9%A3%8E%E4%B8%8E%E6%88%91%E7%9A%84%E4%BA%BA%E7%94%9F%E4%B9%8B%E8%B7%AF/</loc>
+    <lastmod>2026-09-27T22:45:00+08:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2026-09-23T21:00:00+08:00</lastmod>
+    <lastmod>2026-09-27T22:45:00+08:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2026-09-27T22:45:00+08:00</lastmod>
+  </url><url>
+    <loc>/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2026-09-27T22:45:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/thinking/</loc>
     <lastmod>2026-09-23T21:00:00+08:00</lastmod>
   </url><url>
     <loc>/categories/%E6%84%9F%E6%82%9F/</loc>
@@ -69,12 +78,6 @@
     <lastmod>2026-07-21T18:32:00+08:00</lastmod>
   </url><url>
     <loc>/post/last-dance/</loc>
-    <lastmod>2026-07-20T12:04:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/misc/</loc>
-    <lastmod>2026-07-20T12:04:00+08:00</lastmod>
-  </url><url>
-    <loc>/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2026-07-20T12:04:00+08:00</lastmod>
   </url><url>
     <loc>/post/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8A%8A%E5%A5%BD%E9%97%AE%E9%A2%98%E8%BF%98%E7%BB%99%E5%AD%A9%E5%AD%90/</loc>
