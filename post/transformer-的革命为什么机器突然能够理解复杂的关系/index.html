@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transformer 的革命：为什么机器突然能够理解复杂的关系？ | 点点马的逍遥港</title>
+<meta name="description" content="">
+<link rel="icon" href="/favicon.ico">
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.min.d98eee3c5aea068db4d271f4de4a826209821e2b6a26ccf78ba8952a7a72f57a.css">
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.9f92602ebe3ce55dddf36adaa971cfd945faacc33bfdc8e3d8bde44ee41fc296.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+
+
+<link rel="stylesheet" href="/css/katex.min.d8bc55a1b2e08d01f7fe66795086098b11059f8c5de92257f687cf665bdcfcc3.css">
+
+
+</head>
+<body class="">
+    
+    <nav class="site-nav">
+        <div class="nav-container">
+            <a href="/" class="site-title">点点马的逍遥港</a>
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+            
+            <a href="/">首页</a>
+            
+            <a href="/about/">关于</a>
+            
+            <a href="/archive/">归档</a>
+            
+            <a href="/gzh/">公众号</a>
+            
+            <a href="/tags/">标签</a>
+            
+            <a href="/categories/">分类</a>
+            
+            <a href="/page/search/">搜索</a>
+            
+        </div>
+    </nav>
+
+    
+    <main class="main-content">
+        
+<div class="article-layout">
+    <article class="article">
+        <header class="article-header">
+            <h1 class="article-title">Transformer 的革命：为什么机器突然能够理解复杂的关系？</h1>
+            <div class="article-meta">
+                <time datetime="2026-11-21">
+                    2026年11月21日
+                </time>
+                
+                <span class="article-reading-time">1 分钟阅读</span>
+                
+                
+                <span class="article-wordcount">423 字</span>
+                
+                
+                <div class="article-categories">
+                    
+                    <span class="category">教育</span>
+                    
+                </div>
+                
+            </div>
+        </header>
+
+        <div class="article-content">
+            <p><strong>公众号</strong> ：F-Ai 工作室</p>
+<p><a class="link" href="https://mp.weixin.qq.com/s/Re-IUx4sd7HcCeyT4etj0Q"  target="_blank" rel="noopener"
+    >Transformer的革命：为什么机器突然能够理解复杂的关系？</a></p>
+<hr>
+<p><strong><strong>真正的理解，或许始于看见事物之间那些隐秘的联系。</strong></strong></p>
+<p>读一本书，我们记住的不只是文字，还有人物的命运、事件的因果，以及那些跨越漫长篇章、最终彼此照亮的伏笔。</p>
+<p>人类如此，机器能否也如此？</p>
+<p>在《AI 为什么突然有了智能？》系列的第一篇中，我们探讨了智能的本质与“涌现”的奥秘。</p>
+<p>今天，分享第二篇：</p>
+<p><strong><strong>《Transformer 的革命：为什么机器突然能够理解复杂的关系？》</strong></strong></p>
+<p>2017 年，Transformer 的出现，为人工智能打开了一扇新的大门。它让相隔遥远的信息能够更高效地建立联系，也让机器从海量知识中学习复杂规律成为可能。</p>
+<p>或许，知识的力量从来不只在于数量，更在于那些看不见的关联。</p>
+<p><strong><strong>当孤立的信息开始彼此呼应，当分散的知识逐渐形成结构，机器便向智能迈出了重要的一步。</strong></strong></p>
+<p>下一篇，我们将继续追问：当关联变得足够丰富，规模足够庞大，智能真的会“涌现”吗？</p>
+<p>🌿 探索仍在继续，答案也许比我们想象的更加深远。</p>
+
+        </div>
+
+        
+        <div class="article-tip">
+            <button class="tip-toggle" id="tip-toggle">
+                <span class="tip-icon">☕</span>
+                <span class="tip-text">赞赏</span>
+            </button>
+            <div class="tip-qr-codes" id="tip-qr-codes" style="display: none;">
+                <p class="tip-caption">If you like it, buy me a coffee</p>
+                <div class="tip-qr-item">
+                    <img src="/img/wechat.jpg" alt="WeChat" class="tip-image">
+                    <span class="tip-label">微信</span>
+                </div>
+                <div class="tip-qr-item">
+                    <img src="/img/alipay.jpg" alt="Alipay" class="tip-image">
+                    <span class="tip-label">支付宝</span>
+                </div>
+            </div>
+        </div>
+        
+
+        <nav class="article-nav">
+            
+            
+            
+            
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+                    
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+            
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            <a class="nav-prev" href="/post/%E4%BB%8E%E7%9F%A5%E8%AF%86%E7%BD%91%E7%BB%9C%E5%88%B0%E6%99%BA%E8%83%BD%E6%B6%8C%E7%8E%B0%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%B6%8A%E5%A4%A7%E8%B6%8A%E5%83%8F%E4%BA%BA/">
+                <span class="nav-label">上一篇</span>
+                <span class="nav-title">从知识网络到智能涌现：为什么大模型越“大”，越像人？</span>
+            </a>
+            
+            
+            <a class="nav-next" href="/post/%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%BA%E8%83%BD%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B6%8C%E7%8E%B0%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81/">
+                <span class="nav-label">下一篇</span>
+                <span class="nav-title">什么是智能？为什么“涌现”如此重要？</span>
+            </a>
+            
+        </nav>
+    </article>
+
+    
+    
+</div>
+
+    </main>
+
+    
+    <footer class="site-footer">
+        <p>&copy; 2026 点点马的逍遥港</p>
+        
+    </footer>
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '\\[', right: '\\]', display: true},
+      {left: '$', right: '$', display: false},
+      {left: '\\(', right: '\\)', display: false}
+    ],
+    throwOnError: false
+  });
+});
+</script>
+
+
+
+<script>
+(function() {
+  const hamburger = document.getElementById('hamburger-btn');
+  const menu = document.getElementById('nav-menu');
+
+  if (hamburger && menu) {
+    hamburger.addEventListener('click', function() {
+      hamburger.classList.toggle('active');
+      menu.classList.toggle('active');
+    });
+
+    
+    document.addEventListener('click', function(e) {
+      if (!hamburger.contains(e.target) && !menu.contains(e.target)) {
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+      }
+    });
+
+    
+    menu.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+      });
+    });
+  }
+
+  
+  const tipToggle = document.getElementById('tip-toggle');
+  const tipQrCodes = document.getElementById('tip-qr-codes');
+
+  if (tipToggle && tipQrCodes) {
+    tipToggle.addEventListener('click', function() {
+      const isHidden = tipQrCodes.style.display === 'none';
+      tipQrCodes.style.display = isHidden ? 'flex' : 'none';
+      tipToggle.querySelector('.tip-text').textContent = isHidden ? '收起' : '赞赏';
+    });
+  }
+
+  
+  const tocToggle = document.getElementById('toc-toggle');
+  const tocContent = document.getElementById('toc-content');
+
+  if (tocToggle && tocContent) {
+    
+    if (window.innerWidth <= 1200) {
+      tocToggle.classList.add('collapsed');
+      tocContent.classList.add('hidden');
+    }
+
+    tocToggle.addEventListener('click', function() {
+      tocToggle.classList.toggle('collapsed');
+      tocContent.classList.toggle('hidden');
+    });
+
+    
+    window.addEventListener('resize', function() {
+      if (window.innerWidth <= 1200 && !tocToggle.classList.contains('collapsed')) {
+        
+        tocToggle.classList.add('collapsed');
+        tocContent.classList.add('hidden');
+      } else if (window.innerWidth > 1200 && tocToggle.classList.contains('collapsed')) {
+        
+        tocToggle.classList.remove('collapsed');
+        tocContent.classList.remove('hidden');
+      }
+    });
+  }
+
+  
+  let lastScrollTop = 0;
+  const siteNav = document.querySelector('.site-nav');
+  const navHeight = 60; 
+
+  if (siteNav) {
+    window.addEventListener('scroll', function() {
+      const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScrollTop > lastScrollTop && currentScrollTop > navHeight) {
+        
+        siteNav.classList.add('nav-hidden');
+      } else {
+        
+        siteNav.classList.remove('nav-hidden');
+      }
+
+      lastScrollTop = currentScrollTop;
+    }, { passive: true });
+  }
+})();
+</script>
+
+</body>
+</html>
